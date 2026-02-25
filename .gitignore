@@ -1,0 +1,91 @@
+# 本文档推荐使用 GitHub 官方维护的最新版本：
+# https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+# ======================
+# 必须忽略的 Unity 生成目录
+# ======================
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# ======================
+# 内存捕获与记录文件（通常体积很大且含敏感数据）
+# ======================
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# ======================
+# IDE 相关文件
+# ======================
+# Visual Studio
+.vs/
+# JetBrains Rider 自动生成的插件
+/[Aa]ssets/Plugins/Editor/JetBrains*
+# VS Code
+.vscode/
+.vsconfig
+
+# ======================
+# 项目与解决方案文件（由 Unity 自动生成）
+# =====================/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ======================
+# Unity 生成的 meta 文件（需保留）
+# 注意：只有对应的资产文件也被忽略时，才应忽略其 .meta 文件
+# ======================
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ======================
+# 构建输出文件
+# ======================
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# ======================
+# 其他临时/自动生成文件
+# ======================
+# 崩溃报告
+sysinfo.txt
+# Crashlytics
+crashlytics-build.properties
+# 可寻址资产系统（Addressables）的打包文件
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+# Android 流媒体资源临时文件
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ======================
+# 特定工具/插件规则
+# ======================
+# 如果希望忽略 Asset Store 工具插件，取消下面一行的注释
+# /[Aa]ssets/AssetStoreTools*
+
+# ======================
+# Unity Visual Scripting 生成的临时文件
+# ======================
+Assets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+Assets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
