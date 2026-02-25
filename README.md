@@ -25,6 +25,38 @@
   - 不可靠：输入、快照、特效事件
 - 快照优化：量化、差分、按优先级调度
 
+## 环境配置
+
+### 开发环境（必需）
+- 操作系统：`Windows 10/11 x64`
+- Unity Hub：最新稳定版
+- Unity Editor：`2022.3 LTS`（推荐，URP 长期支持）
+- 脚本运行时：`.NET Standard 2.1`（Unity 默认）
+- IDE：`Cursor` / `Visual Studio 2022` / `JetBrains Rider`（任选其一）
+- 版本管理：`Git`
+
+### 服务端环境（必需）
+- .NET SDK：`.NET 8`（推荐）
+- 运行方式：控制台程序（C# Socket）
+- 建议目录：与 Unity 工程并列维护（后续可拆分仓库）
+
+### Unity 包与项目设置（建议）
+- 渲染管线：`URP`
+- 输入系统：`Input System`（启用 New Input System）
+- 物理更新：固定时间步长（按网络 Tick 统一规划，常见 `30/60Hz`）
+- API Compatibility Level：`.NET Standard 2.1`
+
+### 可选依赖
+- `DOTween`：UI 动效（淡入/缩放/滑入）
+- `Addressables`：中后期资源加载与热更管理
+- `TextMeshPro`：统一 UI 文字系统
+
+### 快速自检
+- 能通过 Unity Hub 正常打开工程，无丢失包错误。
+- `SampleScene` 或目标场景可正常进入 Play 模式。
+- IDE 能正确解析 Unity 工程并跳转脚本。
+- 命令行可执行 `dotnet --version`（用于服务端开发）。
+
 ## 当前文件结构
 
 > 以下为当前已搭建的主干结构（可持续扩展）
