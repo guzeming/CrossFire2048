@@ -1,0 +1,8 @@
+{
+  "name": "CrossFire.UI",
+  "rootNamespace": "CrossFire.UI",
+  "references": [
+    "CrossFire.Core",
+    "CrossFire.Gameplay"
+  ]
+}
