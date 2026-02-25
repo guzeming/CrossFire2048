@@ -51,7 +51,11 @@
 - `Addressables`：中后期资源加载与热更管理
 - `TextMeshPro`：统一 UI 文字系统
 
-
+### 快速自检
+- 能通过 Unity Hub 正常打开工程，无丢失包错误。
+- `SampleScene` 或目标场景可正常进入 Play 模式。
+- IDE 能正确解析 Unity 工程并跳转脚本。
+- 命令行可执行 `dotnet --version`（用于服务端开发）。
 
 ## 当前文件结构
 
