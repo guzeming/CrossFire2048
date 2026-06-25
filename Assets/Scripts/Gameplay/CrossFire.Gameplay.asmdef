@@ -1,8 +1,0 @@
-{
-  "name": "CrossFire.Gameplay",
-  "rootNamespace": "CrossFire.Gameplay",
-  "references": [
-    "CrossFire.Core",
-    "CrossFire.Network"
-  ]
-}

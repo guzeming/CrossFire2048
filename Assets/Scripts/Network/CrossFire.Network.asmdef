@@ -1,7 +1,0 @@
-{
-  "name": "CrossFire.Network",
-  "rootNamespace": "CrossFire.Network",
-  "references": [
-    "CrossFire.Core"
-  ]
-}

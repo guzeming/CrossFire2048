@@ -1,7 +1,0 @@
-{
-  "name": "CrossFire.Data",
-  "rootNamespace": "CrossFire.Data",
-  "references": [
-    "CrossFire.Core"
-  ]
-}
