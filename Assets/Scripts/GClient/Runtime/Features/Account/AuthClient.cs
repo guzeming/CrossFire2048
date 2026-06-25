@@ -1,5 +1,6 @@
 using System;
 using System.Threading.Tasks;
+using CrossFire2048.Client.Common;
 using CrossFire2048.Client.Network;
 using CrossFire2048.Shared.Protocol;
 using UnityEngine;
@@ -60,6 +61,7 @@ namespace CrossFire2048.Client.Features.Account
             }
 
             StatusChanged?.Invoke("正在发送注册请求...");
+            GameEvents.Publish(GameEventId.AccountStatusChanged, "正在发送注册请求...");
             await tcpGameClient.SendAsync(MessageType.RegisterRequest, new RegisterRequest
             {
                 Username = username,
@@ -81,6 +83,7 @@ namespace CrossFire2048.Client.Features.Account
 
             _lastLoginUsername = username;
             StatusChanged?.Invoke("正在发送登录请求...");
+            GameEvents.Publish(GameEventId.AccountStatusChanged, "正在发送登录请求...");
             await tcpGameClient.SendAsync(MessageType.LoginRequest, new LoginRequest
             {
                 Username = username,
@@ -92,6 +95,7 @@ namespace CrossFire2048.Client.Features.Account
         {
             Session.Clear();
             StatusChanged?.Invoke("已清空本地登录会话");
+            GameEvents.Publish(GameEventId.AccountStatusChanged, "已清空本地登录会话");
         }
 
         private bool ValidateInput(string username, string password)
@@ -99,12 +103,16 @@ namespace CrossFire2048.Client.Features.Account
             if (!AccountRules.IsUsernameValid(username))
             {
                 StatusChanged?.Invoke($"用户名需为 {AccountRules.UsernameMinLength}-{AccountRules.UsernameMaxLength} 位字母、数字或下划线");
+                GameEvents.Publish(GameEventId.AccountStatusChanged,
+                    $"用户名需为 {AccountRules.UsernameMinLength}-{AccountRules.UsernameMaxLength} 位字母、数字或下划线");
                 return false;
             }
 
             if (!AccountRules.IsPasswordValid(password))
             {
                 StatusChanged?.Invoke($"密码需为 {AccountRules.PasswordMinLength}-{AccountRules.PasswordMaxLength} 位");
+                GameEvents.Publish(GameEventId.AccountStatusChanged,
+                    $"密码需为 {AccountRules.PasswordMinLength}-{AccountRules.PasswordMaxLength} 位");
                 return false;
             }
 
@@ -119,6 +127,8 @@ namespace CrossFire2048.Client.Features.Account
             }
 
             StatusChanged?.Invoke($"正在连接服务器 {tcpGameClient.ServerHost}:{tcpGameClient.ServerPort}...");
+            GameEvents.Publish(GameEventId.AccountStatusChanged,
+                $"正在连接服务器 {tcpGameClient.ServerHost}:{tcpGameClient.ServerPort}...");
             await tcpGameClient.ConnectConfiguredAsync();
             return tcpGameClient.IsConnected;
         }
@@ -138,6 +148,8 @@ namespace CrossFire2048.Client.Features.Account
                 case MessageType.Error:
                     ErrorResponse error = NetworkMessageCodec.DecodePayload<ErrorResponse>(message);
                     StatusChanged?.Invoke(error != null ? error.Message : "服务器返回未知错误");
+                    GameEvents.Publish(GameEventId.AccountStatusChanged,
+                        error != null ? error.Message : "服务器返回未知错误");
                     break;
             }
         }
@@ -147,11 +159,14 @@ namespace CrossFire2048.Client.Features.Account
             if (response == null)
             {
                 StatusChanged?.Invoke("注册响应解析失败");
+            GameEvents.Publish(GameEventId.AccountStatusChanged, "注册响应解析失败");
                 return;
             }
 
             StatusChanged?.Invoke(response.Message);
             RegisterCompleted?.Invoke(response);
+            GameEvents.Publish(GameEventId.AccountStatusChanged, response.Message);
+            GameEvents.Publish(GameEventId.RegisterCompleted, response);
         }
 
         private void HandleLoginResponse(LoginResponse response)
@@ -159,6 +174,7 @@ namespace CrossFire2048.Client.Features.Account
             if (response == null)
             {
                 StatusChanged?.Invoke("登录响应解析失败");
+            GameEvents.Publish(GameEventId.AccountStatusChanged, "登录响应解析失败");
                 return;
             }
 
@@ -169,21 +185,28 @@ namespace CrossFire2048.Client.Features.Account
 
             StatusChanged?.Invoke(response.Message);
             LoginCompleted?.Invoke(response);
+            GameEvents.Publish(GameEventId.AccountStatusChanged, response.Message);
+            GameEvents.Publish(GameEventId.LoginCompleted, response);
         }
 
         private void OnConnected()
         {
             StatusChanged?.Invoke("已连接服务器");
+            GameEvents.Publish(GameEventId.AccountStatusChanged, "已连接服务器");
+            GameEvents.Publish(GameEventId.NetworkConnected);
         }
 
         private void OnDisconnected(string reason)
         {
             StatusChanged?.Invoke($"服务器连接已断开：{reason}");
+            GameEvents.Publish(GameEventId.AccountStatusChanged, $"服务器连接已断开：{reason}");
+            GameEvents.Publish(GameEventId.NetworkDisconnected, reason);
         }
 
         private void OnErrorReceived(string message)
         {
             StatusChanged?.Invoke(message);
+            GameEvents.Publish(GameEventId.AccountStatusChanged, message);
         }
     }
 }

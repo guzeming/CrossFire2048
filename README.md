@@ -34,11 +34,12 @@ CrossFire2048/
     Scripts/
       GClient/
         Runtime/
-          App/
-          Common/
+          App/              AppConfig 等应用配置
+          Common/           GameEvents 全局事件
           Features/
-            Account/
-          Network/
+            Account/        AuthClient、LoginPanel、LobbyPanel
+          Network/          TcpGameClient、消息编解码
+          UI/               UIRoot、UIManager、面板基类与规范
         Editor/
       GShare/
         Runtime/
@@ -69,7 +70,8 @@ CrossFire2048/
 - `GServer` 放独立 C# Socket 服务端，可以直接从命令行启动。
 - `GServer` 通过 `.csproj` 直接引用 `Assets/Scripts/GShare/Runtime/**/*.cs`，保证客户端和服务端使用同一份共享源码。
 - `GTools` 放构建、启动、调试脚本。
-- 暂不引入复杂 UI 框架、Addressables、多 asmdef 拆分和大型资源规范。
+- UI 使用自研轻量框架（`UIRoot` + `UIManager` + `UIPanel`），详见 `Assets/Scripts/GClient/Runtime/UI/ui-spec.md`。
+- 暂不引入 Addressables、多 asmdef 拆分和大型资源规范。
 
 ## 第一阶段：账户登录注册
 
@@ -151,6 +153,113 @@ CrossFire2048/Create Default App Config
 
 创建后把 `AppConfig.asset` 拖到 `TcpGameClient` 的 `App Config` 字段即可。若未指定 `AppConfig`，`TcpGameClient` 会继续使用组件自身的 `serverHost/serverPort` 字段。
 
+## 客户端 UI 框架
+
+代码位置：`Assets/Scripts/GClient/Runtime/UI/`，详细设计见 `ui-spec.md`。
+
+### 核心组件
+
+| 组件 | 职责 |
+|------|------|
+| `UIRoot` | 创建 Canvas、EventSystem、层级容器；默认 `DontDestroyOnLoad` 跨场景保留 |
+| `UIManager` | 按 `UILayer` 栈管理面板 Push/Pop/Back；Toast、Modal 遮罩 |
+| `UIPanel` | 面板基类，生命周期 `OnOpen` / `Refresh` / `OnClose`，自动释放按钮/事件/定时器 |
+| `GameUIEntry` | 启动时自动 `Push(Login)`，跨场景时避免重复打开 |
+
+### 面板 ID（PanelId 枚举）
+
+全项目面板 ID 用枚举维护，字符串 key 与 Inspector 注册表一致：
+
+```csharp
+public enum PanelId { None, Login, Lobby, Toast }
+
+UIManager.Instance.Push(PanelId.Login);
+UIManager.Instance.ShowToast("注册成功");
+UIManager.Instance.PopTo(PanelId.Login);
+```
+
+`PanelIds.Key(PanelId.Login)` → `"Login"`，`PanelIds.All` 列出全部 ID。
+
+### UI 层级
+
+```text
+Background  背景
+Normal      登录、大厅等主界面
+Popup       弹窗（默认 Modal，带全屏遮罩拦截下层输入）
+Overlay     Toast 等顶层提示（不参与栈）
+```
+
+### 主要能力
+
+- **栈管理**：`Push` / `Pop` / `Back` / `PopTo` / `Close`，每层独立栈。
+- **OpenArgs**：`UIPanelOpenArgs` 基类，`LoginOpenArgs` 传默认账号密码。
+- **Toast**：`UIManager.ShowToast(message, duration)`，Overlay 层，不参与栈。
+- **Modal 遮罩**：Popup 层面板默认 Modal；`UIModalBlocker` 半透明全屏拦截点击。
+- **Esc 返回**：`UIRoot` 监听 Escape → 先 Pop Popup，再 Back Normal。
+- **跨场景**：`UIRoot` + `EventSystem` 默认 `DontDestroyOnLoad`；新场景重复 UIRoot 自动销毁。
+
+### 账户 UI 脚本
+
+| 脚本 | 说明 |
+|------|------|
+| `LoginPanel` | 登录/注册表单，监听 `GameEvents`，成功则 Toast + Push Lobby |
+| `LobbyPanel` | 大厅占位，欢迎语 + 退出登录 → PopTo Login |
+| `LoginController` | Inspector 调试按钮（可与正式 UI 并存） |
+
+### GameEvents
+
+位置：`Assets/Scripts/GClient/Runtime/Common/`
+
+`AuthClient` 在注册/登录/连接状态变化时发布事件，UI 通过 `AddGameEvent` 订阅：
+
+```text
+AccountStatusChanged、RegisterCompleted、LoginCompleted
+NetworkConnected、NetworkDisconnected
+```
+
+## Unity 场景搭建（登录 UI）
+
+当前代码已就绪，需在 Unity 编辑器中完成预制体与场景配置：
+
+### 1. 启动服务端
+
+```bat
+GTools\run-server.bat
+```
+
+### 2. 场景对象
+
+**GameBootstrap**（建议 DontDestroyOnLoad）：
+
+- `TcpGameClient`（绑定 `AppConfig.asset`）
+- `AuthClient`
+
+**UIRoot**：
+
+- `UIRoot`（默认 DontDestroyOnLoad）
+- `UIManager`（注册面板预制体）
+- `GameUIEntry`（启动 Push Login）
+
+### 3. 制作并注册预制体
+
+在 `UIManager` → Panel Entries 注册：
+
+| Panel Id | 脚本 | Layer |
+|----------|------|-------|
+| `Login` | `LoginPanel` | Normal |
+| `Lobby` | `LobbyPanel` | Normal |
+| `Toast` | `ToastPanel` | Overlay |
+
+Panel Id 必须与枚举名一致。`LoginPanel` / `LobbyPanel` 需绑定 `AuthClient`、InputField、Button、Text。
+
+### 4. Play 验证
+
+1. 自动打开登录面板  
+2. 注册 → Toast + 状态提示  
+3. 登录成功 → Toast + 进入 Lobby  
+4. Esc 从 Lobby 返回 Login  
+5. 服务端 `accounts` / `sessions` 核对状态  
+
 ### 云服务器部署方向
 - 购买一台云服务器，例如阿里云 ECS 或腾讯云 CVM。
 - 在云服务器上运行 `GServer` 服务端。
@@ -173,10 +282,16 @@ CrossFire2048/Create Default App Config
 - 当前传输：TCP，一行一个 JSON 消息。
 - 详细说明：`Assets/Scripts/GClient/Runtime/Network/network-spec.md`
 
+### 客户端 UI 模块
+- 代码位置：`Assets/Scripts/GClient/Runtime/UI`
+- 已实现：`UIRoot`、`UIManager`（栈管理）、`UIPanel`、`PanelId`/`PanelIds`、`ToastPanel`、`UIModalBlocker`、`GameUIEntry`、Esc 返回、DontDestroyOnLoad。
+- 详细说明：`Assets/Scripts/GClient/Runtime/UI/ui-spec.md`
+
 ### 账号模块
 - 代码位置：`Assets/Scripts/GClient/Runtime/Features/Account`
-- 当前能力：注册、登录、保存本地会话、Inspector 调试按钮。
-- 当前测试方式：在 Unity Play Mode 中选中挂载 `LoginController` 的对象，点击 Inspector 中的 `Register` / `Login`。
+- 当前能力：注册、登录、保存本地会话、`GameEvents` 广播、`LoginPanel` / `LobbyPanel` 脚本、Inspector 调试（`LoginController`）。
+- 正式 UI：需在 Unity 中制作 Login/Lobby/Toast 预制体并注册到 `UIManager`（见上文「Unity 场景搭建」）。
+- 调试方式：Play Mode 下用 `LoginPanel` 表单，或 Inspector 中 `LoginController` 的 Register / Login 按钮。
 
 ## 后续阶段
 
@@ -192,12 +307,14 @@ CrossFire2048/Create Default App Config
 - [x] 服务端账号注册。
 - [x] 服务端账号登录。
 - [x] 本地账号文件存储。
-- [ ] Unity 登录注册界面。
+- [x] 客户端 UI 框架（栈、Toast、Modal、PanelId、DontDestroyOnLoad）。
+- [x] LoginPanel / LobbyPanel 脚本与 GameEvents 接入。
+- [ ] Unity 登录注册界面预制体与场景配置（Editor 手工步骤）。
 - [x] Unity 客户端与服务端请求响应闭环。
 - [x] 服务端命令行调试命令。
 
 ### P2 - 大厅与单房间
-- [ ] 登录后进入大厅占位界面。
+- [x] 登录后进入大厅占位界面（LobbyPanel 脚本，待预制体接入）。
 - [ ] 创建房间。
 - [ ] 加入房间。
 - [ ] 房间玩家列表同步。
