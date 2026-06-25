@@ -44,6 +44,7 @@
 ExportedObj/
 .consulo/
 *.csproj
+!/GServer/**/*.csproj
 *.unityproj
 *.sln
 *.slnx
@@ -104,3 +105,8 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# .NET server/shared build outputs
+**/[Bb]in/
+**/[Oo]bj/
+.build-check/

@@ -31,22 +31,22 @@
 ```text
 CrossFire2048/
   Assets/
-    _Project/
-      Scenes/
-        Boot.unity
-        Login.unity
-        Game.unity
-      Scripts/
-        Client/
-        Netcode/
-        Gameplay/
-        UI/
-        Debug/
-      Prefabs/
-      Art/
-      Settings/
+    Scripts/
+      GClient/
+        Runtime/
+          App/
+          Common/
+          Features/
+            Account/
+          Network/
+        Editor/
+      GShare/
+        Runtime/
+          Protocol/
+          Models/
+          Netcode/
 
-  Server/
+  GServer/
     CrossFire2048.Server/
       Program.cs
       ServerConsole.cs
@@ -56,19 +56,19 @@ CrossFire2048/
       DebugCommands/
       Storage/
 
-  Shared/
-    CrossFire2048.Shared/
-      Protocol/
-      Models/
-      Netcode/
+  GTools/
+    build-server.bat
+    run-server.bat
 
   README.md
 ```
 
 ### 目录原则
-- `Assets/_Project` 只放本项目自己的 Unity 资源和脚本。
-- `Server` 放独立 C# Socket 服务端，可以直接从命令行启动。
-- `Shared` 放客户端和服务端共用的协议、消息结构和基础模型。
+- `Assets/Scripts/GClient` 放 Unity 客户端代码。
+- `Assets/Scripts/GShare` 放客户端和服务端共用的协议、消息结构和基础模型源码。
+- `GServer` 放独立 C# Socket 服务端，可以直接从命令行启动。
+- `GServer` 通过 `.csproj` 直接引用 `Assets/Scripts/GShare/Runtime/**/*.cs`，保证客户端和服务端使用同一份共享源码。
+- `GTools` 放构建、启动、调试脚本。
 - 暂不引入复杂 UI 框架、Addressables、多 asmdef 拆分和大型资源规范。
 
 ## 第一阶段：账户登录注册
@@ -103,7 +103,7 @@ CrossFire2048/
 启动示例：
 
 ```powershell
-dotnet run --project Server/CrossFire2048.Server -- --port 7777
+dotnet run --project GServer/CrossFire2048.Server -- --port 7777
 ```
 
 计划支持的调试命令：
@@ -111,6 +111,7 @@ dotnet run --project Server/CrossFire2048.Server -- --port 7777
 ```text
 help              显示命令列表
 accounts          查看已注册账号数量
+status            查看服务器运行状态
 sessions          查看当前登录会话
 clients           查看当前连接
 kick <userId>     踢出指定用户
@@ -118,22 +119,82 @@ save              手动保存账号数据
 stop              关闭服务器
 ```
 
+## 客户端服务器地址配置
+
+打包后的客户端不应要求玩家手动输入 IP。客户端通过 `AppConfig` 保存默认服务器地址：
+
+```text
+Assets/Scripts/GClient/Runtime/App/AppConfig.cs
+```
+
+当前本机开发默认值：
+
+```text
+Host: 127.0.0.1
+Port: 7777
+```
+
+后续部署到云服务器后，推荐改为域名：
+
+```text
+Host: server.crossfire2048.com
+Port: 7777
+```
+
+这样服务器换 IP 时只需要修改 DNS 解析，不需要重新打包客户端。
+
+Unity 中可通过菜单创建默认配置资源：
+
+```text
+CrossFire2048/Create Default App Config
+```
+
+创建后把 `AppConfig.asset` 拖到 `TcpGameClient` 的 `App Config` 字段即可。若未指定 `AppConfig`，`TcpGameClient` 会继续使用组件自身的 `serverHost/serverPort` 字段。
+
+### 云服务器部署方向
+- 购买一台云服务器，例如阿里云 ECS 或腾讯云 CVM。
+- 在云服务器上运行 `GServer` 服务端。
+- 云服务器安全组和系统防火墙放行 TCP `7777`。
+- 域名解析到云服务器公网 IP。
+- 客户端 `AppConfig` 使用域名连接服务器。
+
+## 当前实现状态
+
+### 已验证链路
+- `GServer` 服务端可以启动并监听 TCP `7777`。
+- Unity 客户端可以通过 `TcpGameClient` 连接服务端。
+- Unity 客户端可以发送注册请求并收到注册结果。
+- Unity 客户端可以发送登录请求并收到登录结果。
+- 服务端命令行可以通过 `status`、`accounts`、`clients`、`sessions` 查看运行状态。
+
+### 客户端网络模块
+- 代码位置：`Assets/Scripts/GClient/Runtime/Network`
+- 当前用途：登录注册等低频可靠消息。
+- 当前传输：TCP，一行一个 JSON 消息。
+- 详细说明：`Assets/Scripts/GClient/Runtime/Network/network-spec.md`
+
+### 账号模块
+- 代码位置：`Assets/Scripts/GClient/Runtime/Features/Account`
+- 当前能力：注册、登录、保存本地会话、Inspector 调试按钮。
+- 当前测试方式：在 Unity Play Mode 中选中挂载 `LoginController` 的对象，点击 Inspector 中的 `Register` / `Login`。
+
 ## 后续阶段
 
 ### P0 - 工程骨架
 - [ ] 清理 Unity 模板资源。
-- [ ] 建立 `Assets/_Project` 精简目录。
-- [ ] 创建 `Server` 控制台服务端。
-- [ ] 创建 `Shared` 协议层。
-- [ ] 更新 README 和启动说明。
+- [x] 建立 `Assets/Scripts/GClient` 客户端目录。
+- [x] 建立 `Assets/Scripts/GShare` 共享源码目录。
+- [x] 创建 `GServer` 控制台服务端。
+- [x] 创建 `GTools` 工具脚本目录。
+- [x] 更新 README 和启动说明。
 
 ### P1 - 账户登录注册
-- [ ] 服务端账号注册。
-- [ ] 服务端账号登录。
-- [ ] 本地账号文件存储。
+- [x] 服务端账号注册。
+- [x] 服务端账号登录。
+- [x] 本地账号文件存储。
 - [ ] Unity 登录注册界面。
-- [ ] Unity 客户端与服务端请求响应闭环。
-- [ ] 服务端命令行调试命令。
+- [x] Unity 客户端与服务端请求响应闭环。
+- [x] 服务端命令行调试命令。
 
 ### P2 - 大厅与单房间
 - [ ] 登录后进入大厅占位界面。
