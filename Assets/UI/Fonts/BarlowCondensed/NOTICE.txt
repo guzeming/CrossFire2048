@@ -1,0 +1,4 @@
+Barlow Condensed ExtraBold Italic, by Jeremy Tribby.
+Source: https://github.com/google/fonts/tree/main/ofl/barlowcondensed
+Distributed under the SIL Open Font License 1.1. See OFL.txt.
+Available for condensed italic interface headings; brand logos use supplied artwork. Font file is unmodified.

@@ -1,11 +1,11 @@
 using System;
 using System.Threading.Tasks;
-using CrossFire2048.Client.Common;
-using CrossFire2048.Client.Network;
-using CrossFire2048.Shared.Protocol;
+using OperationBlacktide.Client.Common;
+using OperationBlacktide.Client.Network;
+using OperationBlacktide.Shared.Protocol;
 using UnityEngine;
 
-namespace CrossFire2048.Client.Features.Account
+namespace OperationBlacktide.Client.Features.Account
 {
     /// <summary>
     /// 客户端账号业务封装。
@@ -22,7 +22,13 @@ namespace CrossFire2048.Client.Features.Account
         public event Action<LoginResponse> LoginCompleted;
         public event Action<string> StatusChanged;
 
-        private string _lastLoginUsername = string.Empty;
+        private sealed class LoginAttempt
+        {
+            public string Username, Password, Host;
+            public int Port;
+        }
+
+        private LoginAttempt pendingLogin;
 
         private void Awake()
         {
@@ -42,6 +48,7 @@ namespace CrossFire2048.Client.Features.Account
 
         private void OnDisable()
         {
+            pendingLogin = null;
             tcpGameClient.Connected -= OnConnected;
             tcpGameClient.Disconnected -= OnDisconnected;
             tcpGameClient.MessageReceived -= OnMessageReceived;
@@ -71,29 +78,53 @@ namespace CrossFire2048.Client.Features.Account
 
         public async Task LoginAsync(string username, string password)
         {
+            // One outstanding request: a later click must not replace the password awaiting a response.
+            if (pendingLogin != null) return;
             if (!ValidateInput(username, password))
             {
                 return;
             }
 
-            if (!await EnsureConnectedAsync())
+            var attempt = new LoginAttempt
             {
-                return;
+                Username = username, Password = password,
+                Host = tcpGameClient.ServerHost, Port = tcpGameClient.ServerPort
+            };
+            pendingLogin = attempt;
+            try
+            {
+                if (!await EnsureConnectedAsync())
+                {
+                    if (pendingLogin == attempt) pendingLogin = null;
+                    return;
+                }
+                if (pendingLogin != attempt) return;
+                StatusChanged?.Invoke("正在发送登录请求...");
+                GameEvents.Publish(GameEventId.AccountStatusChanged, "正在发送登录请求...");
+                await tcpGameClient.SendAsync(MessageType.LoginRequest, new LoginRequest
+                {
+                    Username = attempt.Username,
+                    Password = attempt.Password,
+                });
             }
-
-            _lastLoginUsername = username;
-            StatusChanged?.Invoke("正在发送登录请求...");
-            GameEvents.Publish(GameEventId.AccountStatusChanged, "正在发送登录请求...");
-            await tcpGameClient.SendAsync(MessageType.LoginRequest, new LoginRequest
+            catch
             {
-                Username = username,
-                Password = password,
-            });
+                if (pendingLogin == attempt) pendingLogin = null;
+                throw;
+            }
+        }
+
+        public bool TryGetRememberedLogin(out string username, out string password)
+        {
+            return LoginCredentialStore.TryLoad(tcpGameClient.ServerHost, tcpGameClient.ServerPort,
+                out username, out password);
         }
 
         public void Logout()
         {
+            pendingLogin = null;
             Session.Clear();
+            tcpGameClient.Disconnect("退出登录");
             StatusChanged?.Invoke("已清空本地登录会话");
             GameEvents.Publish(GameEventId.AccountStatusChanged, "已清空本地登录会话");
         }
@@ -146,6 +177,7 @@ namespace CrossFire2048.Client.Features.Account
                     break;
 
                 case MessageType.Error:
+                    pendingLogin = null;
                     ErrorResponse error = NetworkMessageCodec.DecodePayload<ErrorResponse>(message);
                     StatusChanged?.Invoke(error != null ? error.Message : "服务器返回未知错误");
                     GameEvents.Publish(GameEventId.AccountStatusChanged,
@@ -171,16 +203,23 @@ namespace CrossFire2048.Client.Features.Account
 
         private void HandleLoginResponse(LoginResponse response)
         {
+            var attempt = pendingLogin;
+            pendingLogin = null;
             if (response == null)
             {
                 StatusChanged?.Invoke("登录响应解析失败");
-            GameEvents.Publish(GameEventId.AccountStatusChanged, "登录响应解析失败");
+                GameEvents.Publish(GameEventId.AccountStatusChanged, "登录响应解析失败");
                 return;
             }
 
+            if (attempt == null) return;
+
             if (response.Code == AuthResultCode.Ok)
             {
-                Session.Set(response.UserId, _lastLoginUsername, response.SessionToken);
+                // Save the submitted values before the scene flow closes the login panel.
+                Session.Set(response.UserId, attempt.Username, response.SessionToken);
+                if (!LoginCredentialStore.TrySave(attempt.Host, attempt.Port, attempt.Username, attempt.Password))
+                    Debug.LogWarning("[Account] 无法保存登录信息，本次登录不受影响。");
             }
 
             StatusChanged?.Invoke(response.Message);
@@ -198,6 +237,8 @@ namespace CrossFire2048.Client.Features.Account
 
         private void OnDisconnected(string reason)
         {
+            pendingLogin = null;
+            Session.Clear();
             StatusChanged?.Invoke($"服务器连接已断开：{reason}");
             GameEvents.Publish(GameEventId.AccountStatusChanged, $"服务器连接已断开：{reason}");
             GameEvents.Publish(GameEventId.NetworkDisconnected, reason);
@@ -205,6 +246,7 @@ namespace CrossFire2048.Client.Features.Account
 
         private void OnErrorReceived(string message)
         {
+            pendingLogin = null;
             StatusChanged?.Invoke(message);
             GameEvents.Publish(GameEventId.AccountStatusChanged, message);
         }

@@ -1,0 +1,51 @@
+{
+  "id": "ctm_swat_variante",
+  "name": "SWAT",
+  "team": 1,
+  "materials": [
+    {
+      "name": "ctm_swat_lead_head",
+      "color": "d85e43ef11f5080c0563.png",
+      "normal": "f13580d427b0b4ab3217.png",
+      "orm": "0a06267036f142fa03a3.png"
+    },
+    {
+      "name": "ctm_swat_leader_hair",
+      "color": "f1762ac42afb80b0fd9d.png",
+      "normal": "496e103bff3f5bc1a982.png",
+      "orm": "de5e4a3578d32ae57be1.png"
+    },
+    {
+      "name": "ctm_swat_leader_headset",
+      "color": "6b2c47acb807e477a2a8.png",
+      "normal": "8de9e0f0641b57d17210.png",
+      "orm": "11f4df87dd2919e27a8f.png"
+    },
+    {
+      "name": "ctm_swat_leader_pant",
+      "color": "e00f6a4d492254fd6e74.png",
+      "normal": "c09fc16614ed321e8f9b.png",
+      "orm": "aafac01710ab0fa96ff5.png"
+    },
+    {
+      "name": "ctm_swat_leader_upperbody",
+      "color": "4b2dd95c4bbed5bfc7ba.png",
+      "normal": "6c040f04a9b4fae9a9f9.png",
+      "orm": "615617e2ecec51aa6f3c.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "67a4229a913ad1b16146.png",
+      "normal": "2454904008e64d88948a.png",
+      "orm": "304310b1f55907832b3f.png"
+    },
+    {
+      "name": "w_eq_defuser",
+      "color": "91f2ccf3674e0ef6bdcd.png",
+      "normal": "9c1e94a9dbd505bea382.png",
+      "orm": "9c2bb87e48b8dac44be9.png"
+    }
+  ],
+  "boneRemaps": {},
+  "kind": "agents"
+}

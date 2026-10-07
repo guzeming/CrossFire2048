@@ -1,0 +1,18 @@
+{
+  "id": "weapon_smg_p90",
+  "name": "P90",
+  "category": 2,
+  "slot": "smg.p90",
+  "team": 3,
+  "profile": "p90",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_smg_p90",
+      "color": "a374ec7601fa3773e3f5.png",
+      "normal": "c67564690578f68e4770.png",
+      "orm": "420e0109b5dc58d54866.png"
+    }
+  ],
+  "kind": "weapons"
+}

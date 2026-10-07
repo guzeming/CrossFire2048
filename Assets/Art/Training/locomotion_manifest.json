@@ -1,0 +1,136 @@
+{
+  "clips": [
+    {
+      "name": "walk_n_rifle",
+      "first": 1,
+      "last": 31,
+      "loop": true
+    },
+    {
+      "name": "walk_ne_rifle",
+      "first": 32,
+      "last": 62,
+      "loop": true
+    },
+    {
+      "name": "walk_e_rifle",
+      "first": 63,
+      "last": 93,
+      "loop": true
+    },
+    {
+      "name": "walk_se_rifle",
+      "first": 94,
+      "last": 124,
+      "loop": true
+    },
+    {
+      "name": "walk_s_rifle",
+      "first": 125,
+      "last": 155,
+      "loop": true
+    },
+    {
+      "name": "walk_sw_rifle",
+      "first": 156,
+      "last": 186,
+      "loop": true
+    },
+    {
+      "name": "walk_w_rifle",
+      "first": 187,
+      "last": 217,
+      "loop": true
+    },
+    {
+      "name": "walk_nw_rifle",
+      "first": 218,
+      "last": 248,
+      "loop": true
+    },
+    {
+      "name": "run_n_rifle",
+      "first": 249,
+      "last": 271,
+      "loop": true
+    },
+    {
+      "name": "run_ne_rifle",
+      "first": 272,
+      "last": 294,
+      "loop": true
+    },
+    {
+      "name": "run_e_rifle",
+      "first": 295,
+      "last": 317,
+      "loop": true
+    },
+    {
+      "name": "run_se_rifle",
+      "first": 318,
+      "last": 340,
+      "loop": true
+    },
+    {
+      "name": "run_s_rifle",
+      "first": 341,
+      "last": 363,
+      "loop": true
+    },
+    {
+      "name": "run_sw_rifle",
+      "first": 364,
+      "last": 386,
+      "loop": true
+    },
+    {
+      "name": "run_w_rifle",
+      "first": 387,
+      "last": 409,
+      "loop": true
+    },
+    {
+      "name": "run_nw_rifle",
+      "first": 410,
+      "last": 432,
+      "loop": true
+    },
+    {
+      "name": "jump_stand_rifle",
+      "first": 433,
+      "last": 445,
+      "loop": false
+    },
+    {
+      "name": "jump_n_rifle",
+      "first": 446,
+      "last": 458,
+      "loop": false
+    },
+    {
+      "name": "jump_e_rifle",
+      "first": 459,
+      "last": 471,
+      "loop": false
+    },
+    {
+      "name": "jump_s_rifle",
+      "first": 472,
+      "last": 484,
+      "loop": false
+    },
+    {
+      "name": "jump_w_rifle",
+      "first": 485,
+      "last": 497,
+      "loop": false
+    },
+    {
+      "name": "idle_rifle",
+      "first": 498,
+      "last": 499,
+      "loop": true
+    }
+  ]
+}

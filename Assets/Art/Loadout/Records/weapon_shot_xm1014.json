@@ -1,0 +1,18 @@
+{
+  "id": "weapon_shot_xm1014",
+  "name": "XM1014",
+  "category": 3,
+  "slot": "heavy.auto",
+  "team": 3,
+  "profile": "xm",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_shot_xm1014",
+      "color": "75db93632fafe7a58ace.png",
+      "normal": "7598a9679fb1f735d459.png",
+      "orm": "c125de0afd9358760774.png"
+    }
+  ],
+  "kind": "weapons"
+}

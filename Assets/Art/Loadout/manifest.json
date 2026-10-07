@@ -1,0 +1,1663 @@
+{
+  "agents": [
+    {
+      "id": "ctm_fbi",
+      "name": "FBI",
+      "team": 1,
+      "materials": [
+        {
+          "name": "ctm_fbi_v2_body_varianta",
+          "color": "65263263590ba08b639f.png",
+          "normal": "30f312ecb9fb2dcdade8.png",
+          "orm": "1ef567adf87ac80fc36f.png"
+        },
+        {
+          "name": "ctm_fbi_v2_hat_glasses_radio_varianta",
+          "color": "089811d3f912d5687140.png",
+          "normal": "489914769c2794d55f63.png",
+          "orm": "0497db3cf92de19d51ac.png"
+        },
+        {
+          "name": "ctm_fbi_v2_head",
+          "color": "b77989ea9c117d8d38e6.png",
+          "normal": "94ab9ebce1baf3169236.png",
+          "orm": "0647e123e7d317a7d21a.png"
+        },
+        {
+          "name": "ctm_fbi_v2_lower_body_variantb",
+          "color": "f83f635a234ba5df2b02.png",
+          "normal": "73c3148daf898d36026c.png",
+          "orm": "84b8913e4b386859b3d1.png"
+        },
+        {
+          "name": "glove_hardknuckle_black",
+          "color": "67a4229a913ad1b16146.png",
+          "normal": "2454904008e64d88948a.png",
+          "orm": "304310b1f55907832b3f.png"
+        },
+        {
+          "name": "w_eq_defuser",
+          "color": "91f2ccf3674e0ef6bdcd.png",
+          "normal": "9c1e94a9dbd505bea382.png",
+          "orm": "9c2bb87e48b8dac44be9.png"
+        }
+      ],
+      "boneRemaps": {
+        "jiggle_back_micropouches": "spine_3"
+      }
+    },
+    {
+      "id": "ctm_gendarmerie_varianta",
+      "name": "法国宪兵",
+      "team": 1,
+      "materials": [
+        {
+          "name": "ctm_gendarmerie_medic_head",
+          "color": "31f3492c9b30610b5e8b.png",
+          "normal": "d6deefdd4965f459280d.png",
+          "orm": "9e051fa39148d012d737.png"
+        },
+        {
+          "name": "ctm_gendarmerie_medic_pant",
+          "color": "b5506334b1f9bff9a7cc.png",
+          "normal": "1c96139cb3fef8bfa54c.png",
+          "orm": "549055dd361aad0a350e.png"
+        },
+        {
+          "name": "ctm_gendarmerie_medic_upperbody",
+          "color": "488b0330cdd7b779cc08.png",
+          "normal": "17913d456f60fccc5475.png",
+          "orm": "dd3a1ccb3e4f6f908dc1.png"
+        },
+        {
+          "name": "ctm_gendarmerie_visor_yellow",
+          "color": "62625ee4ca88c27b0325.png",
+          "normal": "c9c25b8c7b6088cbe510.png",
+          "orm": "d44d0bce4e4ba8ee8d0c.png"
+        },
+        {
+          "name": "glove_hardknuckle_black",
+          "color": "67a4229a913ad1b16146.png",
+          "normal": "2454904008e64d88948a.png",
+          "orm": "304310b1f55907832b3f.png"
+        },
+        {
+          "name": "w_eq_defuser",
+          "color": "91f2ccf3674e0ef6bdcd.png",
+          "normal": "9c1e94a9dbd505bea382.png",
+          "orm": "9c2bb87e48b8dac44be9.png"
+        }
+      ],
+      "boneRemaps": {}
+    },
+    {
+      "id": "ctm_sas",
+      "name": "SAS",
+      "team": 1,
+      "materials": [
+        {
+          "name": "ctm_sas_body",
+          "color": "79aa16a36a53746078c6.png",
+          "normal": "44bb761266ed00c0b113.png",
+          "orm": "1258684993eb442040d0.png"
+        },
+        {
+          "name": "ctm_sas_bodylegs",
+          "color": "91a5859e4392924b7766.png",
+          "normal": "2529e382149dbcf429cc.png",
+          "orm": "500451faec04a0e74ddb.png"
+        },
+        {
+          "name": "ctm_sas_head_gasmask",
+          "color": "8ce6394f9dac349dd771.png",
+          "normal": "cfb717d6c50970ecc99d.png",
+          "orm": "3f45d18d9ea91032521d.png"
+        },
+        {
+          "name": "ctm_sas_lenses",
+          "color": "ec75f755e6cf8e992db4.png",
+          "normal": "c9c25b8c7b6088cbe510.png",
+          "orm": "35eb71b3fb491675051f.png"
+        },
+        {
+          "name": "glove_hardknuckle_black",
+          "color": "67a4229a913ad1b16146.png",
+          "normal": "2454904008e64d88948a.png",
+          "orm": "304310b1f55907832b3f.png"
+        },
+        {
+          "name": "w_eq_defuser",
+          "color": "91f2ccf3674e0ef6bdcd.png",
+          "normal": "9c1e94a9dbd505bea382.png",
+          "orm": "9c2bb87e48b8dac44be9.png"
+        }
+      ],
+      "boneRemaps": {}
+    },
+    {
+      "id": "ctm_st6_variante",
+      "name": "海豹六队",
+      "team": 1,
+      "materials": [
+        {
+          "name": "ctm_st6_gen_pant_variante",
+          "color": "217e66c81bceedf9ed7b.png",
+          "normal": "e2b66b8d4a4ca2ecf67a.png",
+          "orm": "437b5006012c3e037ffd.png"
+        },
+        {
+          "name": "ctm_st6_generalist_upperbody",
+          "color": "bb791b6563a1c20b5946.png",
+          "normal": "7c85955d087f06c27ee1.png",
+          "orm": "22c6108a6773ec336a73.png"
+        },
+        {
+          "name": "ctm_st6_night_vision_helmet",
+          "color": "681b63d00644af5c85fe.png",
+          "normal": "bfac6ce50ca764c729e8.png",
+          "orm": "eb0bcf500118fffbe2ae.png"
+        },
+        {
+          "name": "glove_hardknuckle_black",
+          "color": "67a4229a913ad1b16146.png",
+          "normal": "2454904008e64d88948a.png",
+          "orm": "304310b1f55907832b3f.png"
+        },
+        {
+          "name": "w_eq_defuser",
+          "color": "91f2ccf3674e0ef6bdcd.png",
+          "normal": "9c1e94a9dbd505bea382.png",
+          "orm": "9c2bb87e48b8dac44be9.png"
+        }
+      ],
+      "boneRemaps": {}
+    },
+    {
+      "id": "ctm_swat_variante",
+      "name": "SWAT",
+      "team": 1,
+      "materials": [
+        {
+          "name": "ctm_swat_lead_head",
+          "color": "d85e43ef11f5080c0563.png",
+          "normal": "f13580d427b0b4ab3217.png",
+          "orm": "0a06267036f142fa03a3.png"
+        },
+        {
+          "name": "ctm_swat_leader_hair",
+          "color": "f1762ac42afb80b0fd9d.png",
+          "normal": "496e103bff3f5bc1a982.png",
+          "orm": "de5e4a3578d32ae57be1.png"
+        },
+        {
+          "name": "ctm_swat_leader_headset",
+          "color": "6b2c47acb807e477a2a8.png",
+          "normal": "8de9e0f0641b57d17210.png",
+          "orm": "11f4df87dd2919e27a8f.png"
+        },
+        {
+          "name": "ctm_swat_leader_pant",
+          "color": "e00f6a4d492254fd6e74.png",
+          "normal": "c09fc16614ed321e8f9b.png",
+          "orm": "aafac01710ab0fa96ff5.png"
+        },
+        {
+          "name": "ctm_swat_leader_upperbody",
+          "color": "4b2dd95c4bbed5bfc7ba.png",
+          "normal": "6c040f04a9b4fae9a9f9.png",
+          "orm": "615617e2ecec51aa6f3c.png"
+        },
+        {
+          "name": "glove_hardknuckle_black",
+          "color": "67a4229a913ad1b16146.png",
+          "normal": "2454904008e64d88948a.png",
+          "orm": "304310b1f55907832b3f.png"
+        },
+        {
+          "name": "w_eq_defuser",
+          "color": "91f2ccf3674e0ef6bdcd.png",
+          "normal": "9c1e94a9dbd505bea382.png",
+          "orm": "9c2bb87e48b8dac44be9.png"
+        }
+      ],
+      "boneRemaps": {}
+    },
+    {
+      "id": "tm_balkan_variantf",
+      "name": "巴尔干战士",
+      "team": 2,
+      "materials": [
+        {
+          "name": "glove_fullfinger",
+          "color": "48b341c75ec00dbc5e9d.png",
+          "normal": "a4a3c0f9ee3cdf775efa.png",
+          "orm": "9adafd9fb4b7e134c259.png"
+        },
+        {
+          "name": "tm_balkan_v2_body_variantd",
+          "color": "a51835041b0670ea4325.png",
+          "normal": "b5df0edb921a0bd836ed.png",
+          "orm": "2afa2520910199ed0783.png"
+        },
+        {
+          "name": "tm_balkan_v2_head_varianta",
+          "color": "b784450195b51a5b4067.png",
+          "normal": "d19d70cc9d01e6b8c661.png",
+          "orm": "2c14008389df9a46a835.png"
+        },
+        {
+          "name": "tm_balkan_v2_lower_body_variantd",
+          "color": "d502b8f526dd481bb0b3.png",
+          "normal": "11b6033d2532ae6e6f04.png",
+          "orm": "430fdc51caba77aaa5fd.png"
+        }
+      ],
+      "boneRemaps": {}
+    },
+    {
+      "id": "tm_jungle_raider_varianta",
+      "name": "丛林突袭者",
+      "team": 2,
+      "materials": [
+        {
+          "name": "bare_arm_44",
+          "color": "03d5015759a2d8f70eb6.png",
+          "normal": "10dd463dff0288eac575.png",
+          "orm": "d44d0bce4e4ba8ee8d0c.png"
+        },
+        {
+          "name": "glove_fingerless",
+          "color": "9157e04d0bc09efdd1f4.png",
+          "normal": "50b0cc773ae888e4794a.png",
+          "orm": "f996cb581d335c12e131.png"
+        },
+        {
+          "name": "tm_jungle_raider_body_varianta",
+          "color": "4a693d7589b867b2a130.png",
+          "normal": "966f4ed285dd7c3e039c.png",
+          "orm": "559a447916d09b4aa5b3.png"
+        },
+        {
+          "name": "tm_jungle_raider_head_varianta",
+          "color": "fd434665e8595335daaa.png",
+          "normal": "9ab3f00f458a30938945.png",
+          "orm": "dc486b3b21dc359f29df.png"
+        },
+        {
+          "name": "tm_jungle_raider_pant_varianta",
+          "color": "dda0ae61731753f61f11.png",
+          "normal": "8961e4d584538a8d53a9.png",
+          "orm": "d8b1bb1e4542f4515f19.png"
+        }
+      ],
+      "boneRemaps": {}
+    },
+    {
+      "id": "tm_leet_varianta",
+      "name": "精英分子",
+      "team": 2,
+      "materials": [
+        {
+          "name": "bare_arm_55",
+          "color": "aab0a7236ac7e782bb20.png",
+          "normal": "10dd463dff0288eac575.png",
+          "orm": "d44d0bce4e4ba8ee8d0c.png"
+        },
+        {
+          "name": "glove_fingerless",
+          "color": "9157e04d0bc09efdd1f4.png",
+          "normal": "50b0cc773ae888e4794a.png",
+          "orm": "f996cb581d335c12e131.png"
+        },
+        {
+          "name": "tm_leet_v2_body_varianta",
+          "color": "110174bfb84b8f25135b.png",
+          "normal": "c54fa26e565b4244eb74.png",
+          "orm": "58793c759c96d23cea75.png"
+        },
+        {
+          "name": "tm_leet_v2_head_varianta",
+          "color": "469d1dc90bb19980d9f3.png",
+          "normal": "e34ba7956715ae2e24ed.png",
+          "orm": "490abc7812c69ba30479.png"
+        },
+        {
+          "name": "tm_leet_v2_lower_body_varianta",
+          "color": "59a48c10e102af46971d.png",
+          "normal": "c4e9159cee2f26101a62.png",
+          "orm": "ffb19542dd3c11c298cf.png"
+        }
+      ],
+      "boneRemaps": {}
+    },
+    {
+      "id": "tm_phoenix",
+      "name": "凤凰战士",
+      "team": 2,
+      "materials": [
+        {
+          "name": "bare_arm_133",
+          "color": "223f08d305e59e4ad46c.png",
+          "normal": "10dd463dff0288eac575.png",
+          "orm": "d44d0bce4e4ba8ee8d0c.png"
+        },
+        {
+          "name": "glove_fullfinger",
+          "color": "48b341c75ec00dbc5e9d.png",
+          "normal": "a4a3c0f9ee3cdf775efa.png",
+          "orm": "9adafd9fb4b7e134c259.png"
+        },
+        {
+          "name": "tm_phoenix_v2_balaclava_varianta",
+          "color": "9fb2568acc05a85f0912.png",
+          "normal": "0431b8e0c3beefd5544b.png",
+          "orm": "4b02dcc5e5448dae55e0.png"
+        },
+        {
+          "name": "tm_phoenix_v2_body_variante",
+          "color": "d97fc2b1195d6cb2d819.png",
+          "normal": "27429d99e32a4f2e42c9.png",
+          "orm": "c6b3c3131aad7fbee3b4.png"
+        },
+        {
+          "name": "tm_phoenix_v2_legs_variantb",
+          "color": "c70a9af7c71a4f92f9fc.png",
+          "normal": "247f6187b630b2f57291.png",
+          "orm": "3df3fc9fb1f9f272e66a.png"
+        }
+      ],
+      "boneRemaps": {}
+    },
+    {
+      "id": "tm_professional_varf",
+      "name": "专业人士",
+      "team": 2,
+      "materials": [
+        {
+          "name": "glove_fullfinger",
+          "color": "48b341c75ec00dbc5e9d.png",
+          "normal": "a4a3c0f9ee3cdf775efa.png",
+          "orm": "9adafd9fb4b7e134c259.png"
+        },
+        {
+          "name": "tm_professional_body_varf",
+          "color": "bfd771349b10a7d8dac2.png",
+          "normal": "72c891b4963df382929e.png",
+          "orm": "3347882db0c0292e0bb5.png"
+        },
+        {
+          "name": "tm_professional_head_varf",
+          "color": "1a45f7b2815810ae5554.png",
+          "normal": "c156f58710eb83ce9765.png",
+          "orm": "4a96bde0ca66819a4467.png"
+        },
+        {
+          "name": "tm_professional_lowerbody_varf",
+          "color": "fbf091421ae1a275ac53.png",
+          "normal": "3dc3b97957ed8dad5042.png",
+          "orm": "57392582a38ce30886c4.png"
+        },
+        {
+          "name": "tm_professional_mask_varf",
+          "color": "f336831b38a617851fd9.png",
+          "normal": "87eac11c553381ad07d2.png",
+          "orm": "a8f6fa315de48f11a3be.png"
+        }
+      ],
+      "boneRemaps": {}
+    }
+  ],
+  "weapons": [
+    {
+      "id": "defuser",
+      "name": "拆弹器",
+      "category": 4,
+      "slot": "gear.defuser",
+      "team": 1,
+      "profile": "",
+      "held": false,
+      "materials": [
+        {
+          "name": "w_eq_defuser",
+          "color": "91f2ccf3674e0ef6bdcd.png",
+          "normal": "9c1e94a9dbd505bea382.png",
+          "orm": "9c2bb87e48b8dac44be9.png"
+        }
+      ]
+    },
+    {
+      "id": "w_eq_armor",
+      "name": "防弹衣",
+      "category": 4,
+      "slot": "gear.armor",
+      "team": 3,
+      "profile": "",
+      "held": false,
+      "materials": [
+        {
+          "name": "armor",
+          "color": "810e3017755158e2ff8a.png",
+          "normal": "923505b5ffe237cb58ff.png",
+          "orm": "d44d0bce4e4ba8ee8d0c.png"
+        }
+      ]
+    },
+    {
+      "id": "w_eq_armor_helmet",
+      "name": "防弹衣 + 头盔",
+      "category": 4,
+      "slot": "gear.helmet",
+      "team": 3,
+      "profile": "",
+      "held": false,
+      "materials": [
+        {
+          "name": "armor",
+          "color": "810e3017755158e2ff8a.png",
+          "normal": "923505b5ffe237cb58ff.png",
+          "orm": "d44d0bce4e4ba8ee8d0c.png"
+        },
+        {
+          "name": "helmet",
+          "color": "c29a83f1e80ffcc287e2.png",
+          "normal": "b66decb367eed9d81f7d.png",
+          "orm": "d44d0bce4e4ba8ee8d0c.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_c4",
+      "name": "C4 炸弹",
+      "category": 4,
+      "slot": "gear.c4",
+      "team": 2,
+      "profile": "c4",
+      "held": true,
+      "materials": [
+        {
+          "name": "c4_panorama_control_panel",
+          "color": "80745ae0ba1c0f39b838.png",
+          "normal": "",
+          "orm": ""
+        },
+        {
+          "name": "weapon_c4",
+          "color": "1800c5fefbd453ee63d8.png",
+          "normal": "bed824a91357591c3a0c.png",
+          "orm": "b074d93c7bdb88b2ab92.png"
+        },
+        {
+          "name": "weapon_c4_digits",
+          "color": "a9e9765594c29c831ae2.png",
+          "normal": "fc143bde6d1887c72433.png",
+          "orm": "36070f51fa8f9b6a32b0.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_decoy",
+      "name": "诱饵手雷",
+      "category": 4,
+      "slot": "gear.decoy",
+      "team": 3,
+      "profile": "grenade",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_decoy",
+          "color": "87250f90e8ed3dda1ceb.png",
+          "normal": "dfe22208f42c26a4134f.png",
+          "orm": "59c65f7f627f852233fd.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_flashbang",
+      "name": "闪光弹",
+      "category": 4,
+      "slot": "gear.flash",
+      "team": 3,
+      "profile": "grenade",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_flashbang",
+          "color": "021681b3705ebff40359.png",
+          "normal": "8b67fe01753488d43794.png",
+          "orm": "0212b7578cd8fc90b4b7.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_hegrenade",
+      "name": "高爆手雷",
+      "category": 4,
+      "slot": "gear.he",
+      "team": 3,
+      "profile": "grenade",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_hegrenade",
+          "color": "330e0da7acbff1666c21.png",
+          "normal": "aaf929100461918726e7.png",
+          "orm": "94805cbabd27b9255b98.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_incendiarygrenade",
+      "name": "燃烧弹",
+      "category": 4,
+      "slot": "gear.fire",
+      "team": 1,
+      "profile": "grenade",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_incendiarygrenade",
+          "color": "7e63b63c87f8f2c91d00.png",
+          "normal": "be207d495121535aa24e.png",
+          "orm": "b38cbc6cea066f4731cb.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_knife_default_ct",
+      "name": "CT 战术匕首",
+      "category": 4,
+      "slot": "gear.knife",
+      "team": 1,
+      "profile": "knife",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_knife_default_ct",
+          "color": "3cc316fd7a06ad183ea2.png",
+          "normal": "fc143bde6d1887c72433.png",
+          "orm": "a7b5dc5ddf4138307de1.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_knife_default_t",
+      "name": "T 战术匕首",
+      "category": 4,
+      "slot": "gear.knife",
+      "team": 2,
+      "profile": "knife",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_knife_default_t",
+          "color": "2214c2678d23ef699dd1.png",
+          "normal": "fc143bde6d1887c72433.png",
+          "orm": "ca7319db6b933e4b80b3.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_mach_m249",
+      "name": "M249",
+      "category": 3,
+      "slot": "heavy.m249",
+      "team": 3,
+      "profile": "m249",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_mach_m249",
+          "color": "d18e4017fa30434eb592.png",
+          "normal": "22b83cb6c0c545a70f7f.png",
+          "orm": "4bf32372a4ee6b2f5a77.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_mach_negev",
+      "name": "Negev",
+      "category": 3,
+      "slot": "heavy.negev",
+      "team": 3,
+      "profile": "negev",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_mach_negev",
+          "color": "1b98f85e9cf40eff7147.png",
+          "normal": "596edfd21fc5b853df9e.png",
+          "orm": "640654cf47d741671616.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_molotov",
+      "name": "燃烧瓶",
+      "category": 4,
+      "slot": "gear.fire",
+      "team": 2,
+      "profile": "molotov",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_molotov",
+          "color": "7dd9c6ff8e44d8f25e51.png",
+          "normal": "a3b8097aafecd7238d2e.png",
+          "orm": "777c19632ccdb024983a.png"
+        },
+        {
+          "name": "weapon_molotov_flame",
+          "color": "30eee4bba42be20fe26f.png",
+          "normal": "c9c25b8c7b6088cbe510.png",
+          "orm": "9b6cf61b62f31e2319a5.png"
+        },
+        {
+          "name": "weapon_molotov_liquid",
+          "color": "cfa9176202b151bbb20b.png",
+          "normal": "a329b360bc81003502ef.png",
+          "orm": "a329b360bc81003502ef.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_pist_cz75a",
+      "name": "CZ75-Auto",
+      "category": 0,
+      "slot": "pistol.fast",
+      "team": 3,
+      "profile": "pistol",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_pist_cz75a",
+          "color": "6516888384c6ae19b243.png",
+          "normal": "79b8785d1fdfba9823e7.png",
+          "orm": "cace0fcf1a44dc7951b8.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_pist_deagle",
+      "name": "Desert Eagle",
+      "category": 0,
+      "slot": "pistol.heavy",
+      "team": 3,
+      "profile": "pistol",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_pist_deagle",
+          "color": "56da80eabb40e0239baa.png",
+          "normal": "f245e56901266b35d964.png",
+          "orm": "b14f626a136e9964136e.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_pist_elite",
+      "name": "双持贝瑞塔",
+      "category": 0,
+      "slot": "pistol.dual",
+      "team": 3,
+      "profile": "elite",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_pist_elite",
+          "color": "9771dfbd41e51ca3c904.png",
+          "normal": "79bfaef41793d2cc440e.png",
+          "orm": "4ad7ebe6e10b3d41475a.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_pist_fiveseven",
+      "name": "Five-SeveN",
+      "category": 0,
+      "slot": "pistol.fast",
+      "team": 1,
+      "profile": "pistol",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_pist_fiveseven",
+          "color": "8a472d09326c2b6d037e.png",
+          "normal": "33e0a0cf7a2fd4d8ceb4.png",
+          "orm": "ec8c7e9af0b02675fd58.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_pist_glock18",
+      "name": "Glock-18",
+      "category": 0,
+      "slot": "pistol.start",
+      "team": 2,
+      "profile": "pistol",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_pist_glock",
+          "color": "6157d905e76d1fc128be.png",
+          "normal": "89dcc23c675a0c442d70.png",
+          "orm": "ed3c17eb5c17815db57a.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_pist_hkp2000",
+      "name": "P2000",
+      "category": 0,
+      "slot": "pistol.start",
+      "team": 1,
+      "profile": "pistol",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_pist_hkp2000",
+          "color": "45923a045d1d6dc111d8.png",
+          "normal": "e005760e7c7946616a4c.png",
+          "orm": "49afaba8c1abd4b5ae0b.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_pist_p250",
+      "name": "P250",
+      "category": 0,
+      "slot": "pistol.p250",
+      "team": 3,
+      "profile": "pistol",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_pist_p250",
+          "color": "e23054199a7cd8297b61.png",
+          "normal": "1b00fea9bb557e9036a2.png",
+          "orm": "daec6b4213517dc36258.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_pist_revolver",
+      "name": "R8 左轮",
+      "category": 0,
+      "slot": "pistol.heavy",
+      "team": 3,
+      "profile": "revolver",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_pist_revolver",
+          "color": "bbc87ed3c129b1a000eb.png",
+          "normal": "f6989d8a8a82e0e02985.png",
+          "orm": "fe9cf939aedc08224747.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_pist_taser",
+      "name": "Zeus x27",
+      "category": 4,
+      "slot": "gear.taser",
+      "team": 3,
+      "profile": "pistol",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_pist_taser",
+          "color": "6c8a55b91b98f2f71fb9.png",
+          "normal": "f05d585c25840a2a5ff4.png",
+          "orm": "a5c6c9e0df9d734cbb30.png"
+        },
+        {
+          "name": "weapon_pist_taser_chargemeter",
+          "color": "94f5296d9d7fe5bf3000.png",
+          "normal": "",
+          "orm": ""
+        }
+      ]
+    },
+    {
+      "id": "weapon_pist_tec9",
+      "name": "Tec-9",
+      "category": 0,
+      "slot": "pistol.fast",
+      "team": 2,
+      "profile": "pistol",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_pist_tec9",
+          "color": "eb2816e73d841583fb70.png",
+          "normal": "49b988841c6fe03258ec.png",
+          "orm": "e8ffaef4acee4efe281b.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_pist_usp_silencer",
+      "name": "USP-S",
+      "category": 0,
+      "slot": "pistol.start",
+      "team": 1,
+      "profile": "pistol",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_pist_usp_silencer",
+          "color": "e030e9e58e5205d0c7f3.png",
+          "normal": "9abfa55269a6b3b079c4.png",
+          "orm": "6e1c0a829d6331383b80.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_rif_ak47",
+      "name": "AK-47",
+      "category": 1,
+      "slot": "rifle.main",
+      "team": 2,
+      "profile": "ak",
+      "held": true,
+      "materials": [
+        {
+          "name": "sticker_gaps",
+          "color": "1896f9c6deff5acfdcc6.png",
+          "normal": "fc143bde6d1887c72433.png",
+          "orm": "d6c61241bbeca655b92f.png"
+        },
+        {
+          "name": "weapon_rif_ak47",
+          "color": "d55e82e27b47ebe0c85e.png",
+          "normal": "e49381716d993ad25ab4.png",
+          "orm": "ecf455148baf63bbcb5f.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_rif_aug",
+      "name": "AUG",
+      "category": 1,
+      "slot": "rifle.scope",
+      "team": 1,
+      "profile": "aug",
+      "held": true,
+      "materials": [
+        {
+          "name": "shared_scope_lens",
+          "color": "dbcbd3f40e0fee64d5cf.png",
+          "normal": "fc143bde6d1887c72433.png",
+          "orm": "b268c101627ac0d9e752.png"
+        },
+        {
+          "name": "weapon_rif_aug",
+          "color": "5a4406b7e90e25ced817.png",
+          "normal": "01f0d692574dcce0896b.png",
+          "orm": "e1c5953c24f5d4a123ff.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_rif_famas",
+      "name": "FAMAS",
+      "category": 1,
+      "slot": "rifle.budget",
+      "team": 1,
+      "profile": "famas",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_rif_famas",
+          "color": "aa9d9f84b344859876c0.png",
+          "normal": "a7437b954605237b9117.png",
+          "orm": "d57b53f6b0bd18524d37.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_rif_galilar",
+      "name": "Galil AR",
+      "category": 1,
+      "slot": "rifle.budget",
+      "team": 2,
+      "profile": "galil",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_rif_galilar",
+          "color": "5c0fc9d0b256819916e9.png",
+          "normal": "1310313a7f28c53952fa.png",
+          "orm": "d19cc0b9f8c7b1f2753b.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_rif_m4a1_silencer",
+      "name": "M4A1-S",
+      "category": 1,
+      "slot": "rifle.main",
+      "team": 1,
+      "profile": "m4",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_rif_m4a1_silencer",
+          "color": "97ad99b9dae00e01f268.png",
+          "normal": "b736f6eefba3cfd5fea6.png",
+          "orm": "1f84c2b07c9a90b370f3.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_rif_m4a4",
+      "name": "M4A4",
+      "category": 1,
+      "slot": "rifle.main",
+      "team": 1,
+      "profile": "m4",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_rif_m4a4",
+          "color": "fd33f7e80f90ed6711ed.png",
+          "normal": "b6ee8de42afa871fc91e.png",
+          "orm": "347be9726d61092ef2ac.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_rif_sg556",
+      "name": "SG 553",
+      "category": 1,
+      "slot": "rifle.scope",
+      "team": 2,
+      "profile": "ak",
+      "held": true,
+      "materials": [
+        {
+          "name": "shared_scope_lens",
+          "color": "dbcbd3f40e0fee64d5cf.png",
+          "normal": "fc143bde6d1887c72433.png",
+          "orm": "b268c101627ac0d9e752.png"
+        },
+        {
+          "name": "weapon_rif_sg556",
+          "color": "6aaf518a6e663ecb906f.png",
+          "normal": "700af7e9aeee4524fd31.png",
+          "orm": "7501441619c38c987182.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_shot_mag7",
+      "name": "MAG-7",
+      "category": 3,
+      "slot": "heavy.close",
+      "team": 1,
+      "profile": "mag7",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_shot_mag7",
+          "color": "1cf57197f3cc4570ffad.png",
+          "normal": "c1f2d8523adb6ea3f656.png",
+          "orm": "a94293b9ff749be3ea6a.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_shot_nova",
+      "name": "Nova",
+      "category": 3,
+      "slot": "heavy.pump",
+      "team": 3,
+      "profile": "nova",
+      "held": true,
+      "materials": [
+        {
+          "name": "nova_bullet",
+          "color": "805f3298cade146a3022.png",
+          "normal": "6d75eb53ca32ed4ec7e8.png",
+          "orm": "a56f1be15a6edc0d21d9.png"
+        },
+        {
+          "name": "weapon_shot_nova",
+          "color": "748538424b701a7341ea.png",
+          "normal": "ee2ef68032ac1a976fd3.png",
+          "orm": "0f0aaef387f70ac1693d.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_shot_sawedoff",
+      "name": "截短霰弹枪",
+      "category": 3,
+      "slot": "heavy.close",
+      "team": 2,
+      "profile": "shotgun",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_shot_sawedoff",
+          "color": "249c201015f5605ccd18.png",
+          "normal": "225b5fec153551ede9eb.png",
+          "orm": "0f0ca5206f476728a7af.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_shot_xm1014",
+      "name": "XM1014",
+      "category": 3,
+      "slot": "heavy.auto",
+      "team": 3,
+      "profile": "xm",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_shot_xm1014",
+          "color": "75db93632fafe7a58ace.png",
+          "normal": "7598a9679fb1f735d459.png",
+          "orm": "c125de0afd9358760774.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_smg_bizon",
+      "name": "PP-Bizon",
+      "category": 2,
+      "slot": "smg.bizon",
+      "team": 3,
+      "profile": "bizon",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_smg_bizon",
+          "color": "17f4157d3baf50c2e9a1.png",
+          "normal": "b6083959bae0e13a9bf7.png",
+          "orm": "50a22a7545bb273acabe.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_smg_mac10",
+      "name": "MAC-10",
+      "category": 2,
+      "slot": "smg.light",
+      "team": 2,
+      "profile": "mp7",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_smg_mac10",
+          "color": "3e6875791326815a2549.png",
+          "normal": "61262f4f0d03f9fce1c1.png",
+          "orm": "78ecd55c35bf83653058.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_smg_mp5sd",
+      "name": "MP5-SD",
+      "category": 2,
+      "slot": "smg.silenced",
+      "team": 3,
+      "profile": "mp7",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_smg_mp5sd",
+          "color": "9a881cbf02250c98b926.png",
+          "normal": "650a1f99964978c2ef4e.png",
+          "orm": "e9de15d280852249399e.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_smg_mp7",
+      "name": "MP7",
+      "category": 2,
+      "slot": "smg.silenced",
+      "team": 3,
+      "profile": "mp7",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_smg_mp7",
+          "color": "6e7e6a05fd136cd70610.png",
+          "normal": "77363e1d05698b107392.png",
+          "orm": "7286727678ff189307ee.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_smg_mp9",
+      "name": "MP9",
+      "category": 2,
+      "slot": "smg.light",
+      "team": 1,
+      "profile": "mp7",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_smg_mp9",
+          "color": "b55e1c9b58bf0be7ce77.png",
+          "normal": "35075c6db589c813669d.png",
+          "orm": "86db9cc21425c9f979d3.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_smg_p90",
+      "name": "P90",
+      "category": 2,
+      "slot": "smg.p90",
+      "team": 3,
+      "profile": "p90",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_smg_p90",
+          "color": "a374ec7601fa3773e3f5.png",
+          "normal": "c67564690578f68e4770.png",
+          "orm": "420e0109b5dc58d54866.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_smg_ump45",
+      "name": "UMP-45",
+      "category": 2,
+      "slot": "smg.ump",
+      "team": 3,
+      "profile": "ump",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_smg_ump45",
+          "color": "9cb043c84cfa2c5590bd.png",
+          "normal": "efdf432a95d99d03479a.png",
+          "orm": "dfb579fd57d453212ba0.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_smokegrenade",
+      "name": "烟雾弹",
+      "category": 4,
+      "slot": "gear.smoke",
+      "team": 3,
+      "profile": "grenade",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_smokegrenade",
+          "color": "e5428b958ccdaf57d2fb.png",
+          "normal": "24b2d91fc248309e6685.png",
+          "orm": "10d54c14206651dacd39.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_snip_awp",
+      "name": "AWP",
+      "category": 5,
+      "slot": "rifle.awp",
+      "team": 3,
+      "profile": "awp",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_snip_awp",
+          "color": "f8906a07cad0ed77f9f2.png",
+          "normal": "480549a839d411f7881f.png",
+          "orm": "9550c6fae361c862ed48.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_snip_g3sg1",
+      "name": "G3SG1",
+      "category": 5,
+      "slot": "rifle.auto",
+      "team": 2,
+      "profile": "g3sg",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_snip_g3sg1",
+          "color": "28a06f1f87204c39fc3d.png",
+          "normal": "4eb58c0687c6f32739bb.png",
+          "orm": "43bfe99063fb6ac2eb02.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_snip_scar20",
+      "name": "SCAR-20",
+      "category": 5,
+      "slot": "rifle.auto",
+      "team": 1,
+      "profile": "scar",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_snip_scar20",
+          "color": "283e172b671622d330f9.png",
+          "normal": "ee1b79b2e7d697d59096.png",
+          "orm": "05e2b9d22ac45f91e83a.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon_snip_ssg08",
+      "name": "SSG 08",
+      "category": 5,
+      "slot": "rifle.scout",
+      "team": 3,
+      "profile": "scout",
+      "held": true,
+      "materials": [
+        {
+          "name": "weapon_snip_ssg08",
+          "color": "86548cdd7326bf403d37.png",
+          "normal": "899e77625c376d695be1.png",
+          "orm": "638d2f69823163cd9766.png"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "id": "ak",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 215
+        },
+        {
+          "name": "Inspect",
+          "first": 216,
+          "last": 470
+        }
+      ]
+    },
+    {
+      "id": "aug",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 189
+        },
+        {
+          "name": "Inspect",
+          "first": 190,
+          "last": 380
+        }
+      ]
+    },
+    {
+      "id": "awp",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 552
+        },
+        {
+          "name": "Inspect",
+          "first": 553,
+          "last": 659
+        }
+      ]
+    },
+    {
+      "id": "bizon",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 599
+        },
+        {
+          "name": "Inspect",
+          "first": 600,
+          "last": 886
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 409
+        },
+        {
+          "name": "Inspect",
+          "first": 410,
+          "last": 704
+        }
+      ]
+    },
+    {
+      "id": "elite",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 585
+        },
+        {
+          "name": "Inspect",
+          "first": 586,
+          "last": 854
+        }
+      ]
+    },
+    {
+      "id": "famas",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 189
+        },
+        {
+          "name": "Inspect",
+          "first": 190,
+          "last": 380
+        }
+      ]
+    },
+    {
+      "id": "g3sg",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 215
+        },
+        {
+          "name": "Inspect",
+          "first": 216,
+          "last": 470
+        }
+      ]
+    },
+    {
+      "id": "galil",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 215
+        },
+        {
+          "name": "Inspect",
+          "first": 216,
+          "last": 470
+        }
+      ]
+    },
+    {
+      "id": "grenade",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 166
+        },
+        {
+          "name": "Inspect",
+          "first": 167,
+          "last": 563
+        }
+      ]
+    },
+    {
+      "id": "knife",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 316
+        },
+        {
+          "name": "Inspect",
+          "first": 317,
+          "last": 611
+        }
+      ]
+    },
+    {
+      "id": "m249",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 379
+        },
+        {
+          "name": "Inspect",
+          "first": 380,
+          "last": 510
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 552
+        },
+        {
+          "name": "Inspect",
+          "first": 553,
+          "last": 708
+        }
+      ]
+    },
+    {
+      "id": "mag7",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 189
+        },
+        {
+          "name": "Inspect",
+          "first": 190,
+          "last": 380
+        }
+      ]
+    },
+    {
+      "id": "molotov",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 304
+        },
+        {
+          "name": "Inspect",
+          "first": 305,
+          "last": 657
+        }
+      ]
+    },
+    {
+      "id": "mp7",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 793
+        },
+        {
+          "name": "Inspect",
+          "first": 794,
+          "last": 1013
+        }
+      ]
+    },
+    {
+      "id": "negev",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 379
+        },
+        {
+          "name": "Inspect",
+          "first": 380,
+          "last": 510
+        }
+      ]
+    },
+    {
+      "id": "nova",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 392
+        },
+        {
+          "name": "Inspect",
+          "first": 393,
+          "last": 496
+        }
+      ]
+    },
+    {
+      "id": "p90",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 189
+        },
+        {
+          "name": "Inspect",
+          "first": 190,
+          "last": 380
+        }
+      ]
+    },
+    {
+      "id": "pistol",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 793
+        },
+        {
+          "name": "Inspect",
+          "first": 794,
+          "last": 1013
+        }
+      ]
+    },
+    {
+      "id": "revolver",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 793
+        },
+        {
+          "name": "Inspect",
+          "first": 794,
+          "last": 1013
+        }
+      ]
+    },
+    {
+      "id": "scar",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 552
+        },
+        {
+          "name": "Inspect",
+          "first": 553,
+          "last": 708
+        }
+      ]
+    },
+    {
+      "id": "scout",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 552
+        },
+        {
+          "name": "Inspect",
+          "first": 553,
+          "last": 708
+        }
+      ]
+    },
+    {
+      "id": "shotgun",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 542
+        },
+        {
+          "name": "Inspect",
+          "first": 543,
+          "last": 738
+        }
+      ]
+    },
+    {
+      "id": "ump",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 599
+        },
+        {
+          "name": "Inspect",
+          "first": 600,
+          "last": 886
+        }
+      ]
+    },
+    {
+      "id": "xm",
+      "clips": [
+        {
+          "name": "Idle",
+          "first": 1,
+          "last": 392
+        },
+        {
+          "name": "Inspect",
+          "first": 393,
+          "last": 496
+        }
+      ]
+    }
+  ]
+}

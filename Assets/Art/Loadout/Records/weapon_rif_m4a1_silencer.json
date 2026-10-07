@@ -1,0 +1,18 @@
+{
+  "id": "weapon_rif_m4a1_silencer",
+  "name": "M4A1-S",
+  "category": 1,
+  "slot": "rifle.main",
+  "team": 1,
+  "profile": "m4",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_rif_m4a1_silencer",
+      "color": "97ad99b9dae00e01f268.png",
+      "normal": "b736f6eefba3cfd5fea6.png",
+      "orm": "1f84c2b07c9a90b370f3.png"
+    }
+  ],
+  "kind": "weapons"
+}

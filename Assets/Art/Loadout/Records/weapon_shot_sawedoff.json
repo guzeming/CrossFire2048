@@ -1,0 +1,18 @@
+{
+  "id": "weapon_shot_sawedoff",
+  "name": "截短霰弹枪",
+  "category": 3,
+  "slot": "heavy.close",
+  "team": 2,
+  "profile": "shotgun",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_shot_sawedoff",
+      "color": "249c201015f5605ccd18.png",
+      "normal": "225b5fec153551ede9eb.png",
+      "orm": "0f0ca5206f476728a7af.png"
+    }
+  ],
+  "kind": "weapons"
+}

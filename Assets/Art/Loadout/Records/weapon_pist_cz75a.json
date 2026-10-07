@@ -1,0 +1,18 @@
+{
+  "id": "weapon_pist_cz75a",
+  "name": "CZ75-Auto",
+  "category": 0,
+  "slot": "pistol.fast",
+  "team": 3,
+  "profile": "pistol",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_pist_cz75a",
+      "color": "6516888384c6ae19b243.png",
+      "normal": "79b8785d1fdfba9823e7.png",
+      "orm": "cace0fcf1a44dc7951b8.png"
+    }
+  ],
+  "kind": "weapons"
+}

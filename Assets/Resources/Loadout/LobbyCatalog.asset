@@ -1,0 +1,696 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f331947e20013f44298c623bd0f1d69a, type: 3}
+  m_Name: LobbyCatalog
+  m_EditorClassIdentifier: 
+  agents:
+  - id: ctm_fbi
+    displayName: FBI
+    team: 1
+    prefab: {fileID: 5325638142810992320, guid: 9263ab9feaae9e0499c22af07c070932,
+      type: 3}
+    portrait: {fileID: 21300000, guid: bb7bc00d1bfb5d340b033b117a43eae3, type: 3}
+  - id: ctm_gendarmerie_varianta
+    displayName: "\u6CD5\u56FD\u5BAA\u5175"
+    team: 1
+    prefab: {fileID: 4616838353945851957, guid: c7e1fe4afbf69164c8d0cdfc20238470,
+      type: 3}
+    portrait: {fileID: 21300000, guid: 672472238478f444e9f50a0ecf36a036, type: 3}
+  - id: ctm_sas
+    displayName: SAS
+    team: 1
+    prefab: {fileID: 6505682787434067021, guid: 3b2b102338a7dfb45aced07b260945cb,
+      type: 3}
+    portrait: {fileID: 21300000, guid: 60f9833091eeb34498d8f4adf539c543, type: 3}
+  - id: ctm_st6_variante
+    displayName: "\u6D77\u8C79\u516D\u961F"
+    team: 1
+    prefab: {fileID: 177140955386441511, guid: 48f3fd017c82c0b4c83bbaf5db59cf65, type: 3}
+    portrait: {fileID: 21300000, guid: 1cc1eabe47a81e546b7ad7b377435473, type: 3}
+  - id: ctm_swat_variante
+    displayName: SWAT
+    team: 1
+    prefab: {fileID: 6110983162799294967, guid: 1388abf70f2739f4b98e5144bd30da5a,
+      type: 3}
+    portrait: {fileID: 21300000, guid: 62b1103ce6ce64740b0359033106bab5, type: 3}
+  - id: tm_balkan_variantf
+    displayName: "\u5DF4\u5C14\u5E72\u6218\u58EB"
+    team: 2
+    prefab: {fileID: 1149237429112199897, guid: c15fcdad141ecb6458925657b2925bb9,
+      type: 3}
+    portrait: {fileID: 21300000, guid: 19abe5a64d777fc4e815c53677a0995f, type: 3}
+  - id: tm_jungle_raider_varianta
+    displayName: "\u4E1B\u6797\u7A81\u88AD\u8005"
+    team: 2
+    prefab: {fileID: 8559765625195542273, guid: 1cd4e9c31616bbe4b89953eafc6f7186,
+      type: 3}
+    portrait: {fileID: 21300000, guid: 681c08f90036fd142b3fa50b78832d80, type: 3}
+  - id: tm_leet_varianta
+    displayName: "\u7CBE\u82F1\u5206\u5B50"
+    team: 2
+    prefab: {fileID: 6758249890078888926, guid: e6e1d584387f7cf43bac72c55f7de5b8,
+      type: 3}
+    portrait: {fileID: 21300000, guid: 658f38e2548ee33478c67d858a2e07a1, type: 3}
+  - id: tm_phoenix
+    displayName: "\u51E4\u51F0\u6218\u58EB"
+    team: 2
+    prefab: {fileID: 6915100327327997085, guid: 0f4cbbdc9ee1b0646acfeb369ab88bfd,
+      type: 3}
+    portrait: {fileID: 21300000, guid: 1d610faa9d9fe5747aceea87c2c839c4, type: 3}
+  - id: tm_professional_varf
+    displayName: "\u4E13\u4E1A\u4EBA\u58EB"
+    team: 2
+    prefab: {fileID: 8288516007946636189, guid: 47e8c6e13affd254fa50dac3035fd0a2,
+      type: 3}
+    portrait: {fileID: 21300000, guid: 5891f9acd3be67c4f9693ed8620e99b0, type: 3}
+  weapons:
+  - id: weapon_pist_glock18
+    displayName: Glock-18
+    slot: pistol.start
+    profile: pistol
+    category: 0
+    teams: 2
+    held: 1
+    prefab: {fileID: 4296178476102446340, guid: f285d3ba7cafc134c88e08fe182cc4ef,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: e3f908428185d7749bc24e54e54e52ba, type: 3}
+  - id: weapon_pist_hkp2000
+    displayName: P2000
+    slot: pistol.start
+    profile: pistol
+    category: 0
+    teams: 1
+    held: 1
+    prefab: {fileID: 1582600892016010683, guid: 9877932c578e5ce4fb15f1b97bb3cd83,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: fb5f1e6e08d76cb49aeebe9e6878e1fd, type: 3}
+  - id: weapon_pist_usp_silencer
+    displayName: USP-S
+    slot: pistol.start
+    profile: pistol
+    category: 0
+    teams: 1
+    held: 1
+    prefab: {fileID: 3084655350949999887, guid: 8f1b584e8b20edc49ab14b4b690d9524,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: ab54c02d3db6eaa47a9962458c17ffca, type: 3}
+  - id: weapon_pist_elite
+    displayName: "\u53CC\u6301\u8D1D\u745E\u5854"
+    slot: pistol.dual
+    profile: elite
+    category: 0
+    teams: 3
+    held: 1
+    prefab: {fileID: 1829572098217983355, guid: 0a74ccd93141cea41a8aafc5e11efdb1,
+      type: 3}
+    offhandPrefab: {fileID: 4495570976393768532, guid: f9ff582b24b678746b423ff90d288d82,
+      type: 3}
+    thumbnail: {fileID: 21300000, guid: 4ff70668bb15b0d46b7285de0172b43d, type: 3}
+  - id: weapon_pist_p250
+    displayName: P250
+    slot: pistol.p250
+    profile: pistol
+    category: 0
+    teams: 3
+    held: 1
+    prefab: {fileID: 3194787324059509187, guid: 20903a153b905ec44af4feeba322ffda,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 41923371dd59e4d4eaf0736c07f964b1, type: 3}
+  - id: weapon_pist_cz75a
+    displayName: CZ75-Auto
+    slot: pistol.fast
+    profile: pistol
+    category: 0
+    teams: 3
+    held: 1
+    prefab: {fileID: 4600447221828569633, guid: 11ebce82e73d4924db50e75fda1e57d8,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: ba79baab842d8404cabe209241675096, type: 3}
+  - id: weapon_pist_fiveseven
+    displayName: Five-SeveN
+    slot: pistol.fast
+    profile: pistol
+    category: 0
+    teams: 1
+    held: 1
+    prefab: {fileID: 6885249419784329120, guid: 41c1314c7034a6c43b643fea46020982,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 8dcac12c2c5580c4d81226ebfef694a6, type: 3}
+  - id: weapon_pist_tec9
+    displayName: Tec-9
+    slot: pistol.fast
+    profile: pistol
+    category: 0
+    teams: 2
+    held: 1
+    prefab: {fileID: 1857306605492520069, guid: c62ccf1016cddef4a85db0176511a395,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: cf7727ce0cb866647aacc62edca0e59a, type: 3}
+  - id: weapon_pist_deagle
+    displayName: Desert Eagle
+    slot: pistol.heavy
+    profile: pistol
+    category: 0
+    teams: 3
+    held: 1
+    prefab: {fileID: 6478063436659504845, guid: f42a7807d260cc7458311896c8dccc27,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 1ca46eca40e16f641af10d09ec30ff30, type: 3}
+  - id: weapon_pist_revolver
+    displayName: "R8 \u5DE6\u8F6E"
+    slot: pistol.heavy
+    profile: revolver
+    category: 0
+    teams: 3
+    held: 1
+    prefab: {fileID: 1058466376947565183, guid: caf71b2f4bd1a4e43b69f95bffbf0c02,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 3d2e90ca0d93dca4f9d16fbe5d904757, type: 3}
+  - id: weapon_rif_famas
+    displayName: FAMAS
+    slot: rifle.budget
+    profile: famas
+    category: 1
+    teams: 1
+    held: 1
+    prefab: {fileID: 8390917441371998525, guid: cecb9f52e946bce43b6a22073e3cffeb,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: a8adb7a9b517ac742b3993fee3396795, type: 3}
+  - id: weapon_rif_galilar
+    displayName: Galil AR
+    slot: rifle.budget
+    profile: galil
+    category: 1
+    teams: 2
+    held: 1
+    prefab: {fileID: 7045600933807739304, guid: 316375ab0e3c42d4ebc6b17c52c8dbc4,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 1bad7f4ccf3816947b075a227052ac0e, type: 3}
+  - id: weapon_rif_ak47
+    displayName: AK-47
+    slot: rifle.main
+    profile: ak
+    category: 1
+    teams: 2
+    held: 1
+    prefab: {fileID: 6847128041328996014, guid: 560b1cfb6eb72064baa179f7563378b1,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 6d71f61a7cb11f04a87ff06a1e772589, type: 3}
+  - id: weapon_rif_m4a1_silencer
+    displayName: M4A1-S
+    slot: rifle.main
+    profile: m4
+    category: 1
+    teams: 1
+    held: 1
+    prefab: {fileID: 4703631124152528761, guid: 98142d87d22171642830e9b4b799c34f,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: f42a705b81987844cac5bf774bfc2a6e, type: 3}
+  - id: weapon_rif_m4a4
+    displayName: M4A4
+    slot: rifle.main
+    profile: m4
+    category: 1
+    teams: 1
+    held: 1
+    prefab: {fileID: 6951630336532880188, guid: 393455137a630694daeca8400a83b290,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 18f93b8daef6b0846a171d544d7c89cd, type: 3}
+  - id: weapon_rif_aug
+    displayName: AUG
+    slot: rifle.scope
+    profile: aug
+    category: 1
+    teams: 1
+    held: 1
+    prefab: {fileID: 1058372770726456479, guid: 4ff9587fd1fc1e04bbc5c28339dd6593,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: f52cbd0dbee00f44e8b2bd85ccf9737f, type: 3}
+  - id: weapon_rif_sg556
+    displayName: SG 553
+    slot: rifle.scope
+    profile: ak
+    category: 1
+    teams: 2
+    held: 1
+    prefab: {fileID: 2452406598248350190, guid: 353908a289c9d7048986763d101c09ad,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: c5a55a05e104b4149bde0ff17895a655, type: 3}
+  - id: weapon_snip_ssg08
+    displayName: SSG 08
+    slot: rifle.scout
+    profile: scout
+    category: 5
+    teams: 3
+    held: 1
+    prefab: {fileID: 1772447256395176260, guid: 3ad74a51bf651d74a998ef634930253a,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: bdc1148bb41da884fa58742f267253ac, type: 3}
+  - id: weapon_snip_awp
+    displayName: AWP
+    slot: rifle.awp
+    profile: awp
+    category: 5
+    teams: 3
+    held: 1
+    prefab: {fileID: 3812530926139037223, guid: 33a61712ed453c048a393ff8315dc6ba,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 6ba9cd6a1a1199943ba519fbcb396042, type: 3}
+  - id: weapon_snip_g3sg1
+    displayName: G3SG1
+    slot: rifle.auto
+    profile: g3sg
+    category: 5
+    teams: 2
+    held: 1
+    prefab: {fileID: 1810993762169740441, guid: 7a6568054e294cb4fba4038941746740,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 28de6f4456f44cb41934925e18addbee, type: 3}
+  - id: weapon_snip_scar20
+    displayName: SCAR-20
+    slot: rifle.auto
+    profile: scar
+    category: 5
+    teams: 1
+    held: 1
+    prefab: {fileID: 1052972516307479613, guid: f15cc83dba9a7da4ca6fb4da68c7955d,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 391122e2219de034baa394e7fac7ff19, type: 3}
+  - id: weapon_smg_mac10
+    displayName: MAC-10
+    slot: smg.light
+    profile: mp7
+    category: 2
+    teams: 2
+    held: 1
+    prefab: {fileID: 8155850592233954250, guid: 66356e8d358bd3242bd77d5945200745,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 7fea6808f411a164f846cd456661eafc, type: 3}
+  - id: weapon_smg_mp9
+    displayName: MP9
+    slot: smg.light
+    profile: mp7
+    category: 2
+    teams: 1
+    held: 1
+    prefab: {fileID: 3729691498182594010, guid: 8445bc228e38bcf459221d24ee35cbe4,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: bea4ffe67437a654dbbb1d520d75d6b3, type: 3}
+  - id: weapon_smg_mp5sd
+    displayName: MP5-SD
+    slot: smg.silenced
+    profile: mp7
+    category: 2
+    teams: 3
+    held: 1
+    prefab: {fileID: 8249648139010683126, guid: 30237cb3ecb9d2d4cb16aeda550d7e98,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: d12bccd95c1f43c4faf6d71b430152d1, type: 3}
+  - id: weapon_smg_mp7
+    displayName: MP7
+    slot: smg.silenced
+    profile: mp7
+    category: 2
+    teams: 3
+    held: 1
+    prefab: {fileID: 4090883918730683181, guid: cd7cbe658dc93d7428ecdcbe1f493a4f,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 86e24700e21f621418f71ff8ebba625c, type: 3}
+  - id: weapon_smg_ump45
+    displayName: UMP-45
+    slot: smg.ump
+    profile: ump
+    category: 2
+    teams: 3
+    held: 1
+    prefab: {fileID: 2195040718574560642, guid: d52ede5d63268014fb0c62383804c83d,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: f1313aeffa7eda749a773f71f55b7c39, type: 3}
+  - id: weapon_smg_p90
+    displayName: P90
+    slot: smg.p90
+    profile: p90
+    category: 2
+    teams: 3
+    held: 1
+    prefab: {fileID: 3879914329842811926, guid: 364e5ba85b2496b48b02fbd02f99d41b,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: b68b42e2903e1e04f938caf1b10d45eb, type: 3}
+  - id: weapon_smg_bizon
+    displayName: PP-Bizon
+    slot: smg.bizon
+    profile: bizon
+    category: 2
+    teams: 3
+    held: 1
+    prefab: {fileID: 410454812783659083, guid: a874ff49a7dfbff498336d6fe68ff38b, type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: e41755b57226dc04191e9be7f342252d, type: 3}
+  - id: weapon_shot_nova
+    displayName: Nova
+    slot: heavy.pump
+    profile: nova
+    category: 3
+    teams: 3
+    held: 1
+    prefab: {fileID: 8972558979753103806, guid: 6a696075dbe4f53428d4fe35083fd13a,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 6dcb87b84e0f21d4e91bdf5535121770, type: 3}
+  - id: weapon_shot_xm1014
+    displayName: XM1014
+    slot: heavy.auto
+    profile: xm
+    category: 3
+    teams: 3
+    held: 1
+    prefab: {fileID: 6213641545273479186, guid: 501fafd7212030b48b8b428bb1f0d709,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: d481922734a30864ba39d41c221ac661, type: 3}
+  - id: weapon_shot_mag7
+    displayName: MAG-7
+    slot: heavy.close
+    profile: mag7
+    category: 3
+    teams: 1
+    held: 1
+    prefab: {fileID: 5590930208521222580, guid: ac5e3e7e3eee43d4884f989b395c1bb9,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 33f9f7550aff2124d92d8cee2ba11298, type: 3}
+  - id: weapon_shot_sawedoff
+    displayName: "\u622A\u77ED\u9730\u5F39\u67AA"
+    slot: heavy.close
+    profile: shotgun
+    category: 3
+    teams: 2
+    held: 1
+    prefab: {fileID: 4560175237678818788, guid: 77d56c87b20fda24d947bc1e1314de22,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 7e3a0a0c6050d3441b5fef74ce41fe77, type: 3}
+  - id: weapon_mach_m249
+    displayName: M249
+    slot: heavy.m249
+    profile: m249
+    category: 3
+    teams: 3
+    held: 1
+    prefab: {fileID: 1162003474930921696, guid: e5968d21504d6ee4bb6ff0e4e8b01ab2,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 35e597e95c76aec4db3bdf0827224f37, type: 3}
+  - id: weapon_mach_negev
+    displayName: Negev
+    slot: heavy.negev
+    profile: negev
+    category: 3
+    teams: 3
+    held: 1
+    prefab: {fileID: 4126251764263942981, guid: 9226abe5378ad5349a14108985501627,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 7b3834c1938d0d5418d57d0b00c6ff10, type: 3}
+  - id: weapon_knife_default_ct
+    displayName: "CT \u6218\u672F\u5315\u9996"
+    slot: gear.knife
+    profile: knife
+    category: 4
+    teams: 1
+    held: 1
+    prefab: {fileID: 3188324045579358223, guid: 74237995412dfa841958a3e423c1a4b9,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: cb64adb4eb4132f47b7b192521eadee3, type: 3}
+  - id: weapon_knife_default_t
+    displayName: "T \u6218\u672F\u5315\u9996"
+    slot: gear.knife
+    profile: knife
+    category: 4
+    teams: 2
+    held: 1
+    prefab: {fileID: 4963330313558764730, guid: 43c8960a500e83f42a6d5cdbbe6e63d1,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 3ed4edf4d9ba64a47b49b2c2ee55c0e1, type: 3}
+  - id: weapon_flashbang
+    displayName: "\u95EA\u5149\u5F39"
+    slot: gear.flash
+    profile: grenade
+    category: 4
+    teams: 3
+    held: 1
+    prefab: {fileID: 3598641574691298777, guid: 53448181f8a8766468d6ec8880d92a11,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 6210e43b87f6ab842a2a0c476c54c2fd, type: 3}
+  - id: weapon_hegrenade
+    displayName: "\u9AD8\u7206\u624B\u96F7"
+    slot: gear.he
+    profile: grenade
+    category: 4
+    teams: 3
+    held: 1
+    prefab: {fileID: 8436930571294762024, guid: 2a82c666af617b14db8567bf8b99c5b6,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 05728db09573b0747aa2bd74bed950c9, type: 3}
+  - id: weapon_smokegrenade
+    displayName: "\u70DF\u96FE\u5F39"
+    slot: gear.smoke
+    profile: grenade
+    category: 4
+    teams: 3
+    held: 1
+    prefab: {fileID: 2743817449565035730, guid: d73cc6997cc9de6419a25b3eb05f5a1e,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 2b42280357cd6a940a9a036de7874861, type: 3}
+  - id: weapon_decoy
+    displayName: "\u8BF1\u9975\u624B\u96F7"
+    slot: gear.decoy
+    profile: grenade
+    category: 4
+    teams: 3
+    held: 1
+    prefab: {fileID: 4810230353035169726, guid: e7e1a8ff66d036f448367f72cde45c81,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 8100646ac6705524bb4b7f9ec5656d9c, type: 3}
+  - id: weapon_incendiarygrenade
+    displayName: "\u71C3\u70E7\u5F39"
+    slot: gear.fire
+    profile: grenade
+    category: 4
+    teams: 1
+    held: 1
+    prefab: {fileID: 935126562629344877, guid: f93aa40b75ea80f4f8781c1cebe66d1a, type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 83d1def8d472a2f45a9f59738a2f0318, type: 3}
+  - id: weapon_molotov
+    displayName: "\u71C3\u70E7\u74F6"
+    slot: gear.fire
+    profile: molotov
+    category: 4
+    teams: 2
+    held: 1
+    prefab: {fileID: 5716039670897675934, guid: 8bc2fbff03800794a953911a1d148bd0,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 107bbc7395d521a48a50cd5d0f748bd5, type: 3}
+  - id: weapon_pist_taser
+    displayName: Zeus x27
+    slot: gear.taser
+    profile: pistol
+    category: 4
+    teams: 3
+    held: 1
+    prefab: {fileID: 5609249669518163371, guid: 0b39dcb6cf0d35540b0d2301f0487f23,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 007ba7602c0723043bcb8e201012a60a, type: 3}
+  - id: w_eq_armor
+    displayName: "\u9632\u5F39\u8863"
+    slot: gear.armor
+    profile: 
+    category: 4
+    teams: 3
+    held: 0
+    prefab: {fileID: 2904014129330150019, guid: f0af3a75044c6064f9495a677cf7a526,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: faae514a428c86047bade5f221207653, type: 3}
+  - id: w_eq_armor_helmet
+    displayName: "\u9632\u5F39\u8863 + \u5934\u76D4"
+    slot: gear.helmet
+    profile: 
+    category: 4
+    teams: 3
+    held: 0
+    prefab: {fileID: 9078165015797485503, guid: 015a3e9f9d16d3c499ab5d7b2052efaa,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 88af9fe38cc7a514583d861770ca8986, type: 3}
+  - id: defuser
+    displayName: "\u62C6\u5F39\u5668"
+    slot: gear.defuser
+    profile: 
+    category: 4
+    teams: 1
+    held: 0
+    prefab: {fileID: 7638799848371326521, guid: ea1683e7abf14a3449471fb11f6e5a7d,
+      type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: c99f2319f8abaaa4d8f0ff8453e1c0ca, type: 3}
+  - id: weapon_c4
+    displayName: "C4 \u70B8\u5F39"
+    slot: gear.c4
+    profile: c4
+    category: 4
+    teams: 2
+    held: 1
+    prefab: {fileID: 454059001773175468, guid: e6873b2c33bd666428296a409a3e17f8, type: 3}
+    offhandPrefab: {fileID: 0}
+    thumbnail: {fileID: 21300000, guid: 39117c8d64ee8a04b992cbb8c976569a, type: 3}
+  poses:
+  - id: ak
+    idle: {fileID: -623603649343465320, guid: 867c1d52dfee05c4cbfe636b0ad625b0, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: 867c1d52dfee05c4cbfe636b0ad625b0,
+      type: 3}
+  - id: aug
+    idle: {fileID: -623603649343465320, guid: 5e1c1a9cf0250984391c956cbbf87bb8, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: 5e1c1a9cf0250984391c956cbbf87bb8,
+      type: 3}
+  - id: awp
+    idle: {fileID: -623603649343465320, guid: af45ac9150e610647a55287ee79cca7e, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: af45ac9150e610647a55287ee79cca7e,
+      type: 3}
+  - id: bizon
+    idle: {fileID: -623603649343465320, guid: b2a0ec750d73d4d4f99493bb721d74a5, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: b2a0ec750d73d4d4f99493bb721d74a5,
+      type: 3}
+  - id: c4
+    idle: {fileID: -623603649343465320, guid: 3e4f962f45f85904ca794f9ab6f5ad0a, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: 3e4f962f45f85904ca794f9ab6f5ad0a,
+      type: 3}
+  - id: elite
+    idle: {fileID: -623603649343465320, guid: 8fe6d0bb5f1de8c4984fd8a9520930bd, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: 8fe6d0bb5f1de8c4984fd8a9520930bd,
+      type: 3}
+  - id: famas
+    idle: {fileID: -623603649343465320, guid: 38963d2041d8de6429465a138c4c4268, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: 38963d2041d8de6429465a138c4c4268,
+      type: 3}
+  - id: g3sg
+    idle: {fileID: -623603649343465320, guid: 91bfb4f3ac1f90f4b922efa730906c5e, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: 91bfb4f3ac1f90f4b922efa730906c5e,
+      type: 3}
+  - id: galil
+    idle: {fileID: -623603649343465320, guid: ba17ebf16da14e7439a6cf5b27677c1a, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: ba17ebf16da14e7439a6cf5b27677c1a,
+      type: 3}
+  - id: grenade
+    idle: {fileID: -623603649343465320, guid: 8184feb8214d74c438a6e40244805738, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: 8184feb8214d74c438a6e40244805738,
+      type: 3}
+  - id: knife
+    idle: {fileID: -623603649343465320, guid: e431ee40834c2cf40aecfed1e62219b2, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: e431ee40834c2cf40aecfed1e62219b2,
+      type: 3}
+  - id: m249
+    idle: {fileID: -623603649343465320, guid: c5810387da94ac94f81e47dfbe8ef2e2, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: c5810387da94ac94f81e47dfbe8ef2e2,
+      type: 3}
+  - id: m4
+    idle: {fileID: -623603649343465320, guid: a8d10c042bde1264e8fd47ba6d57d070, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: a8d10c042bde1264e8fd47ba6d57d070,
+      type: 3}
+  - id: mag7
+    idle: {fileID: -623603649343465320, guid: ace21c420ed014a4281f86858a64e296, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: ace21c420ed014a4281f86858a64e296,
+      type: 3}
+  - id: molotov
+    idle: {fileID: -623603649343465320, guid: fd857312e96000343bc012f629bcb506, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: fd857312e96000343bc012f629bcb506,
+      type: 3}
+  - id: mp7
+    idle: {fileID: -623603649343465320, guid: f3d041be085857c499bdbd9128438a93, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: f3d041be085857c499bdbd9128438a93,
+      type: 3}
+  - id: negev
+    idle: {fileID: -623603649343465320, guid: 541fcf62f685e6648a1bfb690abd6927, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: 541fcf62f685e6648a1bfb690abd6927,
+      type: 3}
+  - id: nova
+    idle: {fileID: -623603649343465320, guid: 38e2b71777cfb444fa29e84c2f0fad31, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: 38e2b71777cfb444fa29e84c2f0fad31,
+      type: 3}
+  - id: p90
+    idle: {fileID: -623603649343465320, guid: 2564e9341bca83b499bdc9cac42ae540, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: 2564e9341bca83b499bdc9cac42ae540,
+      type: 3}
+  - id: pistol
+    idle: {fileID: -623603649343465320, guid: 4d5d6bff887e76f489f26754664c3ece, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: 4d5d6bff887e76f489f26754664c3ece,
+      type: 3}
+  - id: revolver
+    idle: {fileID: -623603649343465320, guid: 5d4f00ba7c345074b886a04680c42ce7, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: 5d4f00ba7c345074b886a04680c42ce7,
+      type: 3}
+  - id: scar
+    idle: {fileID: -623603649343465320, guid: c8f47eadeccabf24ba7e9560b750819d, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: c8f47eadeccabf24ba7e9560b750819d,
+      type: 3}
+  - id: scout
+    idle: {fileID: -623603649343465320, guid: 6e3d3ab2cc68320408fc044f261c2b35, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: 6e3d3ab2cc68320408fc044f261c2b35,
+      type: 3}
+  - id: shotgun
+    idle: {fileID: -623603649343465320, guid: 538ee9e3e38cbfc489122c0ea53e87ec, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: 538ee9e3e38cbfc489122c0ea53e87ec,
+      type: 3}
+  - id: ump
+    idle: {fileID: -623603649343465320, guid: 8ff155ea223b85e4d9239ddf37f19a81, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: 8ff155ea223b85e4d9239ddf37f19a81,
+      type: 3}
+  - id: xm
+    idle: {fileID: -623603649343465320, guid: cc8efc91bfb086f43af04c272381cea0, type: 3}
+    inspect: {fileID: -1609281748187839663, guid: cc8efc91bfb086f43af04c272381cea0,
+      type: 3}
+  controller: {fileID: 9100000, guid: d9569619ae404ad42818856c89b6acac, type: 2}

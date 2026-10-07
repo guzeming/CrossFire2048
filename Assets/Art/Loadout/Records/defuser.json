@@ -1,0 +1,18 @@
+{
+  "id": "defuser",
+  "name": "拆弹器",
+  "category": 4,
+  "slot": "gear.defuser",
+  "team": 1,
+  "profile": "",
+  "held": false,
+  "materials": [
+    {
+      "name": "w_eq_defuser",
+      "color": "91f2ccf3674e0ef6bdcd.png",
+      "normal": "9c1e94a9dbd505bea382.png",
+      "orm": "9c2bb87e48b8dac44be9.png"
+    }
+  ],
+  "kind": "weapons"
+}

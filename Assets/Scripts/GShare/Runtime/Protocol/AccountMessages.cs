@@ -1,6 +1,6 @@
 using System;
 
-namespace CrossFire2048.Shared.Protocol
+namespace OperationBlacktide.Shared.Protocol
 {
     /// <summary>
     /// 账户相关消息的统一结果码，客户端可据此显示提示。

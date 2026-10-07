@@ -1,0 +1,16 @@
+{
+  "id": "elite",
+  "clips": [
+    {
+      "name": "Idle",
+      "first": 1,
+      "last": 585
+    },
+    {
+      "name": "Inspect",
+      "first": 586,
+      "last": 854
+    }
+  ],
+  "kind": "profiles"
+}

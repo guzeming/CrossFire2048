@@ -1,0 +1,39 @@
+{
+  "id": "ctm_st6_variante",
+  "name": "海豹六队",
+  "team": 1,
+  "materials": [
+    {
+      "name": "ctm_st6_gen_pant_variante",
+      "color": "217e66c81bceedf9ed7b.png",
+      "normal": "e2b66b8d4a4ca2ecf67a.png",
+      "orm": "437b5006012c3e037ffd.png"
+    },
+    {
+      "name": "ctm_st6_generalist_upperbody",
+      "color": "bb791b6563a1c20b5946.png",
+      "normal": "7c85955d087f06c27ee1.png",
+      "orm": "22c6108a6773ec336a73.png"
+    },
+    {
+      "name": "ctm_st6_night_vision_helmet",
+      "color": "681b63d00644af5c85fe.png",
+      "normal": "bfac6ce50ca764c729e8.png",
+      "orm": "eb0bcf500118fffbe2ae.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "67a4229a913ad1b16146.png",
+      "normal": "2454904008e64d88948a.png",
+      "orm": "304310b1f55907832b3f.png"
+    },
+    {
+      "name": "w_eq_defuser",
+      "color": "91f2ccf3674e0ef6bdcd.png",
+      "normal": "9c1e94a9dbd505bea382.png",
+      "orm": "9c2bb87e48b8dac44be9.png"
+    }
+  ],
+  "boneRemaps": {},
+  "kind": "agents"
+}

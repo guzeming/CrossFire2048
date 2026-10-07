@@ -3,8 +3,8 @@ setlocal
 
 pushd "%~dp0.."
 
-echo Building CrossFire2048 server...
-dotnet build "GServer\CrossFire2048.Server\CrossFire2048.Server.csproj"
+echo Building OperationBlacktide server...
+dotnet build "GServer\OperationBlacktide.Server\OperationBlacktide.Server.csproj"
 
 if errorlevel 1 (
     echo.

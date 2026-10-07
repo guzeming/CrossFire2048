@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/LobbyScene.unity
+    guid: 1001e63b23d83ea40abd7d4849c00240
+  - enabled: 1
+    path: Assets/Scenes/DustII.unity
+    guid: 247ddbba07891484687f3468d35f36bb
   m_configObjects: {}

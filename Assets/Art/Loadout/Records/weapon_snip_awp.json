@@ -1,0 +1,18 @@
+{
+  "id": "weapon_snip_awp",
+  "name": "AWP",
+  "category": 5,
+  "slot": "rifle.awp",
+  "team": 3,
+  "profile": "awp",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_snip_awp",
+      "color": "f8906a07cad0ed77f9f2.png",
+      "normal": "480549a839d411f7881f.png",
+      "orm": "9550c6fae361c862ed48.png"
+    }
+  ],
+  "kind": "weapons"
+}

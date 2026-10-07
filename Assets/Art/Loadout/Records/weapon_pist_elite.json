@@ -1,0 +1,18 @@
+{
+  "id": "weapon_pist_elite",
+  "name": "双持贝瑞塔",
+  "category": 0,
+  "slot": "pistol.dual",
+  "team": 3,
+  "profile": "elite",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_pist_elite",
+      "color": "9771dfbd41e51ca3c904.png",
+      "normal": "79bfaef41793d2cc440e.png",
+      "orm": "4ad7ebe6e10b3d41475a.png"
+    }
+  ],
+  "kind": "weapons"
+}

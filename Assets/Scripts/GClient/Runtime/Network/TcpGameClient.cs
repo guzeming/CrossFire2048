@@ -5,11 +5,11 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using CrossFire2048.Client.App;
-using CrossFire2048.Shared.Protocol;
+using OperationBlacktide.Client.App;
+using OperationBlacktide.Shared.Protocol;
 using UnityEngine;
 
-namespace CrossFire2048.Client.Network
+namespace OperationBlacktide.Client.Network
 {
     public enum ClientConnectionState
     {
@@ -97,7 +97,7 @@ namespace CrossFire2048.Client.Network
                 State = ClientConnectionState.Connected;
                 EnqueueMainThread(() => Connected?.Invoke());
 
-                _ = ReceiveLoopAsync(_cts.Token);
+                _ = ReceiveLoopAsync(_reader, _cts.Token);
             }
             catch (Exception ex)
             {
@@ -143,13 +143,13 @@ namespace CrossFire2048.Client.Network
             EnqueueMainThread(() => Disconnected?.Invoke(reason));
         }
 
-        private async Task ReceiveLoopAsync(CancellationToken token)
+        private async Task ReceiveLoopAsync(StreamReader reader, CancellationToken token)
         {
             try
             {
                 while (!token.IsCancellationRequested)
                 {
-                    string line = await _reader.ReadLineAsync();
+                    string line = await reader.ReadLineAsync();
                     if (line == null)
                     {
                         break;
@@ -158,16 +158,25 @@ namespace CrossFire2048.Client.Network
                     NetworkMessage message = NetworkMessageCodec.DecodeEnvelope(line);
                     if (message != null)
                     {
-                        EnqueueMainThread(() => MessageReceived?.Invoke(message));
+                        EnqueueMainThread(() =>
+                        {
+                            if (!token.IsCancellationRequested) MessageReceived?.Invoke(message);
+                        });
                     }
                 }
 
-                EnqueueMainThread(() => Disconnect("服务器断开连接"));
+                EnqueueMainThread(() =>
+                {
+                    if (!token.IsCancellationRequested) Disconnect("服务器断开连接");
+                });
             }
             catch (Exception ex)
             {
+                // 主动退出后的旧接收任务可能晚于新连接结束；不能让旧任务断开新连接。
+                if (token.IsCancellationRequested) return;
                 EnqueueMainThread(() =>
                 {
+                    if (token.IsCancellationRequested) return;
                     ErrorReceived?.Invoke($"接收消息失败：{ex.Message}");
                     Disconnect("接收失败");
                 });

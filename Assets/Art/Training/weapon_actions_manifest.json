@@ -1,0 +1,40 @@
+{
+  "clips": [
+    {
+      "name": "fire_ak",
+      "first": 1,
+      "last": 19,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_ak/shoot_ak.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_ak",
+      "first": 20,
+      "last": 93,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_ak/reload_ak.gltf"
+    },
+    {
+      "name": "fire_m4a4",
+      "first": 94,
+      "last": 106,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_m4a4/shoot_m4a4.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_m4a4",
+      "first": 107,
+      "last": 199,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_m4a4/reload_m4a4.gltf"
+    },
+    {
+      "name": "fire_m4a1s",
+      "first": 200,
+      "last": 212,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_m4a1_silencer/shoot_m4a1s.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_m4a1s",
+      "first": 213,
+      "last": 305,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_m4a1_silencer/reload_m4a1s.gltf"
+    }
+  ]
+}

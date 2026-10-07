@@ -1,4 +1,4 @@
-namespace CrossFire2048.Client.Common
+namespace OperationBlacktide.Client.Common
 {
     /// <summary>
     /// 全局游戏事件 ID。用于跨模块、跨 UI 的轻量事件广播。

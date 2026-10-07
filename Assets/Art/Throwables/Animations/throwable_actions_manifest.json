@@ -1,0 +1,46 @@
+{
+  "clips": [
+    {
+      "name": "draw_grenade",
+      "first": 1,
+      "last": 25,
+      "source": "Batch/RawAnimations/animation/anims/world/grenade/_default_grenade/draw_grenade.gltf"
+    },
+    {
+      "name": "idle_grenade",
+      "first": 26,
+      "last": 27,
+      "source": "Batch/RawAnimations/animation/anims/world/grenade/_default_grenade/idle_grenade.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "prepare_grenade",
+      "first": 28,
+      "last": 57,
+      "source": "Batch/RawAnimations/animation/anims/world/grenade/_default_grenade/pullpin_grenade.gltf"
+    },
+    {
+      "name": "throw_grenade",
+      "first": 58,
+      "last": 92,
+      "source": "Batch/RawAnimations/animation/anims/world/grenade/_default_grenade/throw_overhand_grenade.gltf"
+    },
+    {
+      "name": "draw_molotov",
+      "first": 93,
+      "last": 123,
+      "source": "Batch/RawAnimations/animation/anims/world/grenade/grenade_molotov/draw_molotov.gltf"
+    },
+    {
+      "name": "idle_molotov",
+      "first": 124,
+      "last": 125,
+      "source": "Batch/RawAnimations/animation/anims/world/grenade/grenade_molotov/idle_molotov.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "prepare_molotov",
+      "first": 126,
+      "last": 159,
+      "source": "Batch/RawAnimations/animation/anims/world/grenade/grenade_molotov/pullpin_molotov.gltf"
+    }
+  ]
+}

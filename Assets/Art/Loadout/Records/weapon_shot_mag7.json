@@ -1,0 +1,18 @@
+{
+  "id": "weapon_shot_mag7",
+  "name": "MAG-7",
+  "category": 3,
+  "slot": "heavy.close",
+  "team": 1,
+  "profile": "mag7",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_shot_mag7",
+      "color": "1cf57197f3cc4570ffad.png",
+      "normal": "c1f2d8523adb6ea3f656.png",
+      "orm": "a94293b9ff749be3ea6a.png"
+    }
+  ],
+  "kind": "weapons"
+}

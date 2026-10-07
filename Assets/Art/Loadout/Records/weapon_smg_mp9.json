@@ -1,0 +1,18 @@
+{
+  "id": "weapon_smg_mp9",
+  "name": "MP9",
+  "category": 2,
+  "slot": "smg.light",
+  "team": 1,
+  "profile": "mp7",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_smg_mp9",
+      "color": "b55e1c9b58bf0be7ce77.png",
+      "normal": "35075c6db589c813669d.png",
+      "orm": "86db9cc21425c9f979d3.png"
+    }
+  ],
+  "kind": "weapons"
+}

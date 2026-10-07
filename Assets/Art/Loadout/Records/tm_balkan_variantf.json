@@ -1,0 +1,33 @@
+{
+  "id": "tm_balkan_variantf",
+  "name": "巴尔干战士",
+  "team": 2,
+  "materials": [
+    {
+      "name": "glove_fullfinger",
+      "color": "48b341c75ec00dbc5e9d.png",
+      "normal": "a4a3c0f9ee3cdf775efa.png",
+      "orm": "9adafd9fb4b7e134c259.png"
+    },
+    {
+      "name": "tm_balkan_v2_body_variantd",
+      "color": "a51835041b0670ea4325.png",
+      "normal": "b5df0edb921a0bd836ed.png",
+      "orm": "2afa2520910199ed0783.png"
+    },
+    {
+      "name": "tm_balkan_v2_head_varianta",
+      "color": "b784450195b51a5b4067.png",
+      "normal": "d19d70cc9d01e6b8c661.png",
+      "orm": "2c14008389df9a46a835.png"
+    },
+    {
+      "name": "tm_balkan_v2_lower_body_variantd",
+      "color": "d502b8f526dd481bb0b3.png",
+      "normal": "11b6033d2532ae6e6f04.png",
+      "orm": "430fdc51caba77aaa5fd.png"
+    }
+  ],
+  "boneRemaps": {},
+  "kind": "agents"
+}

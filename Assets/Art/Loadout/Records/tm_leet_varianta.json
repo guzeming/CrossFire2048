@@ -1,0 +1,39 @@
+{
+  "id": "tm_leet_varianta",
+  "name": "精英分子",
+  "team": 2,
+  "materials": [
+    {
+      "name": "bare_arm_55",
+      "color": "aab0a7236ac7e782bb20.png",
+      "normal": "10dd463dff0288eac575.png",
+      "orm": "d44d0bce4e4ba8ee8d0c.png"
+    },
+    {
+      "name": "glove_fingerless",
+      "color": "9157e04d0bc09efdd1f4.png",
+      "normal": "50b0cc773ae888e4794a.png",
+      "orm": "f996cb581d335c12e131.png"
+    },
+    {
+      "name": "tm_leet_v2_body_varianta",
+      "color": "110174bfb84b8f25135b.png",
+      "normal": "c54fa26e565b4244eb74.png",
+      "orm": "58793c759c96d23cea75.png"
+    },
+    {
+      "name": "tm_leet_v2_head_varianta",
+      "color": "469d1dc90bb19980d9f3.png",
+      "normal": "e34ba7956715ae2e24ed.png",
+      "orm": "490abc7812c69ba30479.png"
+    },
+    {
+      "name": "tm_leet_v2_lower_body_varianta",
+      "color": "59a48c10e102af46971d.png",
+      "normal": "c4e9159cee2f26101a62.png",
+      "orm": "ffb19542dd3c11c298cf.png"
+    }
+  ],
+  "boneRemaps": {},
+  "kind": "agents"
+}

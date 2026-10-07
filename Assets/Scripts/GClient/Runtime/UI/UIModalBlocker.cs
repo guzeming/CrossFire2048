@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace CrossFire2048.Client.UI
+namespace OperationBlacktide.Client.UI
 {
     /// <summary>
     /// 全屏半透明遮罩，拦截射线，防止点击穿透到下层 UI。
@@ -50,6 +50,9 @@ namespace CrossFire2048.Client.UI
             gameObject.SetActive(true);
 
             int panelIndex = panel.transform.GetSiblingIndex();
+            // Moving an earlier sibling forward also shifts the panel back one index.
+            // Keep the blocker immediately BELOW the modal, including cached panels reopened later.
+            if (transform.GetSiblingIndex() < panelIndex) panelIndex--;
             transform.SetSiblingIndex(panelIndex);
         }
 

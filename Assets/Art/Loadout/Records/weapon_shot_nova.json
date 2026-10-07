@@ -1,0 +1,24 @@
+{
+  "id": "weapon_shot_nova",
+  "name": "Nova",
+  "category": 3,
+  "slot": "heavy.pump",
+  "team": 3,
+  "profile": "nova",
+  "held": true,
+  "materials": [
+    {
+      "name": "nova_bullet",
+      "color": "805f3298cade146a3022.png",
+      "normal": "6d75eb53ca32ed4ec7e8.png",
+      "orm": "a56f1be15a6edc0d21d9.png"
+    },
+    {
+      "name": "weapon_shot_nova",
+      "color": "748538424b701a7341ea.png",
+      "normal": "ee2ef68032ac1a976fd3.png",
+      "orm": "0f0aaef387f70ac1693d.png"
+    }
+  ],
+  "kind": "weapons"
+}

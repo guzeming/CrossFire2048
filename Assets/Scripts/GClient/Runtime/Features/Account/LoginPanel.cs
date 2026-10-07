@@ -1,13 +1,14 @@
-using CrossFire2048.Client.Common;
-using CrossFire2048.Client.UI;
-using CrossFire2048.Shared.Protocol;
+using OperationBlacktide.Client.App;
+using OperationBlacktide.Client.Common;
+using OperationBlacktide.Client.UI;
+using OperationBlacktide.Shared.Protocol;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace CrossFire2048.Client.Features.Account
+namespace OperationBlacktide.Client.Features.Account
 {
     /// <summary>
-    /// 登录/注册面板。登录成功后 Push Lobby。
+    /// 登录/注册面板。场景跳转由 GameSceneFlow 在收到登录成功后处理。
     /// </summary>
     public sealed class LoginPanel : UIPanel
     {
@@ -20,18 +21,23 @@ namespace CrossFire2048.Client.Features.Account
 
         protected override void OnOpen(object args)
         {
+            if (authClient == null)
+            {
+                authClient = GameSceneFlow.Instance != null
+                    ? GameSceneFlow.Instance.Auth : FindObjectOfType<AuthClient>();
+            }
+
+            string username = string.Empty, password = string.Empty;
             if (args is LoginOpenArgs loginArgs)
             {
-                if (usernameInput != null)
-                {
-                    usernameInput.text = loginArgs.DefaultUsername ?? string.Empty;
-                }
-
-                if (passwordInput != null)
-                {
-                    passwordInput.text = loginArgs.DefaultPassword ?? string.Empty;
-                }
+                username = loginArgs.DefaultUsername ?? string.Empty;
+                password = loginArgs.DefaultPassword ?? string.Empty;
             }
+            else if (authClient != null)
+                authClient.TryGetRememberedLogin(out username, out password);
+
+            if (usernameInput != null) usernameInput.text = username;
+            if (passwordInput != null) passwordInput.text = password;
 
             SetStatus(string.Empty);
 
@@ -48,6 +54,12 @@ namespace CrossFire2048.Client.Features.Account
             AddGameEvent<string>(GameEventId.AccountStatusChanged, OnAccountStatusChanged);
             AddGameEvent<LoginResponse>(GameEventId.LoginCompleted, OnLoginCompleted);
             AddGameEvent<RegisterResponse>(GameEventId.RegisterCompleted, OnRegisterCompleted);
+        }
+
+        protected override void OnClose()
+        {
+            // Cached panels need not retain the plaintext password while the player is in the lobby.
+            if (passwordInput != null) passwordInput.text = string.Empty;
         }
 
         private void OnLoginClicked()
@@ -91,7 +103,6 @@ namespace CrossFire2048.Client.Features.Account
             if (response.Code == AuthResultCode.Ok)
             {
                 UIManager.Instance?.ShowToast("登录成功");
-                UIManager.Instance?.Push(PanelId.Lobby);
                 return;
             }
 

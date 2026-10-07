@@ -1,0 +1,30 @@
+{
+  "id": "weapon_molotov",
+  "name": "燃烧瓶",
+  "category": 4,
+  "slot": "gear.fire",
+  "team": 2,
+  "profile": "molotov",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_molotov",
+      "color": "7dd9c6ff8e44d8f25e51.png",
+      "normal": "a3b8097aafecd7238d2e.png",
+      "orm": "777c19632ccdb024983a.png"
+    },
+    {
+      "name": "weapon_molotov_flame",
+      "color": "30eee4bba42be20fe26f.png",
+      "normal": "c9c25b8c7b6088cbe510.png",
+      "orm": "9b6cf61b62f31e2319a5.png"
+    },
+    {
+      "name": "weapon_molotov_liquid",
+      "color": "cfa9176202b151bbb20b.png",
+      "normal": "a329b360bc81003502ef.png",
+      "orm": "a329b360bc81003502ef.png"
+    }
+  ],
+  "kind": "weapons"
+}

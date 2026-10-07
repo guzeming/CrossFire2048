@@ -1,0 +1,18 @@
+{
+  "id": "weapon_pist_tec9",
+  "name": "Tec-9",
+  "category": 0,
+  "slot": "pistol.fast",
+  "team": 2,
+  "profile": "pistol",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_pist_tec9",
+      "color": "eb2816e73d841583fb70.png",
+      "normal": "49b988841c6fe03258ec.png",
+      "orm": "e8ffaef4acee4efe281b.png"
+    }
+  ],
+  "kind": "weapons"
+}

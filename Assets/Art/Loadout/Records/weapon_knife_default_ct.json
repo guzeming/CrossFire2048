@@ -1,0 +1,18 @@
+{
+  "id": "weapon_knife_default_ct",
+  "name": "CT 战术匕首",
+  "category": 4,
+  "slot": "gear.knife",
+  "team": 1,
+  "profile": "knife",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_knife_default_ct",
+      "color": "3cc316fd7a06ad183ea2.png",
+      "normal": "fc143bde6d1887c72433.png",
+      "orm": "a7b5dc5ddf4138307de1.png"
+    }
+  ],
+  "kind": "weapons"
+}

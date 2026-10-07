@@ -1,13 +1,14 @@
+using OperationBlacktide.Client.App;
 using UnityEngine;
 
-namespace CrossFire2048.Client.UI
+namespace OperationBlacktide.Client.UI
 {
     /// <summary>
-    /// 场景启动时自动打开登录面板。挂到 UIRoot 同物体或任意启动对象上。
+    /// 场景 UI 入口。挂到场景自己的 SceneUI 对象上，不随 UIRoot 跨场景保留。
     /// </summary>
     public sealed class GameUIEntry : MonoBehaviour
     {
-        [SerializeField] private PanelId startPanel = PanelId.Login;
+        [SerializeField] private UIPanelId startPanel = UIPanelId.Login;
         [SerializeField] private bool openOnStart = true;
 
         private void Start()
@@ -17,12 +18,15 @@ namespace CrossFire2048.Client.UI
                 return;
             }
 
-            // DontDestroyOnLoad 的 UIRoot 跨场景时避免重复 Push 起始面板
-            if (UIManager.Instance.GetStackCount(UILayer.Normal) > 0)
+            if (startPanel == UIPanelId.Lobby &&
+                (GameSceneFlow.Instance == null || !GameSceneFlow.Instance.Auth.Session.IsLoggedIn))
             {
                 return;
             }
 
+            // 新场景从自己的主界面开始，不保留上一个场景的返回历史。
+            UIManager.Instance.CloseAll(UILayer.Popup);
+            UIManager.Instance.CloseAll(UILayer.Normal);
             UIManager.Instance.Push(startPanel);
         }
     }

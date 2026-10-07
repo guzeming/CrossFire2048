@@ -1,0 +1,18 @@
+{
+  "id": "weapon_smg_mp5sd",
+  "name": "MP5-SD",
+  "category": 2,
+  "slot": "smg.silenced",
+  "team": 3,
+  "profile": "mp7",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_smg_mp5sd",
+      "color": "9a881cbf02250c98b926.png",
+      "normal": "650a1f99964978c2ef4e.png",
+      "orm": "e9de15d280852249399e.png"
+    }
+  ],
+  "kind": "weapons"
+}

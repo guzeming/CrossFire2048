@@ -1,0 +1,18 @@
+{
+  "id": "weapon_smg_mac10",
+  "name": "MAC-10",
+  "category": 2,
+  "slot": "smg.light",
+  "team": 2,
+  "profile": "mp7",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_smg_mac10",
+      "color": "3e6875791326815a2549.png",
+      "normal": "61262f4f0d03f9fce1c1.png",
+      "orm": "78ecd55c35bf83653058.png"
+    }
+  ],
+  "kind": "weapons"
+}

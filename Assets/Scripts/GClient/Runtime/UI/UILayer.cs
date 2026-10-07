@@ -1,4 +1,4 @@
-namespace CrossFire2048.Client.UI
+namespace OperationBlacktide.Client.UI
 {
     /// <summary>
     /// UI 显示层级。数值越大，显示越靠前。

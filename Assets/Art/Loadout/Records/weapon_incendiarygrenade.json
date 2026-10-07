@@ -1,0 +1,18 @@
+{
+  "id": "weapon_incendiarygrenade",
+  "name": "燃烧弹",
+  "category": 4,
+  "slot": "gear.fire",
+  "team": 1,
+  "profile": "grenade",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_incendiarygrenade",
+      "color": "7e63b63c87f8f2c91d00.png",
+      "normal": "be207d495121535aa24e.png",
+      "orm": "b38cbc6cea066f4731cb.png"
+    }
+  ],
+  "kind": "weapons"
+}

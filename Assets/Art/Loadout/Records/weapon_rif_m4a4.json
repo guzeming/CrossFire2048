@@ -1,0 +1,18 @@
+{
+  "id": "weapon_rif_m4a4",
+  "name": "M4A4",
+  "category": 1,
+  "slot": "rifle.main",
+  "team": 1,
+  "profile": "m4",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_rif_m4a4",
+      "color": "fd33f7e80f90ed6711ed.png",
+      "normal": "b6ee8de42afa871fc91e.png",
+      "orm": "347be9726d61092ef2ac.png"
+    }
+  ],
+  "kind": "weapons"
+}

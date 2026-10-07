@@ -1,16 +1,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CrossFire2048.Client.UI
+namespace OperationBlacktide.Client.UI
 {
     /// <summary>
     /// UI 管理器。按 UILayer 使用栈管理面板：Push 入栈并显示，Pop/Back 出栈并恢复上一层。
     /// </summary>
     public sealed class UIManager : MonoBehaviour
     {
-        [SerializeField] private UIPanelEntry[] panelEntries;
-
-        private readonly Dictionary<string, UIPanelEntry> _entryMap = new Dictionary<string, UIPanelEntry>();
         private readonly Dictionary<string, UIPanel> _instances = new Dictionary<string, UIPanel>();
         private readonly Dictionary<UILayer, Transform> _layerRoots = new Dictionary<UILayer, Transform>();
         private readonly Dictionary<UILayer, Stack<string>> _layerStacks = new Dictionary<UILayer, Stack<string>>();
@@ -36,7 +33,6 @@ namespace CrossFire2048.Client.UI
             }
 
             Instance = this;
-            BuildEntryMap();
         }
 
         private void OnDestroy()
@@ -59,7 +55,7 @@ namespace CrossFire2048.Client.UI
         }
 
         /// <summary>入栈并打开面板。同层当前栈顶会被关闭隐藏。</summary>
-        public UIPanel Push(PanelId panelId, object args = null)
+        public UIPanel Push(UIPanelId panelId, object args = null)
         {
             if (PanelIds.IsOverlayOnly(panelId))
             {
@@ -69,7 +65,7 @@ namespace CrossFire2048.Client.UI
             return Push(PanelIds.Key(panelId), args);
         }
 
-        public T Push<T>(PanelId panelId, object args = null) where T : UIPanel
+        public T Push<T>(UIPanelId panelId, object args = null) where T : UIPanel
         {
             return Push(panelId, args) as T;
         }
@@ -77,7 +73,7 @@ namespace CrossFire2048.Client.UI
         /// <summary>入栈并打开面板。同层当前栈顶会被关闭隐藏。</summary>
         public UIPanel Push(string panelId, object args = null)
         {
-            if (PanelIds.TryParse(panelId, out PanelId typedId) && PanelIds.IsOverlayOnly(typedId))
+            if (PanelIds.TryParse(panelId, out UIPanelId typedId) && PanelIds.IsOverlayOnly(typedId))
             {
                 return PushOverlayPanel(typedId, args);
             }
@@ -88,18 +84,18 @@ namespace CrossFire2048.Client.UI
                 return null;
             }
 
-            if (!_entryMap.TryGetValue(panelId, out UIPanelEntry entry))
+            if (!TryGetPanelPrefab(panelId, out UIPanel prefabTemplate))
             {
-                Debug.LogError($"[UIManager] 未注册面板：{panelId}");
+                Debug.LogError($"[UIManager] 未注册面板：{panelId}，请用 OperationBlacktide/UI/Add UI 添加到 UIPath。");
                 return null;
             }
 
-            UILayer layer = entry.Layer;
+            UILayer layer = prefabTemplate.Layer;
             Stack<string> stack = GetStack(layer);
 
             if (stack.Count > 0 && stack.Peek() == panelId)
             {
-                UIPanel currentTop = GetOrCreatePanel(panelId, entry);
+                UIPanel currentTop = GetOrCreatePanel(panelId, prefabTemplate);
                 currentTop.OpenInternal(args);
                 BringToFront(currentTop);
                 SyncModalBlocker(layer);
@@ -109,7 +105,7 @@ namespace CrossFire2048.Client.UI
             if (IsInStack(stack, panelId))
             {
                 PopUntilTopIs(panelId, layer);
-                UIPanel existing = GetOrCreatePanel(panelId, entry);
+                UIPanel existing = GetOrCreatePanel(panelId, prefabTemplate);
                 existing.OpenInternal(args);
                 BringToFront(existing);
                 SyncModalBlocker(layer);
@@ -122,7 +118,13 @@ namespace CrossFire2048.Client.UI
             }
 
             stack.Push(panelId);
-            UIPanel panel = GetOrCreatePanel(panelId, entry);
+            UIPanel panel = GetOrCreatePanel(panelId, prefabTemplate);
+            if (panel == null)
+            {
+                stack.Pop();
+                return null;
+            }
+
             panel.OpenInternal(args);
             BringToFront(panel);
             SyncModalBlocker(layer);
@@ -135,12 +137,12 @@ namespace CrossFire2048.Client.UI
         }
 
         /// <summary>兼容旧接口，等同于 Push。</summary>
-        public UIPanel Open(PanelId panelId, object args = null)
+        public UIPanel Open(UIPanelId panelId, object args = null)
         {
             return Push(panelId, args);
         }
 
-        public T Open<T>(PanelId panelId, object args = null) where T : UIPanel
+        public T Open<T>(UIPanelId panelId, object args = null) where T : UIPanel
         {
             return Push<T>(panelId, args);
         }
@@ -207,7 +209,7 @@ namespace CrossFire2048.Client.UI
             Pop(UILayer.Normal);
         }
 
-        public void Close(PanelId panelId)
+        public void Close(UIPanelId panelId)
         {
             Close(PanelIds.Key(panelId));
         }
@@ -220,12 +222,12 @@ namespace CrossFire2048.Client.UI
                 return;
             }
 
-            if (!_entryMap.TryGetValue(panelId, out UIPanelEntry entry))
+            if (!TryGetPanelPrefab(panelId, out UIPanel prefabTemplate))
             {
                 return;
             }
 
-            UILayer layer = entry.Layer;
+            UILayer layer = prefabTemplate.Layer;
             Stack<string> stack = GetStack(layer);
 
             if (stack.Count == 0)
@@ -269,7 +271,7 @@ namespace CrossFire2048.Client.UI
         }
 
         /// <summary>回退到指定面板，关闭其上方所有面板。</summary>
-        public UIPanel PopTo(PanelId panelId)
+        public UIPanel PopTo(UIPanelId panelId)
         {
             return PopTo(PanelIds.Key(panelId));
         }
@@ -277,12 +279,12 @@ namespace CrossFire2048.Client.UI
         /// <summary>回退到指定面板，关闭其上方所有面板。</summary>
         public UIPanel PopTo(string panelId)
         {
-            if (string.IsNullOrWhiteSpace(panelId) || !_entryMap.TryGetValue(panelId, out UIPanelEntry entry))
+            if (string.IsNullOrWhiteSpace(panelId) || !TryGetPanelPrefab(panelId, out UIPanel prefabTemplate))
             {
                 return null;
             }
 
-            UILayer layer = entry.Layer;
+            UILayer layer = prefabTemplate.Layer;
             Stack<string> stack = GetStack(layer);
 
             if (!IsInStack(stack, panelId))
@@ -297,7 +299,7 @@ namespace CrossFire2048.Client.UI
                 return null;
             }
 
-            UIPanel panel = GetOrCreatePanel(panelId, entry);
+            UIPanel panel = GetOrCreatePanel(panelId, prefabTemplate);
             panel.OpenInternal(null);
             BringToFront(panel);
             SyncModalBlocker(layer);
@@ -318,7 +320,7 @@ namespace CrossFire2048.Client.UI
             return _instances.TryGetValue(panelId, out panel);
         }
 
-        public T GetPanel<T>(PanelId panelId) where T : UIPanel
+        public T GetPanel<T>(UIPanelId panelId) where T : UIPanel
         {
             return GetPanel<T>(PanelIds.Key(panelId));
         }
@@ -358,18 +360,30 @@ namespace CrossFire2048.Client.UI
             return stack;
         }
 
-        private UIPanel GetOrCreatePanel(string panelId, UIPanelEntry entry)
+        private UIPanel GetOrCreatePanel(string panelId, UIPanel prefabTemplate)
         {
             if (_instances.TryGetValue(panelId, out UIPanel existing))
             {
                 return existing;
             }
 
-            Transform parent = GetLayerRoot(entry.Layer);
-            UIPanel panel = Instantiate(entry.Prefab, parent);
-            panel.name = entry.Prefab.name;
+            if (prefabTemplate == null)
+            {
+                Debug.LogError($"[UIManager] 面板 {panelId} 的 Prefab 为空，请检查 UIPath。");
+                return null;
+            }
+
+            Transform parent = GetLayerRoot(prefabTemplate.Layer);
+            UIPanel panel = Instantiate(prefabTemplate, parent);
+            panel.name = prefabTemplate.name;
             _instances[panelId] = panel;
             return panel;
+        }
+
+        private bool TryGetPanelPrefab(string panelId, out UIPanel prefab)
+        {
+            prefab = UIPath.LoadPanel(panelId);
+            return prefab != null;
         }
 
         private void ClosePanelInstance(string panelId)
@@ -397,14 +411,14 @@ namespace CrossFire2048.Client.UI
             }
 
             string previousId = stack.Peek();
-            if (!_entryMap.TryGetValue(previousId, out UIPanelEntry entry))
+            if (!TryGetPanelPrefab(previousId, out UIPanel prefabTemplate))
             {
                 stack.Pop();
                 RestoreStackTop(layer, stack);
                 return;
             }
 
-            UIPanel panel = GetOrCreatePanel(previousId, entry);
+            UIPanel panel = GetOrCreatePanel(previousId, prefabTemplate);
             panel.OpenInternal(null);
             BringToFront(panel);
         }
@@ -478,9 +492,9 @@ namespace CrossFire2048.Client.UI
             return false;
         }
 
-        private UIPanel PushOverlayPanel(PanelId panelId, object args)
+        private UIPanel PushOverlayPanel(UIPanelId panelId, object args)
         {
-            if (panelId == PanelId.Toast)
+            if (panelId == UIPanelId.Toast)
             {
                 ShowToastFromArgs(args);
                 return _toastPanel;
@@ -514,16 +528,16 @@ namespace CrossFire2048.Client.UI
                 return;
             }
 
-            string toastKey = PanelIds.Key(PanelId.Toast);
-            if (!_entryMap.TryGetValue(toastKey, out UIPanelEntry entry))
+            string toastKey = PanelIds.Key(UIPanelId.Toast);
+            if (!TryGetPanelPrefab(toastKey, out UIPanel prefabTemplate))
             {
                 Debug.LogWarning("[UIManager] 未注册 Toast 面板，无法显示提示。");
                 return;
             }
 
             Transform parent = GetLayerRoot(UILayer.Overlay);
-            UIPanel panel = Instantiate(entry.Prefab, parent);
-            panel.name = entry.Prefab.name;
+            UIPanel panel = Instantiate(prefabTemplate, parent);
+            panel.name = prefabTemplate.name;
             _toastPanel = panel as ToastPanel;
 
             if (_toastPanel == null)
@@ -534,32 +548,6 @@ namespace CrossFire2048.Client.UI
             }
 
             _toastPanel.gameObject.SetActive(false);
-        }
-
-        private void BuildEntryMap()
-        {
-            _entryMap.Clear();
-
-            if (panelEntries == null)
-            {
-                return;
-            }
-
-            foreach (UIPanelEntry entry in panelEntries)
-            {
-                if (entry == null || !entry.IsValid)
-                {
-                    continue;
-                }
-
-                if (_entryMap.ContainsKey(entry.PanelId))
-                {
-                    Debug.LogWarning($"[UIManager] 重复注册面板：{entry.PanelId}");
-                    continue;
-                }
-
-                _entryMap.Add(entry.PanelId, entry);
-            }
         }
 
         private Transform GetLayerRoot(UILayer layer)

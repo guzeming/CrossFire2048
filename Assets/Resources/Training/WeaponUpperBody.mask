@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WeaponUpperBody
+  m_Mask: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 0
+  - m_Path: LoadoutModel
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig/root_motion
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/leg_upper_L
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/leg_upper_L/jiggle_climbinggear_01
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/leg_upper_L/jiggle_climbinggear_01/jiggle_climbinggear_02
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/leg_upper_L/leg_lower_L
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/leg_upper_L/leg_lower_L/ankle_L
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/leg_upper_L/leg_lower_L/ankle_L/ball_L
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/leg_upper_L/leg_upper_L_TWIST
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/leg_upper_L/leg_upper_L_TWIST1
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/leg_upper_R
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/leg_upper_R/jiggle_holster
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/leg_upper_R/leg_lower_R
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/leg_upper_R/leg_lower_R/ankle_R
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/leg_upper_R/leg_lower_R/ankle_R/ball_R
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/leg_upper_R/leg_upper_R_TWIST
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/leg_upper_R/leg_upper_R_TWIST1
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/jiggle_front_micropouches
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/jiggle_front_pouch_01
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/jiggle_front_pouch_02
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/jiggle_radio
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/scap_L_AIMAT
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/scap_R_AIMAT
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/arm_lower_L_TWIST
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/arm_lower_L_TWIST1
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L/finger_index_meta_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L/finger_index_meta_L/finger_index_0_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L/finger_index_meta_L/finger_index_0_L/finger_index_1_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L/finger_index_meta_L/finger_index_0_L/finger_index_1_L/finger_index_2_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L/finger_middle_meta_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L/finger_middle_meta_L/finger_middle_0_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L/finger_middle_meta_L/finger_middle_0_L/finger_middle_1_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L/finger_middle_meta_L/finger_middle_0_L/finger_middle_1_L/finger_middle_2_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L/finger_pinky_meta_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L/finger_pinky_meta_L/finger_pinky_0_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L/finger_pinky_meta_L/finger_pinky_0_L/finger_pinky_1_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L/finger_pinky_meta_L/finger_pinky_0_L/finger_pinky_1_L/finger_pinky_2_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L/finger_ring_meta_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L/finger_ring_meta_L/finger_ring_0_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L/finger_ring_meta_L/finger_ring_0_L/finger_ring_1_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L/finger_ring_meta_L/finger_ring_0_L/finger_ring_1_L/finger_ring_2_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L/finger_thumb_0_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L/finger_thumb_0_L/finger_thumb_1_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_lower_L/hand_L/finger_thumb_0_L/finger_thumb_1_L/finger_thumb_2_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_upper_L_TWIST
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/arm_upper_L/arm_upper_L_TWIST1
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_L/scapula_L
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/arm_lower_R_TWIST
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/arm_lower_R_TWIST1
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R/finger_index_meta_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R/finger_index_meta_R/finger_index_0_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R/finger_index_meta_R/finger_index_0_R/finger_index_1_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R/finger_index_meta_R/finger_index_0_R/finger_index_1_R/finger_index_2_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R/finger_middle_meta_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R/finger_middle_meta_R/finger_middle_0_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R/finger_middle_meta_R/finger_middle_0_R/finger_middle_1_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R/finger_middle_meta_R/finger_middle_0_R/finger_middle_1_R/finger_middle_2_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R/finger_pinky_meta_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R/finger_pinky_meta_R/finger_pinky_0_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R/finger_pinky_meta_R/finger_pinky_0_R/finger_pinky_1_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R/finger_pinky_meta_R/finger_pinky_0_R/finger_pinky_1_R/finger_pinky_2_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R/finger_ring_meta_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R/finger_ring_meta_R/finger_ring_0_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R/finger_ring_meta_R/finger_ring_0_R/finger_ring_1_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R/finger_ring_meta_R/finger_ring_0_R/finger_ring_1_R/finger_ring_2_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R/finger_thumb_0_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R/finger_thumb_0_R/finger_thumb_1_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_lower_R/hand_R/finger_thumb_0_R/finger_thumb_1_R/finger_thumb_2_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_upper_R_TWIST
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/arm_upper_R/arm_upper_R_TWIST1
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/clavicle_R/scapula_R
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/jiggle_primary
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/neck_0
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/neck_0/head_0
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/neck_0/head_0/eye_target
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/neck_0/head_0/eyeball_l
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/neck_0/head_0/eyeball_r
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/neck_0/head_0_TWIST
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/neck_0/jiggle_hood
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/pelvis/spine_0/spine_1/spine_2/spine_3/scap_AIMUP
+    m_Weight: 1
+  - m_Path: LoadoutModel/LobbyRig/root_motion/wpnPivot
+    m_Weight: 0
+  - m_Path: LoadoutModel/LobbyRig/root_motion/wpnPivot/wpn
+    m_Weight: 0

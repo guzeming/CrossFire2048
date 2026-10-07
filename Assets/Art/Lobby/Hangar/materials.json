@@ -1,0 +1,109 @@
+{
+  "materials": [
+    {
+      "name": "H_PaintedSteel",
+      "color": [
+        0.14,
+        0.17,
+        0.16
+      ],
+      "metallic": 0.6,
+      "smoothness": 0.5800000000000001,
+      "emission": 0,
+      "colorTexture": "H_PaintedSteel_Color.png",
+      "roughnessTexture": "H_PaintedSteel_Roughness.png",
+      "normalTexture": "H_PaintedSteel_Normal.png"
+    },
+    {
+      "name": "H_EdgeSteel",
+      "color": [
+        0.12,
+        0.14,
+        0.15
+      ],
+      "metallic": 0.78,
+      "smoothness": 0.6699999999999999,
+      "emission": 0
+    },
+    {
+      "name": "H_Rubber",
+      "color": [
+        0.022,
+        0.026,
+        0.026
+      ],
+      "metallic": 0.08,
+      "smoothness": 0.30000000000000004,
+      "emission": 0
+    },
+    {
+      "name": "H_Brass",
+      "color": [
+        0.42,
+        0.25,
+        0.08
+      ],
+      "metallic": 0.72,
+      "smoothness": 0.65,
+      "emission": 0
+    },
+    {
+      "name": "H_AmberPaint",
+      "color": [
+        0.65,
+        0.28,
+        0.028
+      ],
+      "metallic": 0.35,
+      "smoothness": 0.5,
+      "emission": 0
+    },
+    {
+      "name": "H_Stencil",
+      "color": [
+        0.56,
+        0.57,
+        0.49
+      ],
+      "metallic": 0.1,
+      "smoothness": 0.30000000000000004,
+      "emission": 0
+    },
+    {
+      "name": "H_Light",
+      "color": [
+        1.0,
+        0.13,
+        0.006
+      ],
+      "metallic": 0.1,
+      "smoothness": 0.8,
+      "emission": 2
+    },
+    {
+      "name": "H_WetConcrete",
+      "color": [
+        0.09,
+        0.1,
+        0.11
+      ],
+      "metallic": 0.35,
+      "smoothness": 0.78,
+      "emission": 0,
+      "colorTexture": "H_WetConcrete_Color.png",
+      "roughnessTexture": "H_WetConcrete_Roughness.png",
+      "normalTexture": "H_WetConcrete_Normal.png"
+    },
+    {
+      "name": "H_TreadSteel",
+      "color": [
+        0.085,
+        0.095,
+        0.1
+      ],
+      "metallic": 0.8,
+      "smoothness": 0.6799999999999999,
+      "emission": 0
+    }
+  ]
+}

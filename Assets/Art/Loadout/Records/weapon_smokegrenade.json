@@ -1,0 +1,18 @@
+{
+  "id": "weapon_smokegrenade",
+  "name": "烟雾弹",
+  "category": 4,
+  "slot": "gear.smoke",
+  "team": 3,
+  "profile": "grenade",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_smokegrenade",
+      "color": "e5428b958ccdaf57d2fb.png",
+      "normal": "24b2d91fc248309e6685.png",
+      "orm": "10d54c14206651dacd39.png"
+    }
+  ],
+  "kind": "weapons"
+}

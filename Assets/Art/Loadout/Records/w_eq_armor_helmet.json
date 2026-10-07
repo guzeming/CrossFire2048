@@ -1,0 +1,24 @@
+{
+  "id": "w_eq_armor_helmet",
+  "name": "防弹衣 + 头盔",
+  "category": 4,
+  "slot": "gear.helmet",
+  "team": 3,
+  "profile": "",
+  "held": false,
+  "materials": [
+    {
+      "name": "armor",
+      "color": "810e3017755158e2ff8a.png",
+      "normal": "923505b5ffe237cb58ff.png",
+      "orm": "d44d0bce4e4ba8ee8d0c.png"
+    },
+    {
+      "name": "helmet",
+      "color": "c29a83f1e80ffcc287e2.png",
+      "normal": "b66decb367eed9d81f7d.png",
+      "orm": "d44d0bce4e4ba8ee8d0c.png"
+    }
+  ],
+  "kind": "weapons"
+}

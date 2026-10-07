@@ -1,8 +1,8 @@
-using CrossFire2048.Client.Features.Account;
+using OperationBlacktide.Client.Features.Account;
 using UnityEditor;
 using UnityEngine;
 
-namespace CrossFire2048.Client.Editor
+namespace OperationBlacktide.Client.Editor
 {
     [CustomEditor(typeof(LoginController))]
     public sealed class LoginControllerEditor : UnityEditor.Editor

@@ -1,0 +1,16 @@
+{
+  "id": "xm",
+  "clips": [
+    {
+      "name": "Idle",
+      "first": 1,
+      "last": 392
+    },
+    {
+      "name": "Inspect",
+      "first": 393,
+      "last": 496
+    }
+  ],
+  "kind": "profiles"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "p90",
+  "clips": [
+    {
+      "name": "Idle",
+      "first": 1,
+      "last": 189
+    },
+    {
+      "name": "Inspect",
+      "first": 190,
+      "last": 380
+    }
+  ],
+  "kind": "profiles"
+}

@@ -1,0 +1,7 @@
+Blacktide UI Regular is a static, subsetted derivative of Noto Sans SC Regular.
+Source: https://github.com/google/fonts/tree/main/ofl/notosanssc
+License: SIL Open Font License 1.1; see OFL.txt in this directory.
+
+Modifications: instantiated weight 400, retained basic Latin, GB2312 characters
+and current UI strings, renamed the font family to Blacktide UI.
+The bundled font lets Chinese UI render without relying on installed OS fonts.

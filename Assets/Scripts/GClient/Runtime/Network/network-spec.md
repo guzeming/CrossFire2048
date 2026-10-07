@@ -36,7 +36,7 @@ Assets/Scripts/GShare/Runtime/Protocol/
 服务端网络实现位置：
 
 ```text
-GServer/CrossFire2048.Server/Network/
+GServer/OperationBlacktide.Server/Network/
   ClientConnection.cs
   MessageCodec.cs
 ```
@@ -155,7 +155,7 @@ ServerPort = 7777
 后续部署到云服务器后，建议改为域名：
 
 ```text
-ServerHost = server.crossfire2048.com
+ServerHost = server.example.com
 ServerPort = 7777
 ```
 

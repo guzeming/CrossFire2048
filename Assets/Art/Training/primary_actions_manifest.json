@@ -1,0 +1,420 @@
+{
+  "clips": [
+    {
+      "name": "idle_primary_reference",
+      "first": 1,
+      "last": 2,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/_default_rifle/idle_rifle.gltf"
+    },
+    {
+      "name": "idle_aug",
+      "first": 3,
+      "last": 4,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_aug/idle_aug.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_aug",
+      "first": 5,
+      "last": 33,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_aug/shoot_aug.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_aug",
+      "first": 34,
+      "last": 147,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_aug/reload_aug.gltf"
+    },
+    {
+      "name": "idle_famas",
+      "first": 148,
+      "last": 149,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_famas/idle_famas.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_famas",
+      "first": 150,
+      "last": 176,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_famas/shoot_famas.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_famas",
+      "first": 177,
+      "last": 276,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_famas/reload_famas.gltf"
+    },
+    {
+      "name": "idle_galilar",
+      "first": 277,
+      "last": 278,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_galilar/idle_galilar.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_galilar",
+      "first": 279,
+      "last": 303,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_galilar/shoot_galilar.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_galilar",
+      "first": 304,
+      "last": 395,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_galilar/reload_galilar.gltf"
+    },
+    {
+      "name": "idle_sg556",
+      "first": 396,
+      "last": 397,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_sg556/idle_sg556.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_sg556",
+      "first": 398,
+      "last": 419,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_sg556/shoot_sg556.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_sg556",
+      "first": 420,
+      "last": 503,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_sg556/reload_sg556.gltf"
+    },
+    {
+      "name": "idle_bizon",
+      "first": 504,
+      "last": 505,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_bizon/idle_bizon.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_bizon",
+      "first": 506,
+      "last": 532,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_bizon/shoot_bizon.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_bizon",
+      "first": 533,
+      "last": 606,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_bizon/reload_bizon.gltf"
+    },
+    {
+      "name": "idle_mac10",
+      "first": 607,
+      "last": 608,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_mac10/idle_mac10.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_mac10",
+      "first": 609,
+      "last": 633,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_mac10/shoot_mac10.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_mac10",
+      "first": 634,
+      "last": 711,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_mac10/reload_mac10.gltf"
+    },
+    {
+      "name": "idle_mp5sd",
+      "first": 712,
+      "last": 713,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_mp5sd/idle_mp5sd.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_mp5sd",
+      "first": 714,
+      "last": 726,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_mp5sd/shoot_mp5sd.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_mp5sd",
+      "first": 727,
+      "last": 816,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_mp5sd/reload_mp5sd.gltf"
+    },
+    {
+      "name": "idle_mp7",
+      "first": 817,
+      "last": 818,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_mp7/idle_mp7.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_mp7",
+      "first": 819,
+      "last": 843,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_mp7/shoot_mp7.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_mp7",
+      "first": 844,
+      "last": 938,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_mp7/reload_mp7.gltf"
+    },
+    {
+      "name": "idle_mp9",
+      "first": 939,
+      "last": 940,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_mp9/idle_mp9.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_mp9",
+      "first": 941,
+      "last": 966,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_mp9/shoot_mp9.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_mp9",
+      "first": 967,
+      "last": 1032,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_mp9/reload_mp9.gltf"
+    },
+    {
+      "name": "idle_p90",
+      "first": 1033,
+      "last": 1034,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_p90/idle_p90.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_p90",
+      "first": 1035,
+      "last": 1060,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_p90/shoot_p90.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_p90",
+      "first": 1061,
+      "last": 1162,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_p90/reload_p90.gltf"
+    },
+    {
+      "name": "idle_ump45",
+      "first": 1163,
+      "last": 1164,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_ump45/idle_ump45.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_ump45",
+      "first": 1165,
+      "last": 1195,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_ump45/shoot_ump45.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_ump45",
+      "first": 1196,
+      "last": 1299,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_ump45/reload_ump45.gltf"
+    },
+    {
+      "name": "idle_mag7",
+      "first": 1300,
+      "last": 1301,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_mag7/idle_mag7.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_mag7",
+      "first": 1302,
+      "last": 1338,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_mag7/shoot_mag7.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_mag7",
+      "first": 1339,
+      "last": 1413,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_mag7/reload_mag7.gltf"
+    },
+    {
+      "name": "idle_nova",
+      "first": 1414,
+      "last": 1415,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_nova/idle_nova.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_nova",
+      "first": 1416,
+      "last": 1440,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_nova/shoot_nova.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_nova",
+      "first": 1441,
+      "last": 1490,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_nova/reload_nova.gltf"
+    },
+    {
+      "name": "idle_sawedoff",
+      "first": 1491,
+      "last": 1492,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_sawedoff/idle_sawedoff.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_sawedoff",
+      "first": 1493,
+      "last": 1517,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_sawedoff/shoot_sawedoff.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_sawedoff",
+      "first": 1518,
+      "last": 1570,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_sawedoff/reload_sawedoff.gltf"
+    },
+    {
+      "name": "idle_xm1014",
+      "first": 1571,
+      "last": 1572,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_xm1014/idle_xm1014.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_xm1014",
+      "first": 1573,
+      "last": 1599,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_xm1014/shoot_xm1014.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_xm1014",
+      "first": 1600,
+      "last": 1652,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_xm1014/reload_xm1014.gltf"
+    },
+    {
+      "name": "idle_m249",
+      "first": 1653,
+      "last": 1654,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_m249/idle_m249.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_m249",
+      "first": 1655,
+      "last": 1679,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_m249/shoot_m249.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_m249",
+      "first": 1680,
+      "last": 1851,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_m249/reload_m249.gltf"
+    },
+    {
+      "name": "idle_negev",
+      "first": 1852,
+      "last": 1853,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_negev/idle_negev.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_negev",
+      "first": 1854,
+      "last": 1880,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_negev/shoot_negev.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_negev",
+      "first": 1881,
+      "last": 2052,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/rifle/rifle_negev/reload_negev.gltf"
+    }
+  ]
+}

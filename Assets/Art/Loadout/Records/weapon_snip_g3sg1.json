@@ -1,0 +1,18 @@
+{
+  "id": "weapon_snip_g3sg1",
+  "name": "G3SG1",
+  "category": 5,
+  "slot": "rifle.auto",
+  "team": 2,
+  "profile": "g3sg",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_snip_g3sg1",
+      "color": "28a06f1f87204c39fc3d.png",
+      "normal": "4eb58c0687c6f32739bb.png",
+      "orm": "43bfe99063fb6ac2eb02.png"
+    }
+  ],
+  "kind": "weapons"
+}

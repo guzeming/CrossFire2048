@@ -1,0 +1,18 @@
+{
+  "id": "weapon_smg_mp7",
+  "name": "MP7",
+  "category": 2,
+  "slot": "smg.silenced",
+  "team": 3,
+  "profile": "mp7",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_smg_mp7",
+      "color": "6e7e6a05fd136cd70610.png",
+      "normal": "77363e1d05698b107392.png",
+      "orm": "7286727678ff189307ee.png"
+    }
+  ],
+  "kind": "weapons"
+}

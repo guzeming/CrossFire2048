@@ -1,0 +1,45 @@
+{
+  "id": "ctm_sas",
+  "name": "SAS",
+  "team": 1,
+  "materials": [
+    {
+      "name": "ctm_sas_body",
+      "color": "79aa16a36a53746078c6.png",
+      "normal": "44bb761266ed00c0b113.png",
+      "orm": "1258684993eb442040d0.png"
+    },
+    {
+      "name": "ctm_sas_bodylegs",
+      "color": "91a5859e4392924b7766.png",
+      "normal": "2529e382149dbcf429cc.png",
+      "orm": "500451faec04a0e74ddb.png"
+    },
+    {
+      "name": "ctm_sas_head_gasmask",
+      "color": "8ce6394f9dac349dd771.png",
+      "normal": "cfb717d6c50970ecc99d.png",
+      "orm": "3f45d18d9ea91032521d.png"
+    },
+    {
+      "name": "ctm_sas_lenses",
+      "color": "ec75f755e6cf8e992db4.png",
+      "normal": "c9c25b8c7b6088cbe510.png",
+      "orm": "35eb71b3fb491675051f.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "67a4229a913ad1b16146.png",
+      "normal": "2454904008e64d88948a.png",
+      "orm": "304310b1f55907832b3f.png"
+    },
+    {
+      "name": "w_eq_defuser",
+      "color": "91f2ccf3674e0ef6bdcd.png",
+      "normal": "9c1e94a9dbd505bea382.png",
+      "orm": "9c2bb87e48b8dac44be9.png"
+    }
+  ],
+  "boneRemaps": {},
+  "kind": "agents"
+}

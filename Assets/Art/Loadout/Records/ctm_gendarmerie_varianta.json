@@ -1,0 +1,45 @@
+{
+  "id": "ctm_gendarmerie_varianta",
+  "name": "法国宪兵",
+  "team": 1,
+  "materials": [
+    {
+      "name": "ctm_gendarmerie_medic_head",
+      "color": "31f3492c9b30610b5e8b.png",
+      "normal": "d6deefdd4965f459280d.png",
+      "orm": "9e051fa39148d012d737.png"
+    },
+    {
+      "name": "ctm_gendarmerie_medic_pant",
+      "color": "b5506334b1f9bff9a7cc.png",
+      "normal": "1c96139cb3fef8bfa54c.png",
+      "orm": "549055dd361aad0a350e.png"
+    },
+    {
+      "name": "ctm_gendarmerie_medic_upperbody",
+      "color": "488b0330cdd7b779cc08.png",
+      "normal": "17913d456f60fccc5475.png",
+      "orm": "dd3a1ccb3e4f6f908dc1.png"
+    },
+    {
+      "name": "ctm_gendarmerie_visor_yellow",
+      "color": "62625ee4ca88c27b0325.png",
+      "normal": "c9c25b8c7b6088cbe510.png",
+      "orm": "d44d0bce4e4ba8ee8d0c.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "67a4229a913ad1b16146.png",
+      "normal": "2454904008e64d88948a.png",
+      "orm": "304310b1f55907832b3f.png"
+    },
+    {
+      "name": "w_eq_defuser",
+      "color": "91f2ccf3674e0ef6bdcd.png",
+      "normal": "9c1e94a9dbd505bea382.png",
+      "orm": "9c2bb87e48b8dac44be9.png"
+    }
+  ],
+  "boneRemaps": {},
+  "kind": "agents"
+}

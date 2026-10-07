@@ -1,0 +1,18 @@
+{
+  "id": "weapon_mach_negev",
+  "name": "Negev",
+  "category": 3,
+  "slot": "heavy.negev",
+  "team": 3,
+  "profile": "negev",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_mach_negev",
+      "color": "1b98f85e9cf40eff7147.png",
+      "normal": "596edfd21fc5b853df9e.png",
+      "orm": "640654cf47d741671616.png"
+    }
+  ],
+  "kind": "weapons"
+}

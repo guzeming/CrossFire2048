@@ -1,0 +1,18 @@
+{
+  "id": "weapon_pist_glock18",
+  "name": "Glock-18",
+  "category": 0,
+  "slot": "pistol.start",
+  "team": 2,
+  "profile": "pistol",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_pist_glock",
+      "color": "6157d905e76d1fc128be.png",
+      "normal": "89dcc23c675a0c442d70.png",
+      "orm": "ed3c17eb5c17815db57a.png"
+    }
+  ],
+  "kind": "weapons"
+}

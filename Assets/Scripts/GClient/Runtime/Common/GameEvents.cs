@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CrossFire2048.Client.Common
+namespace OperationBlacktide.Client.Common
 {
     /// <summary>
     /// 轻量全局事件总线。用于模块间、UI 间的解耦通信。

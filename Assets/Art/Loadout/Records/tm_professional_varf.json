@@ -1,0 +1,39 @@
+{
+  "id": "tm_professional_varf",
+  "name": "专业人士",
+  "team": 2,
+  "materials": [
+    {
+      "name": "glove_fullfinger",
+      "color": "48b341c75ec00dbc5e9d.png",
+      "normal": "a4a3c0f9ee3cdf775efa.png",
+      "orm": "9adafd9fb4b7e134c259.png"
+    },
+    {
+      "name": "tm_professional_body_varf",
+      "color": "bfd771349b10a7d8dac2.png",
+      "normal": "72c891b4963df382929e.png",
+      "orm": "3347882db0c0292e0bb5.png"
+    },
+    {
+      "name": "tm_professional_head_varf",
+      "color": "1a45f7b2815810ae5554.png",
+      "normal": "c156f58710eb83ce9765.png",
+      "orm": "4a96bde0ca66819a4467.png"
+    },
+    {
+      "name": "tm_professional_lowerbody_varf",
+      "color": "fbf091421ae1a275ac53.png",
+      "normal": "3dc3b97957ed8dad5042.png",
+      "orm": "57392582a38ce30886c4.png"
+    },
+    {
+      "name": "tm_professional_mask_varf",
+      "color": "f336831b38a617851fd9.png",
+      "normal": "87eac11c553381ad07d2.png",
+      "orm": "a8f6fa315de48f11a3be.png"
+    }
+  ],
+  "boneRemaps": {},
+  "kind": "agents"
+}

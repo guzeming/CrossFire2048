@@ -1,0 +1,24 @@
+{
+  "id": "weapon_pist_taser",
+  "name": "Zeus x27",
+  "category": 4,
+  "slot": "gear.taser",
+  "team": 3,
+  "profile": "pistol",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_pist_taser",
+      "color": "6c8a55b91b98f2f71fb9.png",
+      "normal": "f05d585c25840a2a5ff4.png",
+      "orm": "a5c6c9e0df9d734cbb30.png"
+    },
+    {
+      "name": "weapon_pist_taser_chargemeter",
+      "color": "94f5296d9d7fe5bf3000.png",
+      "normal": "",
+      "orm": ""
+    }
+  ],
+  "kind": "weapons"
+}

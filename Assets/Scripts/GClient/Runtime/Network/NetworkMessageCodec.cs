@@ -1,7 +1,7 @@
-using CrossFire2048.Shared.Protocol;
+using OperationBlacktide.Shared.Protocol;
 using UnityEngine;
 
-namespace CrossFire2048.Client.Network
+namespace OperationBlacktide.Client.Network
 {
     /// <summary>
     /// Unity 客户端消息编解码。

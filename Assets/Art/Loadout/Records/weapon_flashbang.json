@@ -1,0 +1,18 @@
+{
+  "id": "weapon_flashbang",
+  "name": "闪光弹",
+  "category": 4,
+  "slot": "gear.flash",
+  "team": 3,
+  "profile": "grenade",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_flashbang",
+      "color": "021681b3705ebff40359.png",
+      "normal": "8b67fe01753488d43794.png",
+      "orm": "0212b7578cd8fc90b4b7.png"
+    }
+  ],
+  "kind": "weapons"
+}

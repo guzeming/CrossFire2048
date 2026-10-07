@@ -1,0 +1,18 @@
+{
+  "id": "weapon_smg_ump45",
+  "name": "UMP-45",
+  "category": 2,
+  "slot": "smg.ump",
+  "team": 3,
+  "profile": "ump",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_smg_ump45",
+      "color": "9cb043c84cfa2c5590bd.png",
+      "normal": "efdf432a95d99d03479a.png",
+      "orm": "dfb579fd57d453212ba0.png"
+    }
+  ],
+  "kind": "weapons"
+}

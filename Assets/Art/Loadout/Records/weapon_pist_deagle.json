@@ -1,0 +1,18 @@
+{
+  "id": "weapon_pist_deagle",
+  "name": "Desert Eagle",
+  "category": 0,
+  "slot": "pistol.heavy",
+  "team": 3,
+  "profile": "pistol",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_pist_deagle",
+      "color": "56da80eabb40e0239baa.png",
+      "normal": "f245e56901266b35d964.png",
+      "orm": "b14f626a136e9964136e.png"
+    }
+  ],
+  "kind": "weapons"
+}

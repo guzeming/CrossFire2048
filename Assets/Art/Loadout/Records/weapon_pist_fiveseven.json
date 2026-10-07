@@ -1,0 +1,18 @@
+{
+  "id": "weapon_pist_fiveseven",
+  "name": "Five-SeveN",
+  "category": 0,
+  "slot": "pistol.fast",
+  "team": 1,
+  "profile": "pistol",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_pist_fiveseven",
+      "color": "8a472d09326c2b6d037e.png",
+      "normal": "33e0a0cf7a2fd4d8ceb4.png",
+      "orm": "ec8c7e9af0b02675fd58.png"
+    }
+  ],
+  "kind": "weapons"
+}

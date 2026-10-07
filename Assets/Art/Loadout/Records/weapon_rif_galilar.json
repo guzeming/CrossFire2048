@@ -1,0 +1,18 @@
+{
+  "id": "weapon_rif_galilar",
+  "name": "Galil AR",
+  "category": 1,
+  "slot": "rifle.budget",
+  "team": 2,
+  "profile": "galil",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_rif_galilar",
+      "color": "5c0fc9d0b256819916e9.png",
+      "normal": "1310313a7f28c53952fa.png",
+      "orm": "d19cc0b9f8c7b1f2753b.png"
+    }
+  ],
+  "kind": "weapons"
+}

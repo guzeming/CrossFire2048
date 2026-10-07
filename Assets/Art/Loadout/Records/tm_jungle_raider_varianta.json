@@ -1,0 +1,39 @@
+{
+  "id": "tm_jungle_raider_varianta",
+  "name": "丛林突袭者",
+  "team": 2,
+  "materials": [
+    {
+      "name": "bare_arm_44",
+      "color": "03d5015759a2d8f70eb6.png",
+      "normal": "10dd463dff0288eac575.png",
+      "orm": "d44d0bce4e4ba8ee8d0c.png"
+    },
+    {
+      "name": "glove_fingerless",
+      "color": "9157e04d0bc09efdd1f4.png",
+      "normal": "50b0cc773ae888e4794a.png",
+      "orm": "f996cb581d335c12e131.png"
+    },
+    {
+      "name": "tm_jungle_raider_body_varianta",
+      "color": "4a693d7589b867b2a130.png",
+      "normal": "966f4ed285dd7c3e039c.png",
+      "orm": "559a447916d09b4aa5b3.png"
+    },
+    {
+      "name": "tm_jungle_raider_head_varianta",
+      "color": "fd434665e8595335daaa.png",
+      "normal": "9ab3f00f458a30938945.png",
+      "orm": "dc486b3b21dc359f29df.png"
+    },
+    {
+      "name": "tm_jungle_raider_pant_varianta",
+      "color": "dda0ae61731753f61f11.png",
+      "normal": "8961e4d584538a8d53a9.png",
+      "orm": "d8b1bb1e4542f4515f19.png"
+    }
+  ],
+  "boneRemaps": {},
+  "kind": "agents"
+}

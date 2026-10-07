@@ -1,7 +1,7 @@
-using CrossFire2048.Shared.Protocol;
+using OperationBlacktide.Shared.Protocol;
 using UnityEngine;
 
-namespace CrossFire2048.Client.Features.Account
+namespace OperationBlacktide.Client.Features.Account
 {
     /// <summary>
     /// 登录注册流程控制器。

@@ -1,0 +1,16 @@
+{
+  "id": "mp7",
+  "clips": [
+    {
+      "name": "Idle",
+      "first": 1,
+      "last": 793
+    },
+    {
+      "name": "Inspect",
+      "first": 794,
+      "last": 1013
+    }
+  ],
+  "kind": "profiles"
+}

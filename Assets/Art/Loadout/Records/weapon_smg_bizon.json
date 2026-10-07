@@ -1,0 +1,18 @@
+{
+  "id": "weapon_smg_bizon",
+  "name": "PP-Bizon",
+  "category": 2,
+  "slot": "smg.bizon",
+  "team": 3,
+  "profile": "bizon",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_smg_bizon",
+      "color": "17f4157d3baf50c2e9a1.png",
+      "normal": "b6083959bae0e13a9bf7.png",
+      "orm": "50a22a7545bb273acabe.png"
+    }
+  ],
+  "kind": "weapons"
+}

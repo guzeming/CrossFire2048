@@ -1,0 +1,636 @@
+{
+  "clips": [
+    {
+      "name": "walk_n_pistol",
+      "first": 1,
+      "last": 25,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/walk_n_pistol.gltf"
+    },
+    {
+      "name": "walk_ne_pistol",
+      "first": 26,
+      "last": 56,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/walk_ne_pistol.gltf"
+    },
+    {
+      "name": "walk_e_pistol",
+      "first": 57,
+      "last": 87,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/walk_e_pistol.gltf"
+    },
+    {
+      "name": "walk_se_pistol",
+      "first": 88,
+      "last": 118,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/walk_se_pistol.gltf"
+    },
+    {
+      "name": "walk_s_pistol",
+      "first": 119,
+      "last": 149,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/walk_s_pistol.gltf"
+    },
+    {
+      "name": "walk_sw_pistol",
+      "first": 150,
+      "last": 180,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/walk_sw_pistol.gltf"
+    },
+    {
+      "name": "walk_w_pistol",
+      "first": 181,
+      "last": 211,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/walk_w_pistol.gltf"
+    },
+    {
+      "name": "walk_nw_pistol",
+      "first": 212,
+      "last": 242,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/walk_nw_pistol.gltf"
+    },
+    {
+      "name": "run_n_pistol",
+      "first": 243,
+      "last": 265,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/run_n_pistol.gltf"
+    },
+    {
+      "name": "run_ne_pistol",
+      "first": 266,
+      "last": 288,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/run_ne_pistol.gltf"
+    },
+    {
+      "name": "run_e_pistol",
+      "first": 289,
+      "last": 311,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/run_e_pistol.gltf"
+    },
+    {
+      "name": "run_se_pistol",
+      "first": 312,
+      "last": 334,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/run_se_pistol.gltf"
+    },
+    {
+      "name": "run_s_pistol",
+      "first": 335,
+      "last": 357,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/run_s_pistol.gltf"
+    },
+    {
+      "name": "run_sw_pistol",
+      "first": 358,
+      "last": 380,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/run_sw_pistol.gltf"
+    },
+    {
+      "name": "run_w_pistol",
+      "first": 381,
+      "last": 403,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/run_w_pistol.gltf"
+    },
+    {
+      "name": "run_nw_pistol",
+      "first": 404,
+      "last": 426,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/run_nw_pistol.gltf"
+    },
+    {
+      "name": "jump_stand_pistol",
+      "first": 427,
+      "last": 439,
+      "loop": false,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/jump_stand_pistol.gltf"
+    },
+    {
+      "name": "jump_n_pistol",
+      "first": 440,
+      "last": 452,
+      "loop": false,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/jump_n_pistol.gltf"
+    },
+    {
+      "name": "jump_e_pistol",
+      "first": 453,
+      "last": 465,
+      "loop": false,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/jump_e_pistol.gltf"
+    },
+    {
+      "name": "jump_s_pistol",
+      "first": 466,
+      "last": 478,
+      "loop": false,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/jump_s_pistol.gltf"
+    },
+    {
+      "name": "jump_w_pistol",
+      "first": 479,
+      "last": 491,
+      "loop": false,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/jump_w_pistol.gltf"
+    },
+    {
+      "name": "idle_pistol",
+      "first": 492,
+      "last": 493,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/_default_pistol/idle_pistol.gltf"
+    },
+    {
+      "name": "walk_n_knife",
+      "first": 494,
+      "last": 524,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/walk_n_knife.gltf"
+    },
+    {
+      "name": "walk_ne_knife",
+      "first": 525,
+      "last": 555,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/walk_ne_knife.gltf"
+    },
+    {
+      "name": "walk_e_knife",
+      "first": 556,
+      "last": 586,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/walk_e_knife.gltf"
+    },
+    {
+      "name": "walk_se_knife",
+      "first": 587,
+      "last": 617,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/walk_se_knife.gltf"
+    },
+    {
+      "name": "walk_s_knife",
+      "first": 618,
+      "last": 648,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/walk_s_knife.gltf"
+    },
+    {
+      "name": "walk_sw_knife",
+      "first": 649,
+      "last": 679,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/walk_sw_knife.gltf"
+    },
+    {
+      "name": "walk_w_knife",
+      "first": 680,
+      "last": 710,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/walk_w_knife.gltf"
+    },
+    {
+      "name": "walk_nw_knife",
+      "first": 711,
+      "last": 741,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/walk_nw_knife.gltf"
+    },
+    {
+      "name": "run_n_knife",
+      "first": 742,
+      "last": 764,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/run_n_knife.gltf"
+    },
+    {
+      "name": "run_ne_knife",
+      "first": 765,
+      "last": 787,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/run_ne_knife.gltf"
+    },
+    {
+      "name": "run_e_knife",
+      "first": 788,
+      "last": 810,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/run_e_knife.gltf"
+    },
+    {
+      "name": "run_se_knife",
+      "first": 811,
+      "last": 833,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/run_se_knife.gltf"
+    },
+    {
+      "name": "run_s_knife",
+      "first": 834,
+      "last": 856,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/run_s_knife.gltf"
+    },
+    {
+      "name": "run_sw_knife",
+      "first": 857,
+      "last": 879,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/run_sw_knife.gltf"
+    },
+    {
+      "name": "run_w_knife",
+      "first": 880,
+      "last": 902,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/run_w_knife.gltf"
+    },
+    {
+      "name": "run_nw_knife",
+      "first": 903,
+      "last": 925,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/run_nw_knife.gltf"
+    },
+    {
+      "name": "jump_stand_knife",
+      "first": 926,
+      "last": 938,
+      "loop": false,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/jump_stand_knife.gltf"
+    },
+    {
+      "name": "jump_n_knife",
+      "first": 939,
+      "last": 951,
+      "loop": false,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/jump_n_knife.gltf"
+    },
+    {
+      "name": "jump_e_knife",
+      "first": 952,
+      "last": 964,
+      "loop": false,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/jump_e_knife.gltf"
+    },
+    {
+      "name": "jump_s_knife",
+      "first": 965,
+      "last": 977,
+      "loop": false,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/jump_s_knife.gltf"
+    },
+    {
+      "name": "jump_w_knife",
+      "first": 978,
+      "last": 990,
+      "loop": false,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/jump_w_knife.gltf"
+    },
+    {
+      "name": "idle_knife",
+      "first": 991,
+      "last": 992,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/idle_knife.gltf"
+    },
+    {
+      "name": "idle_cz75a",
+      "first": 993,
+      "last": 994,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_cz75a/idle_cz75a.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_cz75a",
+      "first": 995,
+      "last": 1007,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_cz75a/shoot_cz75.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_cz75a",
+      "first": 1008,
+      "last": 1090,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_cz75a/reload_cz75a.gltf"
+    },
+    {
+      "name": "idle_deagle",
+      "first": 1091,
+      "last": 1092,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_deagle/idle_deagle.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_deagle",
+      "first": 1093,
+      "last": 1114,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_deagle/shoot_deagle.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_deagle",
+      "first": 1115,
+      "last": 1181,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_deagle/reload_deagle.gltf"
+    },
+    {
+      "name": "idle_elite",
+      "first": 1182,
+      "last": 1183,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_elite/idle_elite.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_elite",
+      "first": 1184,
+      "last": 1198,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_elite/shoot_right1_elite.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_elite",
+      "first": 1199,
+      "last": 1312,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_elite/reload_elite.gltf"
+    },
+    {
+      "name": "idle_fiveseven",
+      "first": 1313,
+      "last": 1314,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_fiveseven/idle_fiveseven.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_fiveseven",
+      "first": 1315,
+      "last": 1327,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_fiveseven/shoot_fiveseven.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_fiveseven",
+      "first": 1328,
+      "last": 1396,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_fiveseven/reload_fiveseven.gltf"
+    },
+    {
+      "name": "idle_glock",
+      "first": 1397,
+      "last": 1398,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_glock/idle_glock.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_glock",
+      "first": 1399,
+      "last": 1411,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_glock/shoot_glock.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_glock",
+      "first": 1412,
+      "last": 1480,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_glock/reload_glock.gltf"
+    },
+    {
+      "name": "idle_hkp",
+      "first": 1481,
+      "last": 1482,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_hkp2000/idle_hkp.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_hkp",
+      "first": 1483,
+      "last": 1495,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_hkp2000/shoot_hkp.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_hkp",
+      "first": 1496,
+      "last": 1564,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_hkp2000/reload_hkp.gltf"
+    },
+    {
+      "name": "idle_p250",
+      "first": 1565,
+      "last": 1566,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_p250/idle_p250.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_p250",
+      "first": 1567,
+      "last": 1579,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_p250/shoot_p250.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_p250",
+      "first": 1580,
+      "last": 1648,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_p250/reload_p250.gltf"
+    },
+    {
+      "name": "idle_revolver",
+      "first": 1649,
+      "last": 1650,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_revolver/idle_revolver.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_revolver",
+      "first": 1651,
+      "last": 1672,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_revolver/shoot_revolver.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_revolver",
+      "first": 1673,
+      "last": 1741,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_revolver/reload_revolver.gltf"
+    },
+    {
+      "name": "idle_taser",
+      "first": 1742,
+      "last": 1743,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_taser/idle_taser.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_taser",
+      "first": 1744,
+      "last": 1756,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_taser/shoot_taser.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "idle_tec9",
+      "first": 1757,
+      "last": 1758,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_tec9/idle_tec9.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_tec9",
+      "first": 1759,
+      "last": 1771,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_tec9/shoot_tec9.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_tec9",
+      "first": 1772,
+      "last": 1849,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_tec9/reload_tec9.gltf"
+    },
+    {
+      "name": "idle_usp",
+      "first": 1850,
+      "last": 1851,
+      "loop": true,
+      "additive": false,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_usp/idle_usp.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_usp",
+      "first": 1852,
+      "last": 1864,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_usp/shoot_usp.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "reload_usp",
+      "first": 1865,
+      "last": 1942,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_usp/reload_usp.gltf"
+    },
+    {
+      "name": "fire_elite_left",
+      "first": 1943,
+      "last": 1957,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/pistol/pistol_elite/shoot_left1_elite.vnmclip+non_additive.gltf"
+    },
+    {
+      "name": "fire_knife",
+      "first": 1958,
+      "last": 1988,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/frontswing_knife.gltf"
+    },
+    {
+      "name": "stab_knife",
+      "first": 1989,
+      "last": 2024,
+      "loop": false,
+      "additive": true,
+      "source": "Batch/RawAnimations/animation/anims/world/knife/_default_knife/frontstab_knife.gltf"
+    }
+  ]
+}

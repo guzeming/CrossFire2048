@@ -1,6 +1,6 @@
-using CrossFire2048.Client.UI;
+using OperationBlacktide.Client.UI;
 
-namespace CrossFire2048.Client.Features.Account
+namespace OperationBlacktide.Client.Features.Account
 {
     /// <summary>
     /// 打开登录面板时可传入的初始参数。

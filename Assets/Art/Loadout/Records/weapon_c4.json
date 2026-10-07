@@ -1,0 +1,30 @@
+{
+  "id": "weapon_c4",
+  "name": "C4 炸弹",
+  "category": 4,
+  "slot": "gear.c4",
+  "team": 2,
+  "profile": "c4",
+  "held": true,
+  "materials": [
+    {
+      "name": "c4_panorama_control_panel",
+      "color": "80745ae0ba1c0f39b838.png",
+      "normal": "",
+      "orm": ""
+    },
+    {
+      "name": "weapon_c4",
+      "color": "1800c5fefbd453ee63d8.png",
+      "normal": "bed824a91357591c3a0c.png",
+      "orm": "b074d93c7bdb88b2ab92.png"
+    },
+    {
+      "name": "weapon_c4_digits",
+      "color": "a9e9765594c29c831ae2.png",
+      "normal": "fc143bde6d1887c72433.png",
+      "orm": "36070f51fa8f9b6a32b0.png"
+    }
+  ],
+  "kind": "weapons"
+}

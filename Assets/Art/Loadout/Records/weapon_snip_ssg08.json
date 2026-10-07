@@ -1,0 +1,18 @@
+{
+  "id": "weapon_snip_ssg08",
+  "name": "SSG 08",
+  "category": 5,
+  "slot": "rifle.scout",
+  "team": 3,
+  "profile": "scout",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_snip_ssg08",
+      "color": "86548cdd7326bf403d37.png",
+      "normal": "899e77625c376d695be1.png",
+      "orm": "638d2f69823163cd9766.png"
+    }
+  ],
+  "kind": "weapons"
+}

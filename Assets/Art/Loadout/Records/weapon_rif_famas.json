@@ -1,0 +1,18 @@
+{
+  "id": "weapon_rif_famas",
+  "name": "FAMAS",
+  "category": 1,
+  "slot": "rifle.budget",
+  "team": 1,
+  "profile": "famas",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_rif_famas",
+      "color": "aa9d9f84b344859876c0.png",
+      "normal": "a7437b954605237b9117.png",
+      "orm": "d57b53f6b0bd18524d37.png"
+    }
+  ],
+  "kind": "weapons"
+}

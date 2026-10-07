@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d733a9862da933c479c20127e860c869, type: 3}
+  m_Name: TrainingThrowables
+  m_EditorClassIdentifier: 
+  items:
+  - id: weapon_hegrenade
+    kind: 0
+    model: {fileID: 8436930571294762024, guid: 2a82c666af617b14db8567bf8b99c5b6, type: 3}
+    fuse: 1.7
+    radius: 6
+    duration: 0
+    damage: 110
+    pin: {fileID: 8300000, guid: 5073ac6f3882a264681503ae931d0377, type: 3}
+    release: {fileID: 8300000, guid: f66e8b84aba80af49bd3ce9a55097c5c, type: 3}
+    bounce: {fileID: 8300000, guid: f0856f98889d4364e9d656a0cdfaa665, type: 3}
+    loop: {fileID: 0}
+    finish: {fileID: 0}
+    detonate:
+    - {fileID: 8300000, guid: 6c45f1b98585d314a8570a03dd4cb577, type: 3}
+    - {fileID: 8300000, guid: e561896812327b84592648381dd05104, type: 3}
+    drawAnimation: {fileID: 7400000, guid: ac0cb10c50453234aa1542d1be2bd413, type: 2}
+    idleAnimation: {fileID: 7400000, guid: 8df0cdbe3f5477045b9311b710a513c7, type: 2}
+    prepareAnimation: {fileID: 7400000, guid: f46ec83075d9a424baacf68bbfc88f69, type: 2}
+    throwAnimation: {fileID: 7400000, guid: e4c84a081967fc344b119555b57d21a7, type: 2}
+    releaseNormalizedTime: 0.25
+    pinSoundNormalizedTime: 0.28
+  - id: weapon_flashbang
+    kind: 3
+    model: {fileID: 3598641574691298777, guid: 53448181f8a8766468d6ec8880d92a11, type: 3}
+    fuse: 1.6
+    radius: 18
+    duration: 4
+    damage: 0
+    pin: {fileID: 8300000, guid: 5073ac6f3882a264681503ae931d0377, type: 3}
+    release: {fileID: 8300000, guid: f66e8b84aba80af49bd3ce9a55097c5c, type: 3}
+    bounce: {fileID: 8300000, guid: f0856f98889d4364e9d656a0cdfaa665, type: 3}
+    loop: {fileID: 0}
+    finish: {fileID: 0}
+    detonate:
+    - {fileID: 8300000, guid: 116291fb56c384a44bd42905326bbcb1, type: 3}
+    - {fileID: 8300000, guid: b8c9ec837309cc747a558077ad96a90f, type: 3}
+    drawAnimation: {fileID: 7400000, guid: ac0cb10c50453234aa1542d1be2bd413, type: 2}
+    idleAnimation: {fileID: 7400000, guid: 8df0cdbe3f5477045b9311b710a513c7, type: 2}
+    prepareAnimation: {fileID: 7400000, guid: f46ec83075d9a424baacf68bbfc88f69, type: 2}
+    throwAnimation: {fileID: 7400000, guid: e4c84a081967fc344b119555b57d21a7, type: 2}
+    releaseNormalizedTime: 0.25
+    pinSoundNormalizedTime: 0.28
+  - id: weapon_smokegrenade
+    kind: 2
+    model: {fileID: 2743817449565035730, guid: d73cc6997cc9de6419a25b3eb05f5a1e, type: 3}
+    fuse: 2.5
+    radius: 3.8
+    duration: 18
+    damage: 0
+    pin: {fileID: 8300000, guid: 5073ac6f3882a264681503ae931d0377, type: 3}
+    release: {fileID: 8300000, guid: f66e8b84aba80af49bd3ce9a55097c5c, type: 3}
+    bounce: {fileID: 8300000, guid: 7be4fcfeef769c94f93b093cf657a5dc, type: 3}
+    loop: {fileID: 0}
+    finish: {fileID: 8300000, guid: 11d03464036d6a94895974e040ecbce6, type: 3}
+    detonate:
+    - {fileID: 8300000, guid: 27011800853481c418c81440ebefa3eb, type: 3}
+    drawAnimation: {fileID: 7400000, guid: ac0cb10c50453234aa1542d1be2bd413, type: 2}
+    idleAnimation: {fileID: 7400000, guid: 8df0cdbe3f5477045b9311b710a513c7, type: 2}
+    prepareAnimation: {fileID: 7400000, guid: f46ec83075d9a424baacf68bbfc88f69, type: 2}
+    throwAnimation: {fileID: 7400000, guid: e4c84a081967fc344b119555b57d21a7, type: 2}
+    releaseNormalizedTime: 0.25
+    pinSoundNormalizedTime: 0.28
+  - id: weapon_incendiarygrenade
+    kind: 1
+    model: {fileID: 935126562629344877, guid: f93aa40b75ea80f4f8781c1cebe66d1a, type: 3}
+    fuse: 3.5
+    radius: 3.5
+    duration: 7
+    damage: 32
+    pin: {fileID: 8300000, guid: 5073ac6f3882a264681503ae931d0377, type: 3}
+    release: {fileID: 8300000, guid: f66e8b84aba80af49bd3ce9a55097c5c, type: 3}
+    bounce: {fileID: 8300000, guid: 3e83bda0b52306d47abff710d75d497c, type: 3}
+    loop: {fileID: 8300000, guid: 8dff39c997714de4f97c034ad4e6ef36, type: 3}
+    finish: {fileID: 8300000, guid: 107e47ff131a9c040ade4623c6b282cb, type: 3}
+    detonate:
+    - {fileID: 8300000, guid: 3d7ac79905e4af946adbf1bc4a851859, type: 3}
+    drawAnimation: {fileID: 7400000, guid: ac0cb10c50453234aa1542d1be2bd413, type: 2}
+    idleAnimation: {fileID: 7400000, guid: 8df0cdbe3f5477045b9311b710a513c7, type: 2}
+    prepareAnimation: {fileID: 7400000, guid: f46ec83075d9a424baacf68bbfc88f69, type: 2}
+    throwAnimation: {fileID: 7400000, guid: e4c84a081967fc344b119555b57d21a7, type: 2}
+    releaseNormalizedTime: 0.25
+    pinSoundNormalizedTime: 0.28
+  - id: weapon_molotov
+    kind: 1
+    model: {fileID: 5716039670897675934, guid: 8bc2fbff03800794a953911a1d148bd0, type: 3}
+    fuse: 3.5
+    radius: 3.5
+    duration: 7
+    damage: 32
+    pin: {fileID: 8300000, guid: f3c6639ede0d79942b4f1bc7a0d74cba, type: 3}
+    release: {fileID: 8300000, guid: 6608ef60b0fadc84987ba7ef4d0abbfe, type: 3}
+    bounce: {fileID: 8300000, guid: 72a13ef28ac6f3f47b41c7adf131f297, type: 3}
+    loop: {fileID: 8300000, guid: 8dff39c997714de4f97c034ad4e6ef36, type: 3}
+    finish: {fileID: 8300000, guid: 107e47ff131a9c040ade4623c6b282cb, type: 3}
+    detonate:
+    - {fileID: 8300000, guid: 6547de1f0e460dc4686a04195f6bb3da, type: 3}
+    drawAnimation: {fileID: 7400000, guid: e3edd2731a728684288722205b3ec18f, type: 2}
+    idleAnimation: {fileID: 7400000, guid: 2b122ff6aae185d478fad54b4eaf7751, type: 2}
+    prepareAnimation: {fileID: 7400000, guid: cdcf5adbb54273f4cbd54bdb86ac1ee9, type: 2}
+    throwAnimation: {fileID: 7400000, guid: e4c84a081967fc344b119555b57d21a7, type: 2}
+    releaseNormalizedTime: 0.25
+    pinSoundNormalizedTime: 0.38
+  fire: {fileID: 2100000, guid: ec4cb4a081100a041a691477c60aec26, type: 2}
+  explosion: {fileID: 2100000, guid: cfff413b5a4dcec45b17d81e71f302a2, type: 2}
+  smoke: {fileID: 2100000, guid: 0558c8d221d41c948b672660100fe772, type: 2}
+  trajectory: {fileID: 2100000, guid: 798691bfbe02462459ded2c604985720, type: 2}
+  ringing: {fileID: 8300000, guid: ad3d894a283d0bf489a579a84f6ddef9, type: 3}

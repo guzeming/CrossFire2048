@@ -1,12 +1,12 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using CrossFire2048.Client.Common;
+using OperationBlacktide.Client.Common;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace CrossFire2048.Client.UI
+namespace OperationBlacktide.Client.UI
 {
     /// <summary>
     /// 所有 UI 面板的基类。子类重写 OnOpen / OnClose 处理显示逻辑。

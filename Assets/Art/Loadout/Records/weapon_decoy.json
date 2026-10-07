@@ -1,0 +1,18 @@
+{
+  "id": "weapon_decoy",
+  "name": "诱饵手雷",
+  "category": 4,
+  "slot": "gear.decoy",
+  "team": 3,
+  "profile": "grenade",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_decoy",
+      "color": "87250f90e8ed3dda1ceb.png",
+      "normal": "dfe22208f42c26a4134f.png",
+      "orm": "59c65f7f627f852233fd.png"
+    }
+  ],
+  "kind": "weapons"
+}

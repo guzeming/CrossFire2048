@@ -1,0 +1,18 @@
+{
+  "id": "weapon_mach_m249",
+  "name": "M249",
+  "category": 3,
+  "slot": "heavy.m249",
+  "team": 3,
+  "profile": "m249",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_mach_m249",
+      "color": "d18e4017fa30434eb592.png",
+      "normal": "22b83cb6c0c545a70f7f.png",
+      "orm": "4bf32372a4ee6b2f5a77.png"
+    }
+  ],
+  "kind": "weapons"
+}

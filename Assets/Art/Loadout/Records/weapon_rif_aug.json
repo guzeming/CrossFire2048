@@ -1,0 +1,24 @@
+{
+  "id": "weapon_rif_aug",
+  "name": "AUG",
+  "category": 1,
+  "slot": "rifle.scope",
+  "team": 1,
+  "profile": "aug",
+  "held": true,
+  "materials": [
+    {
+      "name": "shared_scope_lens",
+      "color": "dbcbd3f40e0fee64d5cf.png",
+      "normal": "fc143bde6d1887c72433.png",
+      "orm": "b268c101627ac0d9e752.png"
+    },
+    {
+      "name": "weapon_rif_aug",
+      "color": "5a4406b7e90e25ced817.png",
+      "normal": "01f0d692574dcce0896b.png",
+      "orm": "e1c5953c24f5d4a123ff.png"
+    }
+  ],
+  "kind": "weapons"
+}

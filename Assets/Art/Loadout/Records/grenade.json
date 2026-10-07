@@ -1,0 +1,16 @@
+{
+  "id": "grenade",
+  "clips": [
+    {
+      "name": "Idle",
+      "first": 1,
+      "last": 166
+    },
+    {
+      "name": "Inspect",
+      "first": 167,
+      "last": 563
+    }
+  ],
+  "kind": "profiles"
+}

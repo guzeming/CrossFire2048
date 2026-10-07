@@ -1,0 +1,851 @@
+{
+  "weapons": [
+    {
+      "id": "weapon_rif_aug",
+      "profile": "aug",
+      "sounds": [
+        "aug_clipout",
+        "aug_clipin",
+        "aug_boltpull",
+        "aug_boltrelease"
+      ],
+      "times": [
+        0.12,
+        0.53,
+        0.76,
+        0.87
+      ]
+    },
+    {
+      "id": "weapon_rif_famas",
+      "profile": "famas",
+      "sounds": [
+        "famas_clipout",
+        "famas_clipin",
+        "famas_boltback",
+        "famas_boltforward"
+      ],
+      "times": [
+        0.12,
+        0.53,
+        0.76,
+        0.87
+      ]
+    },
+    {
+      "id": "weapon_rif_galilar",
+      "profile": "galilar",
+      "sounds": [
+        "galil_clipout",
+        "galil_clipin",
+        "galil_boltback",
+        "galil_boltforward"
+      ],
+      "times": [
+        0.12,
+        0.53,
+        0.76,
+        0.87
+      ]
+    },
+    {
+      "id": "weapon_rif_sg556",
+      "profile": "sg556",
+      "sounds": [
+        "sg556_clipout",
+        "sg556_clipin",
+        "sg556_boltback",
+        "sg556_boltforward"
+      ],
+      "times": [
+        0.12,
+        0.53,
+        0.76,
+        0.87
+      ]
+    },
+    {
+      "id": "weapon_smg_bizon",
+      "profile": "bizon",
+      "sounds": [
+        "bizon_clipout",
+        "bizon_clipin",
+        "bizon_boltback",
+        "bizon_boltforward"
+      ],
+      "times": [
+        0.12,
+        0.53,
+        0.76,
+        0.87
+      ]
+    },
+    {
+      "id": "weapon_smg_mac10",
+      "profile": "mac10",
+      "sounds": [
+        "mac10_clipout",
+        "mac10_clipin",
+        "mac10_boltback",
+        "mac10_boltforward"
+      ],
+      "times": [
+        0.12,
+        0.53,
+        0.76,
+        0.87
+      ]
+    },
+    {
+      "id": "weapon_smg_mp5sd",
+      "profile": "mp5sd",
+      "sounds": [
+        "mp5_clipout",
+        "mp5_clipin",
+        "mp5_slideback",
+        "mp5_slideforward"
+      ],
+      "times": [
+        0.12,
+        0.53,
+        0.76,
+        0.87
+      ]
+    },
+    {
+      "id": "weapon_smg_mp7",
+      "profile": "mp7",
+      "sounds": [
+        "mp7_clipout",
+        "mp7_clipin",
+        "mp7_slideback",
+        "mp7_slideforward"
+      ],
+      "times": [
+        0.12,
+        0.53,
+        0.76,
+        0.87
+      ]
+    },
+    {
+      "id": "weapon_smg_mp9",
+      "profile": "mp9",
+      "sounds": [
+        "mp9_clipout",
+        "mp9_clipin",
+        "mp9_boltback",
+        "mp9_boltforward"
+      ],
+      "times": [
+        0.12,
+        0.53,
+        0.76,
+        0.87
+      ]
+    },
+    {
+      "id": "weapon_smg_p90",
+      "profile": "p90",
+      "sounds": [
+        "p90_clipout",
+        "p90_clipin",
+        "p90_boltback",
+        "p90_boltforward"
+      ],
+      "times": [
+        0.12,
+        0.53,
+        0.76,
+        0.87
+      ]
+    },
+    {
+      "id": "weapon_smg_ump45",
+      "profile": "ump45",
+      "sounds": [
+        "ump45_clipout",
+        "ump45_clipin",
+        "ump45_boltback",
+        "ump45_boltforward"
+      ],
+      "times": [
+        0.12,
+        0.53,
+        0.76,
+        0.87
+      ]
+    },
+    {
+      "id": "weapon_shot_mag7",
+      "profile": "mag7",
+      "sounds": [
+        "mag7_clipout",
+        "mag7_clipin",
+        "mag7_pump_back",
+        "mag7_pump_forward"
+      ],
+      "times": [
+        0.12,
+        0.53,
+        0.76,
+        0.87
+      ]
+    },
+    {
+      "id": "weapon_shot_nova",
+      "profile": "nova",
+      "sounds": [
+        "nova_insertshell_01",
+        "nova_insertshell_02",
+        "nova_insertshell_03",
+        "nova_pump"
+      ],
+      "times": [
+        0.2,
+        0.4,
+        0.6,
+        0.87
+      ]
+    },
+    {
+      "id": "weapon_shot_sawedoff",
+      "profile": "sawedoff",
+      "sounds": [
+        "sawedoff_insertshell_01",
+        "sawedoff_insertshell_02",
+        "sawedoff_insertshell_03",
+        "sawedoff_pump"
+      ],
+      "times": [
+        0.2,
+        0.4,
+        0.6,
+        0.87
+      ]
+    },
+    {
+      "id": "weapon_shot_xm1014",
+      "profile": "xm1014",
+      "sounds": [
+        "xm1014_insertshell_01",
+        "xm1014_insertshell_02",
+        "xm1014_insertshell_03",
+        "xm1014_catch_03"
+      ],
+      "times": [
+        0.2,
+        0.4,
+        0.6,
+        0.87
+      ]
+    },
+    {
+      "id": "weapon_mach_m249",
+      "profile": "m249",
+      "sounds": [
+        "m249_coverup",
+        "m249_boxout",
+        "m249_boxin",
+        "m249_chain",
+        "m249_coverdown",
+        "m249_pump"
+      ],
+      "times": [
+        0.12,
+        0.28,
+        0.48,
+        0.64,
+        0.78,
+        0.9
+      ]
+    },
+    {
+      "id": "weapon_mach_negev",
+      "profile": "negev",
+      "sounds": [
+        "negev_coverup",
+        "negev_boxout",
+        "negev_boxin",
+        "negev_chain",
+        "negev_coverdown",
+        "negev_pump"
+      ],
+      "times": [
+        0.12,
+        0.28,
+        0.48,
+        0.64,
+        0.78,
+        0.9
+      ]
+    }
+  ],
+  "files": [
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/aug/aug_01.wav",
+      "asset": "Assets/Art/Combat/Audio/aug/aug_01.wav",
+      "sha256": "96a88d4742dc3fb8c09efb098713710bb8fe2102982f984eea7c456fb37c8b8a"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/aug/aug_02.wav",
+      "asset": "Assets/Art/Combat/Audio/aug/aug_02.wav",
+      "sha256": "927986696933882ba98624b90964579917d733818e55ee120ce22ba92a0665e1"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/aug/aug_03.wav",
+      "asset": "Assets/Art/Combat/Audio/aug/aug_03.wav",
+      "sha256": "1fb6e3c1450aab09a7c746c1b45ad578edf8ec296c3ace2feebbaf08e174ec59"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/aug/aug_04.wav",
+      "asset": "Assets/Art/Combat/Audio/aug/aug_04.wav",
+      "sha256": "cc1ccbaae32e01e0d910ba05db54ab10045008d520a312622b0f3c865e946c6b"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/aug/aug_clipout.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/aug_clipout.wav",
+      "sha256": "8e53ff4c15180df8abbeab83ec27c05339376358b6556ba99400bed3884015ab"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/aug/aug_clipin.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/aug_clipin.wav",
+      "sha256": "e11e9378f711e354747e8a05785e9c333387383a446f2c520af099dd3075d1cd"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/aug/aug_boltpull.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/aug_boltpull.wav",
+      "sha256": "d2d030b228d7d949c3a29e9d53f355d4c8bb5eef144f6b393d2fbd14316905d2"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/aug/aug_boltrelease.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/aug_boltrelease.wav",
+      "sha256": "4d363221bd2cf3b5b3dff980750e202b0123d560637ca5ce26dc2c851e160d67"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/famas/famas_01.wav",
+      "asset": "Assets/Art/Combat/Audio/famas/famas_01.wav",
+      "sha256": "1f646e5fdd7ca4b8053ef7015a30bc127ccc4017640ba349982224ee27b299f0"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/famas/famas_02.wav",
+      "asset": "Assets/Art/Combat/Audio/famas/famas_02.wav",
+      "sha256": "79bf471c3b0c135b19a9c20c09282b5f858282b0c07ca8585ae82a254ac75bdc"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/famas/famas_03.wav",
+      "asset": "Assets/Art/Combat/Audio/famas/famas_03.wav",
+      "sha256": "e0c9dbe0a4e1254463d73d741238afe1ada66dae9214d68f7ef7ccf5126ef7a7"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/famas/famas_clipout.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/famas_clipout.wav",
+      "sha256": "6cb4bd486afb117561e5b62657f44e120f007755e2501305d60ed2db6138f3eb"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/famas/famas_clipin.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/famas_clipin.wav",
+      "sha256": "c1348819cd0946261ddeb83789679cada0a3bd66ea075426b28ecfa68b685790"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/famas/famas_boltback.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/famas_boltback.wav",
+      "sha256": "f79acaa6440fe6454dd9fa19c04cf5b57e828dcec7fbe49f6e285d3884330f5f"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/famas/famas_boltforward.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/famas_boltforward.wav",
+      "sha256": "b03330a9c46e878bf5e7dfe2186921d227a449872d8d3408cbea0bd741e30b41"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/galilar/galil_01.wav",
+      "asset": "Assets/Art/Combat/Audio/galilar/galil_01.wav",
+      "sha256": "656fd70732121c00d4d8626b654c400153ca9c7faff577e6f05e16aff74793cc"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/galilar/galil_02.wav",
+      "asset": "Assets/Art/Combat/Audio/galilar/galil_02.wav",
+      "sha256": "c6a8a474ec7903c8a8f743bb6360b9695a3223654e0a7f3289f7cb40c9a343e5"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/galilar/galil_03.wav",
+      "asset": "Assets/Art/Combat/Audio/galilar/galil_03.wav",
+      "sha256": "7a5924c369bbc0221dd8d43c3a49ea3c9f9aaf457f70fecfede5ce906fa8c4c7"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/galilar/galil_04.wav",
+      "asset": "Assets/Art/Combat/Audio/galilar/galil_04.wav",
+      "sha256": "da8d44471dba945bfd5b0135b05d2e55722433e4e6bec97bf6be3eb451543ab3"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/galilar/galil_clipout.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/galil_clipout.wav",
+      "sha256": "415d57b5bf40fb4c8ef0806165576b24a8ce71371523aa37f56d565e0ee19cb7"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/galilar/galil_clipin.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/galil_clipin.wav",
+      "sha256": "f4431268b0eb7b07e3771750ee2d63d720181ba32cf86e647b0a00b7c3ffda36"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/galilar/galil_boltback.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/galil_boltback.wav",
+      "sha256": "8bf0c6041f8347ab7d21af39e236895b947b9311a145b9549d50da3d352d6bbf"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/galilar/galil_boltforward.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/galil_boltforward.wav",
+      "sha256": "375a43bda3dcdd1fd582401b6909175b19414f24c8010430e304550f2494be35"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/sg556/sg556_01.wav",
+      "asset": "Assets/Art/Combat/Audio/sg556/sg556_01.wav",
+      "sha256": "3681d77b4bcdbfabf6202eafded291a25060b7a72416ed1acaffab9c954dffba"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/sg556/sg556_02.wav",
+      "asset": "Assets/Art/Combat/Audio/sg556/sg556_02.wav",
+      "sha256": "b06b09ea08ef4143d99ce33938fe8c5fdd5f8976a42de494ef0893e27765262a"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/sg556/sg556_03.wav",
+      "asset": "Assets/Art/Combat/Audio/sg556/sg556_03.wav",
+      "sha256": "17704f4abc01be55c2694ffaaa2186e8d85af65b8bb5a6f74fb01fe7ee5d3ac1"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/sg556/sg556_04.wav",
+      "asset": "Assets/Art/Combat/Audio/sg556/sg556_04.wav",
+      "sha256": "fcbcaad7fa0acd95254ec35969e4065a25c23896d9e14ec8603db89565df4b81"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/sg556/sg556_clipout.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/sg556_clipout.wav",
+      "sha256": "2cf213670fc95ba879d354b1b68dc9c1d51b74c65ccad541398eb3b35ac31739"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/sg556/sg556_clipin.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/sg556_clipin.wav",
+      "sha256": "a67282031b1d4a071a4e3fda349af6f50c038de583f24b2624b0bd61b43fe0d0"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/sg556/sg556_boltback.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/sg556_boltback.wav",
+      "sha256": "8833e2d44af1aa64b7116da474749b5b4d71034b3042addb4915dd8690a05766"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/sg556/sg556_boltforward.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/sg556_boltforward.wav",
+      "sha256": "d02fa5905f4f09629f2526ebea238f1170f7296a108ee7481dc4cadba1120027"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/bizon/bizon_01.wav",
+      "asset": "Assets/Art/Combat/Audio/bizon/bizon_01.wav",
+      "sha256": "1febdf36634ca1bc11c122f185bfb207f93c45d57bdd93c2aeeb5bf345b6f2fc"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/bizon/bizon_02.wav",
+      "asset": "Assets/Art/Combat/Audio/bizon/bizon_02.wav",
+      "sha256": "d617b265c04233f5c917327fe086d9951d4ba31db38ab79b71b96a51af0c1f9f"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/bizon/bizon_clipout.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/bizon_clipout.wav",
+      "sha256": "eb884d04878b3176931b362eb07b2194e19794ec76983701af3c87cef8e3f95b"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/bizon/bizon_clipin.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/bizon_clipin.wav",
+      "sha256": "cf86550200e48665a4bc14eac9e534791161336ca8199912e43db431602ffd1e"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/bizon/bizon_boltback.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/bizon_boltback.wav",
+      "sha256": "9179694dd8e2069f836cc14c56d363c067d67cd5f4964baa7974efd25f19a883"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/bizon/bizon_boltforward.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/bizon_boltforward.wav",
+      "sha256": "3d72088e48ce79ffd78da49ac28560c344091731ec475fef9b6977c4718c9efd"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mac10/mac10_01.wav",
+      "asset": "Assets/Art/Combat/Audio/mac10/mac10_01.wav",
+      "sha256": "8eb7e3a8d0fc77fab0f8ff72e261ced6997f62daacdc9c61e79e28121eb54806"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mac10/mac10_02.wav",
+      "asset": "Assets/Art/Combat/Audio/mac10/mac10_02.wav",
+      "sha256": "b3c67a9d65346cd8bda5ff5baf5eb82a31984c7dae11a3df8fdbb5268f9fca08"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mac10/mac10_clipout.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mac10_clipout.wav",
+      "sha256": "aa9b990d82fa520374d59bc8d8c01e453becfa416af5ed7adbee41d80be297a9"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mac10/mac10_clipin.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mac10_clipin.wav",
+      "sha256": "cf415a3462129fa1a0317a666f45e0ef14e8a734140ff790ac2701bb09c6a357"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mac10/mac10_boltback.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mac10_boltback.wav",
+      "sha256": "9c7bbb72054bdc75b267623bfade088f28e8f98f31f5c092c6d7033b7a3ff483"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mac10/mac10_boltforward.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mac10_boltforward.wav",
+      "sha256": "6788cb059cfaec4fd0430967297913d02d4245ef4e080d209f14e367a53f032a"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp5/mp5_01.wav",
+      "asset": "Assets/Art/Combat/Audio/mp5sd/mp5_01.wav",
+      "sha256": "32b0a412ee247ed209469b6abd4437792db1451faac4be9346810ec8375e7c77"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp5/mp5_clipout.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mp5_clipout.wav",
+      "sha256": "0ebb1da130a221b32aa4ab5318d65e0ceb8136761f1b7c4c73143af54271ed16"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp5/mp5_clipin.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mp5_clipin.wav",
+      "sha256": "dcded424b9cf0aab272507ecb4c8882df0ce97242abf9088c93f7aa57ebc0449"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp5/mp5_slideback.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mp5_slideback.wav",
+      "sha256": "0f77a5f6170fda34828267815bd10ac62aa3ea44ad399368843295369108cd1d"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp5/mp5_slideforward.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mp5_slideforward.wav",
+      "sha256": "020c6a1c183d2abd35c6283b48f9afa27f26ac3d6c3c70525ffcfc529c963866"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp7/mp7_01.wav",
+      "asset": "Assets/Art/Combat/Audio/mp7/mp7_01.wav",
+      "sha256": "9cdca5079f324063b3110e3347100a13b2d8c8edad1cbd9d8ff868a9d788d000"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp7/mp7_02.wav",
+      "asset": "Assets/Art/Combat/Audio/mp7/mp7_02.wav",
+      "sha256": "bee23234f09ef8b8c05d18ea6a601dc1d7ee92cb00565395d83ca821bf59f994"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp7/mp7_03.wav",
+      "asset": "Assets/Art/Combat/Audio/mp7/mp7_03.wav",
+      "sha256": "820bfa81b45c5f580249a439c2243c26a14a6a7ed036c965e65c5fe7dc009e65"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp7/mp7_04.wav",
+      "asset": "Assets/Art/Combat/Audio/mp7/mp7_04.wav",
+      "sha256": "f3e60f687a587fe70316140b27e50419e85212798e8e765b7e065179ea0ca214"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp7/mp7_clipout.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mp7_clipout.wav",
+      "sha256": "6b5885ae6f95cc1606094c6a04a2ee63cfb17a1fbfeb90f00e0597e246e3ec0b"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp7/mp7_clipin.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mp7_clipin.wav",
+      "sha256": "3990f951c9b52c493e291b9eb9d276a02c349a9ea1756576b6904d16e89e3cf0"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp7/mp7_slideback.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mp7_slideback.wav",
+      "sha256": "906fddc42ff836c14064b3dfb898732fab6c54eb43db10e028ea1ac6302c820b"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp7/mp7_slideforward.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mp7_slideforward.wav",
+      "sha256": "18470f62fad3b1f43a0168143cc4e3cc936acf9f4ded4cf0ce25ddb09adb90da"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp9/mp9_01.wav",
+      "asset": "Assets/Art/Combat/Audio/mp9/mp9_01.wav",
+      "sha256": "4186f8b595a2fcd46081fe5588eb5c9712bccb9d63974d85785205a17bd02777"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp9/mp9_02.wav",
+      "asset": "Assets/Art/Combat/Audio/mp9/mp9_02.wav",
+      "sha256": "d4669c988575fe05071f548cb6a24dc62e3286da16a8a3b638c907f06f01f3d4"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp9/mp9_03.wav",
+      "asset": "Assets/Art/Combat/Audio/mp9/mp9_03.wav",
+      "sha256": "d0d9eb078c437e29d0c6a738bab82d09b8641b66b480d5fcf5419b4e580763f8"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp9/mp9_04.wav",
+      "asset": "Assets/Art/Combat/Audio/mp9/mp9_04.wav",
+      "sha256": "c444df16017abfde418e66c695fada63e78b5a363a546c4ed86f54c6795d3277"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp9/mp9_clipout.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mp9_clipout.wav",
+      "sha256": "8e305f622b4ca5dee834076be3302eda8cef86261a278f045553c9bfe9c2a200"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp9/mp9_clipin.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mp9_clipin.wav",
+      "sha256": "9092cb0832ba4509eab13fdfeb0c6f3cd5c4f48de807736ee174386381e80734"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp9/mp9_boltback.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mp9_boltback.wav",
+      "sha256": "2240fa7224b3c1ce6fccbe5a2d9829a1c8eb49b676f2966a6417a0a200a01746"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mp9/mp9_boltforward.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mp9_boltforward.wav",
+      "sha256": "42ee0aabfacab281caded354aac9ebec295a8f4dee04866b4daa6f938572e1bc"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/p90/p90_01.wav",
+      "asset": "Assets/Art/Combat/Audio/p90/p90_01.wav",
+      "sha256": "3570ac15b97b2437fb56d490f6c904eebeef68a578cab528b86b95839473e0d9"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/p90/p90_02.wav",
+      "asset": "Assets/Art/Combat/Audio/p90/p90_02.wav",
+      "sha256": "c37a845b2e8458816a901f74d47295534e3dcc5aff21d983fb187550fee4fb24"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/p90/p90_clipout.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/p90_clipout.wav",
+      "sha256": "5da8bd60075446bdc4469c18a14f066b7703dcd3e476b120530479361482c657"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/p90/p90_clipin.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/p90_clipin.wav",
+      "sha256": "c92e3278e66b73735470d8d2ddcac363160b70527000c9f499899a3c7bdff925"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/p90/p90_boltback.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/p90_boltback.wav",
+      "sha256": "c4fa42aea5820b4721e5861ef0aff9f90c536e6f5bc5d3a4e18ea7e6b1149aed"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/p90/p90_boltforward.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/p90_boltforward.wav",
+      "sha256": "7493f5dcbdade7a83577cdae3ad20d0e5df42265dd8cb9cb85cffb797b6d1f98"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/ump45/ump45_02.wav",
+      "asset": "Assets/Art/Combat/Audio/ump45/ump45_02.wav",
+      "sha256": "8267969921fa0d9ff2d94c1a9d47e7e8ba96af859e955d77cf2c8b6ec4533f78"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/ump45/ump45_clipout.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/ump45_clipout.wav",
+      "sha256": "29e46b4596819d21eafd5a8a16304f93cc42fb2ee196f9a969dbd47b5cbc0a4b"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/ump45/ump45_clipin.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/ump45_clipin.wav",
+      "sha256": "1449aad90dd8eceb0705fc3aab0e86703230533f8300fe8c6ee8f39285ca3033"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/ump45/ump45_boltback.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/ump45_boltback.wav",
+      "sha256": "89fc3b723745353971f9c0216c0364a0bd1483bf139c94e17a3fc1ad13ae260a"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/ump45/ump45_boltforward.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/ump45_boltforward.wav",
+      "sha256": "99d25d9d2ecd0f325716037ed8b876cc2432958ab15c67d7a9cd99fd532b240f"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mag7/mag7_01.wav",
+      "asset": "Assets/Art/Combat/Audio/mag7/mag7_01.wav",
+      "sha256": "2ef93b15e48e64f4e06b03e271e2267eaf6ead13f09a2770ab2beec9cdcdf54d"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mag7/mag7_02.wav",
+      "asset": "Assets/Art/Combat/Audio/mag7/mag7_02.wav",
+      "sha256": "f08ecb31c2a035dfef69c75a1091646465b11cc542c7e4428687e7829db7c603"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mag7/mag7_clipout.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mag7_clipout.wav",
+      "sha256": "9eb618402dcbd16ac284cb9dbccd9bdda9e21355b60774395923a21ad294120e"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mag7/mag7_clipin.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mag7_clipin.wav",
+      "sha256": "0ca4892c12fdb6ec68f8f3807180065e037b59ee9b23e6c6c0053a18e294f67d"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mag7/mag7_pump_back.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mag7_pump_back.wav",
+      "sha256": "3856b0347905d58b01f8bceb69886961e7a3b5c886ed6176cb7799f0b8dd264c"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/mag7/mag7_pump_forward.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/mag7_pump_forward.wav",
+      "sha256": "0cebb88bea3723a9282f9e0c54428b94c57c69622857a7e8728c4ad8483d2cb0"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/nova/nova-1.wav",
+      "asset": "Assets/Art/Combat/Audio/nova/nova-1.wav",
+      "sha256": "5dfa59602551cf7ad1540a1d08a13744a0b1683b093de6001553fcdc6b5acdd3"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/nova/nova_insertshell_01.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/nova_insertshell_01.wav",
+      "sha256": "7f9cfc9f832f544f26abca53b607a46abbd13e552764cbedc385edb0ece73c70"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/nova/nova_insertshell_02.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/nova_insertshell_02.wav",
+      "sha256": "dd576812042fff221fee9ff60e6abfdb5534b47cd3b88f948087f67869ebc8d4"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/nova/nova_insertshell_03.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/nova_insertshell_03.wav",
+      "sha256": "cf186a682a31389db8e8ef7c7384e947536d38e038246b9dff08e47d2ed28f54"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/nova/nova_pump.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/nova_pump.wav",
+      "sha256": "b027cb60bdbd269d68099fcb807af4af55a6bdb528c6cf6f1e4d1a3cc4dccabe"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/sawedoff/sawedoff-1.wav",
+      "asset": "Assets/Art/Combat/Audio/sawedoff/sawedoff-1.wav",
+      "sha256": "7db970b8e2ae33a83836a33b4127aa4c1ef78e2c96e8eb4f5622b3a1ef2c3b53"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/sawedoff/sawedoff_insertshell_01.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/sawedoff_insertshell_01.wav",
+      "sha256": "9a77bea4e9f06174b169676a860fa20904f9f8f73dfdc5b7f3a93aa650a45e60"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/sawedoff/sawedoff_insertshell_02.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/sawedoff_insertshell_02.wav",
+      "sha256": "e0dc32589ec73c4711d8919213880086726097c986d8279d7e2e331c83d369de"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/sawedoff/sawedoff_insertshell_03.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/sawedoff_insertshell_03.wav",
+      "sha256": "0e2022df97bbbf8489382d1b8b0ad6362d794267faf9ef57773ba4ccad0cda0e"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/sawedoff/sawedoff_pump.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/sawedoff_pump.wav",
+      "sha256": "52a19ccab8907393686999b1594f0ace696d3fa4155e7b61f29886f3680ec0fc"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/xm1014/xm1014-1.wav",
+      "asset": "Assets/Art/Combat/Audio/xm1014/xm1014-1.wav",
+      "sha256": "a1c7e8c01184a2c41b2b7e82bb528b53a2af4eeeda4f0bdd26761fa8e1cca6ac"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/xm1014/xm1014_insertshell_01.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/xm1014_insertshell_01.wav",
+      "sha256": "7ebd313a6b92d91042e3589fad68aea4ec4035ae1268582f6037c44cc63aadc1"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/xm1014/xm1014_insertshell_02.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/xm1014_insertshell_02.wav",
+      "sha256": "b0576e84a475e1bdc2cd1cca6b41053ab965766eb1bd81c45c4409c00ba4e126"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/xm1014/xm1014_insertshell_03.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/xm1014_insertshell_03.wav",
+      "sha256": "392acef68448bc76cd436b1b9d612805ac3d9b1fb2a6fc26c9958d53033c022d"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/xm1014/xm1014_catch_03.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/xm1014_catch_03.wav",
+      "sha256": "4d85bd830b948cfdb81d39af6a1b2f5c1dc515905e06c5118f832ad35a714015"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/m249/m249_01.wav",
+      "asset": "Assets/Art/Combat/Audio/m249/m249_01.wav",
+      "sha256": "e6203dfa4630418e4556cc9166b5ac3149bceffe4d4c4249944f6c9407cdc78f"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/m249/m249_02.wav",
+      "asset": "Assets/Art/Combat/Audio/m249/m249_02.wav",
+      "sha256": "7f55eafd7b7514bae2c8e30f6a23c3e7f7de038a1b362872e3d9629daab72f0a"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/m249/m249_03.wav",
+      "asset": "Assets/Art/Combat/Audio/m249/m249_03.wav",
+      "sha256": "2720915bc2d420df095f588d8f249bbd8164de55e759c66bda7ed4bc9b86752a"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/m249/m249_coverup.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/m249_coverup.wav",
+      "sha256": "6c4020a8bb09c2bd6bb6fdf72c2a0764e44e5752cae9838b00f71b41d7636ea2"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/m249/m249_boxout.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/m249_boxout.wav",
+      "sha256": "654f7d813a84a302587fbaf9bc87ca503814d81c80291d8f4dfcae2d4fcf2f80"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/m249/m249_boxin.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/m249_boxin.wav",
+      "sha256": "48886f9ba13b8b5a259de948ae0bb6736d0a944fe1e3dc2ce5a1e7596f932c72"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/m249/m249_chain.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/m249_chain.wav",
+      "sha256": "75dcbf3ee2605b336cb74cc106c75a2ac8ef182b070a26ee11320776eb22135e"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/m249/m249_coverdown.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/m249_coverdown.wav",
+      "sha256": "5891d26ce1148e8816f46b627e41ef1fdfae60d6ee9b4d2b9bd5ba2682324b97"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/m249/m249_pump.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/m249_pump.wav",
+      "sha256": "8517f774f0864849e2e6a6a6fdb467d508dad7fde34d9729f8a314de3c0d6183"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/negev/negev_01.wav",
+      "asset": "Assets/Art/Combat/Audio/negev/negev_01.wav",
+      "sha256": "f0244b788985a6fd5d16bef6050e20dda9fa06160d0ab55a8ce31281b5cbc982"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/negev/negev_02.wav",
+      "asset": "Assets/Art/Combat/Audio/negev/negev_02.wav",
+      "sha256": "b4f5a59a30d67936ddceccf1a1a714742fe9b74951b17e0cefef0a9103a7f4fe"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/negev/negev_coverup.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/negev_coverup.wav",
+      "sha256": "6c4020a8bb09c2bd6bb6fdf72c2a0764e44e5752cae9838b00f71b41d7636ea2"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/negev/negev_boxout.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/negev_boxout.wav",
+      "sha256": "654f7d813a84a302587fbaf9bc87ca503814d81c80291d8f4dfcae2d4fcf2f80"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/negev/negev_boxin.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/negev_boxin.wav",
+      "sha256": "f79eeb3780afc8d812f3592e2815a16fdd746119ef372c20d99721704673e4ab"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/negev/negev_chain.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/negev_chain.wav",
+      "sha256": "75dcbf3ee2605b336cb74cc106c75a2ac8ef182b070a26ee11320776eb22135e"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/negev/negev_coverdown.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/negev_coverdown.wav",
+      "sha256": "5891d26ce1148e8816f46b627e41ef1fdfae60d6ee9b4d2b9bd5ba2682324b97"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/negev/negev_pump.wav",
+      "asset": "Assets/Art/Combat/ReloadAudio/negev_pump.wav",
+      "sha256": "8517f774f0864849e2e6a6a6fdb467d508dad7fde34d9729f8a314de3c0d6183"
+    }
+  ]
+}

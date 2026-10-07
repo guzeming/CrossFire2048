@@ -1,14 +1,14 @@
-using CrossFire2048.Client.App;
+using OperationBlacktide.Client.App;
 using UnityEditor;
 using UnityEngine;
 
-namespace CrossFire2048.Client.Editor
+namespace OperationBlacktide.Client.Editor
 {
     public static class AppConfigMenu
     {
         private const string AssetPath = "Assets/Scripts/GClient/Runtime/App/AppConfig.asset";
 
-        [MenuItem("CrossFire2048/Create Default App Config")]
+        [MenuItem("OperationBlacktide/Create Default App Config")]
         public static void CreateDefaultAppConfig()
         {
             AppConfig existing = AssetDatabase.LoadAssetAtPath<AppConfig>(AssetPath);

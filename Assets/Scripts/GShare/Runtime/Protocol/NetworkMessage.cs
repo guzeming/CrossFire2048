@@ -1,6 +1,6 @@
 using System;
 
-namespace CrossFire2048.Shared.Protocol
+namespace OperationBlacktide.Shared.Protocol
 {
     /// <summary>
     /// 网络消息信封。所有消息在传输时都包成 NetworkMessage，

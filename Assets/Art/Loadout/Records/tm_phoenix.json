@@ -1,0 +1,39 @@
+{
+  "id": "tm_phoenix",
+  "name": "凤凰战士",
+  "team": 2,
+  "materials": [
+    {
+      "name": "bare_arm_133",
+      "color": "223f08d305e59e4ad46c.png",
+      "normal": "10dd463dff0288eac575.png",
+      "orm": "d44d0bce4e4ba8ee8d0c.png"
+    },
+    {
+      "name": "glove_fullfinger",
+      "color": "48b341c75ec00dbc5e9d.png",
+      "normal": "a4a3c0f9ee3cdf775efa.png",
+      "orm": "9adafd9fb4b7e134c259.png"
+    },
+    {
+      "name": "tm_phoenix_v2_balaclava_varianta",
+      "color": "9fb2568acc05a85f0912.png",
+      "normal": "0431b8e0c3beefd5544b.png",
+      "orm": "4b02dcc5e5448dae55e0.png"
+    },
+    {
+      "name": "tm_phoenix_v2_body_variante",
+      "color": "d97fc2b1195d6cb2d819.png",
+      "normal": "27429d99e32a4f2e42c9.png",
+      "orm": "c6b3c3131aad7fbee3b4.png"
+    },
+    {
+      "name": "tm_phoenix_v2_legs_variantb",
+      "color": "c70a9af7c71a4f92f9fc.png",
+      "normal": "247f6187b630b2f57291.png",
+      "orm": "3df3fc9fb1f9f272e66a.png"
+    }
+  ],
+  "boneRemaps": {},
+  "kind": "agents"
+}

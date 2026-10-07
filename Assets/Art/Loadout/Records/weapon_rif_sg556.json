@@ -1,0 +1,24 @@
+{
+  "id": "weapon_rif_sg556",
+  "name": "SG 553",
+  "category": 1,
+  "slot": "rifle.scope",
+  "team": 2,
+  "profile": "ak",
+  "held": true,
+  "materials": [
+    {
+      "name": "shared_scope_lens",
+      "color": "dbcbd3f40e0fee64d5cf.png",
+      "normal": "fc143bde6d1887c72433.png",
+      "orm": "b268c101627ac0d9e752.png"
+    },
+    {
+      "name": "weapon_rif_sg556",
+      "color": "6aaf518a6e663ecb906f.png",
+      "normal": "700af7e9aeee4524fd31.png",
+      "orm": "7501441619c38c987182.png"
+    }
+  ],
+  "kind": "weapons"
+}

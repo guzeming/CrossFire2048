@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace CrossFire2048.Client.UI
+namespace OperationBlacktide.Client.UI
 {
     /// <summary>
     /// UI 根节点。负责创建 Canvas、EventSystem 和各层级容器，并初始化 UIManager。
@@ -22,6 +22,9 @@ namespace CrossFire2048.Client.UI
         private GameObject _eventSystemObject;
 
         public static UIRoot Instance { get; private set; }
+
+        /// <summary>没有弹窗或返回历史消耗 Esc 时，交给当前场景处理。</summary>
+        public event System.Action UnhandledBackRequested;
 
         public bool DontDestroyOnLoadEnabled => dontDestroyOnLoad;
 
@@ -61,8 +64,13 @@ namespace CrossFire2048.Client.UI
 
             if (Input.GetKeyDown(KeyCode.Escape))
             {
-                uiManager.HandleBackInput();
+                HandleBackInput();
             }
+        }
+
+        public void HandleBackInput()
+        {
+            if (uiManager != null && !uiManager.HandleBackInput()) UnhandledBackRequested?.Invoke();
         }
 
         private void OnDestroy()

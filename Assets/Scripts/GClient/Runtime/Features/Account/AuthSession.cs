@@ -1,6 +1,6 @@
 using System;
 
-namespace CrossFire2048.Client.Features.Account
+namespace OperationBlacktide.Client.Features.Account
 {
     /// <summary>
     /// 客户端当前登录会话。

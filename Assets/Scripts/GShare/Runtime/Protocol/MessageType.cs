@@ -1,4 +1,4 @@
-namespace CrossFire2048.Shared.Protocol
+namespace OperationBlacktide.Shared.Protocol
 {
     /// <summary>
     /// 客户端与服务端之间的消息类型。第一阶段只覆盖连接与账户相关消息。

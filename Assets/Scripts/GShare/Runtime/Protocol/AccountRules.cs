@@ -1,4 +1,4 @@
-namespace CrossFire2048.Shared.Protocol
+namespace OperationBlacktide.Shared.Protocol
 {
     /// <summary>
     /// 账户字段的校验规则，客户端与服务端共用，保证两端判断一致。

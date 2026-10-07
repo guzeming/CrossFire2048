@@ -1,0 +1,46 @@
+{
+  "materials": [
+    {
+      "name": "ctm_sas_body",
+      "color": "ctm_sas_body_color_psd_d02da1ae.png",
+      "normal": "ctm_sas_body_normal_psd_5a88fc4b.png",
+      "orm": "ctm_sas_body_ao_psd_4476562_orm_1853224529.png"
+    },
+    {
+      "name": "ctm_sas_bodylegs",
+      "color": "ctm_sas_legs_color_psd_ae899bf2.png",
+      "normal": "ctm_sas_legs_normal_psd_fd33a172.png",
+      "orm": "ctm_sas_legs_ao_psd_526cc0d3_orm_3303103350.png"
+    },
+    {
+      "name": "ctm_sas_head_gasmask",
+      "color": "ctm_sas_head_gasmask_color_psd_52d38e2c.png",
+      "normal": "ctm_sas_head_gasmask_normal_psd_4086d072.png",
+      "orm": "ctm_sas_head_gasmask_ao_psd_c9930b8c_orm_1034225833.png"
+    },
+    {
+      "name": "ctm_sas_lenses",
+      "color": "ctm_sas_lenses_vmat_g_tcolor_d8915932.png",
+      "normal": "ctm_sas_lenses_vmat_g_tnormal_ae950ea1.png",
+      "orm": "ctm_sas_lenses_ao_psd_394dcde8_orm_2451615156.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "glove_hardknuckle_black_color_psd_8f00aa00.png",
+      "normal": "glove_hardknuckle_normal_tga_a8df881b.png",
+      "orm": "glove_hardknuckle_ao_psd_5be17a0d_orm_3503677858.png"
+    },
+    {
+      "name": "w_eq_defuser",
+      "color": "w_eq_defuser_color_psd_84c51258.png",
+      "normal": "w_eq_defuser_normal_psd_5786e152.png",
+      "orm": "default_ao_tga_559f1ac6_orm_2373600417.png"
+    },
+    {
+      "name": "weapon_rif_m4a1_silencer",
+      "color": "m4a1_silencer_default_color_psd_ee3b9cfe.png",
+      "normal": "m4a1_silencer_default_normal_psd_46b09176.png",
+      "orm": "m4a1_silencer_default_ao_tga_9a4bb8ca_orm_4142957429.png"
+    }
+  ]
+}

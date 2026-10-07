@@ -1,4 +1,4 @@
-namespace CrossFire2048.Client.UI
+namespace OperationBlacktide.Client.UI
 {
     /// <summary>
     /// Toast 面板参数（也可直接传 string 给 ShowToast）。

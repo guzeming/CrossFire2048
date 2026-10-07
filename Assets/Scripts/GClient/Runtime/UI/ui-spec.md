@@ -12,13 +12,13 @@
 
 ```text
 Assets/Scripts/GClient/Runtime/UI/
-  PanelId.cs
+  UIPanelId.cs
   PanelIds.cs
   UILayer.cs
   UIPanel.cs
   UIPanelOpenArgs.cs
   ToastOpenArgs.cs
-  UIPanelEntry.cs
+  UIPath.cs
   UIManager.cs
   UIRoot.cs
   ToastPanel.cs
@@ -34,12 +34,12 @@ Assets/Scripts/GClient/Runtime/Features/Account/
 
 ## 核心概念
 
-### PanelId / PanelIds
+### UIPanelId / PanelIds
 
 全项目面板 ID 用 **枚举** 维护，字符串 key 与 UIManager 注册表保持一致：
 
 ```csharp
-public enum PanelId
+public enum UIPanelId
 {
     None = 0,
     Login = 1,
@@ -47,18 +47,34 @@ public enum PanelId
     Toast = 3,
 }
 
-PanelIds.Key(PanelId.Login);   // "Login"
+PanelIds.Key(UIPanelId.Login);   // "Login"
 PanelIds.All;                  // 所有已定义 ID
 PanelIds.IsOverlayOnly(...);   // Toast 等不参与栈
 ```
 
-Inspector 中 `UIPanelEntry.Panel Id` 仍填字符串（如 `Login`），需与枚举名一致。
+Inspector 中面板预制体自身的 `Panel Id` 仍填字符串（如 `Login`），需与 `UIPanelId` 枚举名一致。
 
-代码中优先使用枚举 overload：
+### UIPath（界面名 → Prefab 路径字典）
+
+**脚本文件** `UIPath.cs` 维护界面名与 Resources 路径的映射：
 
 ```csharp
-UIManager.Instance.Push(PanelId.Login);
-UIManager.Instance.PopTo(PanelId.Login);
+{ "Login", "UI/Panels/LoginPanel" },
+{ "Lobby", "UI/Panels/LobbyPanel" },
+```
+
+Prefab 必须放在 `Assets/Resources/` 下，运行时 `Resources.Load` 加载。
+
+**Add UI 工具**（菜单 `OperationBlacktide → UI → Add UI`）：
+
+- 填写界面名字 + Resources 路径，点击 Add 写入 `UIPath.cs`
+- 或拖入 Resources 下的 Prefab 自动填路径
+
+代码中只需：
+
+```csharp
+UIManager.Instance.Push(UIPanelId.Login);
+UIManager.Instance.PopTo(UIPanelId.Login);
 ```
 
 ### OpenArgs 传参
@@ -66,7 +82,7 @@ UIManager.Instance.PopTo(PanelId.Login);
 打开面板时通过 `object args` 传入，各面板定义自己的 `UIPanelOpenArgs` 子类：
 
 ```csharp
-UIManager.Instance.Push(PanelId.Login, new LoginOpenArgs
+UIManager.Instance.Push(UIPanelId.Login, new LoginOpenArgs
 {
     DefaultUsername = "test",
 });
@@ -172,13 +188,13 @@ UIManager.Instance.ShowToast("注册成功");
 UIManager.Instance.ShowToast("网络错误", duration: 3f);
 ```
 
-Toast 预制体需在 UIManager 注册，`Panel Id` 填 `Toast`，`Layer` 选 `Overlay`。
+Toast 路径需在 **UIPath** 中注册（通过 Add UI 添加）。
 
 ### UIManager
 
 职责：
 
-- 注册面板预制体（通过 `UIPanelEntry`）。
+- 从 **UIPath** 按界面名 `Resources.Load` Prefab 并实例化。
 - **按 UILayer 使用栈管理面板**。
 - 缓存已实例化的面板，避免重复创建。
 - Overlay 专用 API：`ShowToast`。
@@ -188,7 +204,7 @@ Toast 预制体需在 UIManager 注册，`Panel Id` 填 `Toast`，`Layer` 选 `O
 每个 `UILayer` 各自维护一个栈，例如：
 
 ```text
-Normal 栈：Login -> Lobby -> Room
+Normal 栈：当前场景主面板 -> 当前场景子面板
 Popup 栈：Confirm -> Alert
 ```
 
@@ -204,21 +220,21 @@ Popup 栈：Confirm -> Alert
 
 ```text
 Push(Login)   栈：[Login]           显示 Login
-Push(Lobby)   栈：[Login, Lobby]    显示 Lobby，Login 被关闭
-Back()        栈：[Login]           显示 Login
+切到大厅场景   清理旧栈，再 Push(Lobby)，栈：[Lobby]
+Esc           栈：[Lobby]           仅一个主面板，不返回登录
 ```
 
 常用 API：
 
 ```csharp
-UIManager.Instance.Push(PanelId.Login);
-UIManager.Instance.Push(PanelId.Lobby);
+UIManager.Instance.Push(UIPanelId.Login);
+UIManager.Instance.Push(UIPanelId.Lobby);
 UIManager.Instance.ShowToast("提示文字");
 UIManager.Instance.Back();                      // Normal 层返回
 UIManager.Instance.HandleBackInput();           // Esc 统一处理
 UIManager.Instance.Pop(UILayer.Popup);          // 关闭 Popup 栈顶
-UIManager.Instance.PopTo(PanelId.Login);
-UIManager.Instance.Close(PanelId.Lobby);
+UIManager.Instance.PopTo(UIPanelId.Login);
+UIManager.Instance.Close(UIPanelId.Lobby);
 UIManager.Instance.CloseAll(UILayer.Popup);
 UIManager.Instance.GetStackCount(UILayer.Normal);
 UIManager.Instance.TryGetTopPanelId(UILayer.Normal, out string topId);
@@ -244,29 +260,45 @@ Inspector 选项：
 跨场景注意：
 
 - 首个场景的 `UIRoot` 会保留，后续场景**不要再挂第二个 UIRoot**（或挂了也会被销毁）。
-- `GameUIEntry` 会检测 Normal 栈是否已有面板，避免重复 Push Login。
-- 换场景后 `AuthClient` 等业务对象需自行处理（可同样 DDOL 或场景单例）。
+- `GameUIEntry` 挂在场景自己的 `SceneUI` 上，不能挂在持久化的 UIRoot 上；每次场景启动清理 Popup/Normal 栈，再 Push 该场景的起始面板。
+- `App/GameSceneFlow` 将 Game 对象（含 AuthClient、TcpGameClient）跨场景保留，并销毁新场景中的重复实例。
 
 场景中只需挂一个带 `UIRoot + UIManager` 的对象即可（通常放在首个启动场景）。
 
 ### GameUIEntry
 
-可选启动脚本：场景 Play 后自动 `Push` 起始面板（默认 Login）。
+场景 UI 入口：清理 Popup/Normal 栈后自动 `Push` 起始面板。SampleScene 使用 Login，LobbyScene 使用 Lobby。未登录时不会打开 Lobby，由 GameSceneFlow 返回登录场景。
+
+### GameSceneFlow（应用层）
+
+位置：`Assets/Scripts/GClient/Runtime/App/GameSceneFlow.cs`。
+
+- 订阅 `AuthClient.LoginCompleted`，仅登录成功且存在有效会话时加载 LobbyScene。
+- 使用 `SceneManager.LoadSceneAsync` 切换场景；账号、TCP 连接和 UIRoot 持续保留。
+- `EnterTrainingGround()` 在有效会话下加载 DustII；该场景的 `TrainingSceneController` 清理 Popup/Normal 层后打开 Training 面板。
+- `ReturnToLobby()` 保留账号和 TCP 连接回到 LobbyScene；会话失效时进入 SampleScene。
+- 退出登录会清除会话、断开 TCP 并加载 SampleScene；大厅或训练场断线同样返回登录，加载期间断线也会在加载完成后返回登录。
+- 在编辑器直接 Play LobbyScene 时，未登录则返回 SampleScene。
+- SampleScene、LobbyScene 和 DustII 三个场景须在 Build Settings 中启用；场景路径常量集中定义在此脚本中。
 
 ## 场景搭建步骤
 
 1. 新建空物体，例如 `UIRoot`。
-2. 挂上 `UIRoot`、`UIManager`、`GameUIEntry`（可选）。
-3. 同场景放置 `AuthClient`（含 `TcpGameClient`）。
-4. 制作面板预制体并注册到 `UIManager.Panel Entries`：
+2. 挂上 `UIRoot`、`UIManager`；另建 `SceneUI` 挂 `GameUIEntry` 并选择起始面板。
+3. 同场景的 Game 对象挂 `GameSceneFlow`、`AuthClient`、`TcpGameClient`，绑定 AppConfig。
+4. 自己做 Login / Lobby / Toast 等 Prefab，放到 `Assets/Resources/` 下。
+5. 用 **Add UI** 把界面名和路径写入 `UIPath.cs`。
 
-| Panel Id | 脚本 | Layer |
-|----------|------|-------|
+**UIManager 无需任何 Inspector 配置。**
+
+| UIPanelId | 脚本 | Layer |
+|-----------|------|-------|
 | Login | `LoginPanel` | Normal |
 | Lobby | `LobbyPanel` | Normal |
 | Toast | `ToastPanel` | Overlay |
 
-5. `LoginPanel` / `LobbyPanel` 在 Inspector 绑定 `AuthClient`、按钮、输入框等。
+6. `LoginPanel` / `LobbyPanel` 优先使用 `GameSceneFlow.Auth`，保持跨场景一致的账号对象。
+7. SampleScene 和 LobbyScene 都加入 Build Settings，SampleScene 排在首位。
 
 ## LoginPanel / LobbyPanel
 
@@ -274,13 +306,36 @@ Inspector 选项：
 
 - 绑定账号/密码输入框、登录/注册按钮、状态文本。
 - 通过 `AddGameEvent` 监听账户状态与登录/注册结果。
-- 登录成功：`ShowToast` + `Push(PanelId.Lobby)`。
+- 登录成功：`ShowToast`；由应用层 `GameSceneFlow` 切换大厅场景，该场景的 `GameUIEntry` 打开 Lobby。
 - 注册成功：`ShowToast` 提示。
 
 `LobbyPanel`：
 
-- 显示欢迎语，提供退出登录按钮。
-- 退出后 `PopTo(PanelId.Login)`。
+- 透明 UGUI 叠加层，中央不放全屏背景图；CT 模型、地面、灯光和相机属于 LobbyScene。
+- 顶部大厅/装备/生涯页签控制面板内的子视图；按钮通过 `AddButton` 注册，关闭时统一释放。
+- 右下角选择模式和进入游戏；模式下拉是面板内部控件，选择后关闭，支持点击外部或 Esc 收起。
+- 点击模式下拉中的训练场直接进入 DustII；已选训练场时点击进入游戏也使用同一入口。初始化或重新打开大厅时只恢复模式选择，不自动跳转。
+- 房间、匹配和对战暂未接入，爆破模式和团队竞技仍提示暂未开放。
+- 显示账号并提供退出登录按钮。
+- 调用 `GameSceneFlow.Logout()`，清除会话、断开连接并返回登录场景。
+
+`Features/Lobby/LobbyCharacterPreview` 挂在大厅场景对象上，仅处理中央区域拖动旋转模型，跳过 UI 点击；它不创建 Canvas 或管理 UI 生命周期。
+
+训练场 UI：
+
+- `TrainingPanel` 位于 Normal 层，显示 CS 风格 HUD：左下生命值/护甲，右下主武器剪影、弹匣与备弹，顶部训练计时，以及鼠标准星、换弹进度和低状态提示。
+- HUD 绑定 `TrainingSceneController` 的当前角色、`TrainingVitals` 和 `TrainingWeaponController.Ammo`；事件通过 `AddEvent` 随面板关闭释放，重新进入训练场时绑定新的角色。
+- 使用 `SafeArea` 容器和 CanvasScaler 适配分辨率。只有右上训练菜单按钮接收射线，血条、图标、准星不阻挡瞄准与开火。
+- `BuildTrainingHud.Build` 生成 HUD prefab、模型剪影和训练菜单；`BuildTrainingMenu.Build` 可单独重建训练菜单，`BuildTrainingScene` 重建训练场时复用此入口。
+- `TrainingMenuPanel` 位于 Popup 层，使用居中通高的半透明深色面板、橙色强调线与纵向按钮，提供继续训练、切换武器、返回大厅。武器页按四类展示模型缩略图，点击即可装备，保持菜单打开便于选择。
+- 数字键（含小键盘）1 主武器（包含狙击）、2 副武器、3 近战、4 投掷；首次进入类别恢复上次选择，同类重复按键循环到下一件。训练场提供目录内可手持的四类装备，不写回大厅配装。无装备类别不切换。
+- 切换时更新手持模型、HUD 图标、名称和类别，取消开镜和换弹，每把枪保留独立弹匣。菜单打开时禁止游戏快捷键、移动和开火，菜单内的装备按钮仍然可用。
+- 装备目录内全部 35 把枪（含电击枪）接入开火、弹药与换弹；步枪、微冲、霰弹枪和机枪共用主武器切换入口。所有枪械（包含 4 把狙击）均显示跟随枪管的 30 米瞄准红线，遇到障碍物截断，狙击开镜时继续显示。
+- 无训练攻击配置的其他装备仍支持展示，隐藏枪械弹药数字，禁用上一把武器的攻击/激光/动作；构建器会拒绝任何缺少射击配置的枪械。
+- `ReturnToLobbyPanel` 位于 Popup 层，提供“继续训练”和“返回大厅”，复用 UIModalBlocker 拦截点击。
+- `UIRoot.HandleBackInput()` 先关闭现有弹窗/处理返回历史；未消耗时触发 `UnhandledBackRequested`，训练场据此打开训练菜单。再次按 Esc 关闭菜单；从返回大厅确认框按 Esc 回到菜单，“继续训练”关闭整个 Popup 栈。
+- `TrainingSceneController` 随场景订阅/退订返回事件；弹窗或场景加载期间禁用角色与相机输入，不更改全局 Time.timeScale。离开训练场恢复原鼠标状态。
+- UI 预制体及 DustII 的训练组件由 `OperationBlacktide/Training/Build Dust II Training` 菜单生成。
 
 示例：
 

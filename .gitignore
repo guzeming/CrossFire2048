@@ -1,3 +1,6 @@
+# 协作规则：提交 Assets（含 .meta）、Packages、ProjectSettings 和项目源码。
+# 这里仅忽略可重建的产物、个人配置及另行共享的原始美术工作区。
+# 本文件不会删除本地文件；已被 Git 跟踪的文件需要单独停止跟踪。
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
@@ -36,6 +39,7 @@
 
 # Visual Studio cache directory
 .vs/
+.idea/
 
 # Gradle cache directory
 .gradle/
@@ -48,6 +52,8 @@ ExportedObj/
 *.unityproj
 *.sln
 *.slnx
+!/GServer/**/*.sln
+!/GServer/**/*.slnx
 *.suo
 *.tmp
 *.user
@@ -110,3 +116,32 @@ InitTestScene*.unity*
 **/[Bb]in/
 **/[Oo]bj/
 .build-check/
+
+# Local diagnostics and Python caches
+/exceptions.txt
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Local server accounts (the default bin/**/data path is already ignored)
+/data/
+/GServer/**/data/
+/GServer/**/accounts.json
+.env
+.env.*
+!.env.example
+
+# ArtSource 是可选的原始美术工作区；打开 Unity 项目不依赖这里的大文件。
+# 仅保留制作脚本、说明、许可证和提示词，完整原始素材另行共享。
+# Assets 下已导入的成品及其 .meta 必须一起提交，不能照此规则排除。
+/ArtSource/**
+!/ArtSource/**/
+!/ArtSource/**/*.py
+!/ArtSource/**/*.ps1
+!/ArtSource/**/*.md
+!/ArtSource/**/README*
+!/ArtSource/**/LICENSE*
+!/ArtSource/**/COPYING*
+!/ArtSource/**/*.prompt.txt
+!/ArtSource/**/*Prompts.txt

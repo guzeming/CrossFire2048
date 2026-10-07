@@ -1,0 +1,18 @@
+{
+  "id": "weapon_pist_p250",
+  "name": "P250",
+  "category": 0,
+  "slot": "pistol.p250",
+  "team": 3,
+  "profile": "pistol",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_pist_p250",
+      "color": "e23054199a7cd8297b61.png",
+      "normal": "1b00fea9bb557e9036a2.png",
+      "orm": "daec6b4213517dc36258.png"
+    }
+  ],
+  "kind": "weapons"
+}

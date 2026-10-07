@@ -1,0 +1,47 @@
+{
+  "id": "ctm_fbi",
+  "name": "FBI",
+  "team": 1,
+  "materials": [
+    {
+      "name": "ctm_fbi_v2_body_varianta",
+      "color": "65263263590ba08b639f.png",
+      "normal": "30f312ecb9fb2dcdade8.png",
+      "orm": "1ef567adf87ac80fc36f.png"
+    },
+    {
+      "name": "ctm_fbi_v2_hat_glasses_radio_varianta",
+      "color": "089811d3f912d5687140.png",
+      "normal": "489914769c2794d55f63.png",
+      "orm": "0497db3cf92de19d51ac.png"
+    },
+    {
+      "name": "ctm_fbi_v2_head",
+      "color": "b77989ea9c117d8d38e6.png",
+      "normal": "94ab9ebce1baf3169236.png",
+      "orm": "0647e123e7d317a7d21a.png"
+    },
+    {
+      "name": "ctm_fbi_v2_lower_body_variantb",
+      "color": "f83f635a234ba5df2b02.png",
+      "normal": "73c3148daf898d36026c.png",
+      "orm": "84b8913e4b386859b3d1.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "67a4229a913ad1b16146.png",
+      "normal": "2454904008e64d88948a.png",
+      "orm": "304310b1f55907832b3f.png"
+    },
+    {
+      "name": "w_eq_defuser",
+      "color": "91f2ccf3674e0ef6bdcd.png",
+      "normal": "9c1e94a9dbd505bea382.png",
+      "orm": "9c2bb87e48b8dac44be9.png"
+    }
+  ],
+  "boneRemaps": {
+    "jiggle_back_micropouches": "spine_3"
+  },
+  "kind": "agents"
+}

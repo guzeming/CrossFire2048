@@ -3,12 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using CrossFire2048.Client.Common;
+using OperationBlacktide.Client.Common;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace CrossFire2048.Client.UI
+namespace OperationBlacktide.Client.UI
 {
     /// <summary>
     /// 面板生命周期管理器。由 UIPanel 内部持有，不对外暴露。

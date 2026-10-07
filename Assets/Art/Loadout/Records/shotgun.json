@@ -1,0 +1,16 @@
+{
+  "id": "shotgun",
+  "clips": [
+    {
+      "name": "Idle",
+      "first": 1,
+      "last": 542
+    },
+    {
+      "name": "Inspect",
+      "first": 543,
+      "last": 738
+    }
+  ],
+  "kind": "profiles"
+}

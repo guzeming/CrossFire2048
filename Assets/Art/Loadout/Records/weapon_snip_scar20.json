@@ -1,0 +1,18 @@
+{
+  "id": "weapon_snip_scar20",
+  "name": "SCAR-20",
+  "category": 5,
+  "slot": "rifle.auto",
+  "team": 1,
+  "profile": "scar",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_snip_scar20",
+      "color": "283e172b671622d330f9.png",
+      "normal": "ee1b79b2e7d697d59096.png",
+      "orm": "05e2b9d22ac45f91e83a.png"
+    }
+  ],
+  "kind": "weapons"
+}

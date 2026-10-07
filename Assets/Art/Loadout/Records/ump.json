@@ -1,0 +1,16 @@
+{
+  "id": "ump",
+  "clips": [
+    {
+      "name": "Idle",
+      "first": 1,
+      "last": 599
+    },
+    {
+      "name": "Inspect",
+      "first": 600,
+      "last": 886
+    }
+  ],
+  "kind": "profiles"
+}

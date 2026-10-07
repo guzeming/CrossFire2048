@@ -1,0 +1,18 @@
+{
+  "id": "w_eq_armor",
+  "name": "防弹衣",
+  "category": 4,
+  "slot": "gear.armor",
+  "team": 3,
+  "profile": "",
+  "held": false,
+  "materials": [
+    {
+      "name": "armor",
+      "color": "810e3017755158e2ff8a.png",
+      "normal": "923505b5ffe237cb58ff.png",
+      "orm": "d44d0bce4e4ba8ee8d0c.png"
+    }
+  ],
+  "kind": "weapons"
+}

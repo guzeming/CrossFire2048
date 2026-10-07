@@ -1,0 +1,1999 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0660e708aee9e24591e9fbc53a7334e, type: 3}
+  m_Name: TrainingWeapons
+  m_EditorClassIdentifier: 
+  weapons:
+  - id: weapon_rif_ak47
+    cycleTime: 0.1
+    range: 208.0768
+    damage: 36
+    rangeModifier: 0.98
+    automatic: 1
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 30
+    reserveAmmo: 90
+    reloadDuration: 2.5
+    hudIcon: {fileID: 21300000, guid: fc74a7f403437474ea4e7d8aa3527056, type: 3}
+    fireAnimation: {fileID: -623603649343465320, guid: 16baa731c5d0acc43b012fbaef37cfc2,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: -1609281748187839663, guid: 16baa731c5d0acc43b012fbaef37cfc2,
+      type: 3}
+    idleAnimation: {fileID: 0}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 846a99904092fad42ad408ba5f0ad23a, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.55
+      clip: {fileID: 8300000, guid: 3dd4a849ad9ba654b82732c5e036406e, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.78
+      clip: {fileID: 8300000, guid: 6c917521f779f7f4791abd97dc1a629a, type: 3}
+      volume: 0.7
+    muzzlePosition: {x: -0.000018030209, y: -0.006533187, z: 0.00055094826}
+    ejectPosition: {x: 0.000097505115, y: -0.0018459784, z: -0.00021051068}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0, y: 0, z: 0}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 0
+    combatGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: 7fdd9af612e39074a89ae565cf526fce, type: 3}
+    - {fileID: 8300000, guid: 595e4edc2bac27c48864fd7e77842291, type: 3}
+    - {fileID: 8300000, guid: f6a7f3723caf0cd488bdb6d1f35677ba, type: 3}
+    - {fileID: 8300000, guid: 8cc4020dff4df4f4b8c4fdbcf73560ca, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_rif_m4a4
+    cycleTime: 0.09
+    range: 208.0768
+    damage: 33
+    rangeModifier: 0.97
+    automatic: 1
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 30
+    reserveAmmo: 90
+    reloadDuration: 2.5
+    hudIcon: {fileID: 21300000, guid: 5e95d15e17fcc634c8cfe21254a3cc83, type: 3}
+    fireAnimation: {fileID: 723096430288179899, guid: 16baa731c5d0acc43b012fbaef37cfc2,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: 1963079803359675471, guid: 16baa731c5d0acc43b012fbaef37cfc2,
+      type: 3}
+    idleAnimation: {fileID: 0}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 37d74f002c5a86b43821a8277009f6b2, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: f839122f9e862864e81b83aa31578c9c, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.76
+      clip: {fileID: 8300000, guid: 3b5a0c006d3a97c41819a35e67864fec, type: 3}
+      volume: 0.6
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: 5e0ad074b5626df4fb4470db53a32fe6, type: 3}
+      volume: 0.6
+    muzzlePosition: {x: 0.0000019962592, y: -0.009293684, z: 0.0031324604}
+    ejectPosition: {x: -0.000017625018, y: -0.0048349197, z: 0.0024820892}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0, y: 0, z: 0}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 0
+    combatGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: 2480bccc3709aac4a892787db4ba21e7, type: 3}
+    - {fileID: 8300000, guid: 2090b32c7d5acb44e852536a76ab2f98, type: 3}
+    - {fileID: 8300000, guid: c7f4e6db991c95c4abbe8f46ec65c7b2, type: 3}
+    - {fileID: 8300000, guid: f21fda7d7c981ba409ff59fa2b6ed17e, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_rif_m4a1_silencer
+    cycleTime: 0.1
+    range: 208.0768
+    damage: 38
+    rangeModifier: 0.94
+    automatic: 1
+    silenced: 1
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 20
+    reserveAmmo: 80
+    reloadDuration: 3.1
+    hudIcon: {fileID: 21300000, guid: 90047dbfdd33c9f4e850b05488f9c22d, type: 3}
+    fireAnimation: {fileID: -626948583029366203, guid: 16baa731c5d0acc43b012fbaef37cfc2,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: -8206857311389296499, guid: 16baa731c5d0acc43b012fbaef37cfc2,
+      type: 3}
+    idleAnimation: {fileID: 0}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 37d74f002c5a86b43821a8277009f6b2, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: f839122f9e862864e81b83aa31578c9c, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.76
+      clip: {fileID: 8300000, guid: 4642b6c62f7dc1340879a1a645fb8982, type: 3}
+      volume: 0.6
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: ba2b64d33df0724489a0e641b98ae796, type: 3}
+      volume: 0.6
+    muzzlePosition: {x: -0.00000391778, y: -0.00834248, z: 0.0011990905}
+    ejectPosition: {x: 0.000041040297, y: -0.0024773038, z: 0.0005517192}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0, y: 0, z: 0}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 0
+    combatGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: bad857e8e77db5946b3dfd894ca07b79, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_snip_awp
+    cycleTime: 1.45
+    range: 250
+    damage: 115
+    rangeModifier: 0.99
+    automatic: 0
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 5
+    reserveAmmo: 30
+    reloadDuration: 3.7
+    hudIcon: {fileID: 21300000, guid: b959092159021ce409f4212834c74cc9, type: 3}
+    fireAnimation: {fileID: 723096430288179899, guid: 16baa731c5d0acc43b012fbaef37cfc2,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: 1963079803359675471, guid: 16baa731c5d0acc43b012fbaef37cfc2,
+      type: 3}
+    idleAnimation: {fileID: 0}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 3dfd41a3c8caddc499bc74983d09973f, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: 78db925b396d9f54789b01d131901b5f, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.76
+      clip: {fileID: 8300000, guid: d27eafc2bdfa7a54388c2429217ec179, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: d4e71289252215a4dbc67986c4897c21, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.0000016491372, y: -0.010772104, z: 0.002314949}
+    ejectPosition: {x: 0.00014147446, y: -0.0040175337, z: 0.0020772975}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0, y: 0, z: 0}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 0
+    combatGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: 09e3747a59cc0f149940bb7c5248adaf, type: 3}
+    - {fileID: 8300000, guid: 6fd840b248686ec48860a42dc41b46de, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_snip_ssg08
+    cycleTime: 1.25
+    range: 250
+    damage: 88
+    rangeModifier: 0.98
+    automatic: 0
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 10
+    reserveAmmo: 90
+    reloadDuration: 3.7
+    hudIcon: {fileID: 21300000, guid: ed438d8b269030848827c69c72cf4455, type: 3}
+    fireAnimation: {fileID: 723096430288179899, guid: 16baa731c5d0acc43b012fbaef37cfc2,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: 1963079803359675471, guid: 16baa731c5d0acc43b012fbaef37cfc2,
+      type: 3}
+    idleAnimation: {fileID: 0}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 9b6854044b19aa84b926843ad977dfa2, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: da367e46730d9214e98d465acd0069c0, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.76
+      clip: {fileID: 8300000, guid: ffeb4639c0bb50845b66daf20483940a, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: f3122e919c69d3e4099a2217ce6cb7c4, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.0000036170227, y: -0.009204284, z: 0.0010921638}
+    ejectPosition: {x: 0.00020171299, y: -0.002753667, z: 0.0005853158}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0, y: 0, z: 0}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 0
+    combatGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: 649ea96bf99787e47aa2b60afb01b463, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_snip_g3sg1
+    cycleTime: 0.25
+    range: 250
+    damage: 80
+    rangeModifier: 0.98
+    automatic: 1
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 20
+    reserveAmmo: 90
+    reloadDuration: 4.7
+    hudIcon: {fileID: 21300000, guid: cf628f36101b577479e4d5562f78df66, type: 3}
+    fireAnimation: {fileID: 723096430288179899, guid: 16baa731c5d0acc43b012fbaef37cfc2,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: 1963079803359675471, guid: 16baa731c5d0acc43b012fbaef37cfc2,
+      type: 3}
+    idleAnimation: {fileID: 0}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 27cde3350675e7446a2bff37f17ef708, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: 100624025fa7ae64caef8352b2d1a4d0, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.76
+      clip: {fileID: 8300000, guid: 08397a02773765e4c9ebf50da6778d27, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: 3f9429d41c6d87642a2cb3931fae7c87, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.000000384694, y: -0.011039186, z: 0.0014202264}
+    ejectPosition: {x: -0.0000000017607797, y: -0.0056385333, z: 0.0011462653}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0, y: 0, z: 0}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 0
+    combatGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: 46d19d9b5f91eb145bc4480970e3c7bd, type: 3}
+    - {fileID: 8300000, guid: 504d8742f45d6234ab45f196351e6a5e, type: 3}
+    - {fileID: 8300000, guid: 239df8d8c0754c74cb726f55cea302e7, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_snip_scar20
+    cycleTime: 0.25
+    range: 250
+    damage: 80
+    rangeModifier: 0.98
+    automatic: 1
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 20
+    reserveAmmo: 90
+    reloadDuration: 3.1
+    hudIcon: {fileID: 21300000, guid: dfcfd120a13ab5046aeed3f593c9e7a6, type: 3}
+    fireAnimation: {fileID: 723096430288179899, guid: 16baa731c5d0acc43b012fbaef37cfc2,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: 1963079803359675471, guid: 16baa731c5d0acc43b012fbaef37cfc2,
+      type: 3}
+    idleAnimation: {fileID: 0}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 6ea3ca7499c80034fa00a004cd3c20f3, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: df5c6f93391c3df44862cdf26228088a, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.76
+      clip: {fileID: 8300000, guid: 8529916a0402e384fb82127365e44e18, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: af6c34d7dff3da94cb669f01bc802ee8, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.0000047855992, y: -0.011315452, z: 0.003048222}
+    ejectPosition: {x: -0.000018925399, y: -0.005917843, z: 0.0028608514}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0, y: 0, z: 0}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 0
+    combatGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: e2b3aa93e95748543b70598063a02911, type: 3}
+    - {fileID: 8300000, guid: 9421e66167bdf8840aa66fbaf16ae6fb, type: 3}
+    - {fileID: 8300000, guid: 1a76439fab0b2324ab0158bb562c2e60, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_pist_glock18
+    cycleTime: 0.15
+    range: 150
+    damage: 30
+    rangeModifier: 0.9
+    automatic: 0
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 20
+    reserveAmmo: 80
+    reloadDuration: 2.3
+    hudIcon: {fileID: 21300000, guid: e3f908428185d7749bc24e54e54e52ba, type: 3}
+    fireAnimation: {fileID: 5562499568867797170, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: -6298512897385048254, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    idleAnimation: {fileID: 3530867512280156451, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    locomotionAnimations:
+    - {fileID: -8206857311389296499, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -8169380943463088221, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7705964590769475085, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7653847362332097697, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -5234307307113089089, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4885119122951247324, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4807389317913785953, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3545652582204683642, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3206263651483497662, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1708721065880324479, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1609281748187839663, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -626948583029366203, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -623603649343465320, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 723096430288179899, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 837255572769927147, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 1963079803359675471, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5336171071401514536, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5703688115460763318, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 6651284380104590841, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 7896679309779607623, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 8195394017938382407, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 9206128091354402827, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 9db81cf71b0661146a0929abb703317b, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: 28ae9bed8d7db8b4096af517425f1086, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: f3c7471eea22dac43a634cbbdc6d597a, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: 0.0000000014479142, y: -0.0016073056, z: 0.0005857861}
+    ejectPosition: {x: -0.00000072790436, y: -0.00061217515, z: 0.00013494641}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0, y: 0, z: 0}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 0
+    combatGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: fb477bb4154280e4099c9ed1ec2049c0, type: 3}
+    - {fileID: 8300000, guid: 01d6c6f2fd70ccf488f2ef8dafc4fc74, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_pist_hkp2000
+    cycleTime: 0.17
+    range: 150
+    damage: 35
+    rangeModifier: 0.9
+    automatic: 0
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 13
+    reserveAmmo: 52
+    reloadDuration: 2.2
+    hudIcon: {fileID: 21300000, guid: fb5f1e6e08d76cb49aeebe9e6878e1fd, type: 3}
+    fireAnimation: {fileID: 6949060916897594169, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: -6081819307139988954, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    idleAnimation: {fileID: -8374069721875309285, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    locomotionAnimations:
+    - {fileID: -8206857311389296499, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -8169380943463088221, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7705964590769475085, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7653847362332097697, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -5234307307113089089, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4885119122951247324, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4807389317913785953, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3545652582204683642, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3206263651483497662, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1708721065880324479, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1609281748187839663, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -626948583029366203, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -623603649343465320, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 723096430288179899, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 837255572769927147, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 1963079803359675471, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5336171071401514536, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5703688115460763318, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 6651284380104590841, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 7896679309779607623, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 8195394017938382407, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 9206128091354402827, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: f2ca5eb9fc3639d40a01b51cb6402572, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: 16964f656c67f354993eaaee88bd3392, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: 861152d12a5fd754d83a8e36725f0f85, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: 0.00000019201235, y: -0.0023020427, z: 0.00085146964}
+    ejectPosition: {x: 8.7311415e-11, y: -0.0013944533, z: 0.00035748916}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0, y: 0, z: 0}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 0
+    combatGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: b8bc257a4dcb4c546926d15d4459f629, type: 3}
+    - {fileID: 8300000, guid: a98a60417cdeddc468cacb88993655dd, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_pist_usp_silencer
+    cycleTime: 0.17
+    range: 150
+    damage: 35
+    rangeModifier: 0.9
+    automatic: 0
+    silenced: 1
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 12
+    reserveAmmo: 48
+    reloadDuration: 2.2
+    hudIcon: {fileID: 21300000, guid: ab54c02d3db6eaa47a9962458c17ffca, type: 3}
+    fireAnimation: {fileID: 7389754504641484237, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: -7845022923403507575, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    idleAnimation: {fileID: 3758328013430084372, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    locomotionAnimations:
+    - {fileID: -8206857311389296499, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -8169380943463088221, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7705964590769475085, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7653847362332097697, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -5234307307113089089, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4885119122951247324, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4807389317913785953, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3545652582204683642, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3206263651483497662, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1708721065880324479, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1609281748187839663, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -626948583029366203, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -623603649343465320, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 723096430288179899, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 837255572769927147, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 1963079803359675471, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5336171071401514536, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5703688115460763318, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 6651284380104590841, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 7896679309779607623, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 8195394017938382407, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 9206128091354402827, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 53dc982f0a0f3fb46a697894b81f4137, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: baac063ba2b9fa049922b11812cf3fec, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: 39da8be4de4a33c4093ac3b60311bec3, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: 0.000006252254, y: -0.004625926, z: 0.0010230014}
+    ejectPosition: {x: -0.000021928567, y: -0.0025025867, z: 0.0004158507}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0, y: 0, z: 0}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 0
+    combatGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: 987d4646002f8054cb780b14e08049ee, type: 3}
+    - {fileID: 8300000, guid: 7a505ed8a08e9bc43a670df8d61d03b5, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_pist_p250
+    cycleTime: 0.15
+    range: 150
+    damage: 38
+    rangeModifier: 0.9
+    automatic: 0
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 13
+    reserveAmmo: 52
+    reloadDuration: 2.2
+    hudIcon: {fileID: 21300000, guid: 41923371dd59e4d4eaf0736c07f964b1, type: 3}
+    fireAnimation: {fileID: 1582585961055698184, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: 6945345527666937535, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    idleAnimation: {fileID: 8731750232237294629, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    locomotionAnimations:
+    - {fileID: -8206857311389296499, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -8169380943463088221, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7705964590769475085, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7653847362332097697, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -5234307307113089089, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4885119122951247324, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4807389317913785953, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3545652582204683642, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3206263651483497662, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1708721065880324479, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1609281748187839663, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -626948583029366203, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -623603649343465320, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 723096430288179899, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 837255572769927147, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 1963079803359675471, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5336171071401514536, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5703688115460763318, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 6651284380104590841, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 7896679309779607623, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 8195394017938382407, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 9206128091354402827, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 13836006b369ee6499be84dcef734671, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: 72f684600c8fc7947bd0dc9b668ef6ef, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: dfc89206666b40f48bbff8d6d5d2b9b9, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.000001981809, y: -0.0021141127, z: 0.0012340033}
+    ejectPosition: {x: 0.0000000014479142, y: -0.0011120675, z: 0.00075981}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0, y: 0, z: 0}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 0
+    combatGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: f61ab02e34aeb074f96d1ef73c0520cf, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_pist_fiveseven
+    cycleTime: 0.15
+    range: 150
+    damage: 32
+    rangeModifier: 0.9
+    automatic: 0
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 20
+    reserveAmmo: 80
+    reloadDuration: 2.2
+    hudIcon: {fileID: 21300000, guid: 8dcac12c2c5580c4d81226ebfef694a6, type: 3}
+    fireAnimation: {fileID: 1677690849294707080, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: -4954464337394407288, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    idleAnimation: {fileID: 5067185792832705877, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    locomotionAnimations:
+    - {fileID: -8206857311389296499, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -8169380943463088221, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7705964590769475085, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7653847362332097697, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -5234307307113089089, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4885119122951247324, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4807389317913785953, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3545652582204683642, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3206263651483497662, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1708721065880324479, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1609281748187839663, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -626948583029366203, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -623603649343465320, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 723096430288179899, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 837255572769927147, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 1963079803359675471, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5336171071401514536, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5703688115460763318, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 6651284380104590841, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 7896679309779607623, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 8195394017938382407, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 9206128091354402827, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 13ca9fbd44229fb40a735dab54382204, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: d1de3b69b777b1d48884022764f098b1, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: 8631c281e4cf0c345b05c30e0d2917da, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.0000036831084, y: -0.0016194107, z: 0.0016870488}
+    ejectPosition: {x: -0.0000018937845, y: -0.0006095949, z: 0.0011990856}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0, y: 0, z: 0}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 0
+    combatGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: 169e90898b81e1a48b9f28b2e004d480, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_pist_tec9
+    cycleTime: 0.12
+    range: 150
+    damage: 33
+    rangeModifier: 0.9
+    automatic: 0
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 18
+    reserveAmmo: 72
+    reloadDuration: 2.5
+    hudIcon: {fileID: 21300000, guid: cf7727ce0cb866647aacc62edca0e59a, type: 3}
+    fireAnimation: {fileID: -4712649480516344980, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: -9097410476857868395, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    idleAnimation: {fileID: 5741710654320757841, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    locomotionAnimations:
+    - {fileID: -8206857311389296499, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -8169380943463088221, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7705964590769475085, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7653847362332097697, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -5234307307113089089, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4885119122951247324, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4807389317913785953, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3545652582204683642, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3206263651483497662, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1708721065880324479, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1609281748187839663, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -626948583029366203, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -623603649343465320, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 723096430288179899, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 837255572769927147, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 1963079803359675471, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5336171071401514536, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5703688115460763318, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 6651284380104590841, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 7896679309779607623, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 8195394017938382407, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 9206128091354402827, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 73a51cc6d5c853d44b02a5a218f31c2e, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: 440a8e26f2158154d8641e752a53e2a1, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: 1a3a3bdb9117e2a44b075a58da9cea5f, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.00000007721239, y: -0.0042568953, z: 0.0014372814}
+    ejectPosition: {x: -0.00007006562, y: -0.0025651115, z: 0.0004281532}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0, y: 0, z: 0}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 0
+    combatGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: e27a1260e2a7c6d449019d8573daafd1, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_pist_cz75a
+    cycleTime: 0.1
+    range: 150
+    damage: 31
+    rangeModifier: 0.9
+    automatic: 1
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 12
+    reserveAmmo: 48
+    reloadDuration: 2.7
+    hudIcon: {fileID: 21300000, guid: ba79baab842d8404cabe209241675096, type: 3}
+    fireAnimation: {fileID: -6228555659292464477, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: -8140584458767911426, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    idleAnimation: {fileID: -3816730650343091539, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    locomotionAnimations:
+    - {fileID: -8206857311389296499, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -8169380943463088221, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7705964590769475085, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7653847362332097697, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -5234307307113089089, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4885119122951247324, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4807389317913785953, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3545652582204683642, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3206263651483497662, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1708721065880324479, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1609281748187839663, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -626948583029366203, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -623603649343465320, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 723096430288179899, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 837255572769927147, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 1963079803359675471, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5336171071401514536, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5703688115460763318, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 6651284380104590841, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 7896679309779607623, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 8195394017938382407, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 9206128091354402827, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: ba88bc3af0ecf9d48a985a10b62315aa, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: 91bd9db595ffe864d86577f2d38bcf4c, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.00000050947665, y: -0.0025430366, z: 0.0012840801}
+    ejectPosition: {x: -0.000002198385, y: -0.0012427999, z: 0.00060689123}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0, y: 0, z: 0}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 0
+    combatGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: 2faf32b4c4b4c48408881b48d635ca70, type: 3}
+    - {fileID: 8300000, guid: 89f71801112d9604194bab30d17a6d78, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_pist_deagle
+    cycleTime: 0.25
+    range: 150
+    damage: 53
+    rangeModifier: 0.9
+    automatic: 0
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 7
+    reserveAmmo: 28
+    reloadDuration: 2.3
+    hudIcon: {fileID: 21300000, guid: 1ca46eca40e16f641af10d09ec30ff30, type: 3}
+    fireAnimation: {fileID: -6079944436734998471, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: 4646947500928470578, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    idleAnimation: {fileID: -3937419853531356026, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    locomotionAnimations:
+    - {fileID: -8206857311389296499, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -8169380943463088221, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7705964590769475085, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7653847362332097697, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -5234307307113089089, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4885119122951247324, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4807389317913785953, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3545652582204683642, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3206263651483497662, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1708721065880324479, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1609281748187839663, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -626948583029366203, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -623603649343465320, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 723096430288179899, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 837255572769927147, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 1963079803359675471, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5336171071401514536, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5703688115460763318, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 6651284380104590841, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 7896679309779607623, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 8195394017938382407, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 9206128091354402827, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 2b3d89d35b2761549aacee62e2791d30, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: 082a39dd8035ebc49a74dede53720f2b, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: f876fe8bb0677054c9bdbf3726b7356f, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: 0.000004694131, y: -0.0022852807, z: 0.0010269325}
+    ejectPosition: {x: 0.0000010820539, y: -0.00082528807, z: 0.00034001144}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0, y: 0, z: 0}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 0
+    combatGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: 4aa789798fda26441ab60dc69a1a1760, type: 3}
+    - {fileID: 8300000, guid: aa5c2703ecc5c774cbf5298103f815d9, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_pist_revolver
+    cycleTime: 0.4
+    range: 150
+    damage: 86
+    rangeModifier: 0.9
+    automatic: 0
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 8
+    reserveAmmo: 32
+    reloadDuration: 2.3
+    hudIcon: {fileID: 21300000, guid: 3d2e90ca0d93dca4f9d16fbe5d904757, type: 3}
+    fireAnimation: {fileID: 7100233919907249541, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: -8085146836491381056, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    idleAnimation: {fileID: 4721161841684587985, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    locomotionAnimations:
+    - {fileID: -8206857311389296499, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -8169380943463088221, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7705964590769475085, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7653847362332097697, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -5234307307113089089, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4885119122951247324, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4807389317913785953, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3545652582204683642, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3206263651483497662, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1708721065880324479, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1609281748187839663, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -626948583029366203, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -623603649343465320, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 723096430288179899, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 837255572769927147, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 1963079803359675471, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5336171071401514536, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5703688115460763318, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 6651284380104590841, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 7896679309779607623, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 8195394017938382407, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 9206128091354402827, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: b6bbfd65fb80c9a4ca7192eed273ca0e, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: f2d64c8ce6367c3488c02fa499ba9899, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: 1cd7047acfe7f9f4b82f2399dc674cf4, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: 4.2200526e-10, y: -0.003725163, z: -0.00027410543}
+    ejectPosition: {x: -0.00000082611166, y: -0.0016399329, z: 0.00038945238}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0, y: 0, z: 0}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 0
+    combatGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: 612438407b97dc5429a136b316348229, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_pist_elite
+    cycleTime: 0.12
+    range: 150
+    damage: 38
+    rangeModifier: 0.9
+    automatic: 0
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 30
+    reserveAmmo: 120
+    reloadDuration: 3.8
+    hudIcon: {fileID: 21300000, guid: 4ff70668bb15b0d46b7285de0172b43d, type: 3}
+    fireAnimation: {fileID: -3253151209497142642, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    alternateFireAnimation: {fileID: -7476459896111400321, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    reloadAnimation: {fileID: -4253652356236818686, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    idleAnimation: {fileID: -3696524947739535183, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    locomotionAnimations:
+    - {fileID: -8206857311389296499, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -8169380943463088221, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7705964590769475085, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7653847362332097697, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -5234307307113089089, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4885119122951247324, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4807389317913785953, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3545652582204683642, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3206263651483497662, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1708721065880324479, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1609281748187839663, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -626948583029366203, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -623603649343465320, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 723096430288179899, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 837255572769927147, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 1963079803359675471, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5336171071401514536, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5703688115460763318, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 6651284380104590841, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 7896679309779607623, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 8195394017938382407, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 9206128091354402827, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 13a3305948c896243a99637956da8edc, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.42
+      clip: {fileID: 8300000, guid: 0873a7a95541e7a42b9dc4fd2f31f48e, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.62
+      clip: {fileID: 8300000, guid: 4cb091645580d88428565e6259d84548, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: b80bb70850163ea40832628570ee1572, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: 0.000004656987, y: -0.0025259934, z: 0.0010400292}
+    ejectPosition: {x: -0.0000024153976, y: -0.0012199903, z: 0.0003859883}
+    offhandMuzzlePosition: {x: -0.005076255, y: -0.0025258118, z: 0.0010395328}
+    combatGripPosition: {x: -0.00034759956, y: 0.0000000036609782, z: -0.000036231537}
+    offhandGripPosition: {x: 0.00034760532, y: 0.005079982, z: 0.0000870291}
+    hasCombatGrip: 0
+    combatGripRotation: {x: -0.00000031346696, y: -0.0000001936119, z: 0.707107, w: 0.70710653}
+    offhandGripRotation: {x: -0.70710737, y: -0.70710623, z: 0.00000008095796, w: 0.00000038265696}
+    shots:
+    - {fileID: 8300000, guid: e4b74d6d5acea7b41a6a114ea7b07cb4, type: 3}
+    - {fileID: 8300000, guid: 8922f8ff6488c644591c810ad26cea4d, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_pist_taser
+    cycleTime: 1
+    range: 3
+    damage: 120
+    rangeModifier: 1
+    automatic: 0
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 1
+    reserveAmmo: 4
+    reloadDuration: 5
+    hudIcon: {fileID: 21300000, guid: 007ba7602c0723043bcb8e201012a60a, type: 3}
+    fireAnimation: {fileID: -2736335668365795472, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: 0}
+    idleAnimation: {fileID: 929819020310597592, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    locomotionAnimations:
+    - {fileID: -8206857311389296499, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -8169380943463088221, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7705964590769475085, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7653847362332097697, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -5234307307113089089, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4885119122951247324, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -4807389317913785953, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3545652582204683642, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -3206263651483497662, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1708721065880324479, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -1609281748187839663, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -626948583029366203, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -623603649343465320, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 723096430288179899, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 837255572769927147, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 1963079803359675471, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5336171071401514536, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5703688115460763318, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 6651284380104590841, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 7896679309779607623, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 8195394017938382407, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 9206128091354402827, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 1a54eb9754f695a419621c76480e9388, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: 6eef754acddc14e45be18e70e60c6b6d, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.0000075913053, y: -0.001856165, z: 0.001442375}
+    ejectPosition: {x: 1.9281271e-10, y: -0.00063366664, z: 0.0008172215}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0, y: 0, z: 0}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 0
+    combatGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: f5874cb4bad6f2545b19ed05caee3f2c, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_knife_default_ct
+    cycleTime: 0.65
+    range: 1.65
+    damage: 35
+    rangeModifier: 1
+    automatic: 1
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 30
+    reserveAmmo: 90
+    reloadDuration: 2.5
+    hudIcon: {fileID: 21300000, guid: cb64adb4eb4132f47b7b192521eadee3, type: 3}
+    fireAnimation: {fileID: 8987897184767073815, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    alternateFireAnimation: {fileID: 3308042081927924050, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    reloadAnimation: {fileID: 0}
+    idleAnimation: {fileID: -7038888379920077483, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    locomotionAnimations:
+    - {fileID: -8801369510219679941, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -8488861784631128433, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7109419159511638165, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7038888379920077483, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -6515407394366894714, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -6182960411355245400, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -5736357176981970204, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -5098101154765767119, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -2515481226449316245, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -518708189376398851, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 1456757300878979654, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 1944837913990504498, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 2163540416701921958, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 2950329327451626427, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 3294556441134526072, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 3300292723611932140, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 3413175472987495063, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5290449184600555157, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5452677369489585974, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5507408453333266076, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 6849783523160818372, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 7228313120226186126, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    reloadSounds: []
+    muzzlePosition: {x: 0, y: 0, z: 0}
+    ejectPosition: {x: 0, y: 0, z: 0}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0, y: 0, z: 0}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 0
+    combatGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: 09764a67d9fe8ac4eaf7c27dcf097eec, type: 3}
+    - {fileID: 8300000, guid: 2104cdce1483aee45aed6aa8ec3e8c85, type: 3}
+    meleeHeavySound: {fileID: 8300000, guid: 32d5da2e7ff837a4d9d8e13a074dd685, type: 3}
+    meleeHitSounds:
+    - {fileID: 8300000, guid: 5ef86d8e1039faa4d8755bb629d473b3, type: 3}
+    - {fileID: 8300000, guid: 9fc40a0365930404294b051622ac19f9, type: 3}
+  - id: weapon_knife_default_t
+    cycleTime: 0.65
+    range: 1.65
+    damage: 35
+    rangeModifier: 1
+    automatic: 1
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 30
+    reserveAmmo: 90
+    reloadDuration: 2.5
+    hudIcon: {fileID: 21300000, guid: 3ed4edf4d9ba64a47b49b2c2ee55c0e1, type: 3}
+    fireAnimation: {fileID: 8987897184767073815, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    alternateFireAnimation: {fileID: 3308042081927924050, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    reloadAnimation: {fileID: 0}
+    idleAnimation: {fileID: -7038888379920077483, guid: 8697e5a7417ce3a419f9f1f7de010263,
+      type: 3}
+    locomotionAnimations:
+    - {fileID: -8801369510219679941, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -8488861784631128433, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7109419159511638165, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -7038888379920077483, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -6515407394366894714, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -6182960411355245400, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -5736357176981970204, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -5098101154765767119, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -2515481226449316245, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: -518708189376398851, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 1456757300878979654, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 1944837913990504498, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 2163540416701921958, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 2950329327451626427, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 3294556441134526072, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 3300292723611932140, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 3413175472987495063, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5290449184600555157, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5452677369489585974, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 5507408453333266076, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 6849783523160818372, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    - {fileID: 7228313120226186126, guid: 8697e5a7417ce3a419f9f1f7de010263, type: 3}
+    reloadSounds: []
+    muzzlePosition: {x: 0, y: 0, z: 0}
+    ejectPosition: {x: 0, y: 0, z: 0}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0, y: 0, z: 0}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 0
+    combatGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: 09764a67d9fe8ac4eaf7c27dcf097eec, type: 3}
+    - {fileID: 8300000, guid: 2104cdce1483aee45aed6aa8ec3e8c85, type: 3}
+    meleeHeavySound: {fileID: 8300000, guid: 32d5da2e7ff837a4d9d8e13a074dd685, type: 3}
+    meleeHitSounds:
+    - {fileID: 8300000, guid: 5ef86d8e1039faa4d8755bb629d473b3, type: 3}
+    - {fileID: 8300000, guid: 9fc40a0365930404294b051622ac19f9, type: 3}
+  - id: weapon_rif_aug
+    cycleTime: 0.09
+    range: 200
+    damage: 28
+    rangeModifier: 0.97
+    automatic: 1
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 30
+    reserveAmmo: 90
+    reloadDuration: 3.3
+    hudIcon: {fileID: 21300000, guid: f52cbd0dbee00f44e8b2bd85ccf9737f, type: 3}
+    fireAnimation: {fileID: 723096430288179899, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: 1963079803359675471, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    idleAnimation: {fileID: -1609281748187839663, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 8b79124077bb0ad46a9ef4a6da3285ff, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: 576d1ac6d0fe0534db9499a2a5df1ffc, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.76
+      clip: {fileID: 8300000, guid: 1795fc1729f7a3446a48b67261279a06, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: 8d8f602120825a94cb111115d2dc8053, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: 0.0000061105175, y: -0.004413558, z: 0.00089552137}
+    ejectPosition: {x: -0.00008984142, y: -0.000570237, z: 0.0001845638}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0.00080329773, y: -0.00035197474, z: -0.000027890204}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 1
+    combatGripRotation: {x: 0.095917545, y: 0.20529667, z: 0.76997435, w: 0.5964835}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: 369a7423492f4d347bc15b6109816b46, type: 3}
+    - {fileID: 8300000, guid: 904588d3cd2821a4db12fa65380ed066, type: 3}
+    - {fileID: 8300000, guid: 0f36b25a7a1e6dd4494ae40b8842881d, type: 3}
+    - {fileID: 8300000, guid: f7ba1dcf1f45a694a80add326eeeb53e, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_rif_famas
+    cycleTime: 0.09
+    range: 200
+    damage: 30
+    rangeModifier: 0.97
+    automatic: 1
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 25
+    reserveAmmo: 75
+    reloadDuration: 3.3
+    hudIcon: {fileID: 21300000, guid: a8adb7a9b517ac742b3993fee3396795, type: 3}
+    fireAnimation: {fileID: -8206857311389296499, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: -4885119122951247324, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    idleAnimation: {fileID: -626948583029366203, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 5a514a8a21599a9488de71359144bafe, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: 04bfe34fd4587754999acb8c824343c3, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.76
+      clip: {fileID: 8300000, guid: 673e8e87f8e718a4e809dd21d73ec2b1, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: 9439f8817aded6647b71470188e64561, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.0000058376413, y: -0.0060557937, z: 0.0007752051}
+    ejectPosition: {x: -6.111799e-10, y: -0.0017098841, z: 0.0002233579}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: -0.0000726077, y: -0.00062149443, z: 0.0003480292}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 1
+    combatGripRotation: {x: 0.12641384, y: 0.08820505, z: 0.79407233, w: 0.58795285}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: f14add6810cf1de44b4b440c3b3b2efd, type: 3}
+    - {fileID: 8300000, guid: 32487b8efe797314abf74ea0b5462685, type: 3}
+    - {fileID: 8300000, guid: c32f3d7f65e541445b26c92bb541032f, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_rif_galilar
+    cycleTime: 0.09
+    range: 200
+    damage: 30
+    rangeModifier: 0.97
+    automatic: 1
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 35
+    reserveAmmo: 105
+    reloadDuration: 3
+    hudIcon: {fileID: 21300000, guid: 1bad7f4ccf3816947b075a227052ac0e, type: 3}
+    fireAnimation: {fileID: -3206263651483497662, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: 7896679309779607623, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    idleAnimation: {fileID: -4807389317913785953, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 3910fdfe8dd1bb4499ac4bb4eb8a8a6d, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: 4abf57a53c2e3dc418a125ee12106a91, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.76
+      clip: {fileID: 8300000, guid: 142f62eceb448b04dad01325e9d73611, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: 803fc4908f4e0f544ae548b6c87569ce, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.0000018569388, y: -0.006212112, z: 0.0008141598}
+    ejectPosition: {x: -0.000066007764, y: -0.0023157918, z: 0.00007916441}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0.00020214677, y: -0.00052073994, z: 0.00015218437}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 1
+    combatGripRotation: {x: 0.08745853, y: 0.15110959, z: 0.789291, w: 0.5886736}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: 996445de94eba5e41829302f33e333e1, type: 3}
+    - {fileID: 8300000, guid: 82be07a811305394488eedd3973480d8, type: 3}
+    - {fileID: 8300000, guid: 2e59ec90be1e72a408619b94cc2dd1f2, type: 3}
+    - {fileID: 8300000, guid: 79d682ff9bf7ebe48b46a5722de31c13, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_rif_sg556
+    cycleTime: 0.1
+    range: 200
+    damage: 30
+    rangeModifier: 0.97
+    automatic: 1
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 30
+    reserveAmmo: 90
+    reloadDuration: 2.8
+    hudIcon: {fileID: 21300000, guid: c5a55a05e104b4149bde0ff17895a655, type: 3}
+    fireAnimation: {fileID: -7653847362332097697, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: 8195394017938382407, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    idleAnimation: {fileID: -3545652582204683642, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 550ad7bf996949a47942074223dfa470, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: ff38cfcc6d52afb488a7f3b274ab4211, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.76
+      clip: {fileID: 8300000, guid: 855a4a0ff74d7064cb3b40e568b56106, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: 509902becfdcb554b860f9c040a4c527, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: 0.000017263701, y: -0.0074331244, z: 0.00076470466}
+    ejectPosition: {x: 0.00010827592, y: -0.0029901082, z: 0.00032041766}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0.00010303259, y: -0.00037005817, z: 0.00041464277}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 1
+    combatGripRotation: {x: 0.061782427, y: 0.10138929, z: 0.7292434, w: 0.6738748}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: 717d9a3e67a2b744a92620498443fea4, type: 3}
+    - {fileID: 8300000, guid: 69529dcb4d2caa646824bcdcdfe0d247, type: 3}
+    - {fileID: 8300000, guid: e3b75e773edca064c976846d6568e432, type: 3}
+    - {fileID: 8300000, guid: c153509f25f22dc448f379d014222e3b, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_smg_bizon
+    cycleTime: 0.08
+    range: 200
+    damage: 27
+    rangeModifier: 0.85
+    automatic: 1
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 64
+    reserveAmmo: 192
+    reloadDuration: 2.4
+    hudIcon: {fileID: 21300000, guid: e41755b57226dc04191e9be7f342252d, type: 3}
+    fireAnimation: {fileID: 5703688115460763318, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: 6651284380104590841, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    idleAnimation: {fileID: 5336171071401514536, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: bb69669273069ef41b22c96b84553578, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: 84142c3bc9bd8144c94ac9b35029f6f7, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.76
+      clip: {fileID: 8300000, guid: ec87996cdb407de45b7e786294101b7a, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: 27fb8234115dc8f4b80ee1b2a9d16eaa, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.000004461846, y: -0.0047629084, z: 0.000593122}
+    ejectPosition: {x: 0.00007617045, y: -0.0007876862, z: 0.000081109225}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0.00094704446, y: -0.0002694694, z: 0.00020435154}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 1
+    combatGripRotation: {x: 0.08852127, y: 0.21976627, z: 0.7283518, w: 0.642939}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: 80f3a524270cf564fade2319600fe3b6, type: 3}
+    - {fileID: 8300000, guid: 7ffb3cfb255c5ec4a8c5b8b358f4abec, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_smg_mac10
+    cycleTime: 0.075
+    range: 200
+    damage: 29
+    rangeModifier: 0.85
+    automatic: 1
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 30
+    reserveAmmo: 90
+    reloadDuration: 2.6
+    hudIcon: {fileID: 21300000, guid: 7fea6808f411a164f846cd456661eafc, type: 3}
+    fireAnimation: {fileID: -7705964590769475085, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: -1708721065880324479, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    idleAnimation: {fileID: 837255572769927147, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: caf7a4b76e76142419634dca7c3a2eff, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: 31969dd4422fd9e40ace85bd943c6a11, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.76
+      clip: {fileID: 8300000, guid: 161cd92d60accd742bcdae987a2fb15c, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: 52dbad16bf4a84745b1f9d1852426c23, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.00000057689556, y: -0.0033388014, z: 0.0008164191}
+    ejectPosition: {x: -0.0000265525, y: -0.0016939443, z: -0.00022246041}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: -0.000104597806, y: -0.00052564987, z: 0.0007049964}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 1
+    combatGripRotation: {x: 0.096477956, y: 0.20757581, z: 0.7542282, w: 0.61542195}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: 79a048fdd40fcaa40a570abee980645a, type: 3}
+    - {fileID: 8300000, guid: 9edb9887deca94d49b593ed5a0caaea9, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_smg_mp5sd
+    cycleTime: 0.08
+    range: 200
+    damage: 27
+    rangeModifier: 0.85
+    automatic: 1
+    silenced: 1
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 30
+    reserveAmmo: 90
+    reloadDuration: 3
+    hudIcon: {fileID: 21300000, guid: d12bccd95c1f43c4faf6d71b430152d1, type: 3}
+    fireAnimation: {fileID: -8169380943463088221, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: -5234307307113089089, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    idleAnimation: {fileID: 9206128091354402827, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 41c1a27eb16f8ef4da20157b975041e5, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: df7d8df384d25cf418ad28387553ea14, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.76
+      clip: {fileID: 8300000, guid: b20435f78adec0a4cac8c01d7e07f222, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: dff1564acf8768c499bf1a5c2695a68a, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.000027063683, y: -0.005822175, z: 0.00092018495}
+    ejectPosition: {x: -0.000025960955, y: -0.0022853038, z: 0.00015470387}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0.0009415212, y: -0.00028128273, z: 0.00019600868}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 1
+    combatGripRotation: {x: -0.06419238, y: 0.056996245, z: 0.72716737, w: 0.6810715}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: ca6636a964b93264ea589e7c29c61dd0, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_smg_mp7
+    cycleTime: 0.08
+    range: 200
+    damage: 29
+    rangeModifier: 0.85
+    automatic: 1
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 30
+    reserveAmmo: 90
+    reloadDuration: 3.1
+    hudIcon: {fileID: 21300000, guid: 86e24700e21f621418f71ff8ebba625c, type: 3}
+    fireAnimation: {fileID: -518708189376398851, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: 7228313120226186126, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    idleAnimation: {fileID: -6182960411355245400, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 9a34018dd8b259b4e93bcca227e7e37d, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: 682aeaee20a7de944943cefcc25acc0c, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.76
+      clip: {fileID: 8300000, guid: 34c023578db4ebf478b54cdb7a9c24ff, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: 32f03f50da938a342a383dd48892a220, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.0000005099859, y: -0.002121511, z: 0.00032137544}
+    ejectPosition: {x: -3.365127e-10, y: -0.000108180284, z: -0.00025693394}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0.001577518, y: -0.00028433508, z: 0.00022050738}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 1
+    combatGripRotation: {x: 0.10976469, y: 0.19291265, z: 0.7120519, w: 0.66612196}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: d606677efe884e949971dc02e2c173f1, type: 3}
+    - {fileID: 8300000, guid: c23a1eab3d826df44bd24c0bfc08f785, type: 3}
+    - {fileID: 8300000, guid: 0a3b363766db8324fbc2e52a6eefa270, type: 3}
+    - {fileID: 8300000, guid: bd14d201a043fa441a48ebd023a136b0, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_smg_mp9
+    cycleTime: 0.07
+    range: 200
+    damage: 26
+    rangeModifier: 0.85
+    automatic: 1
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 30
+    reserveAmmo: 90
+    reloadDuration: 2.1
+    hudIcon: {fileID: 21300000, guid: bea4ffe67437a654dbbb1d520d75d6b3, type: 3}
+    fireAnimation: {fileID: 3294556441134526072, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: -2515481226449316245, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    idleAnimation: {fileID: -8488861784631128433, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 85d6e4b496844e143a1f11049e913e62, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: c9d09f2f98e9a254db704be5513e873b, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.76
+      clip: {fileID: 8300000, guid: fff44c7defe96a94eb812b1631b8797f, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: 30fa995d4a5447148a002239c7f21ddc, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.00000019182315, y: -0.003286235, z: 0.0013191333}
+    ejectPosition: {x: 0.000013696664, y: -0.00047441377, z: 0.00041574563}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: -0.0004051983, y: -0.00025277442, z: -0.00000617221}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 1
+    combatGripRotation: {x: 0.04802084, y: 0.22015648, z: 0.6547631, w: 0.7214641}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: b8982f92e791a1043a994609eccca787, type: 3}
+    - {fileID: 8300000, guid: 94e4b6e968ad621458e6289972779a1e, type: 3}
+    - {fileID: 8300000, guid: 742463e7fb8e0b34292070da650c7131, type: 3}
+    - {fileID: 8300000, guid: 7a492f310bde00849aafd6c54abcf180, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_smg_p90
+    cycleTime: 0.07
+    range: 200
+    damage: 26
+    rangeModifier: 0.85
+    automatic: 1
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 50
+    reserveAmmo: 150
+    reloadDuration: 3.4
+    hudIcon: {fileID: 21300000, guid: b68b42e2903e1e04f938caf1b10d45eb, type: 3}
+    fireAnimation: {fileID: 5452677369489585974, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: 1944837913990504498, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    idleAnimation: {fileID: 5507408453333266076, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 7bceac4db72db7e428e9de60654b51cc, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: 9e94619712ff6d3489964fcbd17976d6, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.76
+      clip: {fileID: 8300000, guid: a310267a34d2ce141b615c48f6d1749c, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: 156bab70bbebef743a202d4b9e1cff46, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.000004993165, y: -0.0042179674, z: 0.0011027397}
+    ejectPosition: {x: -2.0372663e-10, y: -0.0016495435, z: 0.0011763446}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: -0.0007395901, y: -0.0010263146, z: 0.00039413272}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 1
+    combatGripRotation: {x: 0.08592093, y: 0.18241625, z: 0.804093, w: 0.5592641}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: 82486959fccd9a2439fafc9f00008ff8, type: 3}
+    - {fileID: 8300000, guid: df432580cd6665d48bb6d2d36e7461ef, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_smg_ump45
+    cycleTime: 0.09
+    range: 200
+    damage: 35
+    rangeModifier: 0.85
+    automatic: 1
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 25
+    reserveAmmo: 75
+    reloadDuration: 3.4
+    hudIcon: {fileID: 21300000, guid: f1313aeffa7eda749a773f71f55b7c39, type: 3}
+    fireAnimation: {fileID: 3300292723611932140, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: -5736357176981970204, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    idleAnimation: {fileID: 2950329327451626427, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 508cd29a3a8a6cd4b9869f831fe67092, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: 39ea7b778f590d54c8cd264d2530613a, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.76
+      clip: {fileID: 8300000, guid: 731261b447e16fa47b7761a0ff5249fe, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: e44e6372ee3f69247829bc91a7b38cee, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.0000010718929, y: -0.0048634484, z: 0.0009154015}
+    ejectPosition: {x: -0.00001747168, y: -0.001233182, z: -0.000018927429}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0.00009450823, y: -0.00042025035, z: 0.00021851271}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 1
+    combatGripRotation: {x: 0.037383936, y: 0.14875385, z: 0.765064, w: 0.6254214}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: bf4bd83aac5f8d047923fb579c64f44d, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_shot_mag7
+    cycleTime: 0.85
+    range: 80
+    damage: 30
+    rangeModifier: 0.7
+    automatic: 0
+    silenced: 0
+    pelletCount: 8
+    spreadAngle: 3.5
+    magazineSize: 5
+    reserveAmmo: 15
+    reloadDuration: 2.4
+    hudIcon: {fileID: 21300000, guid: 33f9f7550aff2124d92d8cee2ba11298, type: 3}
+    fireAnimation: {fileID: 6849783523160818372, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: -7109419159511638165, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    idleAnimation: {fileID: 2163540416701921958, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: dc49029edd84ca64f9b78ca71141872c, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.53
+      clip: {fileID: 8300000, guid: b75a04361260ca14daf2c94901405622, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.76
+      clip: {fileID: 8300000, guid: 3524e6b2f8a14574891c5b269efe7515, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: ed2685bc4a9067f408de1abec66c1aa1, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.000001269566, y: -0.004736591, z: 0.0021519624}
+    ejectPosition: {x: -0.000023777515, y: -0.0015022448, z: 0.0013902709}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0.0006501055, y: -0.00078706775, z: -0.0007189363}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 1
+    combatGripRotation: {x: -0.019566728, y: 0.15676476, z: 0.5441972, w: 0.8239486}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: 51ffd2b2d7507c344a80f47bd2b2a9a9, type: 3}
+    - {fileID: 8300000, guid: 22dbfd0c7b784b64b830d31d2066bd81, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_shot_nova
+    cycleTime: 0.88
+    range: 80
+    damage: 26
+    rangeModifier: 0.7
+    automatic: 0
+    silenced: 0
+    pelletCount: 9
+    spreadAngle: 4
+    magazineSize: 8
+    reserveAmmo: 24
+    reloadDuration: 4.5
+    hudIcon: {fileID: 21300000, guid: 6dcb87b84e0f21d4e91bdf5535121770, type: 3}
+    fireAnimation: {fileID: 5290449184600555157, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: 3413175472987495063, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    idleAnimation: {fileID: -6515407394366894714, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.2
+      clip: {fileID: 8300000, guid: f716cdd2c4b49f74abb9be809d46de90, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.4
+      clip: {fileID: 8300000, guid: 41e3e341539e6e147889b2ac8b65ba73, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.6
+      clip: {fileID: 8300000, guid: 877b575469f22064bb84aadc44120afa, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: e141436a221cbb74ea17a46991b4cbeb, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.0000000029103786, y: -0.007482474, z: 0.0011051632}
+    ejectPosition: {x: -0.000000019790575, y: -0.0023828794, z: 0.00046065715}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0.0006948873, y: -0.0004305447, z: -0.0004867655}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 1
+    combatGripRotation: {x: 0.033835698, y: -0.01549677, z: 0.7389234, w: 0.6727609}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: c25b4cbd07e139141b32d0d29b97db70, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_shot_sawedoff
+    cycleTime: 0.85
+    range: 80
+    damage: 32
+    rangeModifier: 0.7
+    automatic: 0
+    silenced: 0
+    pelletCount: 8
+    spreadAngle: 5
+    magazineSize: 7
+    reserveAmmo: 21
+    reloadDuration: 4
+    hudIcon: {fileID: 21300000, guid: 7e3a0a0c6050d3441b5fef74ce41fe77, type: 3}
+    fireAnimation: {fileID: -5098101154765767119, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: -8801369510219679941, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    idleAnimation: {fileID: 1456757300878979654, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.2
+      clip: {fileID: 8300000, guid: 82d614bf05798254e9d1be577b03b88c, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.4
+      clip: {fileID: 8300000, guid: b1033c94f845e4a49af1d40ae1b70659, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.6
+      clip: {fileID: 8300000, guid: f597d6925b99c57458cf0e82a12e450a, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: a435fc656f2831d41ac8835250fb18f6, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.0000070143055, y: -0.005757036, z: 0.00024718227}
+    ejectPosition: {x: -0.0000000023865112, y: -0.0024464938, z: -0.00010995119}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0.0012138163, y: -0.00026993817, z: 0.00014194562}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 1
+    combatGripRotation: {x: 0.077929236, y: 0.031342983, z: 0.763722, w: 0.6400573}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: c8ec76b2451dd19429600a63dbcd8079, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_shot_xm1014
+    cycleTime: 0.35
+    range: 80
+    damage: 20
+    rangeModifier: 0.7
+    automatic: 1
+    silenced: 0
+    pelletCount: 6
+    spreadAngle: 3.5
+    magazineSize: 7
+    reserveAmmo: 21
+    reloadDuration: 4
+    hudIcon: {fileID: 21300000, guid: d481922734a30864ba39d41c221ac661, type: 3}
+    fireAnimation: {fileID: -3816730650343091539, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: -6228555659292464477, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    idleAnimation: {fileID: -7038888379920077483, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.2
+      clip: {fileID: 8300000, guid: d84cbb04e4f9f5a41a761d1e6bb0f073, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.4
+      clip: {fileID: 8300000, guid: a9099f63e95fca24895e8bbe7e6eedb5, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.6
+      clip: {fileID: 8300000, guid: 007c7656267cc744184b670d2ad04fb8, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.87
+      clip: {fileID: 8300000, guid: 9ef0963baf0bbd34392b9a50b120635a, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.0000031863124, y: -0.0056927106, z: 0.0007810142}
+    ejectPosition: {x: -0.00043815482, y: -0.0012337952, z: -0.00011244597}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0.0014268261, y: -0.00020636446, z: 0.000034952012}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 1
+    combatGripRotation: {x: 0.065852165, y: 0.0654448, z: 0.7299522, w: 0.67716336}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: f5c42cdf08f6df14d820817ab98042c0, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_mach_m249
+    cycleTime: 0.08
+    range: 200
+    damage: 32
+    rangeModifier: 0.97
+    automatic: 1
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 100
+    reserveAmmo: 300
+    reloadDuration: 5.7
+    hudIcon: {fileID: 21300000, guid: 35e597e95c76aec4db3bdf0827224f37, type: 3}
+    fireAnimation: {fileID: -3937419853531356026, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: -6079944436734998471, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    idleAnimation: {fileID: -8140584458767911426, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: b7913efd6e15fda40b48ab290c4a9706, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.28
+      clip: {fileID: 8300000, guid: 6d7be30455b15d34c83089e680e28f1b, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.48
+      clip: {fileID: 8300000, guid: 866c472ee25f7e24f988bd46ad2d8eb8, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.64
+      clip: {fileID: 8300000, guid: 9528b7937f707c144a977bc32378953e, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.78
+      clip: {fileID: 8300000, guid: 5fac375f3c3372d4a92b72d9063fe357, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.9
+      clip: {fileID: 8300000, guid: 8e2c9bf4da769ed4995f5f6f55601fa9, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: 0.000012179008, y: -0.008101397, z: 0.0009872945}
+    ejectPosition: {x: -0.00005023659, y: -0.0020934269, z: 0.00025801716}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0.00087892084, y: -0.00039321996, z: 0.00044145613}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 1
+    combatGripRotation: {x: -0.069119714, y: -0.015073151, z: 0.7220634, w: 0.68820035}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: a20301d11ea9b3e4dbcd7b0eaf44f0db, type: 3}
+    - {fileID: 8300000, guid: f161c521aecfa304f8a38614526201b3, type: 3}
+    - {fileID: 8300000, guid: 48ab676dc03416844ad9213e145264cc, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  - id: weapon_mach_negev
+    cycleTime: 0.075
+    range: 200
+    damage: 35
+    rangeModifier: 0.97
+    automatic: 1
+    silenced: 0
+    pelletCount: 1
+    spreadAngle: 0
+    magazineSize: 150
+    reserveAmmo: 450
+    reloadDuration: 5.7
+    hudIcon: {fileID: 21300000, guid: 7b3834c1938d0d5418d57d0b00c6ff10, type: 3}
+    fireAnimation: {fileID: -3696524947739535183, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    alternateFireAnimation: {fileID: 0}
+    reloadAnimation: {fileID: -3253151209497142642, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    idleAnimation: {fileID: 4646947500928470578, guid: d77a6ff4a67f1324499a28494a7d69e8,
+      type: 3}
+    locomotionAnimations: []
+    reloadSounds:
+    - normalizedTime: 0.12
+      clip: {fileID: 8300000, guid: 4f6c11add866f5e4b907269c87e74a34, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.28
+      clip: {fileID: 8300000, guid: 3af25a1c98be1a94788f461875a350be, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.48
+      clip: {fileID: 8300000, guid: 28b2c61b77c2c9f4884fedcc929265ef, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.64
+      clip: {fileID: 8300000, guid: 36c4276f5266d4045babde9482dccd49, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.78
+      clip: {fileID: 8300000, guid: 26624fd2955c73a49890b390a090e0ed, type: 3}
+      volume: 0.65
+    - normalizedTime: 0.9
+      clip: {fileID: 8300000, guid: 0129f98209fcad741964d8fde5b3382a, type: 3}
+      volume: 0.65
+    muzzlePosition: {x: -0.0000013278895, y: -0.006065291, z: 0.0012189015}
+    ejectPosition: {x: -0.000027842829, y: -0.0010763871, z: 0.00040964436}
+    offhandMuzzlePosition: {x: 0, y: 0, z: 0}
+    combatGripPosition: {x: 0.0009914759, y: -0.00036416986, z: 0.000046798436}
+    offhandGripPosition: {x: 0, y: 0, z: 0}
+    hasCombatGrip: 1
+    combatGripRotation: {x: 0.041307185, y: 0.100458644, z: 0.7206157, w: 0.68477356}
+    offhandGripRotation: {x: 0, y: 0, z: 0, w: 1}
+    shots:
+    - {fileID: 8300000, guid: e620bda65cdc06247b314e005eec50dc, type: 3}
+    - {fileID: 8300000, guid: bfe46a9af20727a4296d1dd093df5987, type: 3}
+    meleeHeavySound: {fileID: 0}
+    meleeHitSounds: []
+  flashMaterial: {fileID: 2100000, guid: 44dbd95414fe7224e8e5466e96c1b563, type: 2}
+  tracerMaterial: {fileID: 2100000, guid: 798691bfbe02462459ded2c604985720, type: 2}
+  casingMaterial: {fileID: 2100000, guid: a5505873011e21c43b8f928411a2023b, type: 2}
+  bulletHoleMaterials:
+  - {fileID: 2100000, guid: 2885a00f04e9c544d8d8b613fe0df4eb, type: 2}
+  - {fileID: 2100000, guid: 5af0d0204981c8046bda6b8bdb8b3e2d, type: 2}
+  casingMesh: {fileID: 4300000, guid: ee3897d9b0eda7146b0379a003e88a29, type: 2}

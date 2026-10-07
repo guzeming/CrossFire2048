@@ -1,0 +1,18 @@
+{
+  "id": "weapon_pist_revolver",
+  "name": "R8 左轮",
+  "category": 0,
+  "slot": "pistol.heavy",
+  "team": 3,
+  "profile": "revolver",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_pist_revolver",
+      "color": "bbc87ed3c129b1a000eb.png",
+      "normal": "f6989d8a8a82e0e02985.png",
+      "orm": "fe9cf939aedc08224747.png"
+    }
+  ],
+  "kind": "weapons"
+}

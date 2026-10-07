@@ -1,0 +1,24 @@
+{
+  "id": "weapon_rif_ak47",
+  "name": "AK-47",
+  "category": 1,
+  "slot": "rifle.main",
+  "team": 2,
+  "profile": "ak",
+  "held": true,
+  "materials": [
+    {
+      "name": "sticker_gaps",
+      "color": "1896f9c6deff5acfdcc6.png",
+      "normal": "fc143bde6d1887c72433.png",
+      "orm": "d6c61241bbeca655b92f.png"
+    },
+    {
+      "name": "weapon_rif_ak47",
+      "color": "d55e82e27b47ebe0c85e.png",
+      "normal": "e49381716d993ad25ab4.png",
+      "orm": "ecf455148baf63bbcb5f.png"
+    }
+  ],
+  "kind": "weapons"
+}

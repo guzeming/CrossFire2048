@@ -1,0 +1,16 @@
+{
+  "id": "molotov",
+  "clips": [
+    {
+      "name": "Idle",
+      "first": 1,
+      "last": 304
+    },
+    {
+      "name": "Inspect",
+      "first": 305,
+      "last": 657
+    }
+  ],
+  "kind": "profiles"
+}

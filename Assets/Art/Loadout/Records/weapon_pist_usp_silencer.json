@@ -1,0 +1,18 @@
+{
+  "id": "weapon_pist_usp_silencer",
+  "name": "USP-S",
+  "category": 0,
+  "slot": "pistol.start",
+  "team": 1,
+  "profile": "pistol",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_pist_usp_silencer",
+      "color": "e030e9e58e5205d0c7f3.png",
+      "normal": "9abfa55269a6b3b079c4.png",
+      "orm": "6e1c0a829d6331383b80.png"
+    }
+  ],
+  "kind": "weapons"
+}

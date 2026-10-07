@@ -1,0 +1,3674 @@
+fileFormatVersion: 2
+guid: 688b60e5f004c764e8aec3e23759791f
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0002_dust_mudbrick_transition_overlay
+    second: {fileID: 2100000, guid: 6a4d3a720d138d145901fe9334fb78d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0003_hr_dust_overlay_sign_03b
+    second: {fileID: 2100000, guid: a3f1ec1dbf9ece442b7054e2f97367b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0004_hr_dust_overlay_sign_03
+    second: {fileID: 2100000, guid: 65f7fa35a0c97c74996e1eaff01ad0b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0005_hr_dust_overlay_sign_03b
+    second: {fileID: 2100000, guid: 096fd42eb767f8d4cb68e2befeba8e4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0006_hr_dust_overlay_sign_01
+    second: {fileID: 2100000, guid: 830172b0d4515de41bc4bf8b1c2d4e8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0007_wall_stain001
+    second: {fileID: 2100000, guid: bd4a50df167774b4a9476b5045627262, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0008_hr_dust_overlay_sign_02
+    second: {fileID: 2100000, guid: 631261410060f0a42a7338a70a699164, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0009_hr_dust_decal_road_striping
+    second: {fileID: 2100000, guid: 283877c8f22aa9c4b9f6a44d52f1c996, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0010_dust_manhole_concrete_color
+    second: {fileID: 2100000, guid: 52c7450900a26d944a8302cd7a452da3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0011_hr_dust_overlay_sign_05
+    second: {fileID: 2100000, guid: 47785c04f6a793044a6ea5a12682b831, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0012_hr_dust_overlay_sign_01
+    second: {fileID: 2100000, guid: ccdfc75ff6b95524588ad8d91d80a085, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0013_hr_dust_overlay_sign_02
+    second: {fileID: 2100000, guid: dd473f7778149f44e96faf47838aba62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0014_dust_panel_paint_patch
+    second: {fileID: 2100000, guid: 5e1f50323b4b0c942aa53944d62335e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0015_dust_manhole_concrete_color
+    second: {fileID: 2100000, guid: 9de68b409a0b9044ab795e6163a44993, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0016_wall_stain001
+    second: {fileID: 2100000, guid: f205268641841d942907ea090a5ef7e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0017_hr_dust_decal_mudbrick_wear_01
+    second: {fileID: 2100000, guid: c4e4a8374dc37044c8eaec8095aff054, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0018_hr_dust_overlay_sign_03
+    second: {fileID: 2100000, guid: 85a11f63a1c74ab45920004519c256f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0019_hr_dust_overlay_sign_02
+    second: {fileID: 2100000, guid: e23a22802547684428095f934d70b607, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0020_bombsite_x_spray
+    second: {fileID: 2100000, guid: 7a0f51616b6976b48b4b50b0d49e80fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0021_hr_dust_overlay_sign_02
+    second: {fileID: 2100000, guid: 7f9e40964a81a764e8b600f2c7d1deaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0022_hr_dust_overlay_sign_04
+    second: {fileID: 2100000, guid: 6f6f57537287dd541a124bb977b0dc2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0023_bombsite_x_spray
+    second: {fileID: 2100000, guid: bcdf6fb66c6f2c041be842c0cfa0442e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0024_dust_001b
+    second: {fileID: 2100000, guid: aeadc322b2ef5a046a011fc847605fdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0025_dust_001b
+    second: {fileID: 2100000, guid: 20836e7e0729c8c45964fe4197ef73d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0026_dust_garbage_dumpster_signage
+    second: {fileID: 2100000, guid: bfe53d786cdf04647af69dd0a043deea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0027_dust_electric_panel_cover_color
+    second: {fileID: 2100000, guid: 4ff10126f7847c845a0957f86862158c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0028_dust_001b
+    second: {fileID: 2100000, guid: 3771189ebcd411b499335b748fe25c7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0029_steam_001
+    second: {fileID: 2100000, guid: 80fe6d837a1c9cd45be93c13dd20a002, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0030_dust_001b
+    second: {fileID: 2100000, guid: 731c377fa0d86e44e95a519f13197082, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0031_dust_001
+    second: {fileID: 2100000, guid: 768855e6f6bd20642b5b29cacd051d3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0032_dust_001b
+    second: {fileID: 2100000, guid: 3f6002e09c4c2c242a2f81ca4c79db14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0033_lightshaft_001
+    second: {fileID: 2100000, guid: 480cbd3d97f85ad49add55d4d041a1ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0034_lightshaft_001
+    second: {fileID: 2100000, guid: 3a373937c8c2bc245838d9bc0fb9a9c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0035_dust_001
+    second: {fileID: 2100000, guid: 22f197e32cf130e40abc4a627853ae7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0036_dust_001
+    second: {fileID: 2100000, guid: 469fe4f5f05f4c34b801dfed0ca7da34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0037_dust_001
+    second: {fileID: 2100000, guid: ff098da416759bb4ea8efef27ae772f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0038_dust_001
+    second: {fileID: 2100000, guid: 580f442160ee5d545a5983738da76846, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0039_dust_001
+    second: {fileID: 2100000, guid: dfa8bda10492f6542848a8a6b7141bd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0040_dust_001b
+    second: {fileID: 2100000, guid: 54e1dcc48cc00c648819375cc35d9b1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0041_dust_001b
+    second: {fileID: 2100000, guid: 229d1b24f9648b84cbee6a874b390f44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0042_dust_001
+    second: {fileID: 2100000, guid: 813a04cf01eb982428778fdb040346c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0043_dust_001b
+    second: {fileID: 2100000, guid: 6d8a9408d5b355c4fb95aec20c229176, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0044_dust_001b
+    second: {fileID: 2100000, guid: 24a24c0bf774fd247837d44b3dc9b9e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0045_dust_001b
+    second: {fileID: 2100000, guid: 11d65245c180d974897438f9c554f283, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0046_dust_001
+    second: {fileID: 2100000, guid: 4a656cd1b3a19c0409d82071e8214816, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0047_hr_dust_metal_trim_01
+    second: {fileID: 2100000, guid: d1291bbf4d347a349bd1d33cc8440d23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0048_hr_dust_blend_asphalt_06
+    second: {fileID: 2100000, guid: 98b45e63189aea141a76080d278c2021, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0049_hr_dust_plaster_09
+    second: {fileID: 2100000, guid: 4edd09caf83f5764c9aa7c71e3c67c73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0050_hr_dust_plaster_09b
+    second: {fileID: 2100000, guid: 4a6dbb8bef3e0dd44aa75c3ac8f5a9d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0051_hr_dust_plaster_09c
+    second: {fileID: 2100000, guid: 02b900bacb562ba4094ab398e2239406, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0052_hr_dust_plaster_17
+    second: {fileID: 2100000, guid: d97ec630d4c01a5499f05165b9df87ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0053_dust_mudbrick_edges
+    second: {fileID: 2100000, guid: 9bd3804f2f5733546a41edacfba66623, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0054_hr_dust_plaster_18
+    second: {fileID: 2100000, guid: 8f47224d5bc57f840bcfb64c94116c67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0055_hr_dust_plaster_18c
+    second: {fileID: 2100000, guid: 5ed97b9b1e989ec428e340dc8c3aa40b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0056_hr_dust_breeze_block_01
+    second: {fileID: 2100000, guid: a10716925a5201e40b2f2fda4c4ba737, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0057_dust_access_panel_03_color
+    second: {fileID: 2100000, guid: 26fe83d3172dd6e468b676034c1759e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0058_hr_dust_sidewalk01b_color
+    second: {fileID: 2100000, guid: e7c62a953b21980408009ce1bb9cb3b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0059_palm_bark_01
+    second: {fileID: 2100000, guid: 246ae81c9b54e8c449b4adfb805895c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0060_hr_dust_plaster_18b
+    second: {fileID: 2100000, guid: 9b362245b05a96b4f9c6e822165f6b4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0061_dust_door_80x128_01_bars
+    second: {fileID: 2100000, guid: 7f0ecee3ef3cb1a41b8ee91f3c1ea754, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0062_agave_plant_01
+    second: {fileID: 2100000, guid: f61d74576e254014988b507b0118b3fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0063_antenna_card
+    second: {fileID: 2100000, guid: a8c039283cb74ba40a976cbd6751cca5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0064_black_simple
+    second: {fileID: 2100000, guid: 8028586e429acae43a73b7a919426d7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0065_crates_dishes_color
+    second: {fileID: 2100000, guid: ac913e80d119ce24d8ed154819a48abb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0066_dust_300d_color
+    second: {fileID: 2100000, guid: f4386992ce0eb634d9e2884758806923, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0067_dust_300d_color
+    second: {fileID: 2100000, guid: 1cb8cdd33284b96439f685dd93d57686, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0068_dust_300d_color
+    second: {fileID: 2100000, guid: cd3de07b8d3e33b4f8f80c2683f7d6b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0069_dust_300d_color
+    second: {fileID: 2100000, guid: 20e40da8d43344a43b391bcb4efff100, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0070_dust_300d_wheel_color
+    second: {fileID: 2100000, guid: f1017032ebc38e34ea8933783ef32b85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0071_dust_300d_wheel_color
+    second: {fileID: 2100000, guid: bc8055f7fce1d844c8e7538854a5985e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0072_dust_ac_unit_color
+    second: {fileID: 2100000, guid: 1d519d5360c647b4186ec2bbc7a33d98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0073_dust_access_panel_01_color
+    second: {fileID: 2100000, guid: 9a2b870315f6be24ca76753127e96572, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0074_dust_access_panel_02_color
+    second: {fileID: 2100000, guid: dfa0b41bf1e195b48bd794f5d32dc49f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0075_dust_access_panel_02_color
+    second: {fileID: 2100000, guid: 8d31674495dcbf3438780e2bfe6cbe67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0076_dust_arch_01_color
+    second: {fileID: 2100000, guid: 0e06c4f3e27c4e444b80b55b204e0106, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0077_dust_arch_01_color
+    second: {fileID: 2100000, guid: 2df6135f405cf184f89efbecd1ff981e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0078_dust_arch_01_pattern_color
+    second: {fileID: 2100000, guid: 4d0deac2b344c2740aadda29112713b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0079_dust_arch_01_pattern_color
+    second: {fileID: 2100000, guid: 129268f7248ec194da818ee8c49bbf43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0080_dust_arch_02_color
+    second: {fileID: 2100000, guid: bd02c204e7881794194d119a5f71fdbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0081_dust_arch_03
+    second: {fileID: 2100000, guid: 10bb465ad55dc9d4098f3635e0358262, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0082_dust_awning_02
+    second: {fileID: 2100000, guid: 873b2bb51916578429de701f24746011, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0083_dust_awning_02
+    second: {fileID: 2100000, guid: 19fc9309bcf8f1049a7826e67673a2bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0084_dust_awning_02
+    second: {fileID: 2100000, guid: 07e086bc035d0c24191b183cb23206c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0085_dust_awning_02
+    second: {fileID: 2100000, guid: 9248e08a2b76c444db180c6932698502, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0086_dust_awning_02
+    second: {fileID: 2100000, guid: 27c772b89af0aea4899051bcbf6bc28d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0087_dust_awning_02
+    second: {fileID: 2100000, guid: dc6c41f5891cc874ca0e018afffff43a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0088_dust_awning_02
+    second: {fileID: 2100000, guid: 1eb784f80d8e6de4da04e7724a8eefed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0089_dust_awning_02
+    second: {fileID: 2100000, guid: d73ae119ab866f9488e22999a9019d1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0090_dust_awning_02
+    second: {fileID: 2100000, guid: 1e1b0293e50a8284da40c5e1f06eacc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0091_dust_awning_02
+    second: {fileID: 2100000, guid: 7a56a921477883748a61715d5a2dadbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0092_dust_awning_02
+    second: {fileID: 2100000, guid: 6d598a4329b1b2c4481d8fd3b39646d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0093_dust_awning_02
+    second: {fileID: 2100000, guid: e1d25fbd8cd9599459f5446568a0cdbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0094_dust_awning_02
+    second: {fileID: 2100000, guid: a00605ff2475e0e4db082f63d084ddda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0095_dust_awning_02
+    second: {fileID: 2100000, guid: bfc600e37a0c50741a57e76138b1ac61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0096_dust_awning_02
+    second: {fileID: 2100000, guid: 47d51a67c1429ed4692fc2dab9c5c7a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0097_dust_awning_02
+    second: {fileID: 2100000, guid: 3ec7eccb95f11214e941f2db36043a50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0098_dust_awning_fabric_01
+    second: {fileID: 2100000, guid: f4dca0427bb01fe438db3cb15daa49da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0099_dust_awning_fabric_01
+    second: {fileID: 2100000, guid: d8daae1abc0b5694aba175053e5d026d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0100_dust_awning_fabric_01
+    second: {fileID: 2100000, guid: bf4c7e6d11785e543bba981176545762, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0101_dust_awning_fabric_01
+    second: {fileID: 2100000, guid: bc239309fa37ece44a26e6158a3b7fcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0102_dust_awning_fabric_01
+    second: {fileID: 2100000, guid: 90ef4477848e7e444a5a4868d9c65f8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0103_dust_awning_fabric_01
+    second: {fileID: 2100000, guid: bb0579a9a2a8a454087fd9176276af58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0104_dust_awning_fabric_01
+    second: {fileID: 2100000, guid: e6ead47f8c4781741a2a6715df62edd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0105_dust_awning_fabric_frame_01
+    second: {fileID: 2100000, guid: caebdf42af1d73a4399f5b828f8423ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0106_dust_awning_fabric_frame_01
+    second: {fileID: 2100000, guid: c9a041be87b152246a55b8e8a90ff062, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0107_dust_awning_fabric_frame_01
+    second: {fileID: 2100000, guid: c1a4800992fc2a949a9f3c93b16a930b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0108_dust_awning_fabric_frame_01
+    second: {fileID: 2100000, guid: 8e75d35371cf7034895d37eb820c334b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0109_dust_awning_fabric_frame_01
+    second: {fileID: 2100000, guid: 45b252ad370cbe147bc82ee421a6ec60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0110_dust_awning_fabric_frame_01
+    second: {fileID: 2100000, guid: a3238273ea7b56f4295abbc8b23f37eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0111_dust_awning_fabric_frame_01
+    second: {fileID: 2100000, guid: f4dd8823c7446574c8fdc3e3c5e7a990, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0112_dust_awning_fabric_frame_01
+    second: {fileID: 2100000, guid: d556b310c9a32a049930356f231246d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0113_dust_awning_fabric_frame_01
+    second: {fileID: 2100000, guid: 999acd63884244e43b6825d9c71e77b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0114_dust_awning_fabric_frame_01
+    second: {fileID: 2100000, guid: b4b66dd71131bb34c9f1250d7c6c3244, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0115_dust_awning_fabric_ripped_01
+    second: {fileID: 2100000, guid: ed2e2a15657f54747b4ae88e45dcbd94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0116_dust_awning_fabric_ripped_01
+    second: {fileID: 2100000, guid: 75a7b9e333064ad4f9684a7bf1e36dcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0117_dust_awning_fabric_ripped_01
+    second: {fileID: 2100000, guid: 2f0df417d032df54480fae28a45eb7de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0118_dust_bicycle_color
+    second: {fileID: 2100000, guid: 4370fbceebb6d9c40ac997c1b77c50c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0119_dust_bicycle_color
+    second: {fileID: 2100000, guid: e0d4f0d26d871f442bd60dd907b2118c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0120_dust_bicycle_color
+    second: {fileID: 2100000, guid: 07414867833c09e4381d89e64df26310, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0121_dust_breeze_blocks_01
+    second: {fileID: 2100000, guid: abd80f891e543c84fb4dadd11b4b823d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0122_dust_breeze_blocks_01
+    second: {fileID: 2100000, guid: 3fa547878dc577f46a5ea95fa9774f05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0123_dust_breeze_blocks_01
+    second: {fileID: 2100000, guid: fed6a62e82000784186b4ffb018e236b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0124_dust_breeze_blocks_01
+    second: {fileID: 2100000, guid: 4a2743a1e1e7f464485bb8a81829abc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0125_dust_breeze_blocks_01
+    second: {fileID: 2100000, guid: 78bc98d1297b65a4e8d2ecfbf4fc36c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0126_dust_breeze_blocks_01
+    second: {fileID: 2100000, guid: 955e9f75acc717c4c8d0920aa348b7d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0127_dust_breeze_blocks_01
+    second: {fileID: 2100000, guid: 44ddc23349b838c44bc1b1aa17363027, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0128_dust_breeze_blocks_01
+    second: {fileID: 2100000, guid: 9fabcb2dfea089b40a7310caa5704acf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0129_dust_breeze_blocks_01
+    second: {fileID: 2100000, guid: 50a34b1660e6e1940bfcbbc2a0e173fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0130_dust_breeze_blocks_01
+    second: {fileID: 2100000, guid: b39450ecd5787934eaa5bc1a7c124770, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0131_dust_breeze_blocks_01
+    second: {fileID: 2100000, guid: f20d15dbd63da534cb09c082a005c4e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0132_dust_breeze_blocks_01
+    second: {fileID: 2100000, guid: 40d6602f2d28352449f19cfaaee2756a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0133_dust_breeze_blocks_01
+    second: {fileID: 2100000, guid: 6ea6369a7597c7046a836ca44093b170, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0134_dust_breeze_blocks_01
+    second: {fileID: 2100000, guid: 230fd10e6c9ab7842999130472796a14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0135_dust_breeze_blocks_01
+    second: {fileID: 2100000, guid: 326cdab08bec62448a2e57ca6f9dbc83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0136_dust_breeze_blocks_01
+    second: {fileID: 2100000, guid: bce580d7a814bba4ca8529452e397cea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0137_dust_breeze_blocks_01
+    second: {fileID: 2100000, guid: 5aadf7ea908a1de4491d428a84756b85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0138_dust_breeze_blocks_01
+    second: {fileID: 2100000, guid: c8b081d4658acb047b5bf17e68f4b1a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0139_dust_car_wreck_color
+    second: {fileID: 2100000, guid: 3b6915f8485cbb44eba22ae8ca523ba5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0140_dust_car_wreck_interior_color
+    second: {fileID: 2100000, guid: fbad6d97a9828924597bcc4456b2fbfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0141_dust_cart_cloth_color
+    second: {fileID: 2100000, guid: 5645989b4fb66db4fa9b8c287a638f11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0142_dust_cart_color
+    second: {fileID: 2100000, guid: 0665292adf1a02c469c8af0446c4920c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0143_dust_ceiling_light_01
+    second: {fileID: 2100000, guid: b8e9b0f27371f9f43a9b9018ae0d92d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0144_dust_ceiling_light_01
+    second: {fileID: 2100000, guid: 53f8f2613be006040aca4c4831540659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0145_dust_cell_tower_color
+    second: {fileID: 2100000, guid: 431e548d89643eb499447f0986cee2a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0146_dust_chainlink_fence_001
+    second: {fileID: 2100000, guid: e0bfba246de252b40993b5c7cb45ca14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0147_dust_chainlink_fence_001
+    second: {fileID: 2100000, guid: 712dc630494e0064599f4b21075b652b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0148_dust_chainlink_fence_001
+    second: {fileID: 2100000, guid: 11e3cb006b246d243b79034d8d1ccac0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0149_dust_chainlink_fence_001
+    second: {fileID: 2100000, guid: 901483da0421c364cb8040587de19ed1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0150_dust_chainlink_fence_cover_001
+    second: {fileID: 2100000, guid: 4b8c3bfe35799574089c3f906c2ef31d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0151_dust_chainlink_fence_cover_001
+    second: {fileID: 2100000, guid: fd75b9fde7047a24b927c9269deee96e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0152_dust_chainlink_fence_wire_001
+    second: {fileID: 2100000, guid: 3c5150f7a6f82324582212d02222ceb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0153_dust_construction_site_01
+    second: {fileID: 2100000, guid: 7d5755e2745c9a745996aef2ea411ca8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0154_dust_curbs_001
+    second: {fileID: 2100000, guid: 078bc28d047a96249a26c961cc8e7e0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0155_dust_curbs_001
+    second: {fileID: 2100000, guid: 755e187d83e78bf4e80b41cc42d0873f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0156_dust_curbs_001_painted
+    second: {fileID: 2100000, guid: 84803f707e8b1864cb06c5b026934a10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0157_dust_curbs_001_painted
+    second: {fileID: 2100000, guid: 12739270e6c591940834fc2a1044a050, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0158_dust_curbs_001_painted
+    second: {fileID: 2100000, guid: 32d5d15234f58d742a3c9a82975988d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0159_dust_curbs_001_painted
+    second: {fileID: 2100000, guid: ebd07ff72d2bade43af18b5fbfbbbb61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0160_dust_curbs_001_painted
+    second: {fileID: 2100000, guid: 86728d135c7f63d4f9d4a13b162de9fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0161_dust_curbs_001_painted_notint
+    second: {fileID: 2100000, guid: e6c7ca26673621242969ca37b22bb10e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0162_dust_curbs_001_painted_notint
+    second: {fileID: 2100000, guid: dda700068f726af43ba758b9d21773f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0163_dust_curbs_001_painted_notint
+    second: {fileID: 2100000, guid: 854544d10a9ae7341897d66aa2454667, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0164_dust_curbs_001_painted_notint
+    second: {fileID: 2100000, guid: a89c38dabcfd9ac4482e8e374de15838, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0165_dust_curbs_001_painted_notint
+    second: {fileID: 2100000, guid: f40bc9539cbe1874f945ad553336cfa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0166_dust_detruis_sacks_02_color
+    second: {fileID: 2100000, guid: 033bc072dcc881244aa1a98cacd19b74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0167_dust_detruis_sacks_color
+    second: {fileID: 2100000, guid: 0753f3edfaafe75468a4388c82c8be2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0168_dust_door_46x106_01
+    second: {fileID: 2100000, guid: 53f16203325be204d9daf5b8727193c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0169_dust_door_46x106_01
+    second: {fileID: 2100000, guid: a0fe2345b2dadc94281c2675f65af942, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0170_dust_door_46x106_01
+    second: {fileID: 2100000, guid: 3ca02ec76f02e184fbb6969b13f58f6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0171_dust_door_46x106_01
+    second: {fileID: 2100000, guid: e5f16b32bc4669a49b22440d81fdcea0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0172_dust_door_46x106_02
+    second: {fileID: 2100000, guid: 032e31aecca9d06438bb6002e5e89ee8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0173_dust_door_46x106_02
+    second: {fileID: 2100000, guid: d81f84679e73f84419f750429421642a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0174_dust_door_46x106_02
+    second: {fileID: 2100000, guid: 88f0162315cedb748a0bb65ab3da8d72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0175_dust_door_46x106_02
+    second: {fileID: 2100000, guid: 8dd464fc4ceeb4a4f8e48eeec667e3e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0176_dust_door_46x106_02
+    second: {fileID: 2100000, guid: a716d83b50609ca45a5fd0b20f6862d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0177_dust_door_46x106_02
+    second: {fileID: 2100000, guid: 81b2bd457a939d2429d15c20fe0fd043, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0178_dust_door_46x106_02
+    second: {fileID: 2100000, guid: eba6e6615d261924badf21800df0d8b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0179_dust_door_46x106_02
+    second: {fileID: 2100000, guid: e59621c73cf70c042b3c106b56b2f302, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0180_dust_door_46x106_02
+    second: {fileID: 2100000, guid: 1c5894aca08312c44b6a5cdfa0a668e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0181_dust_door_46x106_03_
+    second: {fileID: 2100000, guid: 47b328e7ce543a04ba93b849f628d414, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0182_dust_door_46x106_03_
+    second: {fileID: 2100000, guid: 1e51a516a44b3e141bb1d383d4eaafec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0183_dust_door_46x106_03_
+    second: {fileID: 2100000, guid: 4618b11aa1d880a41baa64d2d410e190, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0184_dust_door_46x106_04
+    second: {fileID: 2100000, guid: fb9d152634685ea48a6d29669d9b1b5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0185_dust_door_46x106_04
+    second: {fileID: 2100000, guid: f08213851fa350043a75914f51f9947c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0186_dust_door_46x106_04
+    second: {fileID: 2100000, guid: a13e038a77cb459409bc33628dbdac25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0187_dust_door_46x106_04
+    second: {fileID: 2100000, guid: aef27c386218a92459cfe0d3384b71d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0188_dust_door_46x106_04
+    second: {fileID: 2100000, guid: 8ef8865f45d2c954eb4ab79d27d56a4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0189_dust_door_46x106_04
+    second: {fileID: 2100000, guid: 3070435556bf5084eb43478feb166c11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0190_dust_door_46x106_04
+    second: {fileID: 2100000, guid: ddf09798ad4de6b4bb44e5d4845f1d23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0191_dust_door_46x106_04
+    second: {fileID: 2100000, guid: 908646b16eedd3f46bc46a497f80f50c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0192_dust_door_46x106_05
+    second: {fileID: 2100000, guid: 85a0f2e4aa94f4c4e86ce93d0008f6c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0193_dust_door_46x106_05
+    second: {fileID: 2100000, guid: 8a796fe7c30338b4c82e53065341fe1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0194_dust_door_46x106_05
+    second: {fileID: 2100000, guid: 8146a2544e8f6f14b8c3b8818b83b03c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0195_dust_door_46x106_05
+    second: {fileID: 2100000, guid: e4c5ffb02aee00442962a106cf7ba9fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0196_dust_door_46x106_05
+    second: {fileID: 2100000, guid: bc072444947df9a43beab2561beb9ec2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0197_dust_door_46x106_05
+    second: {fileID: 2100000, guid: 76f33727c4b096645aa7cf8dd8be4261, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0198_dust_door_46x106_06
+    second: {fileID: 2100000, guid: d77b64ffc89d0274cbf0cadf6f8f8e84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0199_dust_door_46x106_06b
+    second: {fileID: 2100000, guid: 7b49754f3f5e1fe439790dfacb264d36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0200_dust_door_46x106_06b
+    second: {fileID: 2100000, guid: 1cc9c7e641ca52146a975ab0ec5bd524, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0201_dust_door_46x106_06b
+    second: {fileID: 2100000, guid: 1481cfbc9483e8042820f4a139313b71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0202_dust_door_46x106_06b
+    second: {fileID: 2100000, guid: b50a85fb57d3c1845a59f5648fc609ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0203_dust_door_46x106_06b
+    second: {fileID: 2100000, guid: 12ed16d32f6fbe5479ac58b729841bf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0204_dust_door_46x106_06b
+    second: {fileID: 2100000, guid: 3dd28fff35f675546a344a6a39ca1d2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0205_dust_door_46x106_06b
+    second: {fileID: 2100000, guid: b015f8a67b941804a8022ba22f574a06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0206_dust_door_46x106_06b
+    second: {fileID: 2100000, guid: d378fbdff63eebc49ad71fe6fcff7511, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0207_dust_door_46x106_06b
+    second: {fileID: 2100000, guid: 56601e8ac69f9d3439ef9c6326136599, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0208_dust_door_46x106_06b
+    second: {fileID: 2100000, guid: 59a98b9419f513242994bd8f9814e05a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0209_dust_door_46x106_06b
+    second: {fileID: 2100000, guid: fb0818d8f86c86247bfc1ff2b12a2711, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0210_dust_door_46x106_06b
+    second: {fileID: 2100000, guid: fe7b56e01d672b644bc71b9af7fee7d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0211_dust_door_46x106_06b
+    second: {fileID: 2100000, guid: 96e094ed9e88cad49a9743f6087dc3f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0212_dust_door_46x106_06b
+    second: {fileID: 2100000, guid: cb3da7ad3b02e9947a81b74baa9f1953, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0213_dust_door_46x106_07
+    second: {fileID: 2100000, guid: 0ad34620a5d27ba4cbec622f45c79844, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0214_dust_door_46x106_07
+    second: {fileID: 2100000, guid: c4dbb869ed166b042843f139bec7a403, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0215_dust_door_46x106_07
+    second: {fileID: 2100000, guid: da1e91e222babc548ae6be76c47a86bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0216_dust_door_80x128_01
+    second: {fileID: 2100000, guid: feb3d56b42d253a4e9c756c9cf1aff59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0217_dust_door_80x128_01
+    second: {fileID: 2100000, guid: ecc73a8948bffb6408c354297819f4a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0218_dust_door_80x128_01
+    second: {fileID: 2100000, guid: 0cf2c71502be2114daf3cfdc835c452e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0219_dust_door_80x128_01_bars
+    second: {fileID: 2100000, guid: e34d884c96f4fde48ad94689d6568d47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0220_dust_door_80x128_01_bars
+    second: {fileID: 2100000, guid: 8fb023ad2caa8e14d98903df501c97c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0221_dust_door_80x128_02
+    second: {fileID: 2100000, guid: 26be0ab22c0d59a4f938d6ca064d1f43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0222_dust_door_80x128_02
+    second: {fileID: 2100000, guid: 57ed518b6ca1e6743870a92e91bb8a21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0223_dust_door_80x128_02
+    second: {fileID: 2100000, guid: 8d33ab2d5b164db4ab5e49572735f359, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0224_dust_door_80x128_02
+    second: {fileID: 2100000, guid: 1cb80aa79eb00744f9c9954111768758, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0225_dust_door_80x128_02
+    second: {fileID: 2100000, guid: de1f1db0c7a23cc44ab2cc51bbdcca65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0226_dust_door_80x128_03
+    second: {fileID: 2100000, guid: 036c91e42cefd9840b63604781504ca1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0227_dust_door_80x128_03
+    second: {fileID: 2100000, guid: f0024db560ebef14db4e7780f6bc5daa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0228_dust_door_80x128_03
+    second: {fileID: 2100000, guid: fa69d5492e1050349a02256a620335c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0229_dust_door_80x128_04
+    second: {fileID: 2100000, guid: 140ee06b3c32f0c4cba19d99de6ed138, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0230_dust_door_80x128_04
+    second: {fileID: 2100000, guid: 1e5d51a4dd87a454f916f59c0502220e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0231_dust_door_80x128_04
+    second: {fileID: 2100000, guid: f318938063bf46d43817deb7c9cac00c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0232_dust_door_80x128_04
+    second: {fileID: 2100000, guid: 3b89836e9f34faf4196182ade008b9e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0233_dust_door_80x128_04_frame
+    second: {fileID: 2100000, guid: 2b7e78470719d27449097392b5c07524, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0234_dust_door_80x128_04_frame
+    second: {fileID: 2100000, guid: 2d240ede0616732479154b204d85567a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0235_dust_door_80x128_04_frame
+    second: {fileID: 2100000, guid: 013937f63bf2a3044843656859ad92cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0236_dust_door_arch_01
+    second: {fileID: 2100000, guid: 12fa6cfc576f39749bd3065a1035265d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0237_dust_doorframes_01
+    second: {fileID: 2100000, guid: 86b341677cf424748b9efb74aae0ac22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0238_dust_doorframes_01
+    second: {fileID: 2100000, guid: 6a0cf4f1cc8add34389632fa35b4f200, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0239_dust_doorframes_01
+    second: {fileID: 2100000, guid: e215d32988018584684d41f7ce3b074f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0240_dust_doorframes_01
+    second: {fileID: 2100000, guid: 45f5aaca0ca0ec941ac326daee91fd67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0241_dust_doorframes_01
+    second: {fileID: 2100000, guid: fd6eada21125eab4abb45420ea6c8d2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0242_dust_doorframes_01
+    second: {fileID: 2100000, guid: 47dcf53e88823dd4098e23b513253e1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0243_dust_doorframes_01
+    second: {fileID: 2100000, guid: acae2cea2150f4045b000dedbb9860c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0244_dust_doorframes_01
+    second: {fileID: 2100000, guid: fccfda604eca1ac4ea5141d2a49b87ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0245_dust_doorframes_01
+    second: {fileID: 2100000, guid: 295d8ab235147d6428bb3d73f288a49f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0246_dust_doorframes_01
+    second: {fileID: 2100000, guid: 5bcbe760381700247910db954b336217, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0247_dust_doorframes_01
+    second: {fileID: 2100000, guid: 9dec5d9891668684ea99686404c720fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0248_dust_doorframes_01
+    second: {fileID: 2100000, guid: b7297cacfba9e0e4e92caf30818e3606, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0249_dust_doorframes_01
+    second: {fileID: 2100000, guid: 590cdff328ce123488af883f86e3c429, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0250_dust_doorframes_01
+    second: {fileID: 2100000, guid: f4cfd14aa919dcd4a8925d2abc910de5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0251_dust_doorframes_01
+    second: {fileID: 2100000, guid: 62f235ff7d2fc274796f945485c78da4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0252_dust_doorframes_01
+    second: {fileID: 2100000, guid: 95e6f65c5605f4448932deff8573acf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0253_dust_doorframes_01
+    second: {fileID: 2100000, guid: 973bb5a4aa2414f4e9ce667e8abb3cf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0254_dust_doorframes_01
+    second: {fileID: 2100000, guid: 8115ba4c7a326264d9e3e9fc39bee7f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0255_dust_doorframes_01
+    second: {fileID: 2100000, guid: 24d7275fa696aec4d85cd02be00f25b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0256_dust_doorframes_01
+    second: {fileID: 2100000, guid: ad4ec4d0ab4186440b2aa594661f74bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0257_dust_doorframes_01
+    second: {fileID: 2100000, guid: 4b9cf99a2d9980943aa5b403f78c0c50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0258_dust_doorframes_01
+    second: {fileID: 2100000, guid: e85203bd60b274a4a951452bb80738f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0259_dust_doorframes_01
+    second: {fileID: 2100000, guid: 8d17078385f75d24f8460744e332fb11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0260_dust_doorframes_01
+    second: {fileID: 2100000, guid: 7152cffa6ecd9bc46bcf665fa71f0b48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0261_dust_doorframes_02
+    second: {fileID: 2100000, guid: 6e9cd4e140d990547baa791f6a709e71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0262_dust_doorframes_02
+    second: {fileID: 2100000, guid: 79f7b6e558214cf48a120393419a7a7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0263_dust_doorframes_02
+    second: {fileID: 2100000, guid: adcdb86f5d726bf409b1550cf1e91d30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0264_dust_doorframes_02
+    second: {fileID: 2100000, guid: 7449af79c398da149804cc71bf41fed8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0265_dust_doorframes_02
+    second: {fileID: 2100000, guid: 3f042335fb507a0479d28ecdca5c43ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0266_dust_doorframes_02
+    second: {fileID: 2100000, guid: 1e143acf46735df43afea20e99ec1777, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0267_dust_doorframes_02
+    second: {fileID: 2100000, guid: cd82512a6e858ef469662ed29f1636a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0268_dust_doorframes_02
+    second: {fileID: 2100000, guid: e151c16af5b377a4aad58ad3f05a259d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0269_dust_doorframes_02
+    second: {fileID: 2100000, guid: 14b78207e02c2084e9c8784df8ae4d28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0270_dust_doorframes_02
+    second: {fileID: 2100000, guid: ab55568ee61dbd8488357f0877a32e51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0271_dust_doorframes_02
+    second: {fileID: 2100000, guid: 56769291b9e29a445898e632be2f231c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0272_dust_doorframes_02
+    second: {fileID: 2100000, guid: 20d4e7ca687ffc747924da8a9068579a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0273_dust_doorframes_02
+    second: {fileID: 2100000, guid: 5bb09d06d8d3d7a468a2d3fb6078e4cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0274_dust_doorframes_03
+    second: {fileID: 2100000, guid: 07c4712b5bd490041b918019b6bb23ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0275_dust_doorframes_03
+    second: {fileID: 2100000, guid: 9278f11c7dcc8274bb4fce13ffefae79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0276_dust_doorframes_03
+    second: {fileID: 2100000, guid: 791c6556725f2be4180bea39525a8226, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0277_dust_doorframes_03
+    second: {fileID: 2100000, guid: 76446d3781ff8b640811a4e7b504e3fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0278_dust_doorframes_03
+    second: {fileID: 2100000, guid: 95a6bd69c4605434cbb946b43ce62b98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0279_dust_doorframes_03
+    second: {fileID: 2100000, guid: 3250fda90dd8c864ebd1e86f48234878, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0280_dust_doorframes_03
+    second: {fileID: 2100000, guid: 20c117e90f83f7945992046beb8566f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0281_dust_doorframes_03
+    second: {fileID: 2100000, guid: 2d63e5c72e27aaf4ba1006c7fd781b43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0282_dust_electric_panel_color
+    second: {fileID: 2100000, guid: dbd13aa75412c3947a279078f5f2fd47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0283_dust_electrical_powerbox_color
+    second: {fileID: 2100000, guid: a9d8331536ea6d240bb3dee7b4ae9e1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0284_dust_electrical_powerbox_color
+    second: {fileID: 2100000, guid: 2e058dccf9af55740afcefdafc10b9f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0285_dust_flatbed_truck_color
+    second: {fileID: 2100000, guid: 9e6204df051c9c044b67cacbf4974b0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0286_dust_flatbed_truck_wheels_color
+    second: {fileID: 2100000, guid: 6e0321e07d4a5b24f9cace6113df636e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0287_dust_garbage_container_color
+    second: {fileID: 2100000, guid: d82e587a0c6902540a05ed2bc67bbc41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0288_dust_garbage_container_color
+    second: {fileID: 2100000, guid: d7752ac3e0c5dd5468b0fa11613a5416, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0289_dust_garbage_dumpster_color
+    second: {fileID: 2100000, guid: bd78faf3273a2b14683aa5ff2cc432a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0290_dust_grain_basket_color
+    second: {fileID: 2100000, guid: 447bcf38c24f4464aa9c8080ed919bef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0291_dust_hanging_light_02_off
+    second: {fileID: 2100000, guid: 793c3095bf5bc904dbe32a9e7d0954a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0292_dust_hanging_light_02_off
+    second: {fileID: 2100000, guid: f663a72b39eacd5469b47a8f27cb766f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0293_dust_hanging_light_02_off
+    second: {fileID: 2100000, guid: b8879e9b359f866419bf8e66484e05a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0294_dust_hanging_light_02_off
+    second: {fileID: 2100000, guid: 024a3f3bde9a89a45a3e76ef7004f8fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0295_dust_hanging_light_02_off
+    second: {fileID: 2100000, guid: 18f6e0679a3092c47890d4a2c297cade, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0296_dust_hanging_light_02_off
+    second: {fileID: 2100000, guid: 30c37b96e33d9e84aaccc31e28e0e37e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0297_dust_hanging_light_02_on
+    second: {fileID: 2100000, guid: 5a499dcccf595ad42a980b8f3248a90f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0298_dust_hotel_arch001_color
+    second: {fileID: 2100000, guid: 3372702707a9ba44aa6e9f7381eccdc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0299_dust_hr_oil_drum_color
+    second: {fileID: 2100000, guid: d0abd52362ee68b4d87787fde03f2f75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0300_dust_hr_oil_drum_color
+    second: {fileID: 2100000, guid: e8ca303ef7e617c4887d8ebdb5d757e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0301_dust_hr_oil_drum_color
+    second: {fileID: 2100000, guid: 7624c23ec2a4e2b47b50ba5ee758d051, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0302_dust_hr_oil_drum_color
+    second: {fileID: 2100000, guid: 5f7e689b37892804f8398902950e1a0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0303_dust_hr_oil_drum_color
+    second: {fileID: 2100000, guid: d4a73d0a38a21cb4b95c6e3b9ad565fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0304_dust_hr_oil_drum_color
+    second: {fileID: 2100000, guid: e5ea3af93ee0e8b4088d03de97b018e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0305_dust_hr_oil_drum_color
+    second: {fileID: 2100000, guid: 4fe2749345c70684bafcf1d46ef1f761, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0306_dust_hr_oil_drum_color
+    second: {fileID: 2100000, guid: ff27b15b90b679643bee16c464ebf8f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0307_dust_kasbah_block_lifter
+    second: {fileID: 2100000, guid: eab2a28ed3d7b9b4d976848b2439b660, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0308_dust_kasbah_ceiling
+    second: {fileID: 2100000, guid: c9bf121b02c5f4442a00c281f766fb68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0309_dust_kasbah_ladder
+    second: {fileID: 2100000, guid: e6d140ec122db124e824747b4e0826b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0310_dust_kasbah_mudbrick_piles
+    second: {fileID: 2100000, guid: 4be5c725eb799c649a49e6712b0b76cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0311_dust_kasbah_mudbrick_piles
+    second: {fileID: 2100000, guid: 78d5fb9354d48274598cef115af2fcf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0312_dust_kasbah_rock_wall
+    second: {fileID: 2100000, guid: fe00887696832d54391f12a9fb4b50c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0313_dust_kasbah_rock_wall
+    second: {fileID: 2100000, guid: 4dfaf53a77d654244bae0d9908aae82d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0314_dust_kasbah_rooftrim_01
+    second: {fileID: 2100000, guid: 75664921a230dd8449ab36e7f2325d5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0315_dust_kasbah_rooftrim_01
+    second: {fileID: 2100000, guid: f918e45740602fb4aa2c0aa5bd257d9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0316_dust_kasbah_small_rocks
+    second: {fileID: 2100000, guid: a0e9591fa56e943439c7ece34d8a3543, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0317_dust_kasbah_tarp_04
+    second: {fileID: 2100000, guid: 694722a62fb5b03489d21664087622f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0318_dust_kasbah_tarp_04
+    second: {fileID: 2100000, guid: d49ba5244c80d2c4393733f2f4112686, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0319_dust_kasbah_tarp_04
+    second: {fileID: 2100000, guid: 0f14e2888a903a442aabcd1c2a01c484, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0320_dust_kasbah_window_insets_01
+    second: {fileID: 2100000, guid: bbee1fcca968fad4897853475e801ac4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0321_dust_kasbah_windows_01
+    second: {fileID: 2100000, guid: cd8d324003cebb840a7dabb69b613cdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0322_dust_kasbah_wood_forms
+    second: {fileID: 2100000, guid: 4bcc7eafcd5379c45bf9160f1a4d6898, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0323_dust_kasbah_wood_forms
+    second: {fileID: 2100000, guid: 719c571a4a76f1342969b4d9b73ce540, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0324_dust_kasbah_wood_planks
+    second: {fileID: 2100000, guid: 6d3e335e8a798db4e90c096146eafc34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0325_dust_kasbah_wood_planks
+    second: {fileID: 2100000, guid: 48d2559b32b1fb8439b9ef4695eee9ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0326_dust_kasbah_wood_planks
+    second: {fileID: 2100000, guid: b79ca28f58c3c21448dc012f28e04a2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0327_dust_kasbah_wood_planks
+    second: {fileID: 2100000, guid: 81d6f558a1db94341abb416cd9014bba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0328_dust_kasbah_wood_planks
+    second: {fileID: 2100000, guid: 65aa8a035c02a774a9943b5fb5339115, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0329_dust_kasbah_wood_planks
+    second: {fileID: 2100000, guid: 1667c8a7f25c35d4595198cd7c113ca2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0330_dust_kasbah_wood_planks
+    second: {fileID: 2100000, guid: 35c369fd2456fa94a87727845e606f1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0331_dust_kasbah_wood_planks
+    second: {fileID: 2100000, guid: 1d7a143c714cbbc42b7c1d8ef5c88dfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0332_dust_kasbah_wood_platform
+    second: {fileID: 2100000, guid: e33c4cd79afc66340b46d3d9b1117259, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0333_dust_kasbah_wood_platform
+    second: {fileID: 2100000, guid: 09c448bd0b1f50e46bc0613d93583e25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0334_dust_kasbah_wood_platform
+    second: {fileID: 2100000, guid: 1282ad55a0cb03842b5475c49c3a0788, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0335_dust_laundry_pole_01
+    second: {fileID: 2100000, guid: 741ef0d2346f63c4c801acfe8812e8c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0336_dust_light_pole_02_color
+    second: {fileID: 2100000, guid: f34d7dc4c938edf4dbe1df86b700b412, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0337_dust_light_pole_color
+    second: {fileID: 2100000, guid: 13f6c11bf8d897e4fbefa5b594be550e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0338_dust_metal_panels_01
+    second: {fileID: 2100000, guid: 11485a244b86b8d43bb17462480de4e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0339_dust_metal_panels_rusty_01
+    second: {fileID: 2100000, guid: 0a84f494a08628044bebac2a8db5d1ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0340_dust_metal_panels_rusty_alpha_01
+    second: {fileID: 2100000, guid: d86275063994160409df42878b3f162c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0341_dust_mudbrick_bombsite_gap
+    second: {fileID: 2100000, guid: 1d50a9a727483884a822783eb616086f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0342_dust_mudbrick_crumbling_wall
+    second: {fileID: 2100000, guid: f68dd964557ae0e4eb16f402df1ed8d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0343_dust_mudbrick_tower_01_edges
+    second: {fileID: 2100000, guid: 8bdd7aeedfa6d694b939130f1f69db0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0344_dust_mudbrick_tower_01_plaster
+    second: {fileID: 2100000, guid: 975f3bf0f34e70d4caf00a861c839ed4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0345_dust_mudbrick_tower_02_edges
+    second: {fileID: 2100000, guid: af3e95f5708cda141b47444e3047f3ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0346_dust_mudbrick_tower_02_edges
+    second: {fileID: 2100000, guid: 1c0e17272ae46d9419f177acf20c7c2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0347_dust_mudbrick_tower_02_edges
+    second: {fileID: 2100000, guid: 4d3268c1cabf9734a8afde8f8c0079cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0348_dust_mudbrick_tower_02_plaster
+    second: {fileID: 2100000, guid: d5cda600763e7004cb8f1a1c4a5834c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0349_dust_mudbrick_tower_02_plaster
+    second: {fileID: 2100000, guid: 6f12dbf38957f304eb07e61714a62217, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0350_dust_mudbrick_tower_02_plaster
+    second: {fileID: 2100000, guid: aefaf18843cc2e84b82395a8d77f9b52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0351_dust_mudbrick_tower_03_edges
+    second: {fileID: 2100000, guid: 4e8f7a6c84af68544b89d1af645e62c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0352_dust_mudbrick_tower_03_plaster
+    second: {fileID: 2100000, guid: f29755bb79fd1eb46b4a0db57a66768b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0353_dust_mudbrick_transition
+    second: {fileID: 2100000, guid: 46ab4bda0ee21294d8a8a603df997bc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0354_dust_ornate_lanterns_01
+    second: {fileID: 2100000, guid: a3b0d7ee27ad441419c1d32df36149b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0355_dust_patio_chair_color
+    second: {fileID: 2100000, guid: 0a83df8513c9e914384a23fa5eeb94ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0356_dust_patio_chair_color
+    second: {fileID: 2100000, guid: 1fb6b413035dd1d469f243cb8591c395, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0357_dust_patio_umbrella_color
+    second: {fileID: 2100000, guid: 01fb547cc75e07d4fa468c1c59a34087, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0358_dust_patio_umbrella_color
+    second: {fileID: 2100000, guid: ca8a3e9e79695934e86f28a8e6b91a99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0359_dust_pottery_color
+    second: {fileID: 2100000, guid: 424e4fcf66b2eb74fb38cefc9c376ca2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0360_dust_pottery_color
+    second: {fileID: 2100000, guid: 154958c94467d894ab5be9ae2f2926dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0361_dust_pottery_color
+    second: {fileID: 2100000, guid: d28c76e623a769340b7cccf0644496b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0362_dust_pottery_color
+    second: {fileID: 2100000, guid: afe7407ffedb1f543818baf4319d6d57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0363_dust_pottery_color
+    second: {fileID: 2100000, guid: e84b4969df5a6d64bad2833e34924e63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0364_dust_pottery_color
+    second: {fileID: 2100000, guid: 210bd980d57c11847aea5c0c65ad5d30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0365_dust_pottery_color
+    second: {fileID: 2100000, guid: aad771c6d58c78c4ca5313d19825d152, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0366_dust_pottery_color
+    second: {fileID: 2100000, guid: 071282e1ba2e3ee4994ad136af71afaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0367_dust_pottery_color
+    second: {fileID: 2100000, guid: 54474b3019fe894458b07b3d5b9760a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0368_dust_propane_cylinder_01_color
+    second: {fileID: 2100000, guid: b194fd593a2e8844ab3accd708990a59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0369_dust_propane_cylinder_02_color
+    second: {fileID: 2100000, guid: bef531501afae2642986e00556e2fdde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0370_dust_propane_cylinder_02_color
+    second: {fileID: 2100000, guid: 1c11aaadf71b92a4eb85c2d218d053f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0371_dust_r5_color
+    second: {fileID: 2100000, guid: 8d3c4d6d5e9972d4aa8d098bd7651911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0372_dust_restaurant_sign_02_color
+    second: {fileID: 2100000, guid: e7f2f7cb52683954d84f0958e863894c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0373_dust_rollupdoor_frame_01
+    second: {fileID: 2100000, guid: b4a6e6bc95c1eb040a72ab3fb5ce0a50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0374_dust_rollupdoor_frame_01
+    second: {fileID: 2100000, guid: c7cc7255b150b5945a76e655019626d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0375_dust_rollupdoor_frame_01
+    second: {fileID: 2100000, guid: 4a551f6d4360ebf4998355c7dfc30b01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0376_dust_rollupdoor_frame_01
+    second: {fileID: 2100000, guid: 72f14dc9c215fa3499ab5efa64f0e3b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0377_dust_rollupdoor_frame_01
+    second: {fileID: 2100000, guid: 538aa598db72c554f8f83050fb74abed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0378_dust_rollupdoor_frame_01
+    second: {fileID: 2100000, guid: b0e8c21ac3309ac4ab779700b9d57ada, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0379_dust_rollupdoor_frame_01
+    second: {fileID: 2100000, guid: 5adfd331acdb16f4087b001bd232d997, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0380_dust_rollupdoor_frame_01
+    second: {fileID: 2100000, guid: f172746a4cf5e654ca01d2606aeda7fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0381_dust_rooftop_01_color
+    second: {fileID: 2100000, guid: d58bc7c8aa73f77478d00e25e8809965, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0382_dust_rooftop_shingles_color
+    second: {fileID: 2100000, guid: 1d8ff98621b7c3942947f78ae289418f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0383_dust_satellite_dish_color
+    second: {fileID: 2100000, guid: ebf69f77f6ca1da498307a95f6561e3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0384_dust_shelf_01
+    second: {fileID: 2100000, guid: d77caeca4b3f1c847ae690016ac3ad94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0385_dust_shelf_01
+    second: {fileID: 2100000, guid: 1e0e07a6813abd842b8da79bd6c538d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0386_dust_shipping_crate_01_painted_color
+    second: {fileID: 2100000, guid: c6655eb704ec4e941a387ee2e47e6514, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0387_dust_shipping_crate_01_painted_color
+    second: {fileID: 2100000, guid: d9dbbe99de52b7b4d86cb0b7b7cfda2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0388_dust_shipping_crate_01_painted_decals
+    second: {fileID: 2100000, guid: 67619cc7e9bd5134392e75765a2034ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0389_dust_shipping_crate_01_painted_decals
+    second: {fileID: 2100000, guid: 172a007d6b5a1e24badf6af4feaf3530, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0390_dust_shipping_crate_01_wood_color
+    second: {fileID: 2100000, guid: c52fc77db3fc3f842a87880efb809d80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0391_dust_shipping_crate_01_wood_color
+    second: {fileID: 2100000, guid: 099591eaef76ff34497c4d23a9d4d749, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0392_dust_shipping_crate_01_wood_decals
+    second: {fileID: 2100000, guid: 3af3fc38c0051e241bd63fe74a977cd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0393_dust_shipping_crate_02_painted_color
+    second: {fileID: 2100000, guid: ad2689fdd5d4d3e47a1abcbe188c04fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0394_dust_shipping_crate_02_painted_color
+    second: {fileID: 2100000, guid: a977edf8767d8cc45b253d839635e360, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0395_dust_shipping_crate_02_painted_decals
+    second: {fileID: 2100000, guid: 5cc3dce844b026948ac323dae46d6caa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0396_dust_shipping_crate_02_painted_decals
+    second: {fileID: 2100000, guid: d1615f41ef842b34ca59ad5aca6b98e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0397_dust_shipping_crate_02_wood_color
+    second: {fileID: 2100000, guid: d33dba8bca53de84ab4b0cea74c70461, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0398_dust_shipping_crate_02_wood_decals
+    second: {fileID: 2100000, guid: 13875832156449640a0dddcd57d3ea2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0399_dust_shipping_crate_tarp_01
+    second: {fileID: 2100000, guid: bfd6886d76013c149a186da333cdee7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0400_dust_shipping_crate_tarp_01
+    second: {fileID: 2100000, guid: ce9943831d90eb84b968f7bd97ea906a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0401_dust_shipping_crate_tarp_02
+    second: {fileID: 2100000, guid: 63934aad94c07f14693496709d7e5d79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0402_dust_shipping_crate_tarp_02
+    second: {fileID: 2100000, guid: d0e725a77814cac49b7b72e53a2d06ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0403_dust_shipping_crate_tarp_02
+    second: {fileID: 2100000, guid: 0bc89447b81b2ab449342323ee827c8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0404_dust_shipping_crate_tarp_02
+    second: {fileID: 2100000, guid: 402d8f10b27b0254293170bdd3bc0a5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0405_dust_shipping_crate_tarp_02
+    second: {fileID: 2100000, guid: 4c70da9c0ee301a4c8e4b3f4a8e7feb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0406_dust_shipping_crate_tarp_02
+    second: {fileID: 2100000, guid: 5f5d9f489913fe646b3c2e6010975614, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0407_dust_shop_sign_02_color
+    second: {fileID: 2100000, guid: 4251463df3060504a94deec631bb553c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0408_dust_terracotta_02_color
+    second: {fileID: 2100000, guid: 6a955f605f3041a4d8d38fe23e91c8b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0409_dust_terracotta_03_color
+    second: {fileID: 2100000, guid: efd2673684bf8a843a586bee7bc1d2b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0410_dust_terracotta_color
+    second: {fileID: 2100000, guid: 15cb76adf9121ba4e858149b7bfc3a98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0411_dust_trap_door_color
+    second: {fileID: 2100000, guid: fd2b7b0f4035b6547909a63318db840c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0412_dust_trap_door_color
+    second: {fileID: 2100000, guid: 68b09a2f7b54bd343943801d82ab21f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0413_dust_trap_door_color
+    second: {fileID: 2100000, guid: a96a3b5a4aee59b48980504b5c74b5dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0414_dust_trap_door_color
+    second: {fileID: 2100000, guid: 29db8c950282b5143bb375cf191f6e6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0415_dust_trash_bag_02_color
+    second: {fileID: 2100000, guid: 84a0f0a1a1054d64d95ae5ba4f467704, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0416_dust_trash_bag_02_color
+    second: {fileID: 2100000, guid: 2a7d8fc0e0954144a85f31ddf09d2830, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0417_dust_trash_bag_02_color
+    second: {fileID: 2100000, guid: e36441f86741bc74e9b9d83e52c27c6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0418_dust_trash_bag_02_color
+    second: {fileID: 2100000, guid: 5d326adfc9749cc43b7dc49dac0625de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0419_dust_trash_bag_color
+    second: {fileID: 2100000, guid: e02450578299b7647a18300a08b7f1c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0420_dust_trash_bag_color
+    second: {fileID: 2100000, guid: da3e1ade76284c94d9295a246200d8b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0421_dust_trim_decoractive_01
+    second: {fileID: 2100000, guid: 588c03fe0176fa94a8577eb130276b97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0422_dust_trim_decoractive_01
+    second: {fileID: 2100000, guid: 2e574a57718619241ac3ee5909987d93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0423_dust_trim_decoractive_01
+    second: {fileID: 2100000, guid: 1f40132605d33fe4695bfcc4e17ecd00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0424_dust_trim_decoractive_01
+    second: {fileID: 2100000, guid: 505da21703c5172498f8d048d36b4dc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0425_dust_vehicle_glass_opaque_color
+    second: {fileID: 2100000, guid: 488f6d6b20c3cf444acf1df01f90464b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0426_dust_vehicle_glass_opaque_color
+    second: {fileID: 2100000, guid: fbbc5e67765d30440b2a9c66d1e5b0b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0427_dust_wall_braces_arch_color
+    second: {fileID: 2100000, guid: ed44c3017729a3a47a80a43efd5eb7c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0428_dust_wall_braces_color
+    second: {fileID: 2100000, guid: 80378de56025c1a4dae13f60a11fd57f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0429_dust_wall_braces_rope_color
+    second: {fileID: 2100000, guid: 799eecb41ec4b2c4b8f36eedc146ab9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0430_dust_wall_vents_01
+    second: {fileID: 2100000, guid: 3d4fae2cab7b94c48912f7dcf6889576, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0431_dust_weeds_01
+    second: {fileID: 2100000, guid: b2acf57d2826a13459cb6189c97ba7ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0432_dust_window_bars_metal_01
+    second: {fileID: 2100000, guid: 9c2667dbb7dd1c24dbc288834c317115, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0433_dust_window_bars_metal_01_alpha
+    second: {fileID: 2100000, guid: 440ecfd9a01ed1f42975b74161759c4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0434_dust_window_bars_metal_01b
+    second: {fileID: 2100000, guid: 2219295864fe3fa4e97cc7e36cfb9683, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0435_dust_window_bars_metal_01b
+    second: {fileID: 2100000, guid: a42c16ed1033d04409d908f3ff4b10e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0436_dust_window_bars_metal_01b
+    second: {fileID: 2100000, guid: 77fb6459ce8508f4cb97194397400fe1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0437_dust_window_bars_metal_01b_alpha
+    second: {fileID: 2100000, guid: 1f76a12bc6ff17349a07901683f4368d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0438_dust_window_bars_metal_01b_alpha
+    second: {fileID: 2100000, guid: 37ae260ec07fe5d4da79a94933db8659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0439_dust_window_bars_metal_01b_alpha
+    second: {fileID: 2100000, guid: 0765cc42c7780ec46a3f10463a8992fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0440_dust_window_bars_metal_01b_alpha
+    second: {fileID: 2100000, guid: 6f764f78bd7ff484bae3094dab97708f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0441_dust_window_bars_metal_01b_alpha
+    second: {fileID: 2100000, guid: b75600edfc798754590ed23a8686a0ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0442_dust_window_bars_metal_01b_alpha
+    second: {fileID: 2100000, guid: 1e945c02334a68a47befb71220186a8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0443_dust_window_bars_metal_01b_alpha
+    second: {fileID: 2100000, guid: 7eaebf6412d9c3c49a48aac0904c3d3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0444_dust_window_bars_metal_01b_alpha
+    second: {fileID: 2100000, guid: b9eddaada70645647b19297866b51516, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0445_dust_window_frame_plaster_01
+    second: {fileID: 2100000, guid: 228d1fed27938e848985b1717c9447a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0446_dust_window_frame_plaster_01
+    second: {fileID: 2100000, guid: b8e40353d0ff9a648b491018cc0fcc35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0447_dust_window_frame_plaster_01
+    second: {fileID: 2100000, guid: 66af84f9e03e0d5439b427b9fe16d6c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0448_dust_window_frame_stone_01
+    second: {fileID: 2100000, guid: 04bf4a1602d7f3d46ba55539db480cad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0449_dust_window_frame_stone_01
+    second: {fileID: 2100000, guid: dbd56d1ac4c124c46b0292b7d19342dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0450_dust_window_frame_stone_01
+    second: {fileID: 2100000, guid: 42554b7bd4a211842a66ca8d88198a88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0451_dust_window_frame_stone_01
+    second: {fileID: 2100000, guid: 48d1638b9c730b04981326a90d5ec74f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0452_dust_window_frame_stone_01
+    second: {fileID: 2100000, guid: ca7fe4bc09a128d4794624dc06a31442, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0453_dust_window_frame_stone_01
+    second: {fileID: 2100000, guid: efe3cb07694aa744ebe798017c6ab703, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0454_dust_window_frame_stone_01
+    second: {fileID: 2100000, guid: 66eabab3593677a4ea8b57753e7af1c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0455_dust_window_frame_stone_01
+    second: {fileID: 2100000, guid: 8411bcaab638e3641aa87392b26563f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0456_dust_window_frame_stone_01
+    second: {fileID: 2100000, guid: 3b53e3f9dcae8124d825508bf5bb3902, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0457_dust_window_frame_stone_01
+    second: {fileID: 2100000, guid: c65581a6f8bd88e49b7a612c8dff1e7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0458_dust_window_frame_stone_01
+    second: {fileID: 2100000, guid: df9984ac88a4ffc469403ecec8eb7d6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0459_dust_window_frame_stone_01
+    second: {fileID: 2100000, guid: 2b5f8de8e308c0c4ba40b28dc258e8fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0460_dust_window_frame_stone_01
+    second: {fileID: 2100000, guid: 258124c2e4e6ce3408de82398fb5045a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0461_dust_window_frame_stone_01
+    second: {fileID: 2100000, guid: 6585c5c570192e244bfa73b17ab3f283, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0462_dust_window_frame_stone_01
+    second: {fileID: 2100000, guid: b7cc1a72deb7c62418eded6506bcc0a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0463_dust_window_frame_stone_01
+    second: {fileID: 2100000, guid: 4a964f9b16ec07b4fbd1e3c0771ed64b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0464_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: c5edf0d0955cdd1449e82f81f54ad3b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0465_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 0b589dbc87b1e1446b5820d0ef0693de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0466_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: a202a1471e457804a8be15c4ac82e5e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0467_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 2f1c83249f9eef744853718f7b63e341, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0468_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: f45dd51ccffd6784ba0521ff16b5a033, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0469_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 17731a8a61a12ca4fb7465d129f69bd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0470_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: d62afdb81ac2b1c48ab496d0dd5a15fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0471_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 801d2ff93d231c74f83d71ac3d7c0709, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0472_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 8ea490769d6c3704eb6cc89f44a1c317, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0473_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: f44c730b397038a44b1c91edb5eb3ba5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0474_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 19b0c9c3b9045354292c0ac4ba558990, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0475_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: b887c3af2b6832c48a7955183c673890, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0476_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 10b3cb6699a124645a7f49103d19d471, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0477_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 419fd9b437fe74e40bd358fe4968ced4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0478_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 669ee4e91d9eaa7468c550dfe42aca67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0479_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 343d42c783fec764daae6442303b694e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0480_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 65c41ffa8ce05884c878da426a9ae9ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0481_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 1853f1365dafc094a895531f09ea880d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0482_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: ef49593699110f848a8ea80771a5131d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0483_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 28f4761fbde544145bd8ea50ee5af2c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0484_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 7f7acb3d63eb6f343bcfaedf29de0fd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0485_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: ed3a69d572379494988572861d7e0c0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0486_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: dff3774d5fba03b4e8cb6d2d11e6575b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0487_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 46baa40cda1a890489e9f718359b770a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0488_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: d4e05c911c2d7a641ba065b468bfbc11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0489_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: e8d49f8ddc2aef141a807a3be18da66b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0490_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: a6c5a1fae7a71a44e9c6a2bdebfa950e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0491_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 7496ac809d87e18428f4100e8e396e60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0492_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: a5bc81f58200a0146b01ff19f2aa9e06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0493_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 06e6c248d1f075d40b006e5380649152, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0494_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: f5d84b79cab619545b9e92d06f924e91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0495_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: adf050a02ef6b544aa7ceddaa60f27ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0496_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 14d625fc236bc554bb196d9ab9242aa7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0497_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 40f00440ab02ffa44ade5b5fca0d2ca5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0498_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: a3771c1ecdeb08e4281a855bedb8fdd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0499_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: e7796869c41a30449b8c2e201a9ffaf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0500_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 34c12a55f1cde9c4fb529e621777c9ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0501_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: 0e49d2b0cc2d11a45b5af0a06e03af95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0502_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: a102d9f4d957a9e48b35fce0c672ca02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0503_dust_window_frame_wood_01
+    second: {fileID: 2100000, guid: c1b4870e6775fdc4bace5e17bab854f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0504_dust_windows_01
+    second: {fileID: 2100000, guid: 2a87d1f1905e5b94398137cb76d16eee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0505_dust_windows_01
+    second: {fileID: 2100000, guid: 36ad58e7721cf964e88e474e10993c08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0506_dust_windows_01
+    second: {fileID: 2100000, guid: 685f9fbe144d48342b752d6e57a93a6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0507_dust_windows_01
+    second: {fileID: 2100000, guid: a7e920d1c1f01b647aa6ffaf43dfef4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0508_dust_windows_01
+    second: {fileID: 2100000, guid: 41ee19819266e1a4ba0f5b68800a4344, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0509_dust_windows_01
+    second: {fileID: 2100000, guid: 1ebd906021bc745429f2029f1100f774, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0510_dust_windows_01
+    second: {fileID: 2100000, guid: 7594782d4a631924bbdce8d6ad250751, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0511_dust_windows_01
+    second: {fileID: 2100000, guid: 099e445d280f7ad45b65f448447743cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0512_dust_windows_01
+    second: {fileID: 2100000, guid: 82f8377207c873345916aa9184d0b589, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0513_dust_windows_01
+    second: {fileID: 2100000, guid: 7eafd49bad8d386409933b5c01557daf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0514_dust_windows_01
+    second: {fileID: 2100000, guid: e066f765fcf037a4cab5d9b4768d5410, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0515_dust_windows_01
+    second: {fileID: 2100000, guid: 5245b6d8cc945e748a2320f839ed6e1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0516_dust_windows_01
+    second: {fileID: 2100000, guid: 5c233f7d32aa160459f6b0ebdf89f6cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0517_dust_windows_01
+    second: {fileID: 2100000, guid: 5d77da7bac563e8409586a378befc693, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0518_dust_windows_01
+    second: {fileID: 2100000, guid: 06ced8c7b71acaa44bc84db79f31c380, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0519_dust_windows_01
+    second: {fileID: 2100000, guid: a82635c8a06ff7e469d0812d7148f5c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0520_dust_windows_01
+    second: {fileID: 2100000, guid: a423254bc889da74cba00061cf2bf6f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0521_dust_windows_01
+    second: {fileID: 2100000, guid: 2351ab7f607c309408713b0f8f81c02b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0522_dust_windows_01
+    second: {fileID: 2100000, guid: f53b309e19c4d3f4e95066fde147fd06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0523_dust_windows_01
+    second: {fileID: 2100000, guid: 88dc7d9857640c44f97454523713d593, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0524_dust_windows_01
+    second: {fileID: 2100000, guid: 1f370daac6bf9114cb8845035d2bab85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0525_dust_windows_01
+    second: {fileID: 2100000, guid: b7dc1e5998b633046971b9a9092d57e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0526_dust_windows_01
+    second: {fileID: 2100000, guid: eb84ad1617f6a9b479d38632befc0c54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0527_dust_windows_01
+    second: {fileID: 2100000, guid: 02be209bbd5357245ae1ccd010145b4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0528_dust_windows_01
+    second: {fileID: 2100000, guid: 0b4fe4805848ee7449338171f7305c40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0529_dust_windows_01
+    second: {fileID: 2100000, guid: 402de2609aa1a2d44b564ba9e1252859, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0530_dust_windows_01
+    second: {fileID: 2100000, guid: d1839a0e59936f54ea5d41eedf955657, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0531_dust_windows_01
+    second: {fileID: 2100000, guid: 533f3a2f11fb32942899ebcc36768713, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0532_dust_windows_01
+    second: {fileID: 2100000, guid: fbb9968aa33d58b4e8ed9c10a421b347, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0533_dust_windows_low
+    second: {fileID: 2100000, guid: 88edc1e71a61a9847987c91645f3ef1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0534_dust_windows_low
+    second: {fileID: 2100000, guid: 500a5f6494a7f4e41857028addb90a07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0535_dust_windows_low
+    second: {fileID: 2100000, guid: 6e52e30d879801a4ab3f275a45981a4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0536_dust_windows_low
+    second: {fileID: 2100000, guid: 47a5c0d81e20b6541bd1814f6e2d1160, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0537_dust_windows_low
+    second: {fileID: 2100000, guid: 22bdee20d0107a84b834dacf9da1a0d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0538_dust_windows_low
+    second: {fileID: 2100000, guid: 6d84a2dc2f9aff0409745f54af07e4d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0539_dust_windows_low
+    second: {fileID: 2100000, guid: 820fefbff3dedaa499de05b235a91ff9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0540_dust_windows_low
+    second: {fileID: 2100000, guid: 0453a1f4218a01745b7c974dabc2221b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0541_dust_windows_low
+    second: {fileID: 2100000, guid: 3f20ef9359bca88489eca22ef9ea919f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0542_dust_windows_low
+    second: {fileID: 2100000, guid: ecaa40c2d851ffb46aabe4a397f1a1f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0543_dust_windows_low
+    second: {fileID: 2100000, guid: 08d1eb025b1bfaf439aa12eec0071ef6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0544_dust_wire_attachments_01
+    second: {fileID: 2100000, guid: c0a1d929eae383c408ef3fbd550445e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0545_dust_wires_01
+    second: {fileID: 2100000, guid: 07d2295f0b03f2a40af62d9baf56bd26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0546_dust_wood_pallet
+    second: {fileID: 2100000, guid: 1d9ebc9a44306764786098497db480d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0547_grape_leaves_01
+    second: {fileID: 2100000, guid: a0d0ac81c3bd4f04fa26e656217b88f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0548_hr_dust_blend_asphalt_07
+    second: {fileID: 2100000, guid: 8dfa1e0ac794ea641b813d3a8f3a3982, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0549_hr_dust_blend_floortile_01
+    second: {fileID: 2100000, guid: 2a2692d085605854f8ba7117304a701e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0550_hr_dust_blend_floortile_03
+    second: {fileID: 2100000, guid: eaba251d28e366e47a6d7ea19cfd05a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0551_hr_dust_blend_groundrough01-groundrough02
+    second: {fileID: 2100000, guid: 505aa4872be7ead4ea1e77c34b8b4007, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0552_hr_dust_blend_groundrough01-groundsmooth01
+    second: {fileID: 2100000, guid: 30527d1b1857a144084c4d7cc38a9b4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0553_hr_dust_blend_groundrough01-groundsweeds01
+    second: {fileID: 2100000, guid: 6b12dc26c209bad4a828445b4b990f04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0554_hr_dust_blend_groundrough02-groundsmooth01
+    second: {fileID: 2100000, guid: d55a1b16debe3394ea15f4882e56d022, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0555_hr_dust_blend_groundstone01-groundrough01
+    second: {fileID: 2100000, guid: ec62cb7e5708bac4a8520506a53dc9a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0556_hr_dust_blend_groundstone01-groundsmooth01
+    second: {fileID: 2100000, guid: a3d1de385676be14797521dcfc8c24e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0557_hr_dust_blend_plaster01_rough01
+    second: {fileID: 2100000, guid: 59bdb83358cd93c4abbc74b8ce3fefa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0558_hr_dust_blend_plaster01_rough01
+    second: {fileID: 2100000, guid: c4f4188a270a7134ba8d42511fe14a02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0559_hr_dust_blend_plaster01_rough01_bounce
+    second: {fileID: 2100000, guid: 8034db8d7a31b9a49bf32809e964855b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0560_hr_dust_blend_plaster01b_rough01
+    second: {fileID: 2100000, guid: ea13794795c88474faa728f10c0e27e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0561_hr_dust_blend_plaster01b_rough01_bounce
+    second: {fileID: 2100000, guid: d07d6199bd117f24a921679a5340bd5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0562_hr_dust_blend_plaster_white_01b2
+    second: {fileID: 2100000, guid: bc138d3199e178345a7a7cee80afd0ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0563_hr_dust_blend_plaster_white_01b2
+    second: {fileID: 2100000, guid: aaf5918bdbedbd441ae3aac3484cfbec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0564_hr_dust_blend_plaster_white_01c
+    second: {fileID: 2100000, guid: bd2b9c94c8c37ae48891a7546c6f6abe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0565_hr_dust_blend_plaster_white_01c
+    second: {fileID: 2100000, guid: 3b648af83bdbb604e890bf72a46587d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0566_hr_dust_blend_plaster_white_02
+    second: {fileID: 2100000, guid: da575bbe72e291b4a8e63bfef5017f48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0567_hr_dust_blend_plaster_white_02
+    second: {fileID: 2100000, guid: ec0fc2103b3dcec47bab812a07509f20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0568_hr_dust_blend_plaster_white_02
+    second: {fileID: 2100000, guid: abbb64256f5dd984a96f28e3b782d9ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0569_hr_dust_blend_rollupdoor_metal_01
+    second: {fileID: 2100000, guid: 003b741b37b333847a615b587088bee2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0570_hr_dust_blend_rollupdoor_metal_02
+    second: {fileID: 2100000, guid: fd3d096d317b9f34cb3ef9c6ec1d026b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0571_hr_dust_blend_rollupdoor_metal_03
+    second: {fileID: 2100000, guid: 203bf88fc85614440becc7cdd2aba2a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0572_hr_dust_blend_sand02_sand03
+    second: {fileID: 2100000, guid: 6ee6a05099be77e48aa62c0068e649c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0573_hr_dust_bracket001_color
+    second: {fileID: 2100000, guid: 88d04ff599e46ce44bb9d54042805314, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0574_hr_dust_bracket001_color
+    second: {fileID: 2100000, guid: f0b3a5ebb150fbe4aabe555553fa17ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0575_hr_dust_bracket001_color
+    second: {fileID: 2100000, guid: 5095139507fecf14b93dd01674c69a59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0576_hr_dust_bracket001_color
+    second: {fileID: 2100000, guid: 06442c331b06ba24fbd70cde3be5c0b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0577_hr_dust_bracket001_color
+    second: {fileID: 2100000, guid: 9f7a5d647d4a05e4cbc259154f516147, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0578_hr_dust_bracket001_color
+    second: {fileID: 2100000, guid: a8fa520f005b42b4891a17da7c3479bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0579_hr_dust_bracket001_color
+    second: {fileID: 2100000, guid: 5d4673e4d47039e489fbcc0452dfef22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0580_hr_dust_bracket001_color
+    second: {fileID: 2100000, guid: d6fec5b71a2ffa94eb66d537f95279d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0581_hr_dust_brick_ground_02
+    second: {fileID: 2100000, guid: 0c5b3d2a7885517409b27bdba90dfe09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0582_hr_dust_brick_ground_04
+    second: {fileID: 2100000, guid: 9cddd504d3d35c841a8a92e89757ae13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0583_hr_dust_building_ornament_color
+    second: {fileID: 2100000, guid: 01bff24c0b73ce74397398a304f7cd80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0584_hr_dust_concrete_02
+    second: {fileID: 2100000, guid: c00d5051212615c4aa10b3e19a37da35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0585_hr_dust_concrete_04
+    second: {fileID: 2100000, guid: fe785f0bf4aa6db40b8a4b98cc27d2b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0586_hr_dust_kasbah_arch002_color
+    second: {fileID: 2100000, guid: 0be0475f2e9a50e4faa972c09d737ed8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0587_hr_dust_kasbah_arch003_color
+    second: {fileID: 2100000, guid: a6fdff2a3fb2c2847a7820961d2eb02c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0588_hr_dust_kasbah_column001_color
+    second: {fileID: 2100000, guid: 051d14e26ca977a4885e9ede6313aa27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0589_hr_dust_kasbah_merlon001_color
+    second: {fileID: 2100000, guid: 1edefa754db0b3b4ab89b69958fa82f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0590_hr_dust_kasbah_merlon002_color
+    second: {fileID: 2100000, guid: 1ad04d2024bde9b428dc7a8ffced49c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0591_hr_dust_kasbah_merlon002_color
+    second: {fileID: 2100000, guid: af4501d3652d5de4cafe9d1027b6a9b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0592_hr_dust_kasbah_merlon002_color
+    second: {fileID: 2100000, guid: 9d11ef112a4b1c443be235d1cedceff3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0593_hr_dust_kasbah_merlon003_color
+    second: {fileID: 2100000, guid: bd91acab8af903642a00baa366769ee3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0594_hr_dust_kasbah_merlon003_color
+    second: {fileID: 2100000, guid: 520e3beb7052de546a08f10bd80d9f45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0595_hr_dust_kasbah_merlon003_color
+    second: {fileID: 2100000, guid: 127dca4ad87cb0e40a94bdee03cd309d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0596_hr_dust_kasbah_niche001_color
+    second: {fileID: 2100000, guid: 400e9d12c78692340abe7f201f6c4cb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0597_hr_dust_kasbah_stairs001_color
+    second: {fileID: 2100000, guid: 673b9724d5962d340a763d7e3b8f69ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0598_hr_dust_kasbah_stairs001_color
+    second: {fileID: 2100000, guid: 8998fcc8229c09d4bac3d109c58d0f8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0599_hr_dust_kasbah_stairs002_color
+    second: {fileID: 2100000, guid: 5d65a0536a788964aa7f86f914616442, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0600_hr_dust_mudbrick_wall_plaster_smooth_01
+    second: {fileID: 2100000, guid: 2df1f63a655bb7646aef65b6cb88f19a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0601_hr_dust_plaster_06
+    second: {fileID: 2100000, guid: 2914fe3dae74c404c8bbd618052b6a97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0602_hr_dust_plaster_06
+    second: {fileID: 2100000, guid: f8b946864411bcf47be8e6251ede9198, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0603_hr_dust_plaster_06b
+    second: {fileID: 2100000, guid: 3e78472aba434af43a7f57c3076254a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0604_hr_dust_plaster_06b
+    second: {fileID: 2100000, guid: ddb5c325e7abd2a4da74fd2dbd63fdc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0605_hr_dust_plaster_06c
+    second: {fileID: 2100000, guid: c8fce778e72de1e47ad152dd040f5c00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0606_hr_dust_plaster_06c
+    second: {fileID: 2100000, guid: 10be4a1e888473a41900d324d6ef98b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0607_hr_dust_plaster_09
+    second: {fileID: 2100000, guid: e7a303ea9b205534f95c4996a8756628, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0608_hr_dust_plaster_09b
+    second: {fileID: 2100000, guid: db8d94ed7a943a3459cbc9985a74f0c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0609_hr_dust_plaster_11b
+    second: {fileID: 2100000, guid: 1fe14a73f8360e942a1ace086ed9ce06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0610_hr_dust_plaster_11b
+    second: {fileID: 2100000, guid: 329a01edf54d90a4c9f2f471a375dbd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0611_hr_dust_plaster_12
+    second: {fileID: 2100000, guid: 24100188fa081494f8f2bb182ca00333, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0612_hr_dust_plaster_12b
+    second: {fileID: 2100000, guid: c47c179426968444aaf9131eabf1ebdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0613_hr_dust_plaster_12c
+    second: {fileID: 2100000, guid: e7f4aa1605a99bc4b90ca62b4651bd80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0614_hr_dust_plaster_13b
+    second: {fileID: 2100000, guid: fc1fb7ec1deb0454c954dfa8bc3542b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0615_hr_dust_plaster_15
+    second: {fileID: 2100000, guid: 6519ac37c4ef4f0408d375c5934bbb9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0616_hr_dust_plaster_15b2
+    second: {fileID: 2100000, guid: 3145c0f6aed0c0447ab1791788f31892, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0617_hr_dust_plaster_15b
+    second: {fileID: 2100000, guid: 987504d4bfe64d34ab78396ab5062c62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0618_hr_dust_plaster_15c
+    second: {fileID: 2100000, guid: 328be26a8887b12429bd80105d006999, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0619_hr_dust_plaster_17b
+    second: {fileID: 2100000, guid: 6e260aec7dbab4c4991eb9fd2dc3314e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0620_hr_dust_plaster_17c
+    second: {fileID: 2100000, guid: e43afd443e88f824682a6d81f8c9578a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0621_hr_dust_plaster_18_bounce
+    second: {fileID: 2100000, guid: 1ac06d749cb94b749a0138143300da12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0622_hr_dust_plaster_18b_bounce
+    second: {fileID: 2100000, guid: 509f5f28450f59746baca8ef0d98ebba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0623_hr_dust_plaster_18c_bounce
+    second: {fileID: 2100000, guid: df1244f429093d9489172a362632179d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0624_hr_dust_plaster_19
+    second: {fileID: 2100000, guid: 9ccd7655563a918459917215b1ef561e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0625_hr_dust_plaster_19_bounce
+    second: {fileID: 2100000, guid: 3a56ec5eed059144fa1b1eda0f09d7a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0626_hr_dust_plaster_19b
+    second: {fileID: 2100000, guid: d00c5cf9c32bbda44a40779e2de6b98e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0627_hr_dust_plaster_19b_bounce
+    second: {fileID: 2100000, guid: 1dd5167b01292f04cac74743f85d0810, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0628_hr_dust_plaster_20b
+    second: {fileID: 2100000, guid: 39860159fd8049842b059658b038e70d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0629_hr_dust_plaster_20c
+    second: {fileID: 2100000, guid: 282de9cc049d43643af38d3a887a3e2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0630_hr_dust_roof_trim001_color
+    second: {fileID: 2100000, guid: 5209445b4e21a2d448cd89465f781d99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0631_hr_dust_roof_trim001_color
+    second: {fileID: 2100000, guid: a9d703fde88bfdc4ca58c2bfb4825a98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0632_hr_dust_roof_trim001_color
+    second: {fileID: 2100000, guid: 06b80f18fd96727468cf25a5a57fcda9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0633_hr_dust_roof_trim001_color
+    second: {fileID: 2100000, guid: 04cf036f2ab29f1478d4a28e1dc0728c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0634_hr_dust_roof_trim001_color
+    second: {fileID: 2100000, guid: fc7b080dd73e75949969c7c617e8ad4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0635_hr_dust_roof_trim001_color
+    second: {fileID: 2100000, guid: c6bf5c859fe29d443838a5a543c26003, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0636_hr_dust_roof_trim001_color
+    second: {fileID: 2100000, guid: 52d1ab899dff06b4ba2b7e7b4cafb9fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0637_hr_dust_roof_trim001_color
+    second: {fileID: 2100000, guid: ab276df2e11a7474f8fb82a648fde980, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0638_hr_dust_roof_trim001_color
+    second: {fileID: 2100000, guid: e2607e70eda65ab4dbdeec3e97fd3221, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0639_hr_dust_roof_trim001_color
+    second: {fileID: 2100000, guid: 69c57f6c3bf18ea4ea5c9a60a576de5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0640_hr_dust_roof_trim001_color
+    second: {fileID: 2100000, guid: bcb10e6bad57a0847b1e0dc08f4d7e98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0641_hr_dust_roof_trim001_color
+    second: {fileID: 2100000, guid: e6b5386c7be5c4446802beed4f1755a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0642_hr_dust_rooftop_ornament_color
+    second: {fileID: 2100000, guid: bb32605ab67cdc04e8251b1770d1f357, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0643_hr_dust_sand_02
+    second: {fileID: 2100000, guid: caa297aed7f2e8d45949876a476df80e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0644_hr_dust_stairs001_color
+    second: {fileID: 2100000, guid: 6e504a828830efb4593ae52c45ed24a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0645_hr_dust_stairs001_color
+    second: {fileID: 2100000, guid: 102ab7e8e142da846b18e4e5a24b4f20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0646_hr_dust_stairs001_color
+    second: {fileID: 2100000, guid: 298c9d9065e02804692551c13c610423, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0647_hr_dust_stairs001_color
+    second: {fileID: 2100000, guid: 15336a15e9f22684e90c4e7bdc1cc1bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0648_hr_dust_stairs001_color
+    second: {fileID: 2100000, guid: de4ac4fbd5cd571469571f26d977aca0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0649_hr_dust_stairs001_color
+    second: {fileID: 2100000, guid: 1bed71b02f5a886429f12ebe8cb017e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0650_hr_dust_stairs002_color
+    second: {fileID: 2100000, guid: e163af890226ddf46bcc2a7fbdb1cfb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0651_hr_dust_stairs002_color
+    second: {fileID: 2100000, guid: da85713ed0de0f4408fc11df626aacd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0652_hr_dust_stairs002_color
+    second: {fileID: 2100000, guid: 378d987960d65aa4585daa186fad0cfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0653_hr_dust_stairs002_color
+    second: {fileID: 2100000, guid: 154df27f4d4065948bd2e3f6c7980dfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0654_hr_dust_stairs003_color
+    second: {fileID: 2100000, guid: 88041cdd906b1f24fb1d81c625b9b2aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0655_hr_dust_stairs003_color
+    second: {fileID: 2100000, guid: f863492e47df7dc4ab765f29e4622430, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0656_hr_dust_stairs003_color
+    second: {fileID: 2100000, guid: 539ff623a1a342e4da73bcbb926bd217, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0657_hr_dust_stairs003_color
+    second: {fileID: 2100000, guid: 390d079242a929f449a7b22a2e4f1c07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0658_hr_dust_stone_ground_01
+    second: {fileID: 2100000, guid: f7bfa5b6e35b0e14782e24238e72d958, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0659_hr_dust_tile_01
+    second: {fileID: 2100000, guid: d8e6bb0dcf1424840a23b0cb02298eff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0660_hr_dust_tile_02
+    second: {fileID: 2100000, guid: b13db19d1b4640a48b6bbf10845b0d77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0661_hr_dust_tile_03
+    second: {fileID: 2100000, guid: 21dac709de58f6c46837ef5acc4ece4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0662_hr_dust_tire001_color
+    second: {fileID: 2100000, guid: 85306800b2b035d4d9f49eb9586dea8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0663_hr_dust_wall_trim001_color
+    second: {fileID: 2100000, guid: 4921eabf372f13e4fb7992b501ac82fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0664_hr_dust_wall_trim001_color
+    second: {fileID: 2100000, guid: 8a07109018cc89f448ce1ddc15546919, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0665_hr_dust_wall_trim001_color
+    second: {fileID: 2100000, guid: 2ff07c53e0704b745b98305a0bb2699d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0666_hr_dust_wall_trim001_color
+    second: {fileID: 2100000, guid: 5fadf27b72011ef42b209020ca165882, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0667_hr_dust_wall_trim001_color
+    second: {fileID: 2100000, guid: 2d97f367f79632b43ba6922f07881757, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0668_hr_dust_wall_trim001_color
+    second: {fileID: 2100000, guid: e91b193e679cb704381a861721091c22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0669_hr_dust_wall_trim001_color
+    second: {fileID: 2100000, guid: b85709b9fdf5016439cb217a133c266e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0670_hr_dust_wall_trim001_color
+    second: {fileID: 2100000, guid: 608253a35057a5a4b94c288cf06aeeac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0671_hr_dust_wall_trim001_color
+    second: {fileID: 2100000, guid: 6f817d3071518ac4eadd42758be69590, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0672_hr_dust_wall_trim001_color
+    second: {fileID: 2100000, guid: 2e18b4e823676cb49a592ea3a38e036b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0673_hr_dust_wall_trim001_color
+    second: {fileID: 2100000, guid: 0e563bc01b63b344f80c3a47f92d1e30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0674_hr_dust_wall_trim001_color
+    second: {fileID: 2100000, guid: 1d973939f4d297048825abd7d4a84994, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0675_hr_dust_wall_trim001_color
+    second: {fileID: 2100000, guid: 3b0c62510c0707c4d933a813d530335f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0676_hr_dust_wall_trim001_color
+    second: {fileID: 2100000, guid: 73c21c6cd377d1741b6c0f2e13f6630d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0677_hr_dust_wall_trim001_color
+    second: {fileID: 2100000, guid: b8ddf0875f5a8174f954da36b97ce053, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0678_hr_dust_wall_trim001_color
+    second: {fileID: 2100000, guid: 21b6788c52a12b1488c20db8d4acfea7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0679_metal_corrugated03b
+    second: {fileID: 2100000, guid: 7429e014063951647a9e5ca877501b6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0680_nuke_concrete_barrier_color
+    second: {fileID: 2100000, guid: cf77030f72197a246a371c81b256da15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0681_nuke_concrete_barrier_color
+    second: {fileID: 2100000, guid: 02cff3a7ced313e41a9899924f626718, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0682_nuke_concrete_barrier_color
+    second: {fileID: 2100000, guid: 1aeb218c48d27264da1b7f6d2c7671e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0683_olive_bark_01
+    second: {fileID: 2100000, guid: f734d8d5ec8094c4cb25a7604874caac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0684_olive_branch_01
+    second: {fileID: 2100000, guid: 47e086f92e33859409b63dc5b1af4ec4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0685_palm_frond_01
+    second: {fileID: 2100000, guid: 7a731dc1dbd2f644fb1d47be198fb9a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0686_power_pole_02_color
+    second: {fileID: 2100000, guid: 83a32a6e4a3b7154880c3f89fbd7b587, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0687_power_pole_03_color
+    second: {fileID: 2100000, guid: e2b77c7a6fee4a2479e6b677fb1c89c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0688_power_pole_color
+    second: {fileID: 2100000, guid: c23766de5f3cfcb4db16ffcef1b8fc78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0689_power_pole_insulators_color
+    second: {fileID: 2100000, guid: 82c53e16d1dac2d42997faf25abf8c6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0690_sagebrush_01
+    second: {fileID: 2100000, guid: fe69828dd1f18c547842946b0246a9dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0691_sagebrush_01
+    second: {fileID: 2100000, guid: a36077b4ccc8391448ba3b2df2afb774, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0692_sagebrush_01
+    second: {fileID: 2100000, guid: 8b160674833f3f047ad9de98fd0abc97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0693_satellite_dish_card
+    second: {fileID: 2100000, guid: b89fc6e864744ea46994a6869aca4858, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0694_sign004_color
+    second: {fileID: 2100000, guid: def8da9f0b9da6146a9722886114fad1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0695_sign006_color
+    second: {fileID: 2100000, guid: d7dd8326ad3a2b24382315c124d6aad9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0696_sign_bracket001_color
+    second: {fileID: 2100000, guid: 575adc6e1a90588418537ad23bfb458a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0697_sign_directional001_color
+    second: {fileID: 2100000, guid: 72379cbcf71b88c44a2a7a0545f54860, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0698_sign_streets001_color
+    second: {fileID: 2100000, guid: 9e5ada688a4170147825ef9ce4ba9de8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0699_street_lamp_01_color
+    second: {fileID: 2100000, guid: a42afb68a6989ba4a80baa2144e36305, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0700_street_lamp_02_color
+    second: {fileID: 2100000, guid: 02f40e9d2b7c858408d535bb99712caa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0701_street_lamp_03_color
+    second: {fileID: 2100000, guid: 2b1c6d26466e3f24cb8083418d41b4b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0702_street_lantern_01_color
+    second: {fileID: 2100000, guid: 1c461451042988e4a96c1d63f9eea2d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0703_street_lantern_02_color
+    second: {fileID: 2100000, guid: 39726a67ca06f2445adbf568ac4c4e4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0704_street_lantern_03_color
+    second: {fileID: 2100000, guid: 97c1afa75cdf88f4cbba71d5f50f1740, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0705_sumac_01
+    second: {fileID: 2100000, guid: f2707fbf4a848c64394325d78b55cbe8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0706_tarp_kit_01_base
+    second: {fileID: 2100000, guid: a47e103f305c1624b82695f7884ec60a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0707_weeds_cressa_01
+    second: {fileID: 2100000, guid: 4b4c553eb5882a342aa6e988adb17ef0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0708_wooden_fruit_crate_01_color
+    second: {fileID: 2100000, guid: 8f034060d955ddd4490c972afcb28cdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0709_zebra_grass_01
+    second: {fileID: 2100000, guid: fdaff4c8cf069e9439e21fe76e372ed6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0710_dust_breeze_blocks_01
+    second: {fileID: 2100000, guid: 654a4da396dda644480d8a8a24f69ef6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0711_dust_broken_building_color
+    second: {fileID: 2100000, guid: 1659982a9c540124d8e8d0e8cee8fc05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0712_hr_dust_wall_trim001_color
+    second: {fileID: 2100000, guid: c74653029aadef847a1209dfdc136d04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0713_hr_dust_wood_ceiling01_color
+    second: {fileID: 2100000, guid: 76b59454fffc9ed46a346e49d909232d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: D2_0714_soccerball001_color
+    second: {fileID: 2100000, guid: 43995a9ce89c4194697745bdb805209b, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 0
+    bakeAxisConversion: 0
+    preserveHierarchy: 1
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -4
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

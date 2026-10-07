@@ -1,0 +1,340 @@
+{
+  "notes": "CS exported textures/audio; Unity behavior and particle timings are authored locally.",
+  "files": [
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire_gas/fire_gas_batch_b_top_v2_seq0_0.png",
+      "asset": "Assets/Art/Throwables/Textures/Fire.png",
+      "sha256": "150a64368cf54baf63ca395d3183c9ac5cb3f7bb55a486b90a1757e4f8bbe8da"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire_gas/fire_gas_batch_b_top_v2_seq0_1.png",
+      "asset": "Assets/Art/Throwables/Textures/Fire.png",
+      "sha256": "c33e18d1d98069882e7cbf067dc445e10e7513974f8a09fca3c2263c738f981b"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire_gas/fire_gas_batch_b_top_v2_seq0_2.png",
+      "asset": "Assets/Art/Throwables/Textures/Fire.png",
+      "sha256": "f792e8cf5854efb5cd5b3471cad360c61e3ac7cc3e7302606ee035fc2af4afe4"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire_gas/fire_gas_batch_b_top_v2_seq0_4.png",
+      "asset": "Assets/Art/Throwables/Textures/Fire.png",
+      "sha256": "811d72d72ebf730e43e8928f29e405fff96b6f3e806369f87f6baabbea9eb118"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire_gas/fire_gas_batch_b_top_v2_seq0_5.png",
+      "asset": "Assets/Art/Throwables/Textures/Fire.png",
+      "sha256": "dfed0c93b718f41eeb362ac50122be834c83024495072c2f2219a0d5efc6b168"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire_gas/fire_gas_batch_b_top_v2_seq0_6.png",
+      "asset": "Assets/Art/Throwables/Textures/Fire.png",
+      "sha256": "c329376f33110687e321505fef7c7b4d2801d0305942b204fa06ffce8fe8c46b"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire_gas/fire_gas_batch_b_top_v2_seq0_7.png",
+      "asset": "Assets/Art/Throwables/Textures/Fire.png",
+      "sha256": "da58eed6d9d571f1806d78d5b0bb637f838253e39ea7179fd05b7d8e25681374"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire_gas/fire_gas_batch_b_top_v2_seq0_8.png",
+      "asset": "Assets/Art/Throwables/Textures/Fire.png",
+      "sha256": "2e3b87c6f91d8c8f2690f9b36e6e7b5fda2dcdae9e4096787776104d52a55913"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire_gas/fire_gas_batch_b_top_v2_seq0_10.png",
+      "asset": "Assets/Art/Throwables/Textures/Fire.png",
+      "sha256": "2c548897b148fc64a0a3dff6331aed103c6f6a503231253d45bd21aff7a603bd"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire_gas/fire_gas_batch_b_top_v2_seq0_11.png",
+      "asset": "Assets/Art/Throwables/Textures/Fire.png",
+      "sha256": "67a604ad22b25ca7db177346b38ec8aab7732c7dd0865c0f3298a8c333f7a69f"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire_gas/fire_gas_batch_b_top_v2_seq0_12.png",
+      "asset": "Assets/Art/Throwables/Textures/Fire.png",
+      "sha256": "6a75713f352c6430615022194fa7262bdb21d841f69a4c6b3d51f56b923ff968"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire_gas/fire_gas_batch_b_top_v2_seq0_13.png",
+      "asset": "Assets/Art/Throwables/Textures/Fire.png",
+      "sha256": "8794e68df772a2d8d99e5e599526e9ebcc146ea5daf02e827a8e759fb3350402"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire_gas/fire_gas_batch_b_top_v2_seq0_14.png",
+      "asset": "Assets/Art/Throwables/Textures/Fire.png",
+      "sha256": "e7a330cdca503b83a83b18927aa72f5a11bda10fc55186d9cc2428e0bd83059c"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire_gas/fire_gas_batch_b_top_v2_seq0_16.png",
+      "asset": "Assets/Art/Throwables/Textures/Fire.png",
+      "sha256": "3ad24cc3d4a45418edc512b77259c0f83c9cfec0f2bb1c11af6d87a451b515df"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire_gas/fire_gas_batch_b_top_v2_seq0_17.png",
+      "asset": "Assets/Art/Throwables/Textures/Fire.png",
+      "sha256": "cb1d0969415cf1d186e1a247575ae5dac5409adabf8a0c4ba79f3664b11e7ce2"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire_gas/fire_gas_batch_b_top_v2_seq0_18.png",
+      "asset": "Assets/Art/Throwables/Textures/Fire.png",
+      "sha256": "9408ec784ba08c22caede25174828e1fe4fcff2da1648d505e087de37015ffaf"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire/fire_burst/fire_burst_seq0_0.png",
+      "asset": "Assets/Art/Throwables/Textures/Explosion.png",
+      "sha256": "317d9b30c99c09fdd23c40ad5923de65c50c5c9aab0a7cbc3f85804e3fb5949c"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire/fire_burst/fire_burst_seq0_2.png",
+      "asset": "Assets/Art/Throwables/Textures/Explosion.png",
+      "sha256": "78dddbfe06e783cb2a8efee19f150eca2dbba81978b36d19a6948ed39aa2ae48"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire/fire_burst/fire_burst_seq0_5.png",
+      "asset": "Assets/Art/Throwables/Textures/Explosion.png",
+      "sha256": "ff8ec2385e5c1d21ff609ba318a5c3144a3504bad7ea67f5737134dffed7e61b"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire/fire_burst/fire_burst_seq0_7.png",
+      "asset": "Assets/Art/Throwables/Textures/Explosion.png",
+      "sha256": "ba2ac6b3f0c16f9be96e8ee488035d07e428b6b9cf089b399a86d530638ce701"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire/fire_burst/fire_burst_seq0_9.png",
+      "asset": "Assets/Art/Throwables/Textures/Explosion.png",
+      "sha256": "cadbe3ec0982622266760818aad0a33d22966ab70aac15399e47f3e10e7e394f"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire/fire_burst/fire_burst_seq0_12.png",
+      "asset": "Assets/Art/Throwables/Textures/Explosion.png",
+      "sha256": "f0698eb1274ccef3f0f48645bde0cec0da1b6811be8b442e5a91f4f531b34493"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire/fire_burst/fire_burst_seq0_14.png",
+      "asset": "Assets/Art/Throwables/Textures/Explosion.png",
+      "sha256": "bde46187d3b81fb6acbe6259621c75360ea0025b79951d2a70966f540f67e8f9"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire/fire_burst/fire_burst_seq0_16.png",
+      "asset": "Assets/Art/Throwables/Textures/Explosion.png",
+      "sha256": "a4868c09f93394f21a737f935b031216e1b6983a6a07089f6c742a9c8b7ec9ec"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire/fire_burst/fire_burst_seq0_19.png",
+      "asset": "Assets/Art/Throwables/Textures/Explosion.png",
+      "sha256": "f4e10af3c967d66e8756e8b57283629a8b903a1c41e178696740a70228a2dc3a"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire/fire_burst/fire_burst_seq0_21.png",
+      "asset": "Assets/Art/Throwables/Textures/Explosion.png",
+      "sha256": "05eacc5d3ecb09dbf546261a7ad81ebb5695b707557b4616a4c4ccc1d370d997"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire/fire_burst/fire_burst_seq0_23.png",
+      "asset": "Assets/Art/Throwables/Textures/Explosion.png",
+      "sha256": "5b8e9aea816de39a293fd29bd320dce946731f64364da73c72669c80b05200bd"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire/fire_burst/fire_burst_seq0_26.png",
+      "asset": "Assets/Art/Throwables/Textures/Explosion.png",
+      "sha256": "84e5fd93b12d6157427a5a19fcd0121cd87dabd08836c142e8ad270c0eab53ae"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire/fire_burst/fire_burst_seq0_28.png",
+      "asset": "Assets/Art/Throwables/Textures/Explosion.png",
+      "sha256": "e32e6c01a59f2467878d7320de564326efc9e44fe4bff628387b14ba0bff737a"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire/fire_burst/fire_burst_seq0_30.png",
+      "asset": "Assets/Art/Throwables/Textures/Explosion.png",
+      "sha256": "09e48aa60a451dbc476df64b8650fb8974ede498bcacc12fdec2a6c44bdf4c9e"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire/fire_burst/fire_burst_seq0_33.png",
+      "asset": "Assets/Art/Throwables/Textures/Explosion.png",
+      "sha256": "c0d9ca4f521705d6649d5fe404f24b1e06113420fad5a9cc673937ead2983a0e"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/fire/fire_burst/fire_burst_seq0_35.png",
+      "asset": "Assets/Art/Throwables/Textures/Explosion.png",
+      "sha256": "6b7f38539378944ec7fb7cd8707a21591a7d7704e6eb7dfdc71e724e42945059"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/smoke/smokeburst/smokeloop_i_1_seq0_0.png",
+      "asset": "Assets/Art/Throwables/Textures/Smoke.png",
+      "sha256": "2afbb2803b3213200b3f1ce977ad45ccabeeb1da2ca741e0de9a03acbb923f43"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/smoke/smokeburst/smokeloop_i_1_seq0_4.png",
+      "asset": "Assets/Art/Throwables/Textures/Smoke.png",
+      "sha256": "86c11789aa29716457e61fd275557db8a0925f8b2f8d234d6718e4671a201829"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/smoke/smokeburst/smokeloop_i_1_seq0_8.png",
+      "asset": "Assets/Art/Throwables/Textures/Smoke.png",
+      "sha256": "27f0f49303899296ef524307a0ce5c5d6c2b35e33ea6e30b9eeb9ea4f49b2741"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/smoke/smokeburst/smokeloop_i_1_seq0_13.png",
+      "asset": "Assets/Art/Throwables/Textures/Smoke.png",
+      "sha256": "0efed4e1f7946e31f3b44bd89d8a6d9006fb3b161424fda37f85273da19bfbd1"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/smoke/smokeburst/smokeloop_i_1_seq0_17.png",
+      "asset": "Assets/Art/Throwables/Textures/Smoke.png",
+      "sha256": "42e4cfdbf494d85f739a0f1db45340e3451332024c4295d5e24759b65dc9644b"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/smoke/smokeburst/smokeloop_i_1_seq0_21.png",
+      "asset": "Assets/Art/Throwables/Textures/Smoke.png",
+      "sha256": "a1f1dc345547bdcf368951c56579d620851a088386e2fc4369459e13c0f0d40b"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/smoke/smokeburst/smokeloop_i_1_seq0_25.png",
+      "asset": "Assets/Art/Throwables/Textures/Smoke.png",
+      "sha256": "b2742b4f72d5eb5a85513f068a818eb4ee85ac776eaacc8a56d532f44d9db559"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/smoke/smokeburst/smokeloop_i_1_seq0_29.png",
+      "asset": "Assets/Art/Throwables/Textures/Smoke.png",
+      "sha256": "3e6da5c24ce51892dcc9d4afb187eea17d78311d7074d3329ad62e2a1adb07a7"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/smoke/smokeburst/smokeloop_i_1_seq0_34.png",
+      "asset": "Assets/Art/Throwables/Textures/Smoke.png",
+      "sha256": "f3ff9062991c1dba8fa8d32b6d8dc4680d3b76bcfd27ac5ab6c48dfd6720ee1c"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/smoke/smokeburst/smokeloop_i_1_seq0_38.png",
+      "asset": "Assets/Art/Throwables/Textures/Smoke.png",
+      "sha256": "2183c5ab4d4bffc6f178e9e2d8b972504db885a11f9d7ce7865e1e372c4c97d4"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/smoke/smokeburst/smokeloop_i_1_seq0_42.png",
+      "asset": "Assets/Art/Throwables/Textures/Smoke.png",
+      "sha256": "1c2809164e2671e8d548e40c50bc950267b8709305b345a110c2b4afad6383b0"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/smoke/smokeburst/smokeloop_i_1_seq0_46.png",
+      "asset": "Assets/Art/Throwables/Textures/Smoke.png",
+      "sha256": "74f92e27ac0f5925ac76f02f878c739b1a551c2e1904d54fb17ced634280e814"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/smoke/smokeburst/smokeloop_i_1_seq0_50.png",
+      "asset": "Assets/Art/Throwables/Textures/Smoke.png",
+      "sha256": "8a6e126c72205607f683fe29d1c3067c198777d4d96aabc0bb7933236d638740"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/smoke/smokeburst/smokeloop_i_1_seq0_55.png",
+      "asset": "Assets/Art/Throwables/Textures/Smoke.png",
+      "sha256": "fce85ffa4d49cdcb3e1eb95739f68c7c190580f28e8ec0eab66c0f30786bdafc"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/smoke/smokeburst/smokeloop_i_1_seq0_59.png",
+      "asset": "Assets/Art/Throwables/Textures/Smoke.png",
+      "sha256": "160b8f61af56875c7c674401f4447b6a99f933d3b3550906c36df58299c591f4"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatFX/Decompiled/materials/particle/smoke/smokeburst/smokeloop_i_1_seq0_63.png",
+      "asset": "Assets/Art/Throwables/Textures/Smoke.png",
+      "sha256": "c5d9a92942f51f6fc87b45e2719e1adeb31abd768ae64fcdcdd741eb58ed90c7"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/hegrenade/pinpull.wav",
+      "asset": "Assets/Art/Throwables/Audio/hegrenade/pinpull.wav",
+      "sha256": "df7823339b8d6ba2bb98bb9ef2c2c3c08ce02013899a5dee0eea238c7505b32a"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/hegrenade/grenade_throw.wav",
+      "asset": "Assets/Art/Throwables/Audio/hegrenade/grenade_throw.wav",
+      "sha256": "f69bafba011129edf6cf822c7e1bb26448e8952671e18f31f498bf3563fe519e"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/hegrenade/he_bounce-1.wav",
+      "asset": "Assets/Art/Throwables/Audio/hegrenade/he_bounce-1.wav",
+      "sha256": "967974eacd15c529915c35e5756f79503589e39bf013252e17c6126356496bca"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/hegrenade/hegrenade_detonate_02.wav",
+      "asset": "Assets/Art/Throwables/Audio/hegrenade/hegrenade_detonate_02.wav",
+      "sha256": "774840d68641471d8fe21dfd37f49797689e0b96e067393f0c18d027bdb7c8b0"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/hegrenade/hegrenade_detonate_03.wav",
+      "asset": "Assets/Art/Throwables/Audio/hegrenade/hegrenade_detonate_03.wav",
+      "sha256": "ffe3ac56dd7f2687a95c8fe580447b3ee2954bd8b47448c454c21456f80fec33"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/flashbang/flashbang_explode1.wav",
+      "asset": "Assets/Art/Throwables/Audio/flashbang/flashbang_explode1.wav",
+      "sha256": "a94dfe03e67a18884dcf68e402e91ff68487b98dacff35399f5eccceeee9940b"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/flashbang/flashbang_explode2.wav",
+      "asset": "Assets/Art/Throwables/Audio/flashbang/flashbang_explode2.wav",
+      "sha256": "560af3f20d9f3952752e917027dbd3603fcad2d6a7c0241f16198618337f8efd"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/flashbang/explosion_ring_loop.wav",
+      "asset": "Assets/Art/Throwables/Audio/flashbang/explosion_ring_loop.wav",
+      "sha256": "6a1bf982667b3a413f6c1088324d8bc5af9e695ae3dd08b587d98c9d3e6d0057"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/smokegrenade/smoke_emit.wav",
+      "asset": "Assets/Art/Throwables/Audio/smokegrenade/smoke_emit.wav",
+      "sha256": "36adf17c9a9aec93bb01d8f20127b8b94c749f07689076ddd840a27b3e5faacc"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/smokegrenade/smoke_clear.wav",
+      "asset": "Assets/Art/Throwables/Audio/smokegrenade/smoke_clear.wav",
+      "sha256": "de5d6124dad6a401730a1ab6202364ebaeca79ec23cdc97057dc3e998f2058c7"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/smokegrenade/grenade_hit1.wav",
+      "asset": "Assets/Art/Throwables/Audio/smokegrenade/grenade_hit1.wav",
+      "sha256": "73ef3c2d10885a54d1c11ec5da16225614275413500094d468d42f3a9aa536f0"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/molotov/molotov_detonate_1.wav",
+      "asset": "Assets/Art/Throwables/Audio/molotov/molotov_detonate_1.wav",
+      "sha256": "d43968fce809b9ef3f81a6d2379723b0b0e4d53811eec9c81a7ced522fbc0710"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/molotov/molotov_smash_01.wav",
+      "asset": "Assets/Art/Throwables/Audio/molotov/molotov_smash_01.wav",
+      "sha256": "cc2e0e12b44497442b15aac26d6e5a8ab73268a377dde6fa7215b77f1eeec65d"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/molotov/molotov_throw_01.wav",
+      "asset": "Assets/Art/Throwables/Audio/molotov/molotov_throw_01.wav",
+      "sha256": "3ec11800b9ee8a2718b03592daaf05137bcdc0c5c235309949e8946ab78e9d1d"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/molotov/molotov_throw_fire_01.wav",
+      "asset": "Assets/Art/Throwables/Audio/molotov/molotov_throw_fire_01.wav",
+      "sha256": "04b4f504fa7771df854d416ff39a7a7c1cb8f7f2268017707c33f8b74cda83f7"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/molotov/fire_loop_1.wav",
+      "asset": "Assets/Art/Throwables/Audio/molotov/fire_loop_1.wav",
+      "sha256": "f1fabe1a7a0abd9c660d4b12feb478899c8e6b603d6e6201b26a50faab225ed4"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/molotov/molotov_extinguish.wav",
+      "asset": "Assets/Art/Throwables/Audio/molotov/molotov_extinguish.wav",
+      "sha256": "b7a7a89d9a0bea82fce85716a1f68185d9069c1fa0635038f59d91619560f490"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/incgrenade/inc_grenade_detonate_1.wav",
+      "asset": "Assets/Art/Throwables/Audio/incgrenade/inc_grenade_detonate_1.wav",
+      "sha256": "057ed2948b8fd6f13341cb7e37eb90cc484f3794fc1b5bf9e1830ce63d2ae90b"
+    },
+    {
+      "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/incgrenade/inc_grenade_bounce_m.wav",
+      "asset": "Assets/Art/Throwables/Audio/incgrenade/inc_grenade_bounce_m.wav",
+      "sha256": "500588cdebb346d2ca888dd6bd60b4c24948d67e9c78b98312a0257487d6d853"
+    }
+  ]
+}

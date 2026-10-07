@@ -1,0 +1,18 @@
+{
+  "id": "weapon_pist_hkp2000",
+  "name": "P2000",
+  "category": 0,
+  "slot": "pistol.start",
+  "team": 1,
+  "profile": "pistol",
+  "held": true,
+  "materials": [
+    {
+      "name": "weapon_pist_hkp2000",
+      "color": "45923a045d1d6dc111d8.png",
+      "normal": "e005760e7c7946616a4c.png",
+      "orm": "49afaba8c1abd4b5ae0b.png"
+    }
+  ],
+  "kind": "weapons"
+}
