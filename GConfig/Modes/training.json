@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "id": "training",
+  "components": ["world", "clock", "respawn", "supply"],
+  "respawnDelay": 0,
+  "infiniteAmmoReserve": true,
+  "infiniteThrowables": true,
+  "autoRechargeTaser": true
+}

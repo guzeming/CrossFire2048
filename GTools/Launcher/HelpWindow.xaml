@@ -1,0 +1,57 @@
+<Window x:Class="OperationBlacktide.Launcher.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="使用说明 · 黑潮行动" Width="760" Height="720" MinWidth="540" MinHeight="440"
+        WindowStartupLocation="CenterOwner" ShowInTaskbar="False" Icon="Blacktide.ico"
+        Background="#101820" Foreground="#EAF0F4" FontFamily="Microsoft YaHei UI" UseLayoutRounding="True">
+    <Border Background="#101820" Padding="28,24,28,20">
+        <Grid>
+            <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+            <StackPanel Margin="0,0,0,18">
+                <TextBlock Text="使用说明" FontSize="26" FontWeight="SemiBold"/>
+                <TextBlock Text="游戏启动面板 · 本机开发与联机测试" Foreground="#98AAB8" Margin="0,8,0,0"/>
+            </StackPanel>
+            <FlowDocumentScrollViewer Grid.Row="1" IsToolBarVisible="False" VerticalScrollBarVisibility="Auto"
+                                      Background="#1A2631" BorderThickness="0" IsSelectionEnabled="True">
+                <FlowDocument FontFamily="Microsoft YaHei UI" FontSize="14" LineHeight="25" Foreground="#EAF0F4" PagePadding="20">
+                    <FlowDocument.Resources>
+                        <Style TargetType="Paragraph"><Setter Property="Margin" Value="0,0,0,12"/></Style>
+                        <Style x:Key="Heading" TargetType="Paragraph">
+                            <Setter Property="Foreground" Value="#FFAF54"/><Setter Property="FontSize" Value="18"/>
+                            <Setter Property="FontWeight" Value="SemiBold"/><Setter Property="Margin" Value="0,12,0,12"/>
+                        </Style>
+                    </FlowDocument.Resources>
+                    <Paragraph Style="{StaticResource Heading}">快速开始</Paragraph>
+                    <Paragraph><Bold>1. 开服并进入游戏</Bold><LineBreak/>
+                        在“游戏与服务”页点击“开服并启动游戏”，面板会先启动账号服和战斗服，再打开游戏。首次缺少构建产物时会自动构建。
+                    </Paragraph>
+                    <Paragraph><Bold>2. 进入联机测试场</Bold><LineBreak/>
+                        在游戏中注册或登录账号，从大厅进入“联机测试场”。训练场用于本地练习。
+                    </Paragraph>
+                    <Paragraph><Bold>3. 多人测试</Bold><LineBreak/>
+                        点击“再开一个客户端”，并使用不同账号登录。已有服务器运行时，也可以直接点击“启动游戏”。
+                    </Paragraph>
+                    <Paragraph Style="{StaticResource Heading}">查看服务器日志</Paragraph>
+                    <Paragraph>点击“打开服务器实时日志”，可以查看玩家操作、战斗事件和异常输入。日志文件保存在项目的 Logs/Server 目录。</Paragraph>
+                    <Paragraph>面板底部显示工具运行输出，完整输出保存在 Logs/Launcher。构建或验证失败时，先查看这里的错误信息。</Paragraph>
+                    <Paragraph Style="{StaticResource Heading}">构建、验证与路径</Paragraph>
+                    <Paragraph><Bold>构建与验证：</Bold>搜索并选择工具，再点击“运行所选工具”。任务依次执行，结果显示在下方输出区。构建客户端前请关闭游戏；构建服务端前请停止服务器。</Paragraph>
+                    <Paragraph>执行时会显示任务名称、阶段和已运行时间。每项验证使用独立工程，首次运行都可能花费数分钟导入资源。所有 Unity 验证与游戏构建都会实时显示阶段、重要日志和完整日志路径；也可点击“取消任务”停止本次工具及其子进程。</Paragraph>
+                    <Paragraph><Bold>路径与目录：</Bold>可选择 Unity.exe，或打开项目、构建产物、日志和验证结果目录。首次会按工程版本自动查找 Unity。</Paragraph>
+                    <Paragraph><Bold>环境要求：</Bold>需要 .NET 8 SDK 和项目对应版本的 Unity。Dedicated Server 构建还需要安装对应的 Unity 服务端构建模块。</Paragraph>
+                    <Paragraph Style="{StaticResource Heading}">常见问题</Paragraph>
+                    <Paragraph><Bold>显示“端口已占用”</Bold><LineBreak/>
+                        本地账号服使用 TCP 7777，战斗服使用 UDP 7778。请先关闭之前用其他方式启动的服务，再通过面板开服。面板只管理已记录且身份匹配的服务器进程。
+                    </Paragraph>
+                    <Paragraph><Bold>关闭面板后，服务器是否继续运行？</Bold><LineBreak/>
+                        游戏和服务器会继续运行。需要关服时点击“停止服务器”。工具任务执行期间关闭窗口会先最小化，任务完成后可正常退出。
+                    </Paragraph>
+                    <Paragraph><Bold>如何打开带图标的启动入口？</Bold><LineBreak/>
+                        双击项目根目录的“游戏启动面板”快捷方式。工程移动后运行一次“游戏启动面板.bat”，即可更新快捷方式路径。
+                    </Paragraph>
+                </FlowDocument>
+            </FlowDocumentScrollViewer>
+            <Button Grid.Row="2" Content="关闭说明" IsCancel="True" Click="CloseHelp" HorizontalAlignment="Right" Margin="0,16,0,0" Padding="22,10"/>
+        </Grid>
+    </Border>
+</Window>

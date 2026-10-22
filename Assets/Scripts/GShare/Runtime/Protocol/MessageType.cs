@@ -1,7 +1,7 @@
 namespace OperationBlacktide.Shared.Protocol
 {
     /// <summary>
-    /// 客户端与服务端之间的消息类型。第一阶段只覆盖连接与账户相关消息。
+    /// TCP 控制面消息：账户、心跳与入房。战斗输入/快照使用独立 BattleProtocol。
     /// </summary>
     public enum MessageType
     {
@@ -18,5 +18,9 @@ namespace OperationBlacktide.Shared.Protocol
         // 账户：登录
         LoginRequest = 12,
         LoginResponse = 13,
+        BattleJoinRequest = 20,
+        BattleJoinResponse = 21,
+        DemolitionRequest = 30,
+        DemolitionResponse = 31,
     }
 }

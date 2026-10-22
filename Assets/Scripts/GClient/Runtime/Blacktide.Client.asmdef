@@ -1,0 +1,16 @@
+{
+  "name": "Blacktide.Client",
+  "references": [
+    "Blacktide.Shared",
+    "Blacktide.Simulation",
+    "LiteNetLib",
+    "UnityEngine.UI",
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.RenderPipelines.Universal.Runtime"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "UNITY_EDITOR || !BLACKTIDE_SERVER",
+    "UNITY_EDITOR || !UNITY_SERVER"
+  ]
+}

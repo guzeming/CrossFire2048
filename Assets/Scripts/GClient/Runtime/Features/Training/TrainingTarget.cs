@@ -1,14 +1,15 @@
+using OperationBlacktide.Client.Content;
 using System.Collections.Generic;
+using OperationBlacktide.Client.Gameplay.Combat;
 using OperationBlacktide.Client.Features.Lobby;
+using OperationBlacktide.Client.Gameplay.Avatars;
 using UnityEngine;
 
 namespace OperationBlacktide.Client.Features.Training
 {
     /// <summary>Reusable target for bullets, blasts and fire. Defeated targets reset after three seconds.</summary>
-    public sealed class TrainingTarget : MonoBehaviour
+    public sealed class TrainingTarget : Damageable
     {
-        internal static readonly HashSet<TrainingTarget> ActiveTargets = new HashSet<TrainingTarget>();
-        internal Renderer[] Surfaces => surfaces;
         [SerializeField] private float maxHealth = 100;
         private Renderer[] surfaces;
         private Collider[] colliders;
@@ -16,10 +17,10 @@ namespace OperationBlacktide.Client.Features.Training
         private readonly List<SurfaceColor> surfaceColors = new List<SurfaceColor>();
         private static readonly int BaseColor = Shader.PropertyToID("_BaseColor");
         private float lastHit = float.NegativeInfinity, restoreAt;
-        public LobbyTeam Team { get; private set; }
+        public EquipmentTeam Team { get; private set; }
         public float Health { get; private set; }
-        public float HealthFraction => Health / maxHealth;
-        public bool IsAlive => Health > 0;
+        public override float HealthFraction => Health / maxHealth;
+        public override bool IsAlive => Health > 0;
 
         private struct SurfaceColor
         {
@@ -45,10 +46,7 @@ namespace OperationBlacktide.Client.Features.Training
             }
         }
 
-        private void OnEnable() { ActiveTargets.Add(this); }
-        private void OnDisable() { ActiveTargets.Remove(this); }
-
-        public float ApplyDamage(float amount)
+        public override float ApplyDamage(float amount, bool bypassArmor = false)
         {
             if (!IsAlive || amount <= 0) return 0;
             float damage = Mathf.Min(Health, amount);
@@ -80,14 +78,14 @@ namespace OperationBlacktide.Client.Features.Training
             }
         }
 
-        public static void CreateRange(Vector3 spawn, LobbyLoadoutCatalog catalog, LobbyTeam playerTeam)
+        public static void CreateRange(Vector3 spawn, EquipmentCatalog catalog, EquipmentTeam playerTeam)
         {
-            LobbyTeam targetTeam = playerTeam == LobbyTeam.T ? LobbyTeam.CT : LobbyTeam.T;
-            string agentId = targetTeam == LobbyTeam.CT ? "ctm_sas" : "tm_phoenix";
-            string weaponId = targetTeam == LobbyTeam.CT ? "weapon_rif_m4a1_silencer" : "weapon_rif_ak47";
+            EquipmentTeam targetTeam = playerTeam == EquipmentTeam.T ? EquipmentTeam.CT : EquipmentTeam.T;
+            string agentId = targetTeam == EquipmentTeam.CT ? "ctm_sas" : "tm_phoenix";
+            string weaponId = targetTeam == EquipmentTeam.CT ? "weapon_rif_m4a1_silencer" : "weapon_rif_ak47";
             var agent = catalog != null ? catalog.Agent(agentId) : null;
             var weapon = catalog != null ? catalog.Weapon(weaponId) : null;
-            var idle = Resources.Load<RuntimeAnimatorController>("Training/TrainingLocomotion");
+            var idle = Resources.Load<RuntimeAnimatorController>("Gameplay/Locomotion");
             if (agent == null || agent.prefab == null || agent.team != targetTeam ||
                 weapon == null || weapon.prefab == null || idle == null)
             {
@@ -108,7 +106,7 @@ namespace OperationBlacktide.Client.Features.Training
                 root.transform.rotation = Quaternion.LookRotation(Vector3.ProjectOnPlane(spawn - basePoint, Vector3.up));
                 var visual = new GameObject("Character Visual");
                 visual.transform.SetParent(root.transform, false);
-                var appearance = visual.AddComponent<LobbyLoadoutPreview>();
+                var appearance = visual.AddComponent<BattleAvatar>();
                 appearance.Show(catalog, agentId, weaponId);
                 var animator = appearance.Animator;
                 animator.runtimeAnimatorController = idle;
@@ -126,10 +124,12 @@ namespace OperationBlacktide.Client.Features.Training
                 var capsule = body.AddComponent<CapsuleCollider>();
                 capsule.center = Vector3.up * .77f;
                 capsule.height = 1.45f; capsule.radius = .27f;
+                body.AddComponent<HitRegion>().Part = HitBodyPart.Body;
                 var head = new GameObject("Head");
                 head.transform.SetParent(root.transform, false);
                 var sphere = head.AddComponent<SphereCollider>();
                 sphere.center = Vector3.up * 1.6f; sphere.radius = .16f;
+                head.AddComponent<HitRegion>().Part = HitBodyPart.Head;
                 // Add last: Awake must discover both the character renderers and hit volumes.
                 root.AddComponent<TrainingTarget>().Team = targetTeam;
             }

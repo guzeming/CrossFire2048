@@ -1,0 +1,22 @@
+{
+  "clips": [
+    {
+      "name": "planting",
+      "first": 2,
+      "last": 81,
+      "source": "Batch/RawAnimations/animation/anims/world/equipment/c4/planting.gltf"
+    },
+    {
+      "name": "defuse_crouch_enter",
+      "first": 84,
+      "last": 114,
+      "source": "Batch/RawAnimations/animation/anims/world/shared/defuse/defuse_crouch_enter.gltf"
+    },
+    {
+      "name": "defuse_crouch_loop",
+      "first": 117,
+      "last": 177,
+      "source": "Batch/RawAnimations/animation/anims/world/shared/defuse/defuse_crouch_loop.gltf"
+    }
+  ]
+}

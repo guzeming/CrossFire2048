@@ -53,6 +53,9 @@ namespace OperationBlacktide.Client.UI
             EnsureCanvas();
             BuildLayerRoots();
             uiManager.Initialize(_layerRoots);
+            var performanceStats = Resources.Load<PerformanceStatsOverlay>("UI/PerformanceStatsOverlay");
+            if (performanceStats != null) Instantiate(performanceStats, _layerRoots[UILayer.Overlay], false);
+            UISoundPlayer.Ensure();
         }
 
         private void Update()
@@ -70,7 +73,15 @@ namespace OperationBlacktide.Client.UI
 
         public void HandleBackInput()
         {
-            if (uiManager != null && !uiManager.HandleBackInput()) UnhandledBackRequested?.Invoke();
+            if (OperationBlacktide.Client.App.GameSceneFlow.Instance?.IsLoading == true) return;
+            if (uiManager == null) return;
+            if (uiManager.HandleBackInput()) UISoundPlayer.Play(UISoundCue.Back);
+            else if (UnhandledBackRequested != null)
+            {
+                int previous = uiManager.GetStackCount(UILayer.Popup);
+                UnhandledBackRequested.Invoke();
+                UISoundPlayer.Play(uiManager.GetStackCount(UILayer.Popup) > previous ? UISoundCue.Open : UISoundCue.Back);
+            }
         }
 
         private void OnDestroy()

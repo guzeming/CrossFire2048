@@ -1,0 +1,17 @@
+{
+  "name": "Blacktide.Editor",
+  "references": [
+    "Blacktide.Client",
+    "Blacktide.Shared",
+    "Blacktide.Simulation",
+    "Blacktide.BattleServer",
+    "UnityEngine.UI",
+    "Unity.AI.Navigation",
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.RenderPipelines.Universal.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": true
+}

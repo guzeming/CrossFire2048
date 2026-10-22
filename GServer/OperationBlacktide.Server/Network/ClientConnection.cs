@@ -17,6 +17,7 @@ namespace OperationBlacktide.Server.Network
         private readonly SemaphoreSlim _sendLock = new SemaphoreSlim(1, 1);
 
         public int ConnectionId { get; }
+        public DateTime NextBattleTicketAt { get; set; }
         public string RemoteEndPoint { get; }
 
         public bool IsAuthenticated => !string.IsNullOrEmpty(UserId);
@@ -48,7 +49,16 @@ namespace OperationBlacktide.Server.Network
 
         public async Task<string?> ReadLineAsync()
         {
-            return await _reader.ReadLineAsync().ConfigureAwait(false);
+            // Bound allocation before accepting untrusted JSON (ReadLineAsync has no limit).
+            var line = new StringBuilder();
+            char[] character = new char[1];
+            while (await _reader.ReadAsync(character, 0, 1).ConfigureAwait(false) != 0)
+            {
+                if (character[0] == '\n') return line.ToString().TrimEnd('\r');
+                if (line.Length >= 8192) throw new InvalidDataException("Message exceeds 8192 characters.");
+                line.Append(character[0]);
+            }
+            return null;
         }
 
         public async Task SendAsync<TPayload>(MessageType type, TPayload payload)

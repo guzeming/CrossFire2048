@@ -1,0 +1,217 @@
+[
+  {
+    "id": "weapon_decoy",
+    "source": "sounds/weapons/decoy/decoy_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_decoy.wav"
+  },
+  {
+    "id": "weapon_flashbang",
+    "source": "sounds/weapons/flashbang/flashbang_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_flashbang.wav"
+  },
+  {
+    "id": "weapon_hegrenade",
+    "source": "sounds/weapons/hegrenade/he_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_hegrenade.wav"
+  },
+  {
+    "id": "weapon_incendiarygrenade",
+    "source": "sounds/weapons/incgrenade/inc_grenade_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_incendiarygrenade.wav"
+  },
+  {
+    "id": "weapon_knife_default_ct",
+    "source": "sounds/weapons/knife/knife_deploy1.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_knife_default_ct.wav"
+  },
+  {
+    "id": "weapon_knife_default_t",
+    "source": "sounds/weapons/knife/knife_deploy1.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_knife_default_t.wav"
+  },
+  {
+    "id": "weapon_mach_m249",
+    "source": "sounds/weapons/m249/m249_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_mach_m249.wav"
+  },
+  {
+    "id": "weapon_mach_negev",
+    "source": "sounds/weapons/negev/negev_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_mach_negev.wav"
+  },
+  {
+    "id": "weapon_molotov",
+    "source": "sounds/weapons/molotov/molotov_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_molotov.wav"
+  },
+  {
+    "id": "weapon_pist_cz75a",
+    "source": "sounds/weapons/foley/gear_draw_11.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_pist_cz75a.wav"
+  },
+  {
+    "id": "weapon_pist_deagle",
+    "source": "sounds/weapons/deagle/de_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_pist_deagle.wav"
+  },
+  {
+    "id": "weapon_pist_elite",
+    "source": "sounds/weapons/elite/elite_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_pist_elite.wav"
+  },
+  {
+    "id": "weapon_pist_fiveseven",
+    "source": "sounds/weapons/fiveseven/fiveseven_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_pist_fiveseven.wav"
+  },
+  {
+    "id": "weapon_pist_glock18",
+    "source": "sounds/weapons/glock18/glock_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_pist_glock18.wav"
+  },
+  {
+    "id": "weapon_pist_hkp2000",
+    "source": "sounds/weapons/hkp2000/hkp2000_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_pist_hkp2000.wav"
+  },
+  {
+    "id": "weapon_pist_p250",
+    "source": "sounds/weapons/p250/p250_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_pist_p250.wav"
+  },
+  {
+    "id": "weapon_pist_revolver",
+    "source": "sounds/weapons/revolver/revolver_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_pist_revolver.wav"
+  },
+  {
+    "id": "weapon_pist_taser",
+    "source": "sounds/weapons/taser/taser_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_pist_taser.wav"
+  },
+  {
+    "id": "weapon_pist_tec9",
+    "source": "sounds/weapons/tec9/tec9_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_pist_tec9.wav"
+  },
+  {
+    "id": "weapon_pist_usp_silencer",
+    "source": "sounds/weapons/usp/usp_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_pist_usp_silencer.wav"
+  },
+  {
+    "id": "weapon_rif_ak47",
+    "source": "sounds/weapons/ak47/ak47_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_rif_ak47.wav"
+  },
+  {
+    "id": "weapon_rif_aug",
+    "source": "sounds/weapons/aug/aug_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_rif_aug.wav"
+  },
+  {
+    "id": "weapon_rif_famas",
+    "source": "sounds/weapons/famas/famas_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_rif_famas.wav"
+  },
+  {
+    "id": "weapon_rif_galilar",
+    "source": "sounds/weapons/galilar/galil_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_rif_galilar.wav"
+  },
+  {
+    "id": "weapon_rif_m4a1_silencer",
+    "source": "sounds/weapons/m4a1/m4a1_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_rif_m4a1_silencer.wav"
+  },
+  {
+    "id": "weapon_rif_m4a4",
+    "source": "sounds/weapons/m4a1/m4a1_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_rif_m4a4.wav"
+  },
+  {
+    "id": "weapon_rif_sg556",
+    "source": "sounds/weapons/sg556/sg556_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_rif_sg556.wav"
+  },
+  {
+    "id": "weapon_shot_mag7",
+    "source": "sounds/weapons/mag7/mag7_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_shot_mag7.wav"
+  },
+  {
+    "id": "weapon_shot_nova",
+    "source": "sounds/weapons/nova/nova_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_shot_nova.wav"
+  },
+  {
+    "id": "weapon_shot_sawedoff",
+    "source": "sounds/weapons/sawedoff/sawedoff_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_shot_sawedoff.wav"
+  },
+  {
+    "id": "weapon_shot_xm1014",
+    "source": "sounds/weapons/xm1014/xm1014_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_shot_xm1014.wav"
+  },
+  {
+    "id": "weapon_smg_bizon",
+    "source": "sounds/weapons/bizon/bizon_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_smg_bizon.wav"
+  },
+  {
+    "id": "weapon_smg_mac10",
+    "source": "sounds/weapons/mac10/mac10_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_smg_mac10.wav"
+  },
+  {
+    "id": "weapon_smg_mp5sd",
+    "source": "sounds/weapons/mp5/mp5_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_smg_mp5sd.wav"
+  },
+  {
+    "id": "weapon_smg_mp7",
+    "source": "sounds/weapons/mp7/mp7_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_smg_mp7.wav"
+  },
+  {
+    "id": "weapon_smg_mp9",
+    "source": "sounds/weapons/mp9/mp9_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_smg_mp9.wav"
+  },
+  {
+    "id": "weapon_smg_p90",
+    "source": "sounds/weapons/p90/p90_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_smg_p90.wav"
+  },
+  {
+    "id": "weapon_smg_ump45",
+    "source": "sounds/weapons/ump45/ump45_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_smg_ump45.wav"
+  },
+  {
+    "id": "weapon_smokegrenade",
+    "source": "sounds/weapons/smokegrenade/smokegrenade_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_smokegrenade.wav"
+  },
+  {
+    "id": "weapon_snip_awp",
+    "source": "sounds/weapons/awp/awp_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_snip_awp.wav"
+  },
+  {
+    "id": "weapon_snip_g3sg1",
+    "source": "sounds/weapons/g3sg1/g3sg1_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_snip_g3sg1.wav"
+  },
+  {
+    "id": "weapon_snip_scar20",
+    "source": "sounds/weapons/scar20/scar20_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_snip_scar20.wav"
+  },
+  {
+    "id": "weapon_snip_ssg08",
+    "source": "sounds/weapons/ssg08/ssg08_draw.vsnd_c",
+    "asset": "Assets/Resources/Audio/WeaponDraw/weapon_snip_ssg08.wav"
+  }
+]

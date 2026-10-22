@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 517cccebf5ec7754789a6f944c944064, type: 3}
+  m_Name: Presentation
+  m_EditorClassIdentifier: 
+  bombPrefab: {fileID: 454059001773175468, guid: e6873b2c33bd666428296a409a3e17f8,
+    type: 3}
+  plant: {fileID: 7400000, guid: e6e15d90a294a9d4fa86c5a1ef1295ef, type: 2}
+  defuseEnter: {fileID: 7400000, guid: adac3da516970d24dbad59debfaef7f2, type: 2}
+  defuseLoop: {fileID: 7400000, guid: 8bceab019b8b2c94c98820425f87e612, type: 2}
+  draw: {fileID: 8300000, guid: 29bda738597dbe14c82a00864927c3a2, type: 3}
+  initiate: {fileID: 8300000, guid: e22399e8cb101d749b1e5fdb0503d866, type: 3}
+  click: {fileID: 8300000, guid: 909cf932980cb9c408d2b0d5e1593e02, type: 3}
+  planted: {fileID: 8300000, guid: c616d488ca6a8d0428a3ce00d34f12ac, type: 3}
+  defuseStart: {fileID: 8300000, guid: 2dec50639a13f79449c956c1f55dbdf6, type: 3}
+  defused: {fileID: 8300000, guid: d2595e53ead069b4e9324399472afd62, type: 3}
+  beep: {fileID: 8300000, guid: e5aff5729f6204d49b7f9294c961e95b, type: 3}
+  urgentBeep: {fileID: 8300000, guid: d6c7967148f3ff346a80e1b7ac4f3650, type: 3}
+  explode: {fileID: 8300000, guid: 79d87375012c9314f8742e4a4fd2c576, type: 3}
+  groundEuler: {x: -90, y: 0, z: 0}
+  worldScale: {x: 99.453735, y: 99.45363, z: 99.45362}
+  carryPosition: {x: 0, y: -0.08, z: -0.18}
+  carryEuler: {x: 0, y: 0, z: 180}

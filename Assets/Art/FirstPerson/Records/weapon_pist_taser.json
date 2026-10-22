@@ -1,0 +1,50 @@
+{
+  "id": "weapon_pist_taser",
+  "clips": [
+    {
+      "name": "idle",
+      "first": 1,
+      "last": 2,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/pistol/pistol_taser/idle_taser.gltf"
+    },
+    {
+      "name": "draw",
+      "first": 3,
+      "last": 33,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/pistol/pistol_taser/draw_taser.gltf"
+    },
+    {
+      "name": "fire",
+      "first": 34,
+      "last": 46,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/pistol/pistol_taser/shoot1_taser.gltf"
+    }
+  ],
+  "materials": [
+    {
+      "name": "weapon_pist_taser",
+      "color": "Assets/Art/Loadout/Textures/6c8a55b91b98f2f71fb9.png",
+      "normal": "Assets/Art/Loadout/Textures/f05d585c25840a2a5ff4.png"
+    },
+    {
+      "name": "weapon_pist_taser_chargemeter",
+      "color": "Assets/Art/Loadout/Textures/94f5296d9d7fe5bf3000.png",
+      "normal": ""
+    },
+    {
+      "name": "bare_arm_133",
+      "color": "Assets/Art/Loadout/Textures/223f08d305e59e4ad46c.png",
+      "normal": "Assets/Art/Loadout/Textures/10dd463dff0288eac575.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "Assets/Art/Loadout/Textures/67a4229a913ad1b16146.png",
+      "normal": "Assets/Art/Loadout/Textures/2454904008e64d88948a.png"
+    },
+    {
+      "name": "sleeve_ctm_sas",
+      "color": "11fb55833453a22a324d.png",
+      "normal": "fd7d88acbc9ee89e125e.png"
+    }
+  ]
+}

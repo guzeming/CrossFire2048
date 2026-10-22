@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><AllowUnsafeBlocks>true</AllowUnsafeBlocks><DefineConstants>$(DefineConstants);SIMULATE_NETWORK</DefineConstants></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../../Assets/Scripts/GShare/Runtime/**/*.cs" />
+    <Compile Include="../../../Assets/Scripts/GClient/Runtime/Network/BattleConnection.cs" />
+    <Compile Include="../../../Packages/com.revenantx.litenetlib/**/*.cs" />
+  </ItemGroup>
+</Project>

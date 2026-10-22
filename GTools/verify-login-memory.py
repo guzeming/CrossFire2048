@@ -1,4 +1,4 @@
-"""Windows login-memory integration test: isolated server + two separate Unity processes.
+﻿"""Windows login-memory integration test: isolated server + two separate Unity processes.
 
 python GTools/verify-login-memory.py --unity <Unity.exe>
 Credentials use only the temporary server's port and a random .invalid test target.
@@ -31,7 +31,7 @@ if not args.prepared:
             raise RuntimeError('Could not copy validation project: ' + folder)
 editor_sources = stage/'Assets/Editor'
 editor_sources.mkdir(parents=True, exist_ok=True)
-shutil.copy2(root/'GTools/LoginValidation/VerifyLoginMemory.cs', editor_sources/'VerifyLoginMemory.cs')
+shutil.copy2(root/'Tests/Unity/Login/VerifyLoginMemory.cs', editor_sources/'VerifyLoginMemory.cs')
 server_dll = root/'GServer/OperationBlacktide.Server/bin/Debug/net8.0/OperationBlacktide.Server.dll'
 if not server_dll.exists():
     raise RuntimeError('Build the server with GTools/build-server.bat first.')

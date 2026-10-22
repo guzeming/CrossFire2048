@@ -1,0 +1,47 @@
+[
+  {
+    "asset": "Assets/Art/Demolition/Audio/c4_draw.wav",
+    "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/c4/c4_draw.wav",
+    "sha256": "66ea68f782601cf6979fb37f465b79f7d91dab9aa809d51f3fb12157d5f7bf60"
+  },
+  {
+    "asset": "Assets/Art/Demolition/Audio/c4_initiate.wav",
+    "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/c4/c4_initiate.wav",
+    "sha256": "404d462bd77cfb6989a7d4226740aa2062decd0f8e54e3602787e18517a2ebe0"
+  },
+  {
+    "asset": "Assets/Art/Demolition/Audio/c4_click.wav",
+    "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/c4/c4_click.wav",
+    "sha256": "167a106f113ef10bf21454e258475d433035a208d5d10520c0158886513e0c79"
+  },
+  {
+    "asset": "Assets/Art/Demolition/Audio/c4_plant.wav",
+    "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/c4/c4_plant.wav",
+    "sha256": "03eca36e8e6c61e3145a0118c1b38f0601eae8829aebe1e9f8fc95196197f21b"
+  },
+  {
+    "asset": "Assets/Art/Demolition/Audio/c4_disarmstart.wav",
+    "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/c4/c4_disarmstart.wav",
+    "sha256": "ae7ab3970aee1ae2db5daa5044d43dc64af8b7116a40c580a220a41c914be7cd"
+  },
+  {
+    "asset": "Assets/Art/Demolition/Audio/c4_disarmfinish.wav",
+    "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/c4/c4_disarmfinish.wav",
+    "sha256": "e74fa507e8d322c42f4ba35e07bba5c05377a16661af5b7eab035b70fff8750b"
+  },
+  {
+    "asset": "Assets/Art/Demolition/Audio/c4_beep2.wav",
+    "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/c4/c4_beep2.wav",
+    "sha256": "c136ca6f2e169747cdc811c40eb4e0777bce2196c151a0cd74ea5025286c20e1"
+  },
+  {
+    "asset": "Assets/Art/Demolition/Audio/c4_beep3_10sec.wav",
+    "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/c4/c4_beep3_10sec.wav",
+    "sha256": "8f17591859e0c1703fcfa21933f5f28f5918fd3492edd8bb28f1f23a3020f201"
+  },
+  {
+    "asset": "Assets/Art/Demolition/Audio/c4_explode1.wav",
+    "source": "ArtSource/CS2Imports/CombatAudio/WAV/sounds/weapons/c4/c4_explode1.wav",
+    "sha256": "d83a02d8c05b1f6dd316b5595f00a74093b0d58cfaf24cd58160e543639b50b5"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "id": "weapon_knife_default_ct",
+  "clips": [
+    {
+      "name": "idle",
+      "first": 1,
+      "last": 61,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/knife/_default_knife/idle_knife.gltf"
+    },
+    {
+      "name": "draw",
+      "first": 62,
+      "last": 92,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/knife/_default_knife/draw_knife.gltf"
+    },
+    {
+      "name": "fire",
+      "first": 93,
+      "last": 128,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/knife/_default_knife/light_miss1_knife.gltf"
+    },
+    {
+      "name": "alternate",
+      "first": 129,
+      "last": 163,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/knife/_default_knife/heavy_miss1_knife.gltf"
+    }
+  ],
+  "materials": [
+    {
+      "name": "weapon_knife_default_ct",
+      "color": "Assets/Art/Loadout/Textures/3cc316fd7a06ad183ea2.png",
+      "normal": "Assets/Art/Loadout/Textures/fc143bde6d1887c72433.png"
+    },
+    {
+      "name": "bare_arm_133",
+      "color": "Assets/Art/Loadout/Textures/223f08d305e59e4ad46c.png",
+      "normal": "Assets/Art/Loadout/Textures/10dd463dff0288eac575.png"
+    },
+    {
+      "name": "sleeve_ctm_sas",
+      "color": "11fb55833453a22a324d.png",
+      "normal": "fd7d88acbc9ee89e125e.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "Assets/Art/Loadout/Textures/67a4229a913ad1b16146.png",
+      "normal": "Assets/Art/Loadout/Textures/2454904008e64d88948a.png"
+    }
+  ]
+}

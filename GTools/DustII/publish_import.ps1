@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 $stageRoot = Join-Path $projectRoot '.build-check/dustii-import'
 $reportPath = Join-Path $stageRoot 'Validation/import_report.json'

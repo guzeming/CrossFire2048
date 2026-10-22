@@ -26,6 +26,9 @@ namespace OperationBlacktide.Client.UI
         public bool IsModal => isModal || layer == UILayer.Popup;
         public bool IsOpen { get; private set; }
 
+        /// <summary>Return true when a panel consumes Esc (for example an unsaved settings prompt).</summary>
+        public virtual bool HandleBackInput() => false;
+
         internal void OpenInternal(object args)
         {
             if (IsOpen)
@@ -37,7 +40,9 @@ namespace OperationBlacktide.Client.UI
             IsOpen = true;
             _lifetime = new PanelLifetime(this);
             gameObject.SetActive(true);
+            UISoundFeedback.BindAll(gameObject);
             OnOpen(args);
+            BlackGoldTheme.Apply(gameObject);
         }
 
         internal void CloseInternal()

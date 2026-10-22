@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using OperationBlacktide.Client.UI;
 
 namespace OperationBlacktide.Client.Features.Lobby
 {
@@ -12,10 +13,15 @@ namespace OperationBlacktide.Client.Features.Lobby
         {
             title.text = name;
             subtitle.text = detail;
+            bool hasDetail = !string.IsNullOrEmpty(detail);
+            subtitle.gameObject.SetActive(hasDetail);
+            var titlePosition = title.rectTransform.anchoredPosition;
+            title.rectTransform.anchoredPosition = new Vector2(titlePosition.x, hasDetail ? 13 : 0);
             icon.sprite = image;
             icon.enabled = image != null;
             accent.enabled = selected;
-            title.color = selected ? new Color32(255, 164, 54, 255) : Color.white;
+            title.color = selected ? BlackGoldTheme.GoldLight : BlackGoldTheme.Text;
+            BlackGoldTheme.Select(button, selected);
         }
     }
 }

@@ -2,6 +2,30 @@
 
 俯视角轻量版 CS/CF 爆破联机射击项目。
 
+## 游戏启动面板
+
+Windows 下直接双击项目根目录的 **`游戏启动面板.bat`**。首次打开会自动构建桌面面板，需要 .NET 8 SDK；后续仅在面板源码变化时重新构建。
+
+首次启动也会在根目录生成带黑潮徽章图标的 **`游戏启动面板` 快捷方式**（`.lnk`），之后可直接双击它打开。快捷方式按本机路径生成，不提交到仓库；工程移动后运行一次 `.bat` 即可更新。面板窗口和程序文件使用同一图标。
+
+右上角“使用说明”在面板内打开阅读窗口，包含启动步骤、实时日志、构建验证与常见问题，无需打开编辑器。
+
+- **游戏与服务**：启动游戏、多开客户端、开服并进入游戏、启动/停止/重启服务器、打开实时服务器日志或 Unity 工程。客户端缺失时会先自动构建。多客户端联机请使用不同账号。
+- **构建与验证**：集中运行客户端、战斗服、账号服、日志工具的构建，以及现有联机、训练场、3C、武器、投掷物、视野、音效和界面验证；支持搜索。
+- **路径与目录**：自动查找工程所需 Unity 版本，也可手动选择 `Unity.exe`；快速打开项目、构建产物、日志、工具和验证结果。
+
+客户端窗口支持拖动边框调整大小。大厅右上角“设置”可切换全屏、选择分辨率并保存，下次启动自动恢复；大厅按 Esc 打开“设置 / 返回登录界面 / 退出游戏”菜单。设置修改后未保存就返回或关闭游戏时，会提示继续编辑、不保存或保存并离开。
+
+面板每两秒刷新客户端数量和服务器状态，运行输出直接显示在底部，并保存到 `Logs/Launcher/`。构建和验证串行执行。关闭面板不会关闭已启动的游戏或服务器；正在执行工具时关闭窗口会先最小化，完成后可正常退出。Unity 路径设置保存在 `UserSettings/launcher.json`，不提交到仓库。
+
+运行任务时显示当前任务、阶段与已用时间，日志上方的进度条和百分比随实际阶段推进；Unity 编译任务及目录/程序集检查中的可计数工作项按完成数量更新，多步骤任务合并为整体进度。百分比表示阶段完成度，不表示耗时占比；没有新进展时保持当前值，整个任务成功后才显示绿色 100%，失败或取消后保留当时的百分比、结果与耗时。期间锁定工具选择，避免选中的工具与执行中的任务混淆。构建/验证可使用“取消任务”停止本次工具及子进程。每项 Unity 验证使用独立工程，首次运行都可能花费数分钟导入资源；所有 Unity 验证与游戏构建统一通过 `GTools/wait-unity-task.ps1` 显示同步、导入、编译、验证等阶段，保留完整日志路径并实时转发通过/失败标记与错误。文件复制失败最多重试一次；长时间没有新日志时会明确显示等待状态，直到完成、超时或取消。
+
+若显示“端口已占用”，请先关闭旧的账号/战斗服务，再通过面板开服。面板仅停止 `data/local-server-processes.json` 中身份匹配的托管进程，不会按端口强制终止未知服务。当前本地服务端口仍为 TCP 7777、UDP 7778。
+
+面板源码位于 `GTools/Launcher/`，独立于 Unity 游戏程序集。开发检查可运行构建产物 `Blacktide.Launcher.exe --self-test --root <项目目录>`；`--integration-test` 使用临时数据和随机端口测试真实服务启停，`--render-preview <PNG 路径>` 验证界面并输出两页预览。
+
+进度日志使用 `[进度] <0-100 的整数> <阶段说明>`；Unity 编辑器脚本通过 `LAUNCHER_PROGRESS <百分比> <说明>` 输出，由共享日志读取器映射到当前任务区间。`Tests/Tools/verify-launcher-progress.ps1` 使用独立子进程验证日志转发、区间映射、末行无换行和失败退出，无需启动 Unity。
+
 ## 协作开发：克隆和打开项目
 
 ### 环境与首次启动
@@ -31,6 +55,18 @@ dotnet run --project GServer/OperationBlacktide.Server/OperationBlacktide.Server
 
 Windows 也可运行 `GTools/run-server.bat`。默认连接 `127.0.0.1:7777`；每位协作者可启动自己的本机服务端。登录后进入 `LobbyScene`，选择训练场进入 `DustII`；直接打开 `Assets/Scenes/DustII.unity` 可用默认角色本地检查训练场。
 
+上述命令仅启动账号服。测试联机/爆破玩法时，优先使用根目录的 `游戏启动面板.bat` 构建客户端、战斗服并启动整套服务；命令行入口为 `GTools/start-local-server.bat`。客户端、账号服和战斗服应使用同一次源码更新构建，不能混用旧协议产物。构建产物不随 Git 克隆提供，首次构建需要时间。
+
+### 可选的离线语音助手
+
+仓库包含助手代码和 UI；识别模型、对话模型与自包含运行时位于本机 `LocalAssistant/`，不上传 Git。需要使用大厅语音助手时，在 Windows x64 上运行：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File GTools/LocalAssistant/setup.ps1
+```
+
+这一步会联网下载并校验所需模型；详细环境要求与更新方式见 [离线助手说明](GTools/LocalAssistant/README.md)。普通工程导入、训练与联机开发不要求先安装这些模型。
+
 ### 已有协作者更新项目
 
 先保存本地改动并关闭 Unity，再更新 `main`：
@@ -50,17 +86,23 @@ git lfs fsck
 | 路径 | 提交规则 |
 | --- | --- |
 | `Assets/` | 完整提交资源、脚本及所有对应的 `.meta`，包括目录的 `.meta`；二进制美术资源使用 LFS |
-| `Packages/` | 提交 `manifest.json` 和 `packages-lock.json`，以及以后新增的内嵌包源码 |
+| `Packages/` | 提交 `manifest.json`、`packages-lock.json`，以及 `com.revenantx.litenetlib/` 内嵌包完整源码、元数据和许可证 |
 | `ProjectSettings/` | 完整提交，保证编辑器版本、渲染设置、输入设置和构建场景一致 |
 | `GServer/` | 提交服务端源码和手写 `.csproj`，排除 `bin/`、`obj/` 和本机账号数据 |
-| `GTools/` | 提交构建、导入和验证脚本；其中 `*Validation/` 是验证源码，需要保留 |
-| `ArtSource/` | 默认只提交制作脚本、说明和生成提示词；原始模型、贴图、音效和导出缓存另行共享，见 [ArtSource/README.md](ArtSource/README.md) |
+| `GTools/` | 提交开发工具、构建/验证入口及手写 `.csproj`，排除 `bin/obj` |
+| `Tests/` | 提交共享逻辑、Unity 和集成验证源码及手写 `.csproj` |
+| `GConfig/` | 提交跨引擎 JSON 配置源文件 |
+| `ArtSource/` | 整目录仅保留在本地，制作脚本、说明、原始模型、贴图、音效和导出缓存均不提交 |
+| `游戏启动面板.bat` | 提交可移植启动入口；本机生成的 `.lnk` 快捷方式不提交 |
+| `LocalAssistant/`、`data/` | 本机下载的模型/运行时、账号、服务密钥和进程状态，不提交；`GTools/LocalAssistant/` 中的项目实现代码需要提交 |
 | `README.md`、`spec/`、`ReadMeRes/`、`.gitignore`、`.gitattributes` | 提交协作说明、文档及仓库规则 |
 | `Library/`、`Temp/`、`Logs/`、`UserSettings/`、`.build-check/`、`.idea/`、`.vs/` | 本机缓存、验证输出或个人配置，不提交 |
 | 根目录自动生成的 `.sln`、`.csproj`，以及 `bin/`、`obj/`、构建产物、日志 | 不提交，由 Unity/构建工具重新生成 |
 | `.git/` | Git 自行管理；通过 clone/push 同步历史，无需手动上传这个目录 |
 
 移动或重命名 Unity 资源时，要连同原来的 `.meta` 一起操作，避免场景、材质和预制体引用丢失。项目已启用 `Visible Meta Files` 和 `Force Text`。不要给 `.meta`、场景或预制体设置 LFS。
+
+文中出现的 `ArtSource/` 路径均指美术维护者的本地制作工作区，不会随克隆恢复；只有重新制作或导出美术素材时才需要单独取得相关目录。现有场景使用的成品已保存在 `Assets/`。此前跟踪的少量 `ArtSource` 脚本和说明已从当前版本移出，不影响项目导入；旧提交历史未改写。
 
 ### 提交前检查
 
@@ -81,9 +123,15 @@ git push origin main
 
 `.gitattributes` 会让匹配规则的资源在 `git add` 时自动转成 LFS 指针；`git push` 的 LFS 钩子先上传资源实体，再推送提交。若上传失败，修复原因后重新执行 `git push`，不要跳过 LFS 钩子。团队后续功能开发建议使用分支和合并请求。
 
-当前项目中的已导入资源约 2.85 GiB，首次分享需要上传对应 LFS 对象，协作者首次克隆也需要下载它们。先确认远程仓库的 LFS 存储和下载额度足够。若出现 LFS 下载错误，应先修复下载，再打开 Unity；只拿到代码或 LFS 指针文件不能完整恢复模型和贴图。GitHub 普通 Git 单文件上限为 100 MiB，详见 [GitHub 大文件说明](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)。
+当前项目中的已导入资源约 3.05 GiB，首次分享需要上传对应 LFS 对象，协作者首次克隆也需要下载它们。先确认远程仓库的 LFS 存储和下载额度足够。若出现 LFS 下载错误，应先修复下载，再打开 Unity；只拿到代码或 LFS 指针文件不能完整恢复模型和贴图。GitHub 普通 Git 单文件上限为 100 MiB，详见 [GitHub 大文件说明](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)。
 
 原始美术制作工具不是打开项目的前置条件。重建导入资源时才需要额外的原始素材、Blender、Python 和导出工具；相关脚本中的本机工具路径需按各自环境调整。Unity 验证脚本可通过 `-UnityPath` 指定编辑器位置，输出统一留在被忽略的 `.build-check/`。
+
+## 爆破性能跑测
+
+运行 `GTools/measure-demolition-performance.ps1`，或在启动面板的“构建与验证”中选择“爆破性能跑测”。流程在隔离工程构建真实客户端和爆破服，以一个脚本控制的玩家加九个 AI 执行静止、移动转视角和交战场景，输出逐帧 CSV、P95/P99 帧耗时、GC 分配、CPU/GPU 数据及视野/建筑遮挡/画质对照。默认 1600×900、每阶段 20 秒、不限帧；测试窗口需保持未最小化。
+
+源码未变时可加 `-ReuseBuild`；`-Variants baseline -Repeats 3` 重复基线，`-ProfilerTrace` 额外保存可由 Unity Profiler 打开的原始跟踪。结果保存在 `.build-check/performance-*`。详细参数、指标限制和对照说明见 [性能跑测说明](Tests/Unity/Performance/README.md)。
 
 ## 项目概况
 
@@ -91,7 +139,7 @@ git push origin main
 
 品牌回归验证入口：`GTools/verify-branding.ps1`，在独立副本中检查资源引用、登录/大厅界面、旧装备存档迁移，并输出 16:9 和 16:10 截图。
 
-当前工程已包含账户注册登录、独立 Socket 服务端、登录/大厅 UI，以及 DustII 本地训练场。训练场已有角色运动、装备展示、武器射击/换弹、投掷物和相关表现。后续继续推进联机房间、匹配、权威同步、客户端预测、快照同步和回滚命中判定。
+当前工程已包含账户注册登录、登录/大厅 UI、DustII 本地训练场、服务端权威联机测试场及首版爆破模式。客户端、共享逻辑、公共模拟和战斗服已拆分程序集，配套启动面板、配置工具、实时日志和验证入口；大厅另有可选的离线语音助手。联机测试场和爆破模式的已实现能力及当前边界见下文与 `spec/`，后续继续完善完整玩法、联网安全和性能验证。
 
 ## 核心方向
 
@@ -115,52 +163,191 @@ git push origin main
 - 客户端校正。
 - 基于时间戳的回滚命中判定。
 
-## 精简目录规划
+## 项目目录与依赖边界
 
 ```text
-项目根目录/
-  Assets/
-    Scripts/
-      GClient/
-        Runtime/
-          App/              AppConfig、GameSceneFlow 场景流程
-          Common/           GameEvents 全局事件
-          Features/
-            Account/        AuthClient、LoginPanel、LobbyPanel
-          Network/          TcpGameClient、消息编解码
-          UI/               UIRoot、UIManager、面板基类与规范
-        Editor/
-      GShare/
-        Runtime/
-          Protocol/
-          Models/
-          Netcode/
-
-  GServer/
-    OperationBlacktide.Server/
-      Program.cs
-      ServerConsole.cs
-      GameServer.cs
-      Accounts/
-      Network/
-      DebugCommands/
-      Storage/
-
-  GTools/
-    build-server.bat
-    run-server.bat
-
-  README.md
+Assets/Scripts/
+  GShare/Runtime/              纯 C#；客户端、服务端和工具共用
+    Components/               组件宿主与生命周期
+    Characters/ Combat/       角色能力、WeaponInfo / Weapon
+    AI/Components/            感知、导航、决策
+    GameLogic/Components/     每局玩法基座、时钟、重生、补给
+    Modes/Demolition/         爆破规则、协议和玩法组件
+    Protocol/ Battle/         通信协议和战斗同步数据
+  GSimulation/Runtime/
+    Movement/ Maps/ Config/   Unity 运动、地图与配置适配
+  GClient/Runtime/
+    App/ Common/              启动、场景流程、全局事件
+    Content/                  公共装备目录、角色/武器模型与动画资源绑定
+    Gameplay/                 可复用的 Avatar、战斗、相机、表现组件
+    Features/                 Account、Lobby、Training、Battle、Demolition
+    Network/ UI/              客户端网络与 UI 基础设施
+    Development/              地图查看等开发辅助行为
+  GBattleServer/Runtime/
+    Hosting/ AI/              权威战斗宿主与 Unity AI 适配
+    Modes/Demolition/         爆破战斗服宿主
+  Editor/
+    Build/ Import/ Inspectors/ 客户端与战斗服共用的 Unity 编辑器工具
+GServer/OperationBlacktide.Server/  独立 .NET 账号、大厅与匹配服务
+GTools/
+  Launcher/ GameConfigEditor/ LogViewer/  独立开发工具
+  Common/ DustII/                       工程同步工具、地图导入工具
+  build-*.ps1、verify-*.ps1             构建和验证的稳定命令入口
+Tests/
+  Core/                       无引擎共享逻辑验证
+  Unity/                      各功能的 Unity 验证代码
+  Integration/                战斗网络、账号与爆破集成验证
+  Tools/                      开发工具和工程同步脚本验证
+GConfig/                      跨引擎 JSON 配置源
 ```
 
-### 目录原则
-- `Assets/Scripts/GClient` 放 Unity 客户端代码。
-- `Assets/Scripts/GShare` 放客户端和服务端共用的协议、消息结构和基础模型源码。
-- `GServer` 放独立 C# Socket 服务端，可以直接从命令行启动。
-- `GServer` 通过 `.csproj` 直接引用 `Assets/Scripts/GShare/Runtime/**/*.cs`，保证客户端和服务端使用同一份共享源码。
-- `GTools` 放构建、启动、调试脚本。
-- UI 使用自研轻量框架（`UIRoot` + `UIManager` + `UIPanel`），详见 `Assets/Scripts/GClient/Runtime/UI/ui-spec.md`。
-- 暂不引入 Addressables、多 asmdef 拆分和大型资源规范。
+### 放置和依赖规则
+
+- `GShare` 的 `Blacktide.Shared` 禁止引擎引用；独立 .NET 工程编译同一份共享源码，不复制实现。
+- `GSimulation` 只依赖共享层。`GClient` 和 `GBattleServer` 分别依赖共享层与模拟层，互不引用。
+- `GClient/Content` 保存 Unity 资源绑定；`EquipmentCatalog` 供大厅、训练和联机战斗共同使用。`WeaponInfo` 是纯配置、`Weapon` 是逻辑实例、`WeaponModel` 是表现对象，资源绑定不代替这三者。
+- `Gameplay` 和 `Content` 不依赖 `Features`；具体功能组合公共能力。账户功能放 `Account`，大厅面板和换装操作放 `Lobby`。
+- 独立演进的组件使用同名文件；紧密相关的小型枚举、DTO 可以放在同一文件。玩法规则放 `Modes/<玩法>`，不混入通用组件。
+- `Blacktide.Editor` 只在编辑器中编译。编辑器同时加载客户端和战斗服；普通客户端构建排除战斗服，服务端构建通过 `BuildPlayerOptions.extraScriptingDefines` 添加 `BLACKTIDE_SERVER` 并排除客户端。专用服务器构建也支持 `UNITY_SERVER`。
+- 战斗服由 `BattleServer.unity` 中的 `BattleServerEntry` 启动，根据命令行选择普通战斗或爆破宿主；服务端构建临时移除客户端渲染管线引用，构建结束后恢复编辑器设置。
+- `Assets/Resources/Gameplay` 保存公共武器、投掷物、动画与视野资源；`Training` 只保留训练玩法专用资源。资源移动必须保留 `.meta` 并更新字符串加载路径。
+- `GTools` 只存放开发工具和命令入口；验证源码放 `Tests`。手写 `.csproj` 必须提交，`bin/obj` 和 Unity 根目录生成的工程文件忽略。
+- Unity 验证和构建通过 `GTools/Common/UnityProject.ps1` 镜像同步到 `.build-check` 内的独立工程，自动清理旧脚本、旧资源和上一套测试驱动，保留 `Library` 缓存；输出与本机数据不提交。
+- UI 基础规范见 `Assets/Scripts/GClient/Runtime/UI/ui-spec.md`。新增目录应对应明确职责，不建立无边界的通用杂物目录。
+
+目录调整后可执行 `GTools/verify-architecture.ps1` 检查程序集归属、装备资源、场景与预制体脚本引用。添加 `-BuildPlayers` 会在 `.build-check` 下实际构建客户端和战斗服，验证产物没有混入另一端的程序集。`Tests/Tools/VerifyUnityProject.ps1` 验证工程同步的路径限制、旧文件清理、GUID 和缓存保留。
+
+### 组件化架构：共享逻辑、玩法与表现
+
+对象负责身份、组件装配和生命周期，组件负责具体能力。共享层使用普通 C#，不引用 Unity、Unreal 或客户端程序集；客户端、服务端和工具编译同一份源码。现有源码入口仍在 `Assets/Scripts/GShare/Runtime`，目录位置不表示对 Unity 的依赖，`Blacktide.Shared.asmdef` 使用 `noEngineReferences` 约束。
+
+| 边界 | 实现与职责 |
+| --- | --- |
+| `GShare/Runtime/Components` | `ComponentHost` / `GameComponent`：单一宿主、依赖检查、拓扑初始化与 Tick、逆序释放；开始后冻结组件组成 |
+| `GShare/Runtime/Characters` | `Character` 组合移动规则、生命护甲和装备组件；不持有模型、相机或 UI |
+| `GShare/Runtime/Combat` | `WeaponInfo` 配置，`Weapon` 实例，`AmmoState` 弹药/换弹组件，`FireControl` 射击节奏组件 |
+| `GShare/Runtime/AI` | `AIController` 组合感知、导航请求和决策；`IBotEnvironment` 提供遮挡与路径查询，AI 输出与玩家相同的战斗指令 |
+| `GShare/Runtime/GameLogic` | 每局独立的 `GameLogic`，装配 `CombatWorld`、时钟、重生和补给组件；扩展玩法组件在 Start 前装配 |
+| `GClient/Runtime/Gameplay/Avatars` | Unity 表现适配：`Avatar` 组合模型、骨骼挂点、装备挂接和动画组件；`LobbyAvatar` 与 `BattleAvatar` 独立管理场景表现 |
+| `GSimulation` | Unity 碰撞、资源和运动适配，客户端预测与 Unity 战斗服共用；这一层仍需在其他引擎中重写 |
+| `GBattleServer` | 联机输入校验、物理命中与回滚、快照和权威执行；复用共享 Character、Weapon、GameLogic 和 AI |
+| `GConfig` / `GTools/GameConfigEditor` | 引擎独立的 JSON 配置源文件与本地配置面板，验证规则复用共享 C# |
+
+#### 对象所有权
+
+`GameLogic` 持有本局的 `CombatWorld`，世界持有 `Character`；角色的 `EquipmentComponent` 持有 `Weapon` 实例。切换装备保留原实例的弹药，移除装备可将实例所有权转交给拾取物或另一份装备集合。
+
+本地训练由模式控制器关联 Character 与 BattleAvatar；联机客户端由 `BattleArenaClient` 按实体 ID 管理 BattleState 快照、预测与 BattleAvatar。共享 Character 不持有 BattleAvatar，因此服务端可以只创建逻辑对象。大厅展示模块持有 LobbyAvatar，装备预览持有独立 WeaponModel；角色手持的 WeaponModel 由 Avatar 的装备挂接组件持有。场景退出时，模型组件释放自己创建的模型和动画覆盖控制器。
+
+`WeaponInfo` 保存类型 ID、数值与资源 ID，`Weapon` 保存一把武器的运行状态，`WeaponModel` 管理模型和挂点。同类型的多个武器实例不共享弹药。原 `WeaponDefinition` 作为 Unity 资源绑定兼容层保留，基础字段继承 WeaponInfo，以保留现有资源序列化；进入玩法时由公共 JSON 提供数值。
+
+`LobbyLoadoutPreview` 保留原脚本 GUID，作为已有场景/UI 的薄适配器调用 LobbyAvatar。训练玩家、训练靶与联机角色直接使用 BattleAvatar。底层 Avatar 不保存等级、任务、商城、账号或生命数据。
+
+#### 玩法与权威边界
+
+训练场与联机测试场的战斗服各自创建独立 GameLogic，玩法组成来自 `GConfig/Modes/*.json`。自动重生和补给能力由组件提供；训练场开启无限备弹、无限投掷物和电击枪充能，联机测试场使用有限供给。移除 respawn 组件会关闭自动重生，移除 supply 组件则使用有限供给。规则组件可声明依赖；缺少依赖、重复组件或循环依赖会在启动时失败。
+
+`GameLogic`、`Character`、`Weapon`、`Avatar` 和 `WeaponModel` 构造时可传入额外的 `GameComponent`，统一在 Start 前装配。新增能力通过组件声明依赖并加入宿主，不需要为每种组合派生一套对象类。
+
+服务端执行权威规则，客户端读取权威状态并预测必要的运动。共享代码不代表信任客户端计算结果：位置、命中、伤害、奖励和资产变更仍由服务端确认。本地训练场在本机运行权威 GameLogic。每个世界维护自己的角色和事件订阅，退出房间必须释放整个宿主。
+
+键鼠输入位于 `LocalPlayerInput` / `LocalWeaponInput`；角色运动和武器执行接口可由测试或其他控制器调用。AI 的纯规则已抽到 GShare，Unity 战斗服中的 BattleBotBrain 只适配 NavMesh 与 Physics。时间通过 Tick 参数传入；普通 C# 的数值类型跨越引擎边界，不将 Transform、Animator、RaycastHit 传入共享核心。
+
+玩家等级、背包、任务、活动、商城属于跨局业务模块，后续通过结算结果与 GameLogic 衔接；当前重构不把尚未实现的业务伪装成空组件。新玩法组合现有组件并补充专属目标/计分/回合组件，不在通用角色、武器里硬编码玩法分支。
+
+#### 配置工作台
+
+在仓库根目录执行：
+
+```powershell
+dotnet run --project GTools/GameConfigEditor/GameConfigEditor.csproj
+```
+
+打开 `http://127.0.0.1:8094`，编辑武器参数、联机武器参数和训练/联机玩法组件及补给策略。工具不启动 Unity；保存时校验参数与重复 ID，并检测外部文件修改，保存公共源文件后导出到 `Assets/Resources/Config`。也可从 Unity 菜单 `OperationBlacktide > Configuration > Import Portable Config` 导入。运行中的配置不会热替换，请停止并重新进入玩法。已导入武器的 ID 保持稳定，新增武器还需要维护模型与动画资源映射。
+
+- `GConfig/Weapons.json` 是训练武器数值的编辑入口；`Assets/Art/Combat/weapon_data.json` 保留为美术导入原始数据。
+- `GConfig/BattleWeapon.json` 保留联机测试场原有的 30 发、90 备弹、25 伤害和 2.4 秒换弹配置，与训练武器平衡配置分开。
+- `Assets/Resources/Config` 是 Unity 导入副本，需要随构建提交；不要直接编辑生成副本。
+- 资源 ID 与 Unity 资源绑定分开。Unreal 接入时需先选定并验证 C# 运行时集成方案，再复用共享 C#，新增资源、物理、导航和表现适配；当前尚未实现或验证 Unreal 适配器。
+- Avatar/WeaponModel 的现有模型组件仍为 Unity 实现。引擎独立配置工具并不意味着材质、动画、物理行为已经实现跨引擎等价。
+
+#### 验证入口
+
+```powershell
+dotnet run --project Tests/Core/CoreValidation.csproj
+GTools/verify-gameplay-structure.ps1
+GTools/verify-lobby-loadout.ps1
+GTools/verify-firing.ps1
+dotnet build GTools/GameConfigEditor/GameConfigEditor.csproj
+node GTools/GameConfigEditor/verify.cjs
+```
+
+CoreValidation 不依赖 Unity，覆盖组件生命周期、配置校验、武器状态隔离与转移、重生时序、房间隔离、客户端权限和 AI 决策。Unity 回归验证原有预制体/场景绑定、移动瞄准、射击、投掷物、视野和大厅模型展示。联机变更还需重建战斗服并运行原有 BattleTests，避免使用旧产物验证新源码。
+
+### 通用战斗、3C 与模式边界
+
+角色、控制、相机和战斗组件位于 `Assets/Scripts/GClient/Runtime/Gameplay/`，供各玩法模式复用：
+
+| 目录 | 职责 |
+| --- | --- |
+| `Gameplay/Characters` | `CharacterMotor` 角色运动与瞄准、角色动画、上半身瞄准和脚步声 |
+| `Gameplay/Cameras` | `TopDownCameraController` 跟随、开镜、旋转，以及建筑遮挡处理 |
+| `Gameplay/Combat` | 武器、近战、投掷物、弹孔与特效、装备选择、`Damageable` 受伤对象和 `CharacterVitals` |
+| `Gameplay/Vision` | 角色视野、目标可见性和 URP 视野渲染 |
+| `Gameplay/UI` | 通用 `CombatHudPanel`、准星、命中反馈和 HUD 图形；通过 `ICombatHudContext` 获取模式状态 |
+| `GShare/Runtime/Combat` | 不依赖 Unity 的 `AmmoState` 弹药/换弹状态与 `FireControl` 射速状态，客户端与 .NET 服务端均可引用 |
+| `Features/Training` | 训练场组装、菜单、返回大厅、HUD 入口与训练靶生成/重生 |
+
+依赖方向是模式调用通用组件。射击、近战、投掷伤害和视野统一面向 `Damageable`，不依赖 `TrainingTarget`；玩家生命组件和训练靶分别实现它。
+`CharacterMotor` 提供重生与跌出地图事件，训练场负责恢复生命、重置装备和自动复生。无限备弹、无限投掷物与电击枪自动充能由训练场显式开启，普通组件默认使用有限补给；有限投掷物由模式通过 `ThrowableController.SetSupply` 发放。
+`WeaponSelection` 仅管理传入的装备集合；训练场传入全目录，其他模式应传入实际持有的装备。
+
+脚本迁移保留原 `.meta` GUID，Unity 类型使用 `MovedFrom` 记录旧名，训练 HUD 原预制体继续通过 `TrainingPanel` 使用通用基类。
+现有 `Resources/Training` 资源路径和资源构建菜单暂时保留，以兼容已制作的动画、音效和配置；它们不代表运行时代码归属。角色外观与装备目录仍复用现有 Loadout 资源。
+本地训练继续使用这些客户端组件。大厅中的“联机测试场”使用独立的服务端权威链路：`GSimulation` 的公共角色模拟与碰撞、`GBattleServer` 的房间/武器/伤害裁决、`Features/Battle` 的客户端预测与表现。联机客户端不上传位置、命中目标或伤害值。
+
+### 联机测试场与实时日志
+
+联机测试场已接入基础服务端人机：使用 AI Navigation 1.1.7 和 C# 状态机，实现巡逻寻路、视距/视角/墙体感知、三秒目标记忆、搜索、有限转身与反应延迟、点射、换弹、队友挡枪时侧移和三秒重生。导航基于同一份服务端碰撞体在构建时烘焙，运行时不要求地图网格可读。当前巡逻范围为测试出生区域，尚未包含爆破战术、声音/烟雾感知或投掷物。
+
+启动器默认 `BotCount=7`，首名真人进入后填入七个人机，按席位组成 4 CT / 4 T；真人继续进入时替换人机，退出时补位，最后一名真人离开后移除全部人机。该测试模式由服务器分配阵营，使用相同的单步枪规则并关闭友军伤害；HUD 显示阵营、真人和人机人数。用 `GTools/start-local-server.bat -BotCount 0` 可关闭人机，或指定 0–7 的数量。战斗服独立运行时通过 `--bots 7` 开启，缺省为 0，保持原有纯真人验证入口。
+
+本次战斗协议版本为 3，需同时更新客户端和战斗服。已有服务先停止，再运行 `GTools/start-local-server.bat -Rebuild -ArenaOnly`；独立客户端还需运行 `GTools/build-battle.ps1 -Target Client -ArenaOnly`。`-ArenaOnly` 仅生成联机测试场，独立于正在开发的爆破点位验证；完整模式构建仍使用原入口。
+
+`GTools/verify-battle-bots.ps1` 在独立副本验证导航、视线、记忆、友军枪线、移动/开火/重生、真人替换及清房。添加 `-Client -ServerExecutable <exe>` 可连接指定战斗服产物，验证真实 Unity 客户端中的双方角色模型、人数、枪线并保存截图。`dotnet run --project Tests/Integration/OperationBlacktide.BattleTests -c Release -- . --bots` 验证构建后的无窗口人机对战，省略 `--bots` 保持原有双客户端回归；支持 `--server <exe>` 和 `--account <dll>` 指定隔离产物。
+
+1. 关闭之前启动的旧账号服，双击 `GTools/start-local-server.bat`。它启动账号服 TCP 7777、战斗服 UDP 7778，并打开日志查看器。首次没有战斗服产物时会自动构建；改动服务端代码后用 `start-local-server.bat -Rebuild`。
+2. 在 Unity 或客户端登录，大厅选择“联机测试场”再进入 **沙 2（Dust II）**。使用两个不同账号测试；两名玩家出生在附近的同一条通道，左上角显示地图名和房间人数。WASD 移动、鼠标瞄准/左键射击、R 换弹、Shift 冲刺、Space 跳跃、Esc 返回。
+3. 日志工具可按服务、级别、玩家名/User ID、操作和内容筛选。暂停只暂停显示；仍会采集。支持自动滚动、查看详细 JSON 和导出筛选结果。
+4. 双击 `GTools/stop-local-server.bat` 停止这套启动器管理的服务器；日志保留。单独打开工具用 `GTools/run-log-viewer.bat`。
+
+日志位于 `Logs/Server/*.jsonl`，账号和战斗进程各写各的文件，每 10 MiB 滚动。战斗记录入房/离开、移动状态变化、跳跃请求、开火、换弹、命中、受伤、死亡、重生和非法输入；包含玩家、房间、实体、tick、输入序号。异步日志队列与查看器保留条数有上限；密码、会话令牌和入房票据不写入日志。历史日志不自动删除，可归档后清理。
+
+该版本是 P0–P2 的首个可运行纵向闭环：单房间最多 8 人、沙 2 地图、单步枪、有限弹药、60 Hz 权威模拟、20 Hz 快照、预测/校正、100 ms 远端插值和最多 200 ms 射线回滚。初始测试人数是 2 人，8 人仅为配置上限，尚未完成容量压测。账号服只向已登录连接签发 30 秒有效的一次性入房票据；签名密钥位于 `data/battle.key`，不要拷入 Assets 或客户端包。
+
+联机客户端和战斗服场景由同一份 `DustII.prefab` 生成；构建时比对碰撞体并校验全部出生点。战斗服保留地图碰撞，移除地图渲染组件，移动和命中仍由服务端裁决。启动及入房日志记录 `map=dust2-v1`；地图/协议更新后需同时重建客户端和战斗服，再重启服务器。
+
+目前两种服务都只监听回环地址，供同机开发测试。尚未迁移全部武器、近战、投掷物、完整模式或视野信息裁剪，也未实现公网加密通道及账号封禁/踢出到战斗服的实时撤销。联机测试场会同步房间内所有玩家的位置，因此还不能宣称防透视。本地训练不产生联机结算。
+
+当前环境使用 Mono Windows 无窗口战斗服（`-batchmode -nographics`）；没有安装 Dedicated Server 模块，未宣称已完成该目标的资源裁剪。安装模块后可用 `GTools/build-battle.ps1 -Target Dedicated`。普通客户端构建用 `-Target Client`；构建在 `.build-check` 副本中运行，产物放在 `Builds/`。无窗口版本仍包含 Resources 构建资源，后续需做体积与资源分离。
+
+验证命令：
+
+```powershell
+dotnet build GServer/OperationBlacktide.Server -c Release
+dotnet run --project Tests/Integration/OperationBlacktide.BattleTests -c Release -- .
+GTools/verify-battle-client.ps1
+GTools/verify-battle-player.ps1
+GTools/LogViewer/bin/Release/net8.0-windows/OperationBlacktide.LogViewer.exe --self-test
+```
+
+集成验证使用随机端口、临时账号/密钥和自建进程，不占用当前开发服务；诊断产物保存在 `.build-check/battle-*`。
+
+`verify-battle-player.ps1` 构建隔离的 Windows 测试客户端并启动两个进程，走真实登录、大厅按钮入场、连续开火、Esc 返回、再次入场和断线返回流程，同时检查大厅 UI 清理及开火材质是否被打包。测试驱动只在专用编译宏下启用，不进入正常客户端。
+
+后续权威化的边界、服务端路线、协议约束和阶段验收见 [服务端权威战斗迁移方案](spec/server-authority-plan.md)。该文档为规划，尚未实施。
+
+运行 `GTools/verify-gameplay-structure.ps1` 在独立 Unity 副本检查依赖边界、原场景/预制体/目录资源绑定、模式补给与重生规则，并执行俯视控制、投掷物和视野回归。
 
 ## 第一阶段：账户登录注册
 
@@ -313,7 +500,7 @@ NetworkConnected、NetworkDisconnected
 
 登录成功后由 `GameSceneFlow` 异步加载 `Assets/Scenes/LobbyScene.unity`，再打开 `LobbyPanel`。两个场景已加入 Build Settings，登录场景排在第一位。未登录时直接 Play 大厅场景，会自动返回登录场景。
 
-大厅是 3D 场景：中央展示所选角色和主武器，包含平台、地面、环境结构和灯光。拖动中央角色区域可旋转模型。顶部可切换大厅、装备、生涯页签；右下角选择爆破模式、团队竞技或训练场，再点击进入游戏。训练场已接入 DustII 本地练习；爆破和团队竞技的房间、匹配及联机对战业务尚未接入，进入按钮会提示当前模式暂未开放。
+大厅是 3D 场景：中央展示所选角色和主武器，包含平台、地面、环境结构和灯光。拖动中央角色区域可旋转模型。顶部可切换大厅、装备、生涯页签；右下角选择模式，再点击进入游戏。爆破模式已接入 5v5 匹配、自定义房间和可选的三十秒 AI 补齐；联机测试入口连接现有战斗测试场，训练场进入 DustII 本地练习。爆破部署与首版边界见 [spec/demolition-mode.md](spec/demolition-mode.md)。
 
 | 资源 | 位置 |
 |------|------|
@@ -322,7 +509,7 @@ NetworkConnected、NetworkDisconnected
 | CT 展示预制体 | `Assets/Art/Characters/CT_SAS/Prefabs/CT_SAS_Lobby.prefab` |
 | 大厅环境材质和后处理 | `Assets/Art/Lobby/` |
 | 大厅 UI 预制体 | `Assets/Resources/UI/Panels/LobbyPanel.prefab` |
-| 页签、模式和按钮逻辑 | `Assets/Scripts/GClient/Runtime/Features/Account/LobbyPanel.cs` |
+| 页签、模式和按钮逻辑 | `Assets/Scripts/GClient/Runtime/Features/Lobby/LobbyPanel.cs` |
 | 场景角色旋转 | `Assets/Scripts/GClient/Runtime/Features/Lobby/LobbyCharacterPreview.cs` |
 
 角色使用 `ArtSource/CS2Imports/CT_SAS/ctm_sas_m4a1_s.blend` 导出的持枪姿势；完整源模型与动画未改动。大厅资产导出脚本和材质转换说明见 `ArtSource/CS2Imports/CT_SAS/Lobby/README.txt`。
@@ -431,8 +618,8 @@ Windows 编辑器和 Windows 客户端会在登录成功后记住当前服务器
 - 采用经典 CS:GO 替换槽位：P2000 / USP-S、Five-SeveN / CZ75-Auto、Tec-9 / CZ75-Auto、Desert Eagle / R8、M4A4 / M4A1-S、MP7 / MP5-SD。其余武器保持各阵营的固定槽位；C4 为 T 方任务装备。
 - 10 个角色共用标准化骨架和 26 组 idle / 检视动作；双持贝瑞塔分别挂在左右手，防弹衣、头盔和拆弹器使用独立模型预览。可拖动中央模型旋转。
 - 配置由 `LobbyLoadoutStore` 按账号 ID 存入本机 PlayerPrefs（`OperationBlacktide.Loadout.v1.{userId}`），CT / T 分别保存；首次读取会兼容旧存档键和 Windows 上旧产品 Test 的存档位置；仅预览不修改装备。无效或旧版本配置会回退到有效默认值。
-- 当前实现大厅配置和展示；房间、购买、战斗仍待接入。业务层可通过 `Snapshot(LobbyTeam)` 获取独立配置副本，未来由服务器校验装备，不应直接信任客户端存档。
-- Unity 目录：`Assets/Art/Loadout`、`Assets/Resources/Loadout/LobbyCatalog.asset`、`Assets/Scripts/GClient/Runtime/Features/Lobby`。Blender 导出脚本为 `ArtSource/CS2Imports/Scripts/export_lobby_loadout.py`；导出完成后可运行菜单 `OperationBlacktide > Lobby > Build Character and Equipment Selection` 重建资源、预制体和界面。
+- 大厅装备存档通过 `Snapshot(EquipmentTeam)` 提供独立配置副本，训练与战斗表现共用 `EquipmentCatalog`。服务器仍需按玩法规则校验装备，不能直接信任客户端存档。
+- Unity 目录：`Assets/Art/Loadout`、`Assets/Resources/Loadout/EquipmentCatalog.asset`、`Assets/Scripts/GClient/Runtime/Features/Lobby`。Blender 导出脚本为 `ArtSource/CS2Imports/Scripts/export_lobby_loadout.py`；导出完成后可运行菜单 `OperationBlacktide > Lobby > Build Character and Equipment Selection` 重建资源、预制体和界面。
 - 回归入口：`GTools/verify-lobby-loadout.ps1`，在独立副本中启动真实大厅、遍历角色/装备、检查动画与存档并输出截图。需要本机相同版本 Unity 和图形设备。
 
 ### P0 - 工程骨架
@@ -473,9 +660,17 @@ Windows 编辑器和 Windows 客户端会在登录成功后记住当前服务器
 - [ ] 按时间戳回滚命中判定。
 - [ ] 伤害、死亡、重生流程。
 
-训练场相机平滑跟随角色的位置和朝向；W/S 沿角色朝向前进、后退，A/D 左右横移。
+训练场相机平滑跟随角色的位置和水平朝向；W/S 沿角色朝向前进、后退，A/D 左右横移。
 按住鼠标中键拖动可调整镜头相对角色的水平偏角和俯仰，松开保留；滚轮调整距离。
-遮挡角色的建筑整体半透明，镜头保持缩放距离。鼠标移动调整瞄准，镜头跟转不会自行改变角色的瞄准方向。
+遮挡角色的建筑、高架地面和上层平台整体半透明，镜头保持缩放距离；脚下未遮挡角色的地面保持不透明。鼠标移动调整瞄准，镜头跟转不会自行改变角色的瞄准方向。
+水平转向使用角色所在高度的参考平面，枪口瞄准与射击使用实际三维命中点；准星扫过墙面或高处物体不会改变镜头角度。
+持枪按住右键（包括狙击开镜）时，镜头暂时保持水平角度，准星进入屏幕外侧 10% 后持续向对应方向平移，越靠边越快，最多每秒 14 米，不受角色跟随半径限制。
+准星移回中央区域后视角停在当前观察位置；松开右键、退出开镜或输入中断后平滑回到角色视角，恢复水平朝向跟随。中键拖动期间暂停边缘平移。
+按 **P** 在俯视与第一人称之间切换。第一人称锁定鼠标、准星居中，鼠标水平转动角色和视线，垂直只调整视线；WASD 仍相对角色水平朝向移动。
+第一人称关闭俯视遮挡淡化、视野遮罩和激光，右键狙击开镜使用中心放大；菜单、失焦时释放鼠标，返回俯视时恢复原有中键角度和滚轮距离。
+手模使用本地 CS 的 SAS 袖子和手套，持枪、拔枪、开火、换弹、刀与投掷物动作来自 `animation/anims/viewmodel`，手臂和枪械骨骼烘焙在同一时间轴；M4A1-S/USP-S 使用各自动画图引用的 `_default_rifle`/`_default_pistol`。
+`ArtSource/CS2Imports/Scripts/export_first_person.py` 导出模型和动作（Blender 后台执行，参数分隔符 `--`，可加 `--only weapon_rif_ak47`）；Unity 菜单 `OperationBlacktide/Camera/Build First Person Assets` 生成 `Gameplay/FirstPerson` 资源目录。
+`GTools/verify-first-person.ps1` 检查切换恢复、俯仰与水平控制、准星命中、动作时钟与网络表现，并输出第一人称持枪/换弹截图。第一人称专用相机使用第 31 层，仅绘制手模，避免贴墙时枪身被场景截断。
 运行 `GTools/verify-training.ps1 -UseExistingAssets` 可直接验证已保存场景中的角色运动及返回大厅流程；
 测试通过 UI 射线点击确认和继续按钮，并检查遮罩阻止点击穿透、保留账号会话和重复进入训练场。
 
@@ -496,18 +691,38 @@ UI 按钮、返回确认框、失焦与暂停会阻止开火，关闭弹窗后�
 当前统一使用水泥弹孔外观。新贴图原始导出保存在 `ArtSource/CS2Imports/CombatFX/BulletDecals`。
 为方便俯视观察，曳光宽度由 0.024 米调至 0.12 米、长度由 1.5 米调至 3.5 米，
 亮度 3.5 倍，视觉速度 150 米/秒，末端淡出 0.12 秒；枪口火光和命中火花同步增强。
-命中仍为即时射线，视觉参数可在 `TrainingWeaponEffects` 的 `Shot visibility` 中调整，瞄准激光参数独立。
+命中仍为即时射线，视觉参数可在 `WeaponEffects` 的 `Shot visibility` 中调整，瞄准激光参数独立。
 
-开火入口为 `TrainingWeaponController.ProcessTrigger` / `FireBullet`，射速状态机为 `TrainingFireControl.Tick`。
-`ShotFired` 事件提供命中、位置和距离衰减后的基础伤害，尚未应用生命值、护甲、穿透、CS2 后坐力/散布或网络回滚。
-`TrainingVitals` 提供本地生命值、护甲、伤害接口与训练重生；当前场景尚无敌人或伤害来源，射线伤害尚未接入目标。
+开火入口为 `WeaponController.ProcessTrigger` / `FireBullet`，射速状态机为 `FireControl.Tick`。
+`ShotFired` 事件提供命中、位置和距离衰减后的基础伤害，`TargetHit` 提供实际扣除的伤害。尚未接入穿透、完整 CS2 后坐力/散布或网络回滚。
+`CharacterVitals` 提供本地生命值、护甲和伤害接口；射击、近战、爆炸和燃烧通过 `Damageable` 结算伤害，训练场负责玩家和靶子的复生。
+
+枪弹命中已接入按部位和材质选音：裸头、身体、护甲和头盔使用独立音效组；训练靶的头部和身体碰撞体通过
+`HitRegion` 显式标记，`Shot.impactKind` 在扣血前记录，致死或打空护甲的这一枪仍保留正确声音。
+本次仅增加声音反馈，不改变原有伤害倍率；普通 `Damageable` 默认无护甲，`CharacterVitals` 根据剩余护甲和
+`wearsHelmet` 区分防弹衣与头盔，四肢音色按肉体处理。
+
+环境支持混凝土、金属、金属网/桶、木材/木板、玻璃、瓷砖、泥土、沙地、草地、塑料、纸板、橡胶、布和水。
+Dust II 的 713 个导入材质条目对应 275 个原始 VMAT，映射取自本机 CS2 的 `PhysicsSurfaceProperties`，
+保存在 `Assets/Resources/Combat/ImpactAudio/surfaces.json`；按射线实际命中的三角形选择子材质，相机淡化后的材质也保留分类。
+新增或只有碰撞体的道具可挂 `ImpactSurface` 手工选材质；未配置/未知材质使用默认命中声。
+命中角色不再放置混凝土弹孔。环境音在命中点空间播放，头部和身体音作为本地射手反馈；同类连续命中随机换样本，
+霰弹同一目标/材质去重，一发最多 4 声并为身体/头部预留名额，24 个声源循环复用。
+菜单、暂停、失焦、角色禁用/重生和场景退出会停止或清理命中声。枪弹与脚步共用材质映射，近战仍使用原有声音逻辑。
+
+92 条 WAV（21 组、约 6.8 MB）复用已经校验过的本机 CS2 `CombatAudio` 导出；不是旧版 CS:GO 专用资源包。
+素材事件、原始路径和 SHA-256 见 `Assets/Art/Combat/impact_audio_sources.json`，
+运行 `ArtSource/CS2Imports/Scripts/prepare_impact_audio.py --materials` 可从本地源重建音效与地图材质映射。
+`GTools/verify-impact-audio.ps1` 在独立 Unity 副本验证音频可解码、真实射击、致死爆头、护甲耗尽、头盔、
+多材质网格、重复样本、霰弹去重，以及暂停/禁用/退出时的清理。
+
 武器参数来源于本机 CS2 `scripts/weapons.vdata_c` 的导出数据，原文保存在
 `ArtSource/CS2Imports/CombatFX/Metadata/Weapons/scripts/weapons.vdata`，精简配置在 `Assets/Art/Combat/weapon_data.json`。
 AK / M4A1-S 间隔 0.10 秒，M4A4 为 0.09 秒；距离按已有导出比例 0.0254 转换为米。
 特效复用 CombatFX 导出的贴图与 AK 弹壳网格，三把步枪暂共用该弹壳外观；粒子行为由 Unity 重建。
 这些是 Unity 实现和导出参数，不是 CS2 原生开火函数或完整的 CS2 弹道复刻。
 
-资源已保存在 `Assets/Resources/Training/TrainingWeapons.asset`；菜单
+资源已保存在 `Assets/Resources/Gameplay/Weapons.asset`；菜单
 `OperationBlacktide > Training > Build Weapon Effects` 可根据导入素材重新生成材质、枪口位置和资源配置。
 运行 `GTools/verify-firing.ps1` 可在独立项目副本中检查不同帧率射速、UI 阻断、10 个角色的三种枪口位置、
 地面/高处瞄准、枪口与准星之间的遮挡、空处射程、枪声/特效和场景清理，并生成 `training-firing.png`。
@@ -529,8 +744,8 @@ Esc 或右上按钮打开居中的训练菜单，包含“继续训练、切换�
 `GTools/verify-hud.ps1` 在独立副本中验证弹药、换弹、血量、菜单输入和重复入场，并生成 16:9、4:3、超宽屏与各状态截图。
 
 开枪和换弹使用 AK-47 / M4A4 / M4A1-S 各自导出的第三人称动作，共 6 个片段。
-`TrainingWeaponPresentation` 在移动动画上叠加上半身动作：每次实际 `AttackStarted` 触发一次攻击动作，
-换弹动作按 `TrainingAmmoState.ReloadProgress` 采样，与 HUD 进度和补满弹匣使用同一个时间源。
+`WeaponPresentation` 在移动动画上叠加上半身动作：每次实际 `AttackStarted` 触发一次攻击动作，
+换弹动作按 `AmmoState.ReloadProgress` 采样，与 HUD 进度和补满弹匣使用同一个时间源。
 下半身保持行走、疾跑和跳跃；菜单、失焦与暂停时动作/换弹声音暂停，重生和退出场景时清理。
 换弹分别播放拔弹匣、插弹匣、拉枪栓/枪机复位音效，9 个 WAV 从现有 CombatAudio 导出素材原样复制。
 原第三人称片段没有导出声音事件时间，触发点按动作阶段配置在 `BuildTrainingWeaponActions.Bind`，不是 CS2 原始事件时间。
@@ -542,12 +757,25 @@ Esc 或右上按钮打开居中的训练菜单，包含“继续训练、切换�
 `GTools/verify-weapon-actions.ps1` 验证 10 个角色的动作绑定、35 把枪的目录覆盖及实际开火/换弹、两种匕首攻击、分段音效、
 换弹禁射、暂停/恢复、重复换弹、禁用/启用、重生清理以及移动时的下半身姿态，并生成开火/换弹截图。
 
-训练场脚步由 `TrainingFootstepAudio` 根据实际地面位移触发，疾跑加快节奏并提高音量，
+训练场脚步由 `FootstepAudio` 根据实际地面位移触发，疾跑加快节奏并提高音量，
 侧移和后退同样生效；静止、顶墙、腾空、弹窗、失焦和暂停时不产生新脚步，落地单独播放一次。
 复生会重置步伐与落地状态，离开场景销毁独立脚步声源，不影响武器声源。
-当前使用 `CombatAudio/WAV/sounds/player` 中已导出的 17 条水泥地脚步和 4 条落地音效，
-原样复制到 `Assets/Resources/Training/Audio`；连续脚步不会重复同一样本，暂未按地表切换音色。
-运行 `GTools/verify-footsteps.ps1` 在独立 Unity 副本中验证移动节奏、碰撞、跳跃/落地、输入阻断和场景清理。
+每次脚步和落地接触都探测角色脚下的真实支撑面：短射线保留三角形索引，复用 `ImpactSurfaceResolver` 的
+原始地图材质映射，支持混凝土、木材/木板、金属、金属网、金属桶、玻璃、瓷砖、泥土、沙地、草地、塑料、纸板、橡胶、布和水。
+连续行走跨过材质边界时，下一次脚步立即换音色；角色中心悬在箱沿时会补查胶囊底部四个方向，排除自身和普通触发器。
+沙二运输木箱的 `Wood_Panel`、水果木箱的 `Wood` 已映射到木头脚步，箱顶布料按实际命中表面使用布类声音。
+
+浅水可使用标记为 `ImpactSurface.Kind = Water` 的 BoxCollider 触发体覆盖水域，并保留下方实体地面。
+只有脚下支撑面上方 4 厘米处位于水体内时才使用踩水/落水声音；站在水面上方的箱子或桥上仍使用其自身材质，
+静止及腾空不会因为进入水域而产生脚步。实体碰撞面的 Water 标签也支持；未配置/未知地面回退到混凝土。
+
+15 组材质共用 222 条本机 CS2 原始采样，包含各材质落地事件：保留已有 21 条混凝土/默认落地资源，新增 201 条 WAV，
+单个素材只保存一次，资源配置见 `Assets/Resources/Combat/FootstepAudio/banks.json`。
+每组脚步和落地分别避免连续重复样本，木材与木板共享随机记录；运行时不在每一步重新加载音频。
+来源事件、原始资源和 SHA-256 见 `Assets/Art/Combat/footstep_audio_sources.json`；
+`ArtSource/CS2Imports/Scripts/prepare_footstep_audio.py` 可从现有校验过的 CombatAudio 导出重建素材。
+运行 `GTools/verify-footsteps.ps1` 在独立 Unity 副本中验证材质脚步/落地、连续跨材质、水域与水上木箱、
+沙二真实木箱，以及移动节奏、碰撞、跳跃、输入阻断和场景清理。
 
 ### 训练投掷物
 
@@ -566,7 +794,7 @@ Unity 菜单 `OperationBlacktide > Training > Build Throwables` 重建资源配�
 
 投掷动作使用 CS 的 7 个第三人称片段：普通投掷物与燃烧瓶各自的取出、持握、拔销／点燃，以及共用的挥臂投掷。
 `export_training_throwable_actions.py` 将动作烘焙到共享骨架，`Build Throwable Actions` 提取上半身旋转曲线；
-`TrainingThrowablePresentation` 在移动姿态之后采样这些曲线，保留下半身移动、跳跃和不同角色的骨骼长度。
+`ThrowablePresentation` 在移动姿态之后采样这些曲线，保留下半身移动、跳跃和不同角色的骨骼长度。
 按住时停在准备动作末帧，快速点按也会先播完准备；弹体、手持模型隐藏和投掷声音在配置的出手帧同步触发。
 出手点取动画中的手部装备中心，并保留近墙碰撞检查；预览弹道也使用该出手姿势。出手时点为本项目按片段设定，非原 CS 音效事件导出。
 投掷验证同时检查 10 个角色的动画绑定、5 种投掷模型的阶段切换、手部出手位置、下半身保留、长帧、取消和切枪清理，并输出动作截图。
@@ -579,15 +807,19 @@ Unity 菜单 `OperationBlacktide > Training > Build Throwables` 重建资源配�
 视野外环境压暗、保留地图轮廓；不可见的训练靶、目标高亮、血条和伤害数字隐藏。碰撞和伤害结算继续保留。
 建筑因挡住相机而半透明时，仍阻挡角色视线；相机遮挡处理不会提供穿墙视野。
 
-`TrainingVision` 在训练相机上运行，可调整角度、距离、周边感知半径、暗度和软边。
+`CharacterVision` 在训练相机上运行，可调整角度、距离、周边感知半径、暗度和软边。
 环境明暗使用眼部高度的 720 条水平射线与场景深度重建，每 0.05 秒更新遮挡；目标显示使用实时三维视线，检查头、胸、腿。
 这是一套本地训练视野表现，环境遮罩不是任意高度的完整三维可见体积，也尚未用于服务器信息裁剪。
-URP 的三个画质档均安装 `TrainingVisionRendererFeature`，只作用于绑定角色的训练相机，HUD 与大厅不受影响。
+URP 的三个画质档均安装 `CharacterVisionRendererFeature`，只作用于绑定角色的训练相机，HUD 与大厅不受影响。
 菜单 `OperationBlacktide > Training > Build Vision` 可重建渲染接入；`GTools/verify-vision.ps1` 验证规则、画面、目标提示及 Dust II 实景。
 
 ### P5 - 爆破模式
-- [ ] 回合状态机。
-- [ ] 阵营与出生点。
-- [ ] 安装炸弹。
-- [ ] 拆除炸弹。
-- [ ] 胜负结算和比分同步。
+- [x] 5v5 回合状态机、13 分获胜、12 回合换边与 12:12 平局。
+- [x] 双方出生点、A/B 爆破点和导航通路验证。
+- [x] 安装、拆除、掉落、拾取炸弹；下包后进攻方全灭继续。
+- [x] 基础经济、购买、死亡等待下一回合、服务端比分与胜负同步。
+- [x] 1–5 人完整组队匹配；显式开启 AI 后等待 30 秒补足 10 人。
+- [x] 公开/私密房间、密码、邀请号、选边准备、房主转让和开局权限。
+- [x] 每局独立战斗服、固定名单、断线重连和对局后返回队伍/房间。
+
+大厅「爆破模式 → 进入游戏」打开匹配和开房面板。先构建账号服及 `GTools/build-battle.ps1 -Target Demolition`，独立客户端构建使用 `-Target Client`。详细架构、规则、启动命令、验证与当前首版边界见 [spec/demolition-mode.md](spec/demolition-mode.md)。

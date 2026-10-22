@@ -1,0 +1,12 @@
+{
+  "FreezeSeconds": 15,
+  "RoundSeconds": 115,
+  "BombSeconds": 40,
+  "PlantSeconds": 3,
+  "DefuseSeconds": 10,
+  "KitSeconds": 5,
+  "ResultSeconds": 5,
+  "HalfRounds": 12,
+  "StartingMoney": 800,
+  "MaxMoney": 16000
+}

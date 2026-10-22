@@ -1,0 +1,56 @@
+{
+  "id": "weapon_rif_sg556",
+  "clips": [
+    {
+      "name": "idle",
+      "first": 1,
+      "last": 2,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_sg556/idle_sg556.gltf"
+    },
+    {
+      "name": "draw",
+      "first": 3,
+      "last": 33,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_sg556/draw_sg556.gltf"
+    },
+    {
+      "name": "fire",
+      "first": 34,
+      "last": 55,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_sg556/shoot1_sg556.gltf"
+    },
+    {
+      "name": "reload",
+      "first": 56,
+      "last": 139,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_sg556/reload_sg556.gltf"
+    }
+  ],
+  "materials": [
+    {
+      "name": "sleeve_ctm_sas",
+      "color": "11fb55833453a22a324d.png",
+      "normal": "fd7d88acbc9ee89e125e.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "Assets/Art/Loadout/Textures/67a4229a913ad1b16146.png",
+      "normal": "Assets/Art/Loadout/Textures/2454904008e64d88948a.png"
+    },
+    {
+      "name": "shared_scope_lens",
+      "color": "",
+      "normal": "Assets/Art/Loadout/Textures/fc143bde6d1887c72433.png"
+    },
+    {
+      "name": "weapon_rif_sg556",
+      "color": "Assets/Art/Loadout/Textures/6aaf518a6e663ecb906f.png",
+      "normal": "Assets/Art/Loadout/Textures/700af7e9aeee4524fd31.png"
+    },
+    {
+      "name": "bare_arm_133",
+      "color": "Assets/Art/Loadout/Textures/223f08d305e59e4ad46c.png",
+      "normal": "Assets/Art/Loadout/Textures/10dd463dff0288eac575.png"
+    }
+  ]
+}

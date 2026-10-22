@@ -47,7 +47,7 @@ Prefabs/DustII.prefab（保留 .meta），不覆盖当前训练场场景或其�
 疾跑、墙体碰撞、跳跃与重力、鼠标朝向、确认弹窗、返回大厅及再次进入。
 
 移动动画资源：Assets/Art/Training/RifleLocomotion.fbx（21 个运动片段及 1 个战斗待机姿势，复用本地已导出的 CS2 动作）。
-动画控制器：Assets/Resources/Training/TrainingLocomotion.controller。
+动画控制器：Assets/Resources/Gameplay/Locomotion.controller。
 重建动画：Blender 后台执行 ArtSource/CS2Imports/Scripts/export_training_locomotion.py，
 传入 --output Assets/Art/Training，再执行 Unity 菜单
 OperationBlacktide/Training/Build Character Animations。

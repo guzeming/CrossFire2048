@@ -1,0 +1,51 @@
+{
+  "id": "weapon_pist_cz75a",
+  "clips": [
+    {
+      "name": "idle",
+      "first": 1,
+      "last": 2,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/pistol/pistol_cz75a/idle_cz75a.gltf"
+    },
+    {
+      "name": "draw",
+      "first": 3,
+      "last": 58,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/pistol/pistol_cz75a/draw_cz75a.gltf"
+    },
+    {
+      "name": "fire",
+      "first": 59,
+      "last": 71,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/pistol/pistol_cz75a/shoot1_cz75a.gltf"
+    },
+    {
+      "name": "reload",
+      "first": 72,
+      "last": 154,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/pistol/pistol_cz75a/reload_cz75a.gltf"
+    }
+  ],
+  "materials": [
+    {
+      "name": "weapon_pist_cz75a",
+      "color": "Assets/Art/Loadout/Textures/6516888384c6ae19b243.png",
+      "normal": "Assets/Art/Loadout/Textures/79b8785d1fdfba9823e7.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "Assets/Art/Loadout/Textures/67a4229a913ad1b16146.png",
+      "normal": "Assets/Art/Loadout/Textures/2454904008e64d88948a.png"
+    },
+    {
+      "name": "sleeve_ctm_sas",
+      "color": "11fb55833453a22a324d.png",
+      "normal": "fd7d88acbc9ee89e125e.png"
+    },
+    {
+      "name": "bare_arm_133",
+      "color": "Assets/Art/Loadout/Textures/223f08d305e59e4ad46c.png",
+      "normal": "Assets/Art/Loadout/Textures/10dd463dff0288eac575.png"
+    }
+  ]
+}

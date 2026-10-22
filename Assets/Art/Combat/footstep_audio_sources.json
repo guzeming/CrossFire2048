@@ -1,0 +1,2114 @@
+{
+  "source": "Local Counter-Strike 2; verified CombatAudio export",
+  "conversion": "WAV copied unchanged; concrete/landing assets reused",
+  "groups": 15,
+  "uniqueClips": 222,
+  "sounds": [
+    {
+      "kind": "Concrete",
+      "contact": "steps",
+      "event": "CT_Concrete.StepLeft",
+      "sourceResource": "sounds/player/footsteps/concrete_ct_01.vsnd_c",
+      "sourceCrc32": "e21799e6",
+      "sha256": "7306790ee20b0ac39e2d4a7260aa207e470de4187abce856436951662969faa7",
+      "asset": "Assets/Resources/Training/Audio/Footsteps/concrete_ct_01.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "steps",
+      "event": "CT_Concrete.StepLeft",
+      "sourceResource": "sounds/player/footsteps/concrete_ct_02.vsnd_c",
+      "sourceCrc32": "ace46f64",
+      "sha256": "f7c8fdccf73bf771700a4ffad00aafb380449c3a404afa6b047bd6783734c2a8",
+      "asset": "Assets/Resources/Training/Audio/Footsteps/concrete_ct_02.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "steps",
+      "event": "CT_Concrete.StepLeft",
+      "sourceResource": "sounds/player/footsteps/concrete_ct_03.vsnd_c",
+      "sourceCrc32": "fcd09156",
+      "sha256": "ef6ed9433403938a9f8a4870625b7983f41a9637205607ceb3b56798103c00ad",
+      "asset": "Assets/Resources/Training/Audio/Footsteps/concrete_ct_03.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "steps",
+      "event": "CT_Concrete.StepLeft",
+      "sourceResource": "sounds/player/footsteps/concrete_ct_04.vsnd_c",
+      "sourceCrc32": "279c1b33",
+      "sha256": "fa40222462016a7ccff63477cd480b225b3cbc25a44b485712d90cb71d7bb655",
+      "asset": "Assets/Resources/Training/Audio/Footsteps/concrete_ct_04.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "steps",
+      "event": "CT_Concrete.StepLeft",
+      "sourceResource": "sounds/player/footsteps/concrete_ct_05.vsnd_c",
+      "sourceCrc32": "44cfcfad",
+      "sha256": "d05a3892fe67fec3c4b67d669765550c388f891c5aa06a918bc88b73a8316ff5",
+      "asset": "Assets/Resources/Training/Audio/Footsteps/concrete_ct_05.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "steps",
+      "event": "CT_Concrete.StepLeft",
+      "sourceResource": "sounds/player/footsteps/concrete_ct_06.vsnd_c",
+      "sourceCrc32": "8347e7a7",
+      "sha256": "bb01942695dbd354aed8e261f4282ab310be312f486943605ac96e9bfb7929d3",
+      "asset": "Assets/Resources/Training/Audio/Footsteps/concrete_ct_06.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "steps",
+      "event": "CT_Concrete.StepLeft",
+      "sourceResource": "sounds/player/footsteps/concrete_ct_07.vsnd_c",
+      "sourceCrc32": "0eeeca87",
+      "sha256": "7ace0b62546540af182c21d0fb765081883224616c7728ef6ca9b53075f7e165",
+      "asset": "Assets/Resources/Training/Audio/Footsteps/concrete_ct_07.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "steps",
+      "event": "CT_Concrete.StepLeft",
+      "sourceResource": "sounds/player/footsteps/concrete_ct_08.vsnd_c",
+      "sourceCrc32": "879e39ed",
+      "sha256": "df1420fc56cc21848b2798ddb2c9cace8e2a65835e1340f07729c040bd818c84",
+      "asset": "Assets/Resources/Training/Audio/Footsteps/concrete_ct_08.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "steps",
+      "event": "CT_Concrete.StepLeft",
+      "sourceResource": "sounds/player/footsteps/concrete_ct_09.vsnd_c",
+      "sourceCrc32": "8ff9d8f5",
+      "sha256": "cc844094e473f9012937cde0750a72807da82aecdf004269d5be53dd438f61f6",
+      "asset": "Assets/Resources/Training/Audio/Footsteps/concrete_ct_09.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "steps",
+      "event": "CT_Concrete.StepLeft",
+      "sourceResource": "sounds/player/footsteps/concrete_ct_10.vsnd_c",
+      "sourceCrc32": "baa11f39",
+      "sha256": "b6cec0133f2b52ea4280f8d1a785a5cdcd0336b9123dc9986bf178b8fed51fb6",
+      "asset": "Assets/Resources/Training/Audio/Footsteps/concrete_ct_10.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "steps",
+      "event": "CT_Concrete.StepLeft",
+      "sourceResource": "sounds/player/footsteps/concrete_ct_11.vsnd_c",
+      "sourceCrc32": "5ac3b133",
+      "sha256": "990295fbefaf6340abb005f8ea5fd24520c175b6f23b80b8678c2e56e98ff074",
+      "asset": "Assets/Resources/Training/Audio/Footsteps/concrete_ct_11.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "steps",
+      "event": "CT_Concrete.StepLeft",
+      "sourceResource": "sounds/player/footsteps/concrete_ct_12.vsnd_c",
+      "sourceCrc32": "61ecd065",
+      "sha256": "963e3e2dc100ea36f0b919fdf015bd55acd1c821433c06f9449e5ebf625fef2c",
+      "asset": "Assets/Resources/Training/Audio/Footsteps/concrete_ct_12.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "steps",
+      "event": "CT_Concrete.StepLeft",
+      "sourceResource": "sounds/player/footsteps/concrete_ct_13.vsnd_c",
+      "sourceCrc32": "b2377d92",
+      "sha256": "413d185ddf6a0935a46ae8aafc5d7be70a1691d213fb0dcd138082d1f79b1d5e",
+      "asset": "Assets/Resources/Training/Audio/Footsteps/concrete_ct_13.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "steps",
+      "event": "CT_Concrete.StepLeft",
+      "sourceResource": "sounds/player/footsteps/concrete_ct_14.vsnd_c",
+      "sourceCrc32": "ea2166c3",
+      "sha256": "4a6cfcc26054911fa4ac5aa03d9cace8983c787a1608defd5cd993e874a62a9f",
+      "asset": "Assets/Resources/Training/Audio/Footsteps/concrete_ct_14.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "steps",
+      "event": "CT_Concrete.StepLeft",
+      "sourceResource": "sounds/player/footsteps/concrete_ct_15.vsnd_c",
+      "sourceCrc32": "3868cd0f",
+      "sha256": "ff7511f41fc46663956258bd5319e5b46b1b4e658581455325f948faa9db2579",
+      "asset": "Assets/Resources/Training/Audio/Footsteps/concrete_ct_15.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "steps",
+      "event": "CT_Concrete.StepLeft",
+      "sourceResource": "sounds/player/footsteps/concrete_ct_16.vsnd_c",
+      "sourceCrc32": "d5517dc0",
+      "sha256": "386fa3128721019152d61ac24cb38c54bee989b6fcaa8bb9090241e7da4fd161",
+      "asset": "Assets/Resources/Training/Audio/Footsteps/concrete_ct_16.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "steps",
+      "event": "CT_Concrete.StepLeft",
+      "sourceResource": "sounds/player/footsteps/concrete_ct_17.vsnd_c",
+      "sourceCrc32": "dd0b3ca3",
+      "sha256": "be1763672c1eb26c4c5e5f9d7247a7aae0803b19c022c7c8a1777f0fa75cf175",
+      "asset": "Assets/Resources/Training/Audio/Footsteps/concrete_ct_17.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "landings",
+      "event": "Land_Default.StepLeft",
+      "sourceResource": "sounds/player/land.vsnd_c",
+      "sourceCrc32": "38df2dae",
+      "sha256": "b62b67195486d4650be574628738a60d74a4cdfe1a0f739cc60807bc10231bd9",
+      "asset": "Assets/Resources/Training/Audio/Landings/land.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "landings",
+      "event": "Land_Default.StepLeft",
+      "sourceResource": "sounds/player/land2.vsnd_c",
+      "sourceCrc32": "79147e1d",
+      "sha256": "7fed3093b81121f7e6c81ce7dd7c953ba9607fa61e38189de654b44573d918ad",
+      "asset": "Assets/Resources/Training/Audio/Landings/land2.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "landings",
+      "event": "Land_Default.StepLeft",
+      "sourceResource": "sounds/player/land3.vsnd_c",
+      "sourceCrc32": "6c0c8221",
+      "sha256": "e33b9e732237ffaa5ae698b84f8c2f898dd13af731466186ab039cefa1b8df9b",
+      "asset": "Assets/Resources/Training/Audio/Landings/land3.wav"
+    },
+    {
+      "kind": "Concrete",
+      "contact": "landings",
+      "event": "Land_Default.StepLeft",
+      "sourceResource": "sounds/player/land4.vsnd_c",
+      "sourceCrc32": "ec366de3",
+      "sha256": "9199261a3a5f47cfe9371a0037e9ffcdee1bec5f28faa083c6d8dea22e6d66a5",
+      "asset": "Assets/Resources/Training/Audio/Landings/land4.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "steps",
+      "event": "CT_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_01.vsnd_c",
+      "sourceCrc32": "771a8acd",
+      "sha256": "4cbcfaff372f81580ff66db58463dfb1fc5d943600984bf9988162e8b4738233",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_01.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "steps",
+      "event": "CT_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_02.vsnd_c",
+      "sourceCrc32": "9b0197bf",
+      "sha256": "ade737f80d306f2a7ca88d8e4f429c6af0466298a7e620274b51920da7d2ebeb",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_02.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "steps",
+      "event": "CT_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_03.vsnd_c",
+      "sourceCrc32": "6e71f234",
+      "sha256": "15e518e6104b5b11a3332930f77d51b4ddc4f2ec3040868dadae8d1357e2387d",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_03.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "steps",
+      "event": "CT_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_04.vsnd_c",
+      "sourceCrc32": "0c6ec654",
+      "sha256": "d071e3a751c1c44dafa94a4db20c7d093c0460a64c10c5b81e4686bead465d1e",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_04.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "steps",
+      "event": "CT_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_05.vsnd_c",
+      "sourceCrc32": "de7304a1",
+      "sha256": "7c331d627307b07dd26e2aa73ce4041dc5c5e43b6ddd50dbd85b47fe192c73b3",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_05.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "steps",
+      "event": "CT_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_06.vsnd_c",
+      "sourceCrc32": "88869dce",
+      "sha256": "c518b4553021e9a4f5ab4e8dde263dc586f0d3bcd8a9fa932fdde1fe5966e61b",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_06.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "steps",
+      "event": "CT_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_07.vsnd_c",
+      "sourceCrc32": "071f9559",
+      "sha256": "8895fcb437b45a16e410f2b7aeef97e0bfd89e2ebcc4638e20d914b4b6845fd6",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_07.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "steps",
+      "event": "CT_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_08.vsnd_c",
+      "sourceCrc32": "139fce8d",
+      "sha256": "820c4f94e1168d518952fb527415d50e0dfac9c4c07a2cd945a05f0ca3bb25b5",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_08.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "steps",
+      "event": "CT_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_09.vsnd_c",
+      "sourceCrc32": "4c5cbc74",
+      "sha256": "571f420c70bd60f08c017314744b569f82b12ebaea303801b1b0554d4f020bcf",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_09.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "steps",
+      "event": "CT_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_10.vsnd_c",
+      "sourceCrc32": "be1fc7ef",
+      "sha256": "65214703b6d094523d8f30bd7d956108f8ed8b0e7a56fba0cc5158dc1c3648dc",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_10.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "steps",
+      "event": "CT_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_11.vsnd_c",
+      "sourceCrc32": "942a6f4d",
+      "sha256": "94e1510c8cb65fa1ae5e8b1b0004a572398f1bb7e4d29f144b7392b796f8b4dc",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_11.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "steps",
+      "event": "CT_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_12.vsnd_c",
+      "sourceCrc32": "bbb18a80",
+      "sha256": "fec2d17d42ee9593a6bb8065422709cd78a4c001247b30dbf0c33ce5d45fedbe",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_12.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "steps",
+      "event": "CT_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_13.vsnd_c",
+      "sourceCrc32": "e6864825",
+      "sha256": "dd1351e9a66b9c808d14ccf09d3327df54f60ff8cd56deffbbda03668ee0d2f4",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_13.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "steps",
+      "event": "CT_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_14.vsnd_c",
+      "sourceCrc32": "7c47d116",
+      "sha256": "1eb42820f8790376ec3c9c9c1c9c9db414e7d250729dc3a802ca093e3973f301",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_14.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "steps",
+      "event": "CT_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_15.vsnd_c",
+      "sourceCrc32": "b31c79ee",
+      "sha256": "311d4826d35a316966362f702c7b983690ce5af2d0e6ed3e57eb6a20117d4355",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_15.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "landings",
+      "event": "Land_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_01.vsnd_c",
+      "sourceCrc32": "771a8acd",
+      "sha256": "4cbcfaff372f81580ff66db58463dfb1fc5d943600984bf9988162e8b4738233",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_01.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "landings",
+      "event": "Land_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_02.vsnd_c",
+      "sourceCrc32": "9b0197bf",
+      "sha256": "ade737f80d306f2a7ca88d8e4f429c6af0466298a7e620274b51920da7d2ebeb",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_02.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "landings",
+      "event": "Land_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_03.vsnd_c",
+      "sourceCrc32": "6e71f234",
+      "sha256": "15e518e6104b5b11a3332930f77d51b4ddc4f2ec3040868dadae8d1357e2387d",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_03.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "landings",
+      "event": "Land_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_04.vsnd_c",
+      "sourceCrc32": "0c6ec654",
+      "sha256": "d071e3a751c1c44dafa94a4db20c7d093c0460a64c10c5b81e4686bead465d1e",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_04.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "landings",
+      "event": "Land_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_05.vsnd_c",
+      "sourceCrc32": "de7304a1",
+      "sha256": "7c331d627307b07dd26e2aa73ce4041dc5c5e43b6ddd50dbd85b47fe192c73b3",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_05.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "landings",
+      "event": "Land_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_06.vsnd_c",
+      "sourceCrc32": "88869dce",
+      "sha256": "c518b4553021e9a4f5ab4e8dde263dc586f0d3bcd8a9fa932fdde1fe5966e61b",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_06.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "landings",
+      "event": "Land_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_07.vsnd_c",
+      "sourceCrc32": "071f9559",
+      "sha256": "8895fcb437b45a16e410f2b7aeef97e0bfd89e2ebcc4638e20d914b4b6845fd6",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_07.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "landings",
+      "event": "Land_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_08.vsnd_c",
+      "sourceCrc32": "139fce8d",
+      "sha256": "820c4f94e1168d518952fb527415d50e0dfac9c4c07a2cd945a05f0ca3bb25b5",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_08.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "landings",
+      "event": "Land_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_09.vsnd_c",
+      "sourceCrc32": "4c5cbc74",
+      "sha256": "571f420c70bd60f08c017314744b569f82b12ebaea303801b1b0554d4f020bcf",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_09.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "landings",
+      "event": "Land_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_10.vsnd_c",
+      "sourceCrc32": "be1fc7ef",
+      "sha256": "65214703b6d094523d8f30bd7d956108f8ed8b0e7a56fba0cc5158dc1c3648dc",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_10.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "landings",
+      "event": "Land_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_11.vsnd_c",
+      "sourceCrc32": "942a6f4d",
+      "sha256": "94e1510c8cb65fa1ae5e8b1b0004a572398f1bb7e4d29f144b7392b796f8b4dc",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_11.wav"
+    },
+    {
+      "kind": "Wood",
+      "contact": "landings",
+      "event": "Land_Wood_Panel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/wood_12.vsnd_c",
+      "sourceCrc32": "bbb18a80",
+      "sha256": "fec2d17d42ee9593a6bb8065422709cd78a4c001247b30dbf0c33ce5d45fedbe",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/wood_12.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "steps",
+      "event": "CT_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_solid_35.vsnd_c",
+      "sourceCrc32": "7df6f8b9",
+      "sha256": "30938e3ff92be8f3890ab95068ec3f9bdf4ce0c1fb283e973e9a98c03e655d58",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_solid_35.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "steps",
+      "event": "CT_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_solid_36.vsnd_c",
+      "sourceCrc32": "e4446b0b",
+      "sha256": "146bcc4374ed10209bf5b023f2aa8108aceedaf70a6f15d7d9fe4aa4b5765b80",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_solid_36.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "steps",
+      "event": "CT_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_solid_37.vsnd_c",
+      "sourceCrc32": "ed157b25",
+      "sha256": "32ab16e9668fa0a292408b785b38d4b0d8bd2107af4e5f5468cf047cca68a3d8",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_solid_37.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "steps",
+      "event": "CT_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_solid_38.vsnd_c",
+      "sourceCrc32": "b414d929",
+      "sha256": "957ad225a154d484f3988230a7273845c53ee5f3b1b5edc44909982ee375175a",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_solid_38.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "steps",
+      "event": "CT_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_solid_39.vsnd_c",
+      "sourceCrc32": "9fbda977",
+      "sha256": "e6ee9e023706058869ac91890a9896abb71f17928b3273d9196b5e112bae2b0e",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_solid_39.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "steps",
+      "event": "CT_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_solid_40.vsnd_c",
+      "sourceCrc32": "4be8e4c2",
+      "sha256": "e5b8577378afee4a18a62fc73a33905353634b34045175ee0e5da5d8ce96dfff",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_solid_40.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "steps",
+      "event": "CT_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_solid_41.vsnd_c",
+      "sourceCrc32": "e9590153",
+      "sha256": "29a757cb9ad49483725537680aa2556c3bd4b65d8996f2ee6d5657375b52b7d5",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_solid_41.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "steps",
+      "event": "CT_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_solid_42.vsnd_c",
+      "sourceCrc32": "da4db7ec",
+      "sha256": "9df56c4e1f30ea2d2765d47123d8a55128918adcf46b304e1f33379fc121bcc9",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_solid_42.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "steps",
+      "event": "CT_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_solid_43.vsnd_c",
+      "sourceCrc32": "af3c9f5a",
+      "sha256": "c7138b95067f9a658748f77490fd96ce4a08e19ad84376fa2601343c62d4616b",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_solid_43.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "steps",
+      "event": "CT_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_solid_44.vsnd_c",
+      "sourceCrc32": "b8c3c15a",
+      "sha256": "b062a69d733fa675594e379c78bffacbf593914c96eb8fb72adffcb223bea220",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_solid_44.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "steps",
+      "event": "CT_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_solid_45.vsnd_c",
+      "sourceCrc32": "d028e589",
+      "sha256": "2e0fc422895a2a5bdc8af1664ee2f38ac9f4adb54d18850da710db4d4d70aff3",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_solid_45.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "steps",
+      "event": "CT_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_solid_46.vsnd_c",
+      "sourceCrc32": "4368df28",
+      "sha256": "89493f8cf7155a9b3a2ba0cda446fec080ff0777e06aa6a5c468e53b1d5577c8",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_solid_46.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "steps",
+      "event": "CT_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_solid_47.vsnd_c",
+      "sourceCrc32": "761783cc",
+      "sha256": "a6b516379d5edff919628260749ba086c7f74593ec01cd2277e0f99a8617f156",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_solid_47.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "steps",
+      "event": "CT_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_solid_48.vsnd_c",
+      "sourceCrc32": "c269f9e0",
+      "sha256": "bb4577390a8a5b010643d8333b05921f519e6eb1802698857c07f892c4823771",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_solid_48.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "steps",
+      "event": "CT_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_solid_49.vsnd_c",
+      "sourceCrc32": "27ce9c52",
+      "sha256": "103b8c4dd92482e033132ab07ef6aecc4c8d613223a278766a1b9df62069caaa",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_solid_49.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "steps",
+      "event": "CT_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_solid_50.vsnd_c",
+      "sourceCrc32": "a39d1875",
+      "sha256": "fed8ca7259fd9e631d4e10e9b34ee51eb6bf554bc3fb396608094647710a8538",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_solid_50.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "landings",
+      "event": "Land_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_metal_solid_01.vsnd_c",
+      "sourceCrc32": "289b3abc",
+      "sha256": "f3e28107222648e39c34b7c430bc89b202f0789bfb05e761b708068cfa05e8a3",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_metal_solid_01.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "landings",
+      "event": "Land_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_metal_solid_02.vsnd_c",
+      "sourceCrc32": "3e075527",
+      "sha256": "653d57b85a661fc7a11d0752728a816dc97ab5dae461407c8ced1d14abc9ea92",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_metal_solid_02.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "landings",
+      "event": "Land_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_metal_solid_03.vsnd_c",
+      "sourceCrc32": "90f51758",
+      "sha256": "69f47528a9a8d94520ccb5e870b0d642716015ce2f4a3fc4e82f7fb9a74bed83",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_metal_solid_03.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "landings",
+      "event": "Land_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_metal_solid_04.vsnd_c",
+      "sourceCrc32": "958983e7",
+      "sha256": "ab157c0255868c76d4cf0a269bec1c6ed2dc03582142da9f88051a6756f3d221",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_metal_solid_04.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "landings",
+      "event": "Land_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_metal_solid_05.vsnd_c",
+      "sourceCrc32": "93fc115b",
+      "sha256": "54a14c1c42b4fd81a2975f52bd3242a78a5072a9d029c6a524e2e8b4f9845c8c",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_metal_solid_05.wav"
+    },
+    {
+      "kind": "Metal",
+      "contact": "landings",
+      "event": "Land_SolidMetal.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_metal_solid_06.vsnd_c",
+      "sourceCrc32": "ae9675ad",
+      "sha256": "b4230a27123b8da643fee0e1ed17b6812c4f2d8e1fc8488f6ff102fa67390f6b",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_metal_solid_06.wav"
+    },
+    {
+      "kind": "MetalGrate",
+      "contact": "steps",
+      "event": "CT_MetalGrate.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_grate_01.vsnd_c",
+      "sourceCrc32": "a22e5f27",
+      "sha256": "308bc835268908fb70a3553201d4f8dd8040893cfecfcafa9ecc1f6023a2e6b0",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_grate_01.wav"
+    },
+    {
+      "kind": "MetalGrate",
+      "contact": "steps",
+      "event": "CT_MetalGrate.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_grate_02.vsnd_c",
+      "sourceCrc32": "cd0359ae",
+      "sha256": "4cf5216d59477a3a0464fdda5b003e8b83717833df9199434709a6e5f764c2c0",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_grate_02.wav"
+    },
+    {
+      "kind": "MetalGrate",
+      "contact": "steps",
+      "event": "CT_MetalGrate.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_grate_03.vsnd_c",
+      "sourceCrc32": "90b7e2d3",
+      "sha256": "2c6185fec0cba94d71650c93c17f0e0bb3efbcf93dfb7551ea5c02b8176924c3",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_grate_03.wav"
+    },
+    {
+      "kind": "MetalGrate",
+      "contact": "steps",
+      "event": "CT_MetalGrate.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_grate_04.vsnd_c",
+      "sourceCrc32": "69d7ef5a",
+      "sha256": "c92fc2fc2a39c626e3d500651429658013b24127161ebf44009e9377aa159abf",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_grate_04.wav"
+    },
+    {
+      "kind": "MetalGrate",
+      "contact": "steps",
+      "event": "CT_MetalGrate.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_grate_05.vsnd_c",
+      "sourceCrc32": "aa3b452a",
+      "sha256": "54150bb1b0003b4bb2e6e40452b805f3656f8f6219205535f219dfb94c011526",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_grate_05.wav"
+    },
+    {
+      "kind": "MetalGrate",
+      "contact": "steps",
+      "event": "CT_MetalGrate.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_grate_06.vsnd_c",
+      "sourceCrc32": "3ce3a6b1",
+      "sha256": "54604013a68b3ab7d0857d105389178dc38c39616c3d929fe6765200b1d800e9",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_grate_06.wav"
+    },
+    {
+      "kind": "MetalGrate",
+      "contact": "steps",
+      "event": "CT_MetalGrate.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_grate_07.vsnd_c",
+      "sourceCrc32": "adbb2e2a",
+      "sha256": "5a4e55eb5ce35132c1b022d3992ff4621d33a951f273b7a23d01608ba68274cf",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_grate_07.wav"
+    },
+    {
+      "kind": "MetalGrate",
+      "contact": "steps",
+      "event": "CT_MetalGrate.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_grate_08.vsnd_c",
+      "sourceCrc32": "21055928",
+      "sha256": "1000f03568584d840f9bc0ab4f68d9afc6098ea62774e1df9c2b5c2c37375da5",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_grate_08.wav"
+    },
+    {
+      "kind": "MetalGrate",
+      "contact": "landings",
+      "event": "Land_MetalGrate.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_metal_grate_01.vsnd_c",
+      "sourceCrc32": "d07c94fa",
+      "sha256": "621604d8a22571eb5a57d86b66bd6f39208864f6d89c92e26251bce89991e8e1",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_metal_grate_01.wav"
+    },
+    {
+      "kind": "MetalGrate",
+      "contact": "landings",
+      "event": "Land_MetalGrate.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_metal_grate_02.vsnd_c",
+      "sourceCrc32": "e4b2e965",
+      "sha256": "cf5a755e9f1b406592fc9aae81b6b62382d28c7761bc2aca37c25ce82061a2d1",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_metal_grate_02.wav"
+    },
+    {
+      "kind": "MetalGrate",
+      "contact": "landings",
+      "event": "Land_MetalGrate.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_metal_grate_03.vsnd_c",
+      "sourceCrc32": "7b25999c",
+      "sha256": "8f885343066e431f154ed6cbd241e2407d7d944bb2e019622f994e936d003627",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_metal_grate_03.wav"
+    },
+    {
+      "kind": "MetalGrate",
+      "contact": "landings",
+      "event": "Land_MetalGrate.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_metal_grate_04.vsnd_c",
+      "sourceCrc32": "c5127cd9",
+      "sha256": "87b9b0c1e6f71060f36e93caf504dc9cb91baed977e561ad0b10f12c5229f8e1",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_metal_grate_04.wav"
+    },
+    {
+      "kind": "MetalGrate",
+      "contact": "landings",
+      "event": "Land_MetalGrate.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_metal_grate_05.vsnd_c",
+      "sourceCrc32": "62f763cf",
+      "sha256": "ff7c910a591c1df74735800f4c0b675450e289271b86b0cdf9623f2b25a0d398",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_metal_grate_05.wav"
+    },
+    {
+      "kind": "MetalGrate",
+      "contact": "landings",
+      "event": "Land_MetalGrate.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_metal_grate_06.vsnd_c",
+      "sourceCrc32": "77d4779b",
+      "sha256": "8138334484756910ec0cee3b588801664ed353b0e6169492b5d5e7d94920179d",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_metal_grate_06.wav"
+    },
+    {
+      "kind": "MetalBarrel",
+      "contact": "steps",
+      "event": "CT_MetalBarrel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_vent_01.vsnd_c",
+      "sourceCrc32": "05e5f8af",
+      "sha256": "e043f4d332151a0b390abe0f81b5a13e4e2ab561f49c2d52c322948356f66c6d",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_vent_01.wav"
+    },
+    {
+      "kind": "MetalBarrel",
+      "contact": "steps",
+      "event": "CT_MetalBarrel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_vent_02.vsnd_c",
+      "sourceCrc32": "757e16fd",
+      "sha256": "86d5c6c35889411af6a9d20bb51397280f901536c2b2a14e3a8dbd34504f6819",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_vent_02.wav"
+    },
+    {
+      "kind": "MetalBarrel",
+      "contact": "steps",
+      "event": "CT_MetalBarrel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_vent_03.vsnd_c",
+      "sourceCrc32": "e0816dee",
+      "sha256": "b4a32a5ec9da2cbb372a340103583d287911911269efb6f9f11a0ba135552a5f",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_vent_03.wav"
+    },
+    {
+      "kind": "MetalBarrel",
+      "contact": "steps",
+      "event": "CT_MetalBarrel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_vent_04.vsnd_c",
+      "sourceCrc32": "b46d1e99",
+      "sha256": "03a38eef0dc15f24d6ea72f6976dbee39b17d3e05e89027363471676eb88d9a7",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_vent_04.wav"
+    },
+    {
+      "kind": "MetalBarrel",
+      "contact": "steps",
+      "event": "CT_MetalBarrel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_vent_05.vsnd_c",
+      "sourceCrc32": "13d781fc",
+      "sha256": "c0e492a0d6d828e6efc776f2a6d51df5e262b48f22165783d856560a05e7f34f",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_vent_05.wav"
+    },
+    {
+      "kind": "MetalBarrel",
+      "contact": "steps",
+      "event": "CT_MetalBarrel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/metal_vent_06.vsnd_c",
+      "sourceCrc32": "9a61d4e2",
+      "sha256": "87e594c0d2b169f3e996f1c93e8b07fafd6b74c64717c5fe5f8b527ab2ef9691",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/metal_vent_06.wav"
+    },
+    {
+      "kind": "MetalBarrel",
+      "contact": "landings",
+      "event": "Land_MetalBarrel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_metal_barrel_01.vsnd_c",
+      "sourceCrc32": "11a59b96",
+      "sha256": "991d62ef79bcedf49f28de3b28f5dfd7b543a2b83924d7250fac226bd6eb56d4",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_metal_barrel_01.wav"
+    },
+    {
+      "kind": "MetalBarrel",
+      "contact": "landings",
+      "event": "Land_MetalBarrel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_metal_barrel_02.vsnd_c",
+      "sourceCrc32": "dc26fada",
+      "sha256": "b5e53dea4019e17509d12d9abf11de10a0ad5a68c4e70ad803c4b4e3e5985f6f",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_metal_barrel_02.wav"
+    },
+    {
+      "kind": "MetalBarrel",
+      "contact": "landings",
+      "event": "Land_MetalBarrel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_metal_barrel_03.vsnd_c",
+      "sourceCrc32": "aae05099",
+      "sha256": "a4d344b0965e44b8918dbfce11b601a0d7701f07595d436e819abd9209f1dd91",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_metal_barrel_03.wav"
+    },
+    {
+      "kind": "MetalBarrel",
+      "contact": "landings",
+      "event": "Land_MetalBarrel.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_metal_barrel_04.vsnd_c",
+      "sourceCrc32": "40285dda",
+      "sha256": "771bd5d0b399e9b4da47e1ec57c56bfa38bd878dbf96dbcaf4b06821deb30b6e",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_metal_barrel_04.wav"
+    },
+    {
+      "kind": "Glass",
+      "contact": "steps",
+      "event": "CT_Glass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/glass_01.vsnd_c",
+      "sourceCrc32": "4917e80a",
+      "sha256": "8a6f33f1dedd16b1d9459acc0ab6677ea27eefc9fb8b2f2b0578945c7e4ae29c",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/glass_01.wav"
+    },
+    {
+      "kind": "Glass",
+      "contact": "steps",
+      "event": "CT_Glass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/glass_07.vsnd_c",
+      "sourceCrc32": "4a287de5",
+      "sha256": "5e2d1c9646cd8ac9cde04d85b3188acd3bb368923b4b8fd29b8b0ae4bf322cf0",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/glass_07.wav"
+    },
+    {
+      "kind": "Glass",
+      "contact": "steps",
+      "event": "CT_Glass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/glass_08.vsnd_c",
+      "sourceCrc32": "e9a2b249",
+      "sha256": "c1932a366656967f4ab4b0b9e25973bee4eed32dde512177366cd8acfba68575",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/glass_08.wav"
+    },
+    {
+      "kind": "Glass",
+      "contact": "steps",
+      "event": "CT_Glass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/glass_09.vsnd_c",
+      "sourceCrc32": "6c78ce53",
+      "sha256": "5a1cc6dd3f54b32deb905e149f48459de53a927c86a1d905804173f8fe825904",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/glass_09.wav"
+    },
+    {
+      "kind": "Glass",
+      "contact": "steps",
+      "event": "CT_Glass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/glass_10.vsnd_c",
+      "sourceCrc32": "109eecac",
+      "sha256": "c3b88047cdbf9ffa8d5b5a881d024d0181596100491f3d23fd4c0c718c7fb5cf",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/glass_10.wav"
+    },
+    {
+      "kind": "Glass",
+      "contact": "steps",
+      "event": "CT_Glass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/glass_11.vsnd_c",
+      "sourceCrc32": "2e8745f5",
+      "sha256": "d3ac7ce12fc1c454f005659869e2c4df02bded51f40647376087d5968f6d2c2b",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/glass_11.wav"
+    },
+    {
+      "kind": "Glass",
+      "contact": "steps",
+      "event": "CT_Glass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/glass_12.vsnd_c",
+      "sourceCrc32": "b70d7048",
+      "sha256": "79cef470f8b4f406d22ed22e02cc072482fac131b2dd0f54fb89557974449d2d",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/glass_12.wav"
+    },
+    {
+      "kind": "Glass",
+      "contact": "steps",
+      "event": "CT_Glass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/glass_13.vsnd_c",
+      "sourceCrc32": "0d740477",
+      "sha256": "879d70d19d425b1e1721eef598f44dde33ed6d1aab7ecfe5b038904f038d4906",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/glass_13.wav"
+    },
+    {
+      "kind": "Glass",
+      "contact": "landings",
+      "event": "Land_Glass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_glass_01.vsnd_c",
+      "sourceCrc32": "ff0e23a2",
+      "sha256": "c99862eec2a278f6ff184c43967ff5a1f5eb7a8a8406af033bdfca29522e9a77",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_glass_01.wav"
+    },
+    {
+      "kind": "Glass",
+      "contact": "landings",
+      "event": "Land_Glass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_glass_02.vsnd_c",
+      "sourceCrc32": "77345fe9",
+      "sha256": "503fa92dd01027acdb593f1687dbcc13862e988db8c563c97d1b2facb98fc5ea",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_glass_02.wav"
+    },
+    {
+      "kind": "Glass",
+      "contact": "landings",
+      "event": "Land_Glass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_glass_03.vsnd_c",
+      "sourceCrc32": "61fa8393",
+      "sha256": "7bd4226c8a6e847184dcd52ee5db009a157f0d5a54c620cdab126240ead8afa3",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_glass_03.wav"
+    },
+    {
+      "kind": "Glass",
+      "contact": "landings",
+      "event": "Land_Glass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_glass_04.vsnd_c",
+      "sourceCrc32": "b607d805",
+      "sha256": "942539438b65058e3ef8b368bc81cc8086e23e7c361de7a732842b70b1f0107a",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_glass_04.wav"
+    },
+    {
+      "kind": "Glass",
+      "contact": "landings",
+      "event": "Land_Glass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_glass_05.vsnd_c",
+      "sourceCrc32": "b38e1239",
+      "sha256": "c861f65d2146ce5437735facb64e7421ef3138ae788bfcce1a65f0e02f9e1adb",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_glass_05.wav"
+    },
+    {
+      "kind": "Tile",
+      "contact": "steps",
+      "event": "CT_Tile.StepLeft",
+      "sourceResource": "sounds/player/footsteps/tile_01.vsnd_c",
+      "sourceCrc32": "03d667d4",
+      "sha256": "62347ffd3b03334a6ba5302cf67c971cba0e5e76bc785d699a17081bcfa21214",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/tile_01.wav"
+    },
+    {
+      "kind": "Tile",
+      "contact": "steps",
+      "event": "CT_Tile.StepLeft",
+      "sourceResource": "sounds/player/footsteps/tile_02.vsnd_c",
+      "sourceCrc32": "8d890c6a",
+      "sha256": "984a4cfb23bfd391c601addf8ff4330f9de6b6ad476f56cb25b372040238783e",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/tile_02.wav"
+    },
+    {
+      "kind": "Tile",
+      "contact": "steps",
+      "event": "CT_Tile.StepLeft",
+      "sourceResource": "sounds/player/footsteps/tile_03.vsnd_c",
+      "sourceCrc32": "f1ecd6b8",
+      "sha256": "6fe54d90747f3b1e564cd20bee3a50d34e2d8c4620f14eb9be08536873d714d1",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/tile_03.wav"
+    },
+    {
+      "kind": "Tile",
+      "contact": "steps",
+      "event": "CT_Tile.StepLeft",
+      "sourceResource": "sounds/player/footsteps/tile_04.vsnd_c",
+      "sourceCrc32": "2633370b",
+      "sha256": "0bcdd9629dba66327b33296bd77d2ac8db5e992688e8b1e53eef81820e823865",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/tile_04.wav"
+    },
+    {
+      "kind": "Tile",
+      "contact": "steps",
+      "event": "CT_Tile.StepLeft",
+      "sourceResource": "sounds/player/footsteps/tile_05.vsnd_c",
+      "sourceCrc32": "6edda81c",
+      "sha256": "f7305d3ea78ea9966ff49320261f8d4ae89d6c36543696977f055eb010227f97",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/tile_05.wav"
+    },
+    {
+      "kind": "Tile",
+      "contact": "steps",
+      "event": "CT_Tile.StepLeft",
+      "sourceResource": "sounds/player/footsteps/tile_06.vsnd_c",
+      "sourceCrc32": "4e7786aa",
+      "sha256": "361b32d197c9668af1b4335df2fbcfc5ab1f830be66adaad1319a674329463e0",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/tile_06.wav"
+    },
+    {
+      "kind": "Tile",
+      "contact": "steps",
+      "event": "CT_Tile.StepLeft",
+      "sourceResource": "sounds/player/footsteps/tile_07.vsnd_c",
+      "sourceCrc32": "dcce759a",
+      "sha256": "8fc54658ed4f3df44b599f405a4304ed4af051f7ccf1b59b8d11e066042d5034",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/tile_07.wav"
+    },
+    {
+      "kind": "Tile",
+      "contact": "steps",
+      "event": "CT_Tile.StepLeft",
+      "sourceResource": "sounds/player/footsteps/tile_08.vsnd_c",
+      "sourceCrc32": "889c3647",
+      "sha256": "34c767e245cf8112d5433db6431a9f1da506bb63fbd57383c3e02d5bbeb54079",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/tile_08.wav"
+    },
+    {
+      "kind": "Tile",
+      "contact": "steps",
+      "event": "CT_Tile.StepLeft",
+      "sourceResource": "sounds/player/footsteps/tile_09.vsnd_c",
+      "sourceCrc32": "8ee53517",
+      "sha256": "6139f3328f789c0d36a43e5c1d3fd58e6adc4c5962cb4f74adf32758213c0933",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/tile_09.wav"
+    },
+    {
+      "kind": "Tile",
+      "contact": "steps",
+      "event": "CT_Tile.StepLeft",
+      "sourceResource": "sounds/player/footsteps/tile_10.vsnd_c",
+      "sourceCrc32": "acc15126",
+      "sha256": "057f32ecdfa08a9e793b802590696ae7185217e885940dbd9aac4d9230a2bd67",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/tile_10.wav"
+    },
+    {
+      "kind": "Tile",
+      "contact": "steps",
+      "event": "CT_Tile.StepLeft",
+      "sourceResource": "sounds/player/footsteps/tile_11.vsnd_c",
+      "sourceCrc32": "b72069a8",
+      "sha256": "7a0be687e904c01e53ce48a2b22edcb2f0b3016814d75af02f184f96bb59564c",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/tile_11.wav"
+    },
+    {
+      "kind": "Tile",
+      "contact": "steps",
+      "event": "CT_Tile.StepLeft",
+      "sourceResource": "sounds/player/footsteps/tile_12.vsnd_c",
+      "sourceCrc32": "d5c80491",
+      "sha256": "979b84ebedc2dd7a917e3d1bc608a7f0d2b136bf766350bdf4c2fe8a10bf8a1a",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/tile_12.wav"
+    },
+    {
+      "kind": "Tile",
+      "contact": "steps",
+      "event": "CT_Tile.StepLeft",
+      "sourceResource": "sounds/player/footsteps/tile_13.vsnd_c",
+      "sourceCrc32": "a7229401",
+      "sha256": "d820adaaf0ebcec2270484e94c7753dce57f939dbf5b297158b1df48539ecb48",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/tile_13.wav"
+    },
+    {
+      "kind": "Tile",
+      "contact": "steps",
+      "event": "CT_Tile.StepLeft",
+      "sourceResource": "sounds/player/footsteps/tile_14.vsnd_c",
+      "sourceCrc32": "3e5cb9f0",
+      "sha256": "7ea7069fc12fe2f003e08fb8d85f45c4cd1cfe8558d9f1aba09c387764fd63b7",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/tile_14.wav"
+    },
+    {
+      "kind": "Tile",
+      "contact": "landings",
+      "event": "Land_Tile.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_tile_01.vsnd_c",
+      "sourceCrc32": "a4d73fb8",
+      "sha256": "7f96d49c7bda69d5f5704b1246e58c480f531e4b728162a2cf248f1eae647419",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_tile_01.wav"
+    },
+    {
+      "kind": "Tile",
+      "contact": "landings",
+      "event": "Land_Tile.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_tile_02.vsnd_c",
+      "sourceCrc32": "91759956",
+      "sha256": "e3582012fe2af2ccbe44c656ecde52b409125d945aea2f721a329ba6f726fd3d",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_tile_02.wav"
+    },
+    {
+      "kind": "Tile",
+      "contact": "landings",
+      "event": "Land_Tile.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_tile_03.vsnd_c",
+      "sourceCrc32": "73d5b6ff",
+      "sha256": "90582a9ffd5dcbaaa5da2e577e42d6542f99dd05e068a9a7d0b1455bbc0183f1",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_tile_03.wav"
+    },
+    {
+      "kind": "Tile",
+      "contact": "landings",
+      "event": "Land_Tile.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_tile_04.vsnd_c",
+      "sourceCrc32": "786e5db8",
+      "sha256": "9fdae27f9365aaefaacd03dda843a6065c2a7dffb2df5fafae7b504c448ffc74",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_tile_04.wav"
+    },
+    {
+      "kind": "Tile",
+      "contact": "landings",
+      "event": "Land_Tile.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_tile_05.vsnd_c",
+      "sourceCrc32": "5b582729",
+      "sha256": "cb872ef90946c70b416050ac6e40239f340b87b84fa96e9fdc818bf784a3103b",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_tile_05.wav"
+    },
+    {
+      "kind": "Dirt",
+      "contact": "steps",
+      "event": "CT_Dirt.StepLeft",
+      "sourceResource": "sounds/player/footsteps/dirt_01.vsnd_c",
+      "sourceCrc32": "79d057d7",
+      "sha256": "4304079e3ec078eda369fb9038c0c5ac09ae51028fbe10bfa392d70a7238cd77",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/dirt_01.wav"
+    },
+    {
+      "kind": "Dirt",
+      "contact": "steps",
+      "event": "CT_Dirt.StepLeft",
+      "sourceResource": "sounds/player/footsteps/dirt_02.vsnd_c",
+      "sourceCrc32": "0191550e",
+      "sha256": "1aee36573b5b92ff26d94b68cd939ffae7401186cc8bdbddcf7cc9d7d701d4d3",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/dirt_02.wav"
+    },
+    {
+      "kind": "Dirt",
+      "contact": "steps",
+      "event": "CT_Dirt.StepLeft",
+      "sourceResource": "sounds/player/footsteps/dirt_03.vsnd_c",
+      "sourceCrc32": "2e0455a2",
+      "sha256": "48dac21e8692d03df9c506d3ade47416650139363b282f39089d54d00a7417d9",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/dirt_03.wav"
+    },
+    {
+      "kind": "Dirt",
+      "contact": "steps",
+      "event": "CT_Dirt.StepLeft",
+      "sourceResource": "sounds/player/footsteps/dirt_04.vsnd_c",
+      "sourceCrc32": "90a9a4b1",
+      "sha256": "ea9c29e6b73a791cfcf85fe4fca2be42a69c85755476f538e41a0a8322cfe514",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/dirt_04.wav"
+    },
+    {
+      "kind": "Dirt",
+      "contact": "steps",
+      "event": "CT_Dirt.StepLeft",
+      "sourceResource": "sounds/player/footsteps/dirt_05.vsnd_c",
+      "sourceCrc32": "44aa83cc",
+      "sha256": "15c7b6ace8a80f0da14d573742bfbc4161d1d60d4974a777156b415cd702d4a9",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/dirt_05.wav"
+    },
+    {
+      "kind": "Dirt",
+      "contact": "steps",
+      "event": "CT_Dirt.StepLeft",
+      "sourceResource": "sounds/player/footsteps/dirt_06.vsnd_c",
+      "sourceCrc32": "de5a1414",
+      "sha256": "3373ec9b9f0fa1d084ae1b0900b50655e997cc0f1f753d3fbb05f37ec27164a8",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/dirt_06.wav"
+    },
+    {
+      "kind": "Dirt",
+      "contact": "steps",
+      "event": "CT_Dirt.StepLeft",
+      "sourceResource": "sounds/player/footsteps/dirt_07.vsnd_c",
+      "sourceCrc32": "af2ac184",
+      "sha256": "82df571b65b730b00f09c999869bf50497f72e088d88f44c5e4c7468f79a0cf8",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/dirt_07.wav"
+    },
+    {
+      "kind": "Dirt",
+      "contact": "steps",
+      "event": "CT_Dirt.StepLeft",
+      "sourceResource": "sounds/player/footsteps/dirt_08.vsnd_c",
+      "sourceCrc32": "848d73e1",
+      "sha256": "03e01ca6d4d89fb7d1be7c6be620e457664147a619bc73d6060e6449dd080c17",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/dirt_08.wav"
+    },
+    {
+      "kind": "Dirt",
+      "contact": "steps",
+      "event": "CT_Dirt.StepLeft",
+      "sourceResource": "sounds/player/footsteps/dirt_09.vsnd_c",
+      "sourceCrc32": "cee808b0",
+      "sha256": "e892f461f0eb4546663895a0b3bec745ddad9038155ad15c30162cb3502adcc3",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/dirt_09.wav"
+    },
+    {
+      "kind": "Dirt",
+      "contact": "steps",
+      "event": "CT_Dirt.StepLeft",
+      "sourceResource": "sounds/player/footsteps/dirt_10.vsnd_c",
+      "sourceCrc32": "8e8eee78",
+      "sha256": "ce5843e1f32a57c90d4160d4f90515049addb4603069ad53ae3101887fed5550",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/dirt_10.wav"
+    },
+    {
+      "kind": "Dirt",
+      "contact": "steps",
+      "event": "CT_Dirt.StepLeft",
+      "sourceResource": "sounds/player/footsteps/dirt_11.vsnd_c",
+      "sourceCrc32": "ae74563e",
+      "sha256": "c439385192da0977674b07a37a4ae6fbb534426d60e95b02b40e37bb84fa324e",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/dirt_11.wav"
+    },
+    {
+      "kind": "Dirt",
+      "contact": "steps",
+      "event": "CT_Dirt.StepLeft",
+      "sourceResource": "sounds/player/footsteps/dirt_12.vsnd_c",
+      "sourceCrc32": "4fd2e7e1",
+      "sha256": "3ec9d2e601dc376c68778eb52d6478cda8f3d25207ff7c6f7b8d7d2d91667bf6",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/dirt_12.wav"
+    },
+    {
+      "kind": "Dirt",
+      "contact": "steps",
+      "event": "CT_Dirt.StepLeft",
+      "sourceResource": "sounds/player/footsteps/dirt_13.vsnd_c",
+      "sourceCrc32": "2ea678df",
+      "sha256": "637bbdc943b562c0a2c2023852e1175d2475713169038fa421af2b2c5cb06fd5",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/dirt_13.wav"
+    },
+    {
+      "kind": "Dirt",
+      "contact": "steps",
+      "event": "CT_Dirt.StepLeft",
+      "sourceResource": "sounds/player/footsteps/dirt_14.vsnd_c",
+      "sourceCrc32": "9e33ffe9",
+      "sha256": "1c9934ad426adf98e11a84c394b2537aa9f04190b234a40a3233dfa64823a807",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/dirt_14.wav"
+    },
+    {
+      "kind": "Dirt",
+      "contact": "landings",
+      "event": "Land_Dirt.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_dirt_01.vsnd_c",
+      "sourceCrc32": "a837fefb",
+      "sha256": "a0b5b0f49dac5ddc5269c25536845543b646ffd9f90dd8408af8dee8bf1e89fe",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_dirt_01.wav"
+    },
+    {
+      "kind": "Dirt",
+      "contact": "landings",
+      "event": "Land_Dirt.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_dirt_02.vsnd_c",
+      "sourceCrc32": "63108bf6",
+      "sha256": "3ec56f9948e7dd7ded23eefc12ca824bac37db014f255d61c7f1413b8f59ade5",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_dirt_02.wav"
+    },
+    {
+      "kind": "Dirt",
+      "contact": "landings",
+      "event": "Land_Dirt.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_dirt_03.vsnd_c",
+      "sourceCrc32": "7e7d2220",
+      "sha256": "8cf1afc1ead144aba4b634eebbc4a371eaa3778523189ad71a2f90bafa9c3c7f",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_dirt_03.wav"
+    },
+    {
+      "kind": "Dirt",
+      "contact": "landings",
+      "event": "Land_Dirt.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_dirt_04.vsnd_c",
+      "sourceCrc32": "54e6b79a",
+      "sha256": "2b1114d5fa93ea125fbc7bebd6851d5d45ee9d87b08230dac6ad55589b2130cf",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_dirt_04.wav"
+    },
+    {
+      "kind": "Dirt",
+      "contact": "landings",
+      "event": "Land_Dirt.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_dirt_05.vsnd_c",
+      "sourceCrc32": "eeffb0b9",
+      "sha256": "ad1a7cd7a026f277afc148671b7e4d16749f3b09c76380b934df69119618dcb0",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_dirt_05.wav"
+    },
+    {
+      "kind": "Sand",
+      "contact": "steps",
+      "event": "CT_Sand.StepLeft",
+      "sourceResource": "sounds/player/footsteps/sand_01.vsnd_c",
+      "sourceCrc32": "e54da626",
+      "sha256": "3f44c2da937fb5d74d8cbaec225dbf5aa9fe8045e14dba2e9a33b4bd0f4bd786",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/sand_01.wav"
+    },
+    {
+      "kind": "Sand",
+      "contact": "steps",
+      "event": "CT_Sand.StepLeft",
+      "sourceResource": "sounds/player/footsteps/sand_02.vsnd_c",
+      "sourceCrc32": "da391581",
+      "sha256": "928738ede58835f6d44f7df54f727e9df40242566ce1693bdebaecc2b16d0c97",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/sand_02.wav"
+    },
+    {
+      "kind": "Sand",
+      "contact": "steps",
+      "event": "CT_Sand.StepLeft",
+      "sourceResource": "sounds/player/footsteps/sand_03.vsnd_c",
+      "sourceCrc32": "73ed8062",
+      "sha256": "beb0944db13e95d6c4e1ade24564d2882561ae1ad2fd322113494a16448aa24d",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/sand_03.wav"
+    },
+    {
+      "kind": "Sand",
+      "contact": "steps",
+      "event": "CT_Sand.StepLeft",
+      "sourceResource": "sounds/player/footsteps/sand_04.vsnd_c",
+      "sourceCrc32": "e08669ce",
+      "sha256": "6d1c21eabd551a0a0832d3ad22136de5058bf3dd351180cea37c7a3ef98475b0",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/sand_04.wav"
+    },
+    {
+      "kind": "Sand",
+      "contact": "steps",
+      "event": "CT_Sand.StepLeft",
+      "sourceResource": "sounds/player/footsteps/sand_05.vsnd_c",
+      "sourceCrc32": "b664ea2c",
+      "sha256": "8b7f7f7c56c727bf152482a69aed88832e451a3eab1599f26887b1ded5b67080",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/sand_05.wav"
+    },
+    {
+      "kind": "Sand",
+      "contact": "steps",
+      "event": "CT_Sand.StepLeft",
+      "sourceResource": "sounds/player/footsteps/sand_06.vsnd_c",
+      "sourceCrc32": "c4eaa8f0",
+      "sha256": "5d6bdba2866478d202d212514f4ca7ed006e87550009bfc4d7f7224b4e012921",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/sand_06.wav"
+    },
+    {
+      "kind": "Sand",
+      "contact": "steps",
+      "event": "CT_Sand.StepLeft",
+      "sourceResource": "sounds/player/footsteps/sand_07.vsnd_c",
+      "sourceCrc32": "c9882122",
+      "sha256": "5c8e9a901b4b9b575c7eb26fe5d05c2a536441983ec4c5a70f2998737b332f63",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/sand_07.wav"
+    },
+    {
+      "kind": "Sand",
+      "contact": "steps",
+      "event": "CT_Sand.StepLeft",
+      "sourceResource": "sounds/player/footsteps/sand_08.vsnd_c",
+      "sourceCrc32": "64ec7ca7",
+      "sha256": "661240e327d197714acd4d72901e0492cf648e1506580093e2ac44d65858f8f8",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/sand_08.wav"
+    },
+    {
+      "kind": "Sand",
+      "contact": "steps",
+      "event": "CT_Sand.StepLeft",
+      "sourceResource": "sounds/player/footsteps/sand_09.vsnd_c",
+      "sourceCrc32": "95fd8d80",
+      "sha256": "72c56b83a2fe93a71a8c419a5b26d5f3a4d0f32c9c46c5cbe4498a5e72896eef",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/sand_09.wav"
+    },
+    {
+      "kind": "Sand",
+      "contact": "steps",
+      "event": "CT_Sand.StepLeft",
+      "sourceResource": "sounds/player/footsteps/sand_10.vsnd_c",
+      "sourceCrc32": "d6767369",
+      "sha256": "52208abe98726356e88540f00b7ff138337924329766a1205e2cdcbb114bac33",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/sand_10.wav"
+    },
+    {
+      "kind": "Sand",
+      "contact": "steps",
+      "event": "CT_Sand.StepLeft",
+      "sourceResource": "sounds/player/footsteps/sand_11.vsnd_c",
+      "sourceCrc32": "90c2ff45",
+      "sha256": "e053fe729a7d24f1a55292ddd4b767d6992d9343bcd4139ad5541ceffbcfa75e",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/sand_11.wav"
+    },
+    {
+      "kind": "Sand",
+      "contact": "steps",
+      "event": "CT_Sand.StepLeft",
+      "sourceResource": "sounds/player/footsteps/sand_12.vsnd_c",
+      "sourceCrc32": "8d3e7847",
+      "sha256": "c0a0e8db4491cbf46758eb089aa2c0cf3b3a57e907897878e2aa3dcd85ce83f4",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/sand_12.wav"
+    },
+    {
+      "kind": "Sand",
+      "contact": "landings",
+      "event": "Land_Sand.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_sand_01.vsnd_c",
+      "sourceCrc32": "b5c6fc4b",
+      "sha256": "b5e3bf38cc054f24ff93a10f6bec6635bd297f5a4a923d3357958e5d672cc802",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_sand_01.wav"
+    },
+    {
+      "kind": "Sand",
+      "contact": "landings",
+      "event": "Land_Sand.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_sand_02.vsnd_c",
+      "sourceCrc32": "9114ca2c",
+      "sha256": "1b9dc41a54b05772de6404943292a6a95c35d172c5195a51ee873545fc1f8390",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_sand_02.wav"
+    },
+    {
+      "kind": "Sand",
+      "contact": "landings",
+      "event": "Land_Sand.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_sand_03.vsnd_c",
+      "sourceCrc32": "38b7a537",
+      "sha256": "529bcf0e89ae11fb424ef21a1637fbb3cfe012662ba0e6dedc6e28970dab2113",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_sand_03.wav"
+    },
+    {
+      "kind": "Sand",
+      "contact": "landings",
+      "event": "Land_Sand.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_sand_04.vsnd_c",
+      "sourceCrc32": "2da9ccaa",
+      "sha256": "d43cc1a7309ebe70cad2aaf1efa97ec46251b47b5d984a0612b7ae6bd9b9f889",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_sand_04.wav"
+    },
+    {
+      "kind": "Sand",
+      "contact": "landings",
+      "event": "Land_Sand.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_sand_05.vsnd_c",
+      "sourceCrc32": "33438eee",
+      "sha256": "455820f8423e8ad250a87564dd9dabbcf9649421238f26590e13388c7af1b31b",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_sand_05.wav"
+    },
+    {
+      "kind": "Sand",
+      "contact": "landings",
+      "event": "Land_Sand.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_sand_06.vsnd_c",
+      "sourceCrc32": "6947508f",
+      "sha256": "67ccc094f1314823d6a21f9a65709a2447d53675b7987920a59ea1c93411485c",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_sand_06.wav"
+    },
+    {
+      "kind": "Grass",
+      "contact": "steps",
+      "event": "CT_Grass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/grass_01.vsnd_c",
+      "sourceCrc32": "c92bdf0e",
+      "sha256": "70a21df8d8105e201410f206a0ef16b747ced2cb6d6c87a30623f3f3439e168d",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/grass_01.wav"
+    },
+    {
+      "kind": "Grass",
+      "contact": "steps",
+      "event": "CT_Grass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/grass_02.vsnd_c",
+      "sourceCrc32": "3023975c",
+      "sha256": "72c6eafa2fdae907ed9859322ad700ca521620195187f508b736d6571e526109",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/grass_02.wav"
+    },
+    {
+      "kind": "Grass",
+      "contact": "steps",
+      "event": "CT_Grass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/grass_03.vsnd_c",
+      "sourceCrc32": "486b3375",
+      "sha256": "a34050ce3f0e4fc9721d9b11bcf2002fcbfabf2760f7ad0643e14ef4637f9e61",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/grass_03.wav"
+    },
+    {
+      "kind": "Grass",
+      "contact": "steps",
+      "event": "CT_Grass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/grass_04.vsnd_c",
+      "sourceCrc32": "198198d9",
+      "sha256": "a50844898f0972982028f529bf5fa0eb778eb955675e19f871ff57fd43ad4932",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/grass_04.wav"
+    },
+    {
+      "kind": "Grass",
+      "contact": "steps",
+      "event": "CT_Grass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/grass_05.vsnd_c",
+      "sourceCrc32": "81a83339",
+      "sha256": "8d81b04af8f3b2a0bee855b3b08b164db9c564fbd84f0e135df9bb8b890ec82b",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/grass_05.wav"
+    },
+    {
+      "kind": "Grass",
+      "contact": "steps",
+      "event": "CT_Grass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/grass_06.vsnd_c",
+      "sourceCrc32": "fdc8ee5d",
+      "sha256": "3f6ae2d783a143ef0dff7d24cfd7e65b31c5259cbae53c3735266fcc60c762f3",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/grass_06.wav"
+    },
+    {
+      "kind": "Grass",
+      "contact": "steps",
+      "event": "CT_Grass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/grass_07.vsnd_c",
+      "sourceCrc32": "a94fe9c3",
+      "sha256": "5333ae63cfec2fe1368dff9de40ea7f616f07f100ab0769d7a62440b835f257d",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/grass_07.wav"
+    },
+    {
+      "kind": "Grass",
+      "contact": "landings",
+      "event": "Land_Grass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_grass_01.vsnd_c",
+      "sourceCrc32": "e64799db",
+      "sha256": "788de0db904d80c4928aacb4ab882dbaffbd9e5e236e4c9033dd6c83bc9ab443",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_grass_01.wav"
+    },
+    {
+      "kind": "Grass",
+      "contact": "landings",
+      "event": "Land_Grass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_grass_02.vsnd_c",
+      "sourceCrc32": "e3b8a8c1",
+      "sha256": "51a91d996db8b5df095abe111fa47e475dbabc1303ff907c70a64f6e35b80052",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_grass_02.wav"
+    },
+    {
+      "kind": "Grass",
+      "contact": "landings",
+      "event": "Land_Grass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_grass_03.vsnd_c",
+      "sourceCrc32": "6cf4a8f5",
+      "sha256": "f46779e68c332b4f1d521e2b546730eecb805b258bbeed78903f88a36e3811b3",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_grass_03.wav"
+    },
+    {
+      "kind": "Grass",
+      "contact": "landings",
+      "event": "Land_Grass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_grass_04.vsnd_c",
+      "sourceCrc32": "7189e4f0",
+      "sha256": "f035ae5366da9c8ce1609484018b3226c26694efa72f61016f025cdf8a94be1b",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_grass_04.wav"
+    },
+    {
+      "kind": "Grass",
+      "contact": "landings",
+      "event": "Land_Grass.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_grass_05.vsnd_c",
+      "sourceCrc32": "f0f23f8c",
+      "sha256": "0fd43b87602c666b166894ba928b2631e06003b19ec73a62b87802b8b3cee440",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_grass_05.wav"
+    },
+    {
+      "kind": "Plastic",
+      "contact": "steps",
+      "event": "CT_Plastic_Box.StepLeft",
+      "sourceResource": "sounds/player/footsteps/plastic_barrel_01.vsnd_c",
+      "sourceCrc32": "852c006f",
+      "sha256": "87da6de309be2d35d946aff56c3bbc7058a71b81911e1e7134212d98e980f0d1",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/plastic_barrel_01.wav"
+    },
+    {
+      "kind": "Plastic",
+      "contact": "steps",
+      "event": "CT_Plastic_Box.StepLeft",
+      "sourceResource": "sounds/player/footsteps/plastic_barrel_02.vsnd_c",
+      "sourceCrc32": "6efb4b0a",
+      "sha256": "02a70a21fc90043f8cdbf1c2ec2f39e050d24b393c03abfb42917775842bc77e",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/plastic_barrel_02.wav"
+    },
+    {
+      "kind": "Plastic",
+      "contact": "steps",
+      "event": "CT_Plastic_Box.StepLeft",
+      "sourceResource": "sounds/player/footsteps/plastic_barrel_03.vsnd_c",
+      "sourceCrc32": "10c7dc9b",
+      "sha256": "5b0937382cbd93129be5840609708e7cf28137944894e85d6a30955d408f98fe",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/plastic_barrel_03.wav"
+    },
+    {
+      "kind": "Plastic",
+      "contact": "steps",
+      "event": "CT_Plastic_Box.StepLeft",
+      "sourceResource": "sounds/player/footsteps/plastic_barrel_04.vsnd_c",
+      "sourceCrc32": "b9b763aa",
+      "sha256": "363c137e59b6daf162fee14b38f863769d9fa1daea67c991caae3c786fa240d6",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/plastic_barrel_04.wav"
+    },
+    {
+      "kind": "Plastic",
+      "contact": "steps",
+      "event": "CT_Plastic_Box.StepLeft",
+      "sourceResource": "sounds/player/footsteps/plastic_barrel_05.vsnd_c",
+      "sourceCrc32": "a875cbfc",
+      "sha256": "a59906716cf2a9ab025a903d71de7147465d912dbb7710d16f9cbfcad0d92f67",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/plastic_barrel_05.wav"
+    },
+    {
+      "kind": "Plastic",
+      "contact": "landings",
+      "event": "Land_Plastic_Box.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_auto_01.vsnd_c",
+      "sourceCrc32": "3d818934",
+      "sha256": "a95c7ac07d7e79892824e5830c723094d6f77155d5ffd1c2d12a26fbad6f60bb",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_auto_01.wav"
+    },
+    {
+      "kind": "Plastic",
+      "contact": "landings",
+      "event": "Land_Plastic_Box.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_auto_02.vsnd_c",
+      "sourceCrc32": "a9ec419b",
+      "sha256": "5d4ccf034a125861df03c79da11267415dfc3b85d7d27b2eb104369521ddf8a9",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_auto_02.wav"
+    },
+    {
+      "kind": "Plastic",
+      "contact": "landings",
+      "event": "Land_Plastic_Box.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_auto_03.vsnd_c",
+      "sourceCrc32": "03603b00",
+      "sha256": "c56b04a125ced173e477eb4ee6f5fb0b40f15dd532c64562768898d34d9c345b",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_auto_03.wav"
+    },
+    {
+      "kind": "Plastic",
+      "contact": "landings",
+      "event": "Land_Plastic_Box.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_auto_04.vsnd_c",
+      "sourceCrc32": "54ea2f51",
+      "sha256": "6bd3341b4d7eb9e8a39a6fbb79c410b6ed0a94cd0adba027b866bcf5f0bb73cc",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_auto_04.wav"
+    },
+    {
+      "kind": "Plastic",
+      "contact": "landings",
+      "event": "Land_Plastic_Box.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_auto_05.vsnd_c",
+      "sourceCrc32": "0f14a4d0",
+      "sha256": "8c7cafccaf58f6f5959f7102e1d2876be898135d995a1ab253a69d66e973c5cd",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_auto_05.wav"
+    },
+    {
+      "kind": "Cardboard",
+      "contact": "steps",
+      "event": "CT_Cardboard.StepLeft",
+      "sourceResource": "sounds/physics/cardboard/cardboard_box_impact_soft1.vsnd_c",
+      "sourceCrc32": "1a23a3dd",
+      "sha256": "032cef62970fd680205a2111b04a770cd31a2300c6055aeaa5e4180d75ceb47b",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/cardboard_box_impact_soft1.wav"
+    },
+    {
+      "kind": "Cardboard",
+      "contact": "steps",
+      "event": "CT_Cardboard.StepLeft",
+      "sourceResource": "sounds/physics/cardboard/cardboard_box_impact_soft2.vsnd_c",
+      "sourceCrc32": "a0adb91c",
+      "sha256": "4f24c248adfeb0252c6ae4432acb1bcb53f3935220630034a386a3b988db12b0",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/cardboard_box_impact_soft2.wav"
+    },
+    {
+      "kind": "Cardboard",
+      "contact": "steps",
+      "event": "CT_Cardboard.StepLeft",
+      "sourceResource": "sounds/physics/cardboard/cardboard_box_impact_soft3.vsnd_c",
+      "sourceCrc32": "7b5e999f",
+      "sha256": "95fb66a964a70832dffc37cde6b6e790b1589875bd325183f55a568953021d04",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/cardboard_box_impact_soft3.wav"
+    },
+    {
+      "kind": "Cardboard",
+      "contact": "steps",
+      "event": "CT_Cardboard.StepLeft",
+      "sourceResource": "sounds/physics/cardboard/cardboard_box_impact_soft4.vsnd_c",
+      "sourceCrc32": "15b6421f",
+      "sha256": "90bd7269b445b24dd7564e01b5d11e5a0eb1d7b98ba2d9e78613a2ce3c77c913",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/cardboard_box_impact_soft4.wav"
+    },
+    {
+      "kind": "Cardboard",
+      "contact": "steps",
+      "event": "CT_Cardboard.StepLeft",
+      "sourceResource": "sounds/physics/cardboard/cardboard_box_impact_soft5.vsnd_c",
+      "sourceCrc32": "de46e514",
+      "sha256": "b74436995c7831c793c8878758fbc5c6506696661809cdc25360ecac31917114",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/cardboard_box_impact_soft5.wav"
+    },
+    {
+      "kind": "Cardboard",
+      "contact": "steps",
+      "event": "CT_Cardboard.StepLeft",
+      "sourceResource": "sounds/physics/cardboard/cardboard_box_impact_soft6.vsnd_c",
+      "sourceCrc32": "d6a42091",
+      "sha256": "f10558b1255a6b9e2eefb2ad9295eb4bdc1e1e60696967c42f21c0fe445475fa",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/cardboard_box_impact_soft6.wav"
+    },
+    {
+      "kind": "Cardboard",
+      "contact": "steps",
+      "event": "CT_Cardboard.StepLeft",
+      "sourceResource": "sounds/physics/cardboard/cardboard_box_impact_soft7.vsnd_c",
+      "sourceCrc32": "3bd721b9",
+      "sha256": "280eaededb76faef51fa8f610b1dd024bcc7ad6fb5ac650b0ecb45ecb927da14",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/cardboard_box_impact_soft7.wav"
+    },
+    {
+      "kind": "Cardboard",
+      "contact": "landings",
+      "event": "Land_Cardboard.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_cardboard_01.vsnd_c",
+      "sourceCrc32": "30f717ca",
+      "sha256": "cc7dfd62f40bf6cddc6f40081f1414841ac1203953ad1698008690c348af15df",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_cardboard_01.wav"
+    },
+    {
+      "kind": "Cardboard",
+      "contact": "landings",
+      "event": "Land_Cardboard.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_cardboard_02.vsnd_c",
+      "sourceCrc32": "fa40c78a",
+      "sha256": "3161ae280dde5d21c0aa4d98054a10892819805b87b99736c8012c189867c7ba",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_cardboard_02.wav"
+    },
+    {
+      "kind": "Cardboard",
+      "contact": "landings",
+      "event": "Land_Cardboard.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_cardboard_03.vsnd_c",
+      "sourceCrc32": "921b92b2",
+      "sha256": "368f0e957dcb4a9ba166bd8e1e53c2ab6b503fdb09ddd7bb4dacdf1ba9cf9b03",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_cardboard_03.wav"
+    },
+    {
+      "kind": "Rubber",
+      "contact": "steps",
+      "event": "CT_Rubber.StepLeft",
+      "sourceResource": "sounds/player/footsteps/rubber_03.vsnd_c",
+      "sourceCrc32": "67c71364",
+      "sha256": "2930604c3dea3e3f249b927e14b2461230e352aac7a5dcbd9d17dc172d18d129",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/rubber_03.wav"
+    },
+    {
+      "kind": "Rubber",
+      "contact": "steps",
+      "event": "CT_Rubber.StepLeft",
+      "sourceResource": "sounds/player/footsteps/rubber_04.vsnd_c",
+      "sourceCrc32": "4c6d17a4",
+      "sha256": "375561327e982a2f9b175a7c73bbf2ea7cfa3ef6a571009aeacf0b63156c1f0c",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/rubber_04.wav"
+    },
+    {
+      "kind": "Rubber",
+      "contact": "steps",
+      "event": "CT_Rubber.StepLeft",
+      "sourceResource": "sounds/player/footsteps/rubber_05.vsnd_c",
+      "sourceCrc32": "cce5c006",
+      "sha256": "df9db2a485d5a6d541f0da18a8dcaacd872238186bfebb8c46f4f61ee1f68d09",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/rubber_05.wav"
+    },
+    {
+      "kind": "Rubber",
+      "contact": "steps",
+      "event": "CT_Rubber.StepLeft",
+      "sourceResource": "sounds/player/footsteps/rubber_06.vsnd_c",
+      "sourceCrc32": "180a9592",
+      "sha256": "62c6eee1a265549c1fa5bbae30019f88acbb5ae15468c35af6b91231e66a8035",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/rubber_06.wav"
+    },
+    {
+      "kind": "Rubber",
+      "contact": "landings",
+      "event": "Land_Rubber.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_rubber_01.vsnd_c",
+      "sourceCrc32": "3770efd5",
+      "sha256": "83e1f9dc2c2d99f15dcd8a3118fc24a593d3d2286ae5134c44fe100d1f94cf53",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_rubber_01.wav"
+    },
+    {
+      "kind": "Rubber",
+      "contact": "landings",
+      "event": "Land_Rubber.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_rubber_02.vsnd_c",
+      "sourceCrc32": "efd21697",
+      "sha256": "1757cad5a049bd46d1084ebb44eb1fca1c5968049090a13756679c9517639fa5",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_rubber_02.wav"
+    },
+    {
+      "kind": "Rubber",
+      "contact": "landings",
+      "event": "Land_Rubber.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_rubber_03.vsnd_c",
+      "sourceCrc32": "95ed16ff",
+      "sha256": "aea35d7e0eb5ba8cfc9720429c7f4273108ffa24415ea7bbe953d98789c75a63",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_rubber_03.wav"
+    },
+    {
+      "kind": "Rubber",
+      "contact": "landings",
+      "event": "Land_Rubber.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_rubber_04.vsnd_c",
+      "sourceCrc32": "8c347e00",
+      "sha256": "0345f212a67420a2ae4c23389278eb2611d816d77a61b46cfc12d9d5bfb90736",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_rubber_04.wav"
+    },
+    {
+      "kind": "Rubber",
+      "contact": "landings",
+      "event": "Land_Rubber.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_rubber_05.vsnd_c",
+      "sourceCrc32": "bf59bdde",
+      "sha256": "d5f64dd4cf542311e46acd42bccbcd5911c26d4a8c81274069826bc7d448baed",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_rubber_05.wav"
+    },
+    {
+      "kind": "Rubber",
+      "contact": "landings",
+      "event": "Land_Rubber.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_rubber_06.vsnd_c",
+      "sourceCrc32": "fd32a863",
+      "sha256": "71afc6e055a1c5edf997901d1825162fdc54c3d43979555ceccdda6975026081",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_rubber_06.wav"
+    },
+    {
+      "kind": "Cloth",
+      "contact": "steps",
+      "event": "CT_Carpet.StepLeft",
+      "sourceResource": "sounds/player/footsteps/carpet_01.vsnd_c",
+      "sourceCrc32": "13a07f31",
+      "sha256": "7f41b6e57c3343a9fb574e8948476d0600b4001e777ef12df69506302d4a92be",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/carpet_01.wav"
+    },
+    {
+      "kind": "Cloth",
+      "contact": "steps",
+      "event": "CT_Carpet.StepLeft",
+      "sourceResource": "sounds/player/footsteps/carpet_03.vsnd_c",
+      "sourceCrc32": "9977b396",
+      "sha256": "381252adece797aa5cad2389a126803daf5b3c999a4167ff83443b6055ebb1f2",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/carpet_03.wav"
+    },
+    {
+      "kind": "Cloth",
+      "contact": "steps",
+      "event": "CT_Carpet.StepLeft",
+      "sourceResource": "sounds/player/footsteps/carpet_04.vsnd_c",
+      "sourceCrc32": "b5f810aa",
+      "sha256": "0e3911588c2e6b215041205d6b729ebdfdcfffc93c87adb614f2700c98402777",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/carpet_04.wav"
+    },
+    {
+      "kind": "Cloth",
+      "contact": "steps",
+      "event": "CT_Carpet.StepLeft",
+      "sourceResource": "sounds/player/footsteps/carpet_08.vsnd_c",
+      "sourceCrc32": "8113bcec",
+      "sha256": "3b1f9b2a2934bb50f22741b584e5f14059d197b09d7f1b8ca3568b7deb4e2532",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/carpet_08.wav"
+    },
+    {
+      "kind": "Cloth",
+      "contact": "steps",
+      "event": "CT_Carpet.StepLeft",
+      "sourceResource": "sounds/player/footsteps/carpet_09.vsnd_c",
+      "sourceCrc32": "6254d48b",
+      "sha256": "d3a24cb0a5215148a2e7c9bf3dbe4a634a20b0118e021a904ef6e093cc82a493",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/carpet_09.wav"
+    },
+    {
+      "kind": "Cloth",
+      "contact": "steps",
+      "event": "CT_Carpet.StepLeft",
+      "sourceResource": "sounds/player/footsteps/carpet_11.vsnd_c",
+      "sourceCrc32": "9d118d11",
+      "sha256": "db6b0fce70303e5b15f6274eb75766d6ffc28570054db89dc4aaba4c4cf55070",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/carpet_11.wav"
+    },
+    {
+      "kind": "Cloth",
+      "contact": "steps",
+      "event": "CT_Carpet.StepLeft",
+      "sourceResource": "sounds/player/footsteps/carpet_14.vsnd_c",
+      "sourceCrc32": "2819b5e1",
+      "sha256": "0388ea83e9264b41a212181f4cf5097890cba8184b756e0118d581590e6d887f",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/carpet_14.wav"
+    },
+    {
+      "kind": "Cloth",
+      "contact": "steps",
+      "event": "CT_Carpet.StepLeft",
+      "sourceResource": "sounds/player/footsteps/carpet_15.vsnd_c",
+      "sourceCrc32": "dd831aef",
+      "sha256": "64408bc9de84641a34363b911ffd46eb8c3ae8c9841ac526f791f3aaadea8071",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/carpet_15.wav"
+    },
+    {
+      "kind": "Cloth",
+      "contact": "steps",
+      "event": "CT_Carpet.StepLeft",
+      "sourceResource": "sounds/player/footsteps/carpet_17.vsnd_c",
+      "sourceCrc32": "6ca82ef4",
+      "sha256": "9603ddb078c6dcf765c1fe690641afaa678f90ec837dbbff8031421d37e2c2c9",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/carpet_17.wav"
+    },
+    {
+      "kind": "Cloth",
+      "contact": "steps",
+      "event": "CT_Carpet.StepLeft",
+      "sourceResource": "sounds/player/footsteps/carpet_18.vsnd_c",
+      "sourceCrc32": "f00233d7",
+      "sha256": "d8f85a54d04c09a398c6b377e691727e60fec9e64636b8f724fc37d9be0806ac",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/carpet_18.wav"
+    },
+    {
+      "kind": "Cloth",
+      "contact": "steps",
+      "event": "CT_Carpet.StepLeft",
+      "sourceResource": "sounds/player/footsteps/carpet_19.vsnd_c",
+      "sourceCrc32": "42bb3999",
+      "sha256": "7f426ea9e39f3ba51f02ecc4fdc5848320c3a7956680e1d780ee196525cd603e",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/carpet_19.wav"
+    },
+    {
+      "kind": "Cloth",
+      "contact": "steps",
+      "event": "CT_Carpet.StepLeft",
+      "sourceResource": "sounds/player/footsteps/carpet_20.vsnd_c",
+      "sourceCrc32": "62d2c099",
+      "sha256": "1105268c6ba5506a81ac308550255c22b4daeabf88c71d450d87bf4e861ce51e",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/carpet_20.wav"
+    },
+    {
+      "kind": "Cloth",
+      "contact": "landings",
+      "event": "Land_Carpet.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_carpet_01.vsnd_c",
+      "sourceCrc32": "2c85831d",
+      "sha256": "36c0a1f099e1e5c532fba8b4ed68911c4bece02b5eaec4e93d613b6c4d39dfa1",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_carpet_01.wav"
+    },
+    {
+      "kind": "Cloth",
+      "contact": "landings",
+      "event": "Land_Carpet.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_carpet_02.vsnd_c",
+      "sourceCrc32": "eda8b508",
+      "sha256": "fe526075902451e62568f5c6c1bcff6eac04b5a90b931ad68bc2630c1e7e1c42",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_carpet_02.wav"
+    },
+    {
+      "kind": "Cloth",
+      "contact": "landings",
+      "event": "Land_Carpet.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_carpet_03.vsnd_c",
+      "sourceCrc32": "6403edf7",
+      "sha256": "5d58f76bdef176ef86cb8949b78c63e46292d88b253235a60fcced7a371a7346",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_carpet_03.wav"
+    },
+    {
+      "kind": "Cloth",
+      "contact": "landings",
+      "event": "Land_Carpet.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_carpet_04.vsnd_c",
+      "sourceCrc32": "dbb04289",
+      "sha256": "09d0881e722bac5a9aa62bf2b345ca1dd7a8e8868591c0c690532d32083e2975",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_carpet_04.wav"
+    },
+    {
+      "kind": "Cloth",
+      "contact": "landings",
+      "event": "Land_Carpet.StepLeft",
+      "sourceResource": "sounds/player/footsteps/land_carpet_05.vsnd_c",
+      "sourceCrc32": "af2f8110",
+      "sha256": "ab22e009cc4cb01d6c4d3c1619fcd8c7d2d227b97293cc166f5b2b23c2ecc665",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/land_carpet_05.wav"
+    },
+    {
+      "kind": "Water",
+      "contact": "steps",
+      "event": "CT_Water.StepLeft",
+      "sourceResource": "sounds/player/footsteps/puddle_01.vsnd_c",
+      "sourceCrc32": "2becedcc",
+      "sha256": "4b0d6386133ba7bf44b045b5262f955b897f2ae95e3ecb6a6d1ecc10a316b45f",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/puddle_01.wav"
+    },
+    {
+      "kind": "Water",
+      "contact": "steps",
+      "event": "CT_Water.StepLeft",
+      "sourceResource": "sounds/player/footsteps/puddle_02.vsnd_c",
+      "sourceCrc32": "9f1a7dd5",
+      "sha256": "c39814dc3fcd67c05e75ab0c634cf287996f40599dab30d88f09598e6427a09b",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/puddle_02.wav"
+    },
+    {
+      "kind": "Water",
+      "contact": "steps",
+      "event": "CT_Water.StepLeft",
+      "sourceResource": "sounds/player/footsteps/puddle_03.vsnd_c",
+      "sourceCrc32": "8eaf8356",
+      "sha256": "89d4206fd320556b2a1dec980e760abbfd2846c80a456cdf6972a82062f34b51",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/puddle_03.wav"
+    },
+    {
+      "kind": "Water",
+      "contact": "steps",
+      "event": "CT_Water.StepLeft",
+      "sourceResource": "sounds/player/footsteps/puddle_04.vsnd_c",
+      "sourceCrc32": "4b8e4105",
+      "sha256": "af3dd85249c6e0298006400e7ba218161b6572d46c734a4d3e6811b6cb9760bc",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/puddle_04.wav"
+    },
+    {
+      "kind": "Water",
+      "contact": "steps",
+      "event": "CT_Water.StepLeft",
+      "sourceResource": "sounds/player/footsteps/puddle_05.vsnd_c",
+      "sourceCrc32": "f5dfe9c2",
+      "sha256": "a54f88c26b9616eaefc1009982b5bcff4cb425cda8c9bd95c915b3660a24faa4",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/puddle_05.wav"
+    },
+    {
+      "kind": "Water",
+      "contact": "steps",
+      "event": "CT_Water.StepLeft",
+      "sourceResource": "sounds/player/footsteps/puddle_06.vsnd_c",
+      "sourceCrc32": "b49d8246",
+      "sha256": "1c166fae71b13756177747513633d088f21a15e08d8676df2f54128f3852c77e",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/puddle_06.wav"
+    },
+    {
+      "kind": "Water",
+      "contact": "steps",
+      "event": "CT_Water.StepLeft",
+      "sourceResource": "sounds/player/footsteps/puddle_07.vsnd_c",
+      "sourceCrc32": "02cbd8e7",
+      "sha256": "3fa084e1dbb9ebcd5348e87613db93c8432bbfb0984591967933f54fc1ecfa63",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/puddle_07.wav"
+    },
+    {
+      "kind": "Water",
+      "contact": "steps",
+      "event": "CT_Water.StepLeft",
+      "sourceResource": "sounds/player/footsteps/puddle_08.vsnd_c",
+      "sourceCrc32": "c803b4d6",
+      "sha256": "0e27f7c8359e295a2e8edf8741facd4e29583f612aaeadf82a8a59853bdba8cb",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/puddle_08.wav"
+    },
+    {
+      "kind": "Water",
+      "contact": "steps",
+      "event": "CT_Water.StepLeft",
+      "sourceResource": "sounds/player/footsteps/puddle_09.vsnd_c",
+      "sourceCrc32": "620a7b24",
+      "sha256": "1d648a2fc779fba36cec9cd47d0ab4a74042ef9bc6bd784e170db5f3af9c6f39",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/puddle_09.wav"
+    },
+    {
+      "kind": "Water",
+      "contact": "landings",
+      "event": "Land_WaterVol.StepLeft",
+      "sourceResource": "sounds/physics/water/water_splash_01.vsnd_c",
+      "sourceCrc32": "ece8d064",
+      "sha256": "fac41236062595ccdcd7b27715b1f277eb7f00508e35654389629b7a17028bd0",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/water_splash_01.wav"
+    },
+    {
+      "kind": "Water",
+      "contact": "landings",
+      "event": "Land_WaterVol.StepLeft",
+      "sourceResource": "sounds/physics/water/water_splash_02.vsnd_c",
+      "sourceCrc32": "01f590e0",
+      "sha256": "18b9f95df6d2330fb220fcdd9c2c36979c0180da76f65effbada37fd8fc3a2a0",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/water_splash_02.wav"
+    },
+    {
+      "kind": "Water",
+      "contact": "landings",
+      "event": "Land_WaterVol.StepLeft",
+      "sourceResource": "sounds/physics/water/water_splash_03.vsnd_c",
+      "sourceCrc32": "e2c4e318",
+      "sha256": "d0956c11894acc0ef60f2d6643beaf18a8f3cd799235bf103004698cfcbfaa1f",
+      "asset": "Assets/Resources/Combat/FootstepAudio/Clips/water_splash_03.wav"
+    }
+  ]
+}

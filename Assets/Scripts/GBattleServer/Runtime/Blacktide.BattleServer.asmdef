@@ -1,0 +1,12 @@
+{
+  "name": "Blacktide.BattleServer",
+  "references": [
+    "Blacktide.Shared",
+    "Blacktide.Simulation",
+    "LiteNetLib"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "UNITY_EDITOR || BLACKTIDE_SERVER || UNITY_SERVER"
+  ]
+}

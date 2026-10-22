@@ -1,3 +1,4 @@
+using OperationBlacktide.Client.Features.Lobby;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -24,6 +25,10 @@ namespace OperationBlacktide.Client.UI
             { "Training", "UI/Panels/TrainingPanel" },
             { "ReturnToLobby", "UI/Panels/ReturnToLobbyPanel" },
             { "TrainingMenu", "UI/Panels/TrainingMenuPanel" },
+            { "Demolition", "UI/Panels/DemolitionPanel" },
+            { "LobbyMenu", "UI/Panels/LobbyMenuPanel" },
+            { "Settings", "UI/Panels/SettingsPanel" },
+            { "Loading", "UI/Panels/SceneLoadingPanel" },
             // END UI PATH MAP
         };
 

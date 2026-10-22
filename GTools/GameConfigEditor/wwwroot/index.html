@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Blacktide · 配置工作台</title><link rel="stylesheet" href="style.css"></head>
+<body><header><div><span class="eyebrow">OPERATION BLACKTIDE</span><h1>配置工作台</h1></div><span class="badge">本地 · 引擎独立</span></header>
+<main><aside><h2>配置目录</h2><nav id="files"></nav><label for="search">查找武器</label><input id="search" placeholder="输入武器 ID"><nav id="items"></nav></aside>
+<section><div class="toolbar"><div><span class="eyebrow" id="path"></span><h2 id="title">加载配置…</h2></div><div><button id="reload">重新加载</button><button class="primary" id="save">保存并导出</button></div></div>
+<p class="hint">编辑公共配置；玩法与武器规则由客户端和服务端共用。保存后重新进入玩法以加载新配置。</p><p id="status" role="status"></p><form id="fields"></form><details><summary>查看配置 JSON</summary><pre id="json"></pre></details></section></main><script src="app.js"></script></body></html>

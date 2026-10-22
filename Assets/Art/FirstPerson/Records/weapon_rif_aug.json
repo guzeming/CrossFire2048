@@ -1,0 +1,56 @@
+{
+  "id": "weapon_rif_aug",
+  "clips": [
+    {
+      "name": "idle",
+      "first": 1,
+      "last": 2,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_aug/idle_aug.gltf"
+    },
+    {
+      "name": "draw",
+      "first": 3,
+      "last": 38,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_aug/draw_aug.gltf"
+    },
+    {
+      "name": "fire",
+      "first": 39,
+      "last": 67,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_aug/shoot1_aug.gltf"
+    },
+    {
+      "name": "reload",
+      "first": 68,
+      "last": 181,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_aug/reload_aug.gltf"
+    }
+  ],
+  "materials": [
+    {
+      "name": "bare_arm_133",
+      "color": "Assets/Art/Loadout/Textures/223f08d305e59e4ad46c.png",
+      "normal": "Assets/Art/Loadout/Textures/10dd463dff0288eac575.png"
+    },
+    {
+      "name": "sleeve_ctm_sas",
+      "color": "11fb55833453a22a324d.png",
+      "normal": "fd7d88acbc9ee89e125e.png"
+    },
+    {
+      "name": "weapon_rif_aug",
+      "color": "Assets/Art/Loadout/Textures/5a4406b7e90e25ced817.png",
+      "normal": "Assets/Art/Loadout/Textures/01f0d692574dcce0896b.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "Assets/Art/Loadout/Textures/67a4229a913ad1b16146.png",
+      "normal": "Assets/Art/Loadout/Textures/2454904008e64d88948a.png"
+    },
+    {
+      "name": "shared_scope_lens",
+      "color": "",
+      "normal": "Assets/Art/Loadout/Textures/fc143bde6d1887c72433.png"
+    }
+  ]
+}

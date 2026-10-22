@@ -1,0 +1,834 @@
+{
+  "source": "Local Counter-Strike 2 installation; existing verified CombatAudio export",
+  "conversion": "WAV copied unchanged; Unity import preloads short samples",
+  "sounds": [
+    {
+      "kind": "Default",
+      "event": "Default.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/default_impact_bullet1.vsnd_c",
+      "sourceCrc32": "54ec3dde",
+      "sha256": "fd3cce51de26078612e7ae538030eb3b4db7ec053993ba79ce821f21fed4e3ac",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Default/default_impact_bullet1.wav",
+      "seconds": 0.268254
+    },
+    {
+      "kind": "Default",
+      "event": "Default.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/default_impact_bullet2.vsnd_c",
+      "sourceCrc32": "11905e37",
+      "sha256": "af14f365b8cc1d5f1734d70c4dff72ab8c1a17013de44cc7ca7f06c6faa80b94",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Default/default_impact_bullet2.wav",
+      "seconds": 0.268254
+    },
+    {
+      "kind": "Default",
+      "event": "Default.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/default_impact_bullet3.vsnd_c",
+      "sourceCrc32": "8766602b",
+      "sha256": "c04b6be5734373071c03a3c02492ed3d0b03eb039b3e8971d039ad11d6ac93b5",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Default/default_impact_bullet3.wav",
+      "seconds": 0.268844
+    },
+    {
+      "kind": "Default",
+      "event": "Default.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/default_impact_bullet4.vsnd_c",
+      "sourceCrc32": "8d0fa617",
+      "sha256": "f527e55a60f872df57c87b92cc2402b028d6e100c89c690691f058fa18e3ef91",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Default/default_impact_bullet4.wav",
+      "seconds": 0.328413
+    },
+    {
+      "kind": "Concrete",
+      "event": "Concrete.BulletImpact",
+      "sourceResource": "sounds/physics/concrete/concrete_impact_bullet1.vsnd_c",
+      "sourceCrc32": "9acbf3a1",
+      "sha256": "68af2ab7349cb73acedce62e8e7e896b6227e491e5edf1d1fed90f93aad82b63",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Concrete/concrete_impact_bullet1.wav",
+      "seconds": 0.769705
+    },
+    {
+      "kind": "Concrete",
+      "event": "Concrete.BulletImpact",
+      "sourceResource": "sounds/physics/concrete/concrete_impact_bullet2.vsnd_c",
+      "sourceCrc32": "b1db39ee",
+      "sha256": "2a9982eea497ef79680bfb454b1696fc2cc9f4e52a08c4069efdcacf95dd3b3b",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Concrete/concrete_impact_bullet2.wav",
+      "seconds": 1.63263
+    },
+    {
+      "kind": "Concrete",
+      "event": "Concrete.BulletImpact",
+      "sourceResource": "sounds/physics/concrete/concrete_impact_bullet3.vsnd_c",
+      "sourceCrc32": "13419160",
+      "sha256": "71e2fca5047606dc02bb48cdea1fbcf249cfd80e348f9802a8827b7f1949816b",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Concrete/concrete_impact_bullet3.wav",
+      "seconds": 1.69254
+    },
+    {
+      "kind": "Concrete",
+      "event": "Concrete.BulletImpact",
+      "sourceResource": "sounds/physics/concrete/concrete_impact_bullet4.vsnd_c",
+      "sourceCrc32": "5e34f140",
+      "sha256": "b2f6f85b8e1aa03d1b7b766915cb04e46e44953eec5cff14a556243f77380713",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Concrete/concrete_impact_bullet4.wav",
+      "seconds": 1.289184
+    },
+    {
+      "kind": "Metal",
+      "event": "SolidMetal.BulletImpact",
+      "sourceResource": "sounds/physics/metal/bullet_metal_solid_01.vsnd_c",
+      "sourceCrc32": "ba856501",
+      "sha256": "6118f31c13512065c9d7b48bb8e7d5305738a41c8e0436c4dd79d5992ffaefb0",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Metal/bullet_metal_solid_01.wav",
+      "seconds": 0.792154
+    },
+    {
+      "kind": "Metal",
+      "event": "SolidMetal.BulletImpact",
+      "sourceResource": "sounds/physics/metal/bullet_metal_solid_02.vsnd_c",
+      "sourceCrc32": "7144adfb",
+      "sha256": "57d15970d7c284db4601a7615db58263aa22a562b48438fbc1a3ff9f5c353153",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Metal/bullet_metal_solid_02.wav",
+      "seconds": 0.916667
+    },
+    {
+      "kind": "Metal",
+      "event": "SolidMetal.BulletImpact",
+      "sourceResource": "sounds/physics/metal/bullet_metal_solid_03.vsnd_c",
+      "sourceCrc32": "b45aeb71",
+      "sha256": "7a7fb23df5729dbacc1232aca943d153ea445b7ce0a7e5ec5f739648da666656",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Metal/bullet_metal_solid_03.wav",
+      "seconds": 1.017823
+    },
+    {
+      "kind": "Metal",
+      "event": "SolidMetal.BulletImpact",
+      "sourceResource": "sounds/physics/metal/bullet_metal_solid_04.vsnd_c",
+      "sourceCrc32": "05213549",
+      "sha256": "4407d4b658aed3784db8ceef4d1a063dca0d10ce0b66290602b07762b2ac27d5",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Metal/bullet_metal_solid_04.wav",
+      "seconds": 1.051315
+    },
+    {
+      "kind": "Metal",
+      "event": "SolidMetal.BulletImpact",
+      "sourceResource": "sounds/physics/metal/bullet_metal_solid_05.vsnd_c",
+      "sourceCrc32": "9c0a421c",
+      "sha256": "de9af228840db95562299465f0d6f275c5880579377e610554c7896b24b943b0",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Metal/bullet_metal_solid_05.wav",
+      "seconds": 0.965329
+    },
+    {
+      "kind": "Metal",
+      "event": "SolidMetal.BulletImpact",
+      "sourceResource": "sounds/physics/metal/bullet_metal_solid_06.vsnd_c",
+      "sourceCrc32": "a3c649a5",
+      "sha256": "01da0e0de2165e99de853664356a9d599b9e25fd8e03010885a53a841a95e638",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Metal/bullet_metal_solid_06.wav",
+      "seconds": 0.86932
+    },
+    {
+      "kind": "MetalGrate",
+      "event": "MetalGrate.BulletImpact",
+      "sourceResource": "sounds/physics/metal/bullet_metal_grate_01.vsnd_c",
+      "sourceCrc32": "5ada3e0e",
+      "sha256": "2af46e6d87a788c12ed60a66011a228a020e9a550bdb90462ee6d10fabb512e8",
+      "asset": "Assets/Resources/Combat/ImpactAudio/MetalGrate/bullet_metal_grate_01.wav",
+      "seconds": 0.517551
+    },
+    {
+      "kind": "MetalGrate",
+      "event": "MetalGrate.BulletImpact",
+      "sourceResource": "sounds/physics/metal/bullet_metal_grate_02.vsnd_c",
+      "sourceCrc32": "fd62b976",
+      "sha256": "e75949e39aea9e8c81bdc549616b142cfac7ca303464acc1ad923e3fa6e494da",
+      "asset": "Assets/Resources/Combat/ImpactAudio/MetalGrate/bullet_metal_grate_02.wav",
+      "seconds": 0.453333
+    },
+    {
+      "kind": "MetalGrate",
+      "event": "MetalGrate.BulletImpact",
+      "sourceResource": "sounds/physics/metal/bullet_metal_grate_03.vsnd_c",
+      "sourceCrc32": "adcea5e0",
+      "sha256": "e3f63e8718e136a2d1f56f153cf7607cff769d2d417a6293e0a6210cf9b198c6",
+      "asset": "Assets/Resources/Combat/ImpactAudio/MetalGrate/bullet_metal_grate_03.wav",
+      "seconds": 0.448231
+    },
+    {
+      "kind": "MetalGrate",
+      "event": "MetalGrate.BulletImpact",
+      "sourceResource": "sounds/physics/metal/bullet_metal_grate_04.vsnd_c",
+      "sourceCrc32": "7dc99852",
+      "sha256": "350e54da3d1fb7d202c61f331f7a435187bd2a77e37f60387ef7ae81b4851b30",
+      "asset": "Assets/Resources/Combat/ImpactAudio/MetalGrate/bullet_metal_grate_04.wav",
+      "seconds": 0.699955
+    },
+    {
+      "kind": "MetalGrate",
+      "event": "MetalGrate.BulletImpact",
+      "sourceResource": "sounds/physics/metal/bullet_metal_grate_05.vsnd_c",
+      "sourceCrc32": "f09f8b4a",
+      "sha256": "b2454fe5094656f456478dff174ef437c055646548ae8a750c69140ba273481a",
+      "asset": "Assets/Resources/Combat/ImpactAudio/MetalGrate/bullet_metal_grate_05.wav",
+      "seconds": 0.60966
+    },
+    {
+      "kind": "MetalGrate",
+      "event": "MetalGrate.BulletImpact",
+      "sourceResource": "sounds/physics/metal/bullet_metal_grate_06.vsnd_c",
+      "sourceCrc32": "e283100f",
+      "sha256": "644c49a97e5a244b2bdd27092c4b9d438f395c337c94357753d899aeddf67a88",
+      "asset": "Assets/Resources/Combat/ImpactAudio/MetalGrate/bullet_metal_grate_06.wav",
+      "seconds": 0.513991
+    },
+    {
+      "kind": "MetalBarrel",
+      "event": "MetalBarrel.BulletImpact",
+      "sourceResource": "sounds/physics/metal/bullet_metal_barrel_01.vsnd_c",
+      "sourceCrc32": "e500d3f1",
+      "sha256": "fc41c7b2e8fd5d43bdfbafc9a17fa7bcd0db680614dd972b2ba84105f2ac4955",
+      "asset": "Assets/Resources/Combat/ImpactAudio/MetalBarrel/bullet_metal_barrel_01.wav",
+      "seconds": 1.416168
+    },
+    {
+      "kind": "MetalBarrel",
+      "event": "MetalBarrel.BulletImpact",
+      "sourceResource": "sounds/physics/metal/bullet_metal_barrel_02.vsnd_c",
+      "sourceCrc32": "80df1178",
+      "sha256": "2c090ea9ccfec218980b41829fa18f54f14b1fa1dac61595b6a36d543e32a396",
+      "asset": "Assets/Resources/Combat/ImpactAudio/MetalBarrel/bullet_metal_barrel_02.wav",
+      "seconds": 1.674649
+    },
+    {
+      "kind": "MetalBarrel",
+      "event": "MetalBarrel.BulletImpact",
+      "sourceResource": "sounds/physics/metal/bullet_metal_barrel_03.vsnd_c",
+      "sourceCrc32": "90b70d3f",
+      "sha256": "392ad55ac8937550bf602ce42ef5e8ba72bd547bf2f8d5cd3c3daae67bc60348",
+      "asset": "Assets/Resources/Combat/ImpactAudio/MetalBarrel/bullet_metal_barrel_03.wav",
+      "seconds": 1.626667
+    },
+    {
+      "kind": "MetalBarrel",
+      "event": "MetalBarrel.BulletImpact",
+      "sourceResource": "sounds/physics/metal/bullet_metal_barrel_04.vsnd_c",
+      "sourceCrc32": "482b8637",
+      "sha256": "8b7c8e3bb424a8ed220046278766aa7f4d14221373a88677dbe2ba7fbed5dea5",
+      "asset": "Assets/Resources/Combat/ImpactAudio/MetalBarrel/bullet_metal_barrel_04.wav",
+      "seconds": 2.187619
+    },
+    {
+      "kind": "MetalBarrel",
+      "event": "MetalBarrel.BulletImpact",
+      "sourceResource": "sounds/physics/metal/bullet_metal_barrel_05.vsnd_c",
+      "sourceCrc32": "65a76289",
+      "sha256": "637796cd7acea4cbbc1c7e78d96a56de309d2dee40a278d6cc36a484fd630180",
+      "asset": "Assets/Resources/Combat/ImpactAudio/MetalBarrel/bullet_metal_barrel_05.wav",
+      "seconds": 1.277732
+    },
+    {
+      "kind": "Wood",
+      "event": "Wood.BulletImpact",
+      "sourceResource": "sounds/physics/wood/wood_solid_impact_bullet1.vsnd_c",
+      "sourceCrc32": "a5b56074",
+      "sha256": "0d27b27d04a56e0dd81dacf14cfce06c6e9977274e7b0a1e25895d308febf937",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Wood/wood_solid_impact_bullet1.wav",
+      "seconds": 0.268844
+    },
+    {
+      "kind": "Wood",
+      "event": "Wood.BulletImpact",
+      "sourceResource": "sounds/physics/wood/wood_solid_impact_bullet2.vsnd_c",
+      "sourceCrc32": "b40b0714",
+      "sha256": "58b28f6d49045b6ee45fddef7360800a7bd2e25f5af90a0c79520939cc12f6aa",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Wood/wood_solid_impact_bullet2.wav",
+      "seconds": 0.411066
+    },
+    {
+      "kind": "Wood",
+      "event": "Wood.BulletImpact",
+      "sourceResource": "sounds/physics/wood/wood_solid_impact_bullet3.vsnd_c",
+      "sourceCrc32": "bb703642",
+      "sha256": "f4075b5cb7bf524cfede6dfe29a2a8e2291ad12037370394fbce65135ba3293f",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Wood/wood_solid_impact_bullet3.wav",
+      "seconds": 0.764921
+    },
+    {
+      "kind": "Wood",
+      "event": "Wood.BulletImpact",
+      "sourceResource": "sounds/physics/wood/wood_solid_impact_bullet4.vsnd_c",
+      "sourceCrc32": "3f757fb2",
+      "sha256": "473d8dc91ed6e30ccaead33555722d998f6b3501c0822fba6aa2cfdf0fe47eaa",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Wood/wood_solid_impact_bullet4.wav",
+      "seconds": 0.309116
+    },
+    {
+      "kind": "Wood",
+      "event": "Wood.BulletImpact",
+      "sourceResource": "sounds/physics/wood/wood_solid_impact_bullet5.vsnd_c",
+      "sourceCrc32": "c181750d",
+      "sha256": "f41136263de97b5fe17b0c57d2f6a3d228f3b4e75945eecf0d04dab2633e214c",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Wood/wood_solid_impact_bullet5.wav",
+      "seconds": 0.44415
+    },
+    {
+      "kind": "WoodPanel",
+      "event": "Wood_Panel.BulletImpact",
+      "sourceResource": "sounds/physics/wood/wood_box_impact_bullet1.vsnd_c",
+      "sourceCrc32": "9acb5a31",
+      "sha256": "0928a737cc41e8a7687384fb300beba2188729f24298fb76ce1b99f59e09b19c",
+      "asset": "Assets/Resources/Combat/ImpactAudio/WoodPanel/wood_box_impact_bullet1.wav",
+      "seconds": 0.51932
+    },
+    {
+      "kind": "WoodPanel",
+      "event": "Wood_Panel.BulletImpact",
+      "sourceResource": "sounds/physics/wood/wood_box_impact_bullet2.vsnd_c",
+      "sourceCrc32": "118c573d",
+      "sha256": "8782bab22e0f6d3fdb29e89479d48f8876d950a72c56a3363c292dd7761d12d2",
+      "asset": "Assets/Resources/Combat/ImpactAudio/WoodPanel/wood_box_impact_bullet2.wav",
+      "seconds": 0.33449
+    },
+    {
+      "kind": "WoodPanel",
+      "event": "Wood_Panel.BulletImpact",
+      "sourceResource": "sounds/physics/wood/wood_box_impact_bullet3.vsnd_c",
+      "sourceCrc32": "b739184c",
+      "sha256": "faab616b12e04b0dc89059fd71a31c4c6a503bb5aa15f6ac81510a79212658b6",
+      "asset": "Assets/Resources/Combat/ImpactAudio/WoodPanel/wood_box_impact_bullet3.wav",
+      "seconds": 0.409841
+    },
+    {
+      "kind": "WoodPanel",
+      "event": "Wood_Panel.BulletImpact",
+      "sourceResource": "sounds/physics/wood/wood_box_impact_bullet4.vsnd_c",
+      "sourceCrc32": "9e6f89fc",
+      "sha256": "f3a00585a0eab5bca3680fb2399671229999b2af6f766a6fe69dd3e81b860402",
+      "asset": "Assets/Resources/Combat/ImpactAudio/WoodPanel/wood_box_impact_bullet4.wav",
+      "seconds": 0.34068
+    },
+    {
+      "kind": "Glass",
+      "event": "Glass.BulletImpact",
+      "sourceResource": "sounds/physics/glass/glass_impact_bullet1.vsnd_c",
+      "sourceCrc32": "f3730930",
+      "sha256": "ee972dac3015300ddf1ffe47d56ed6384457a1a6ce71356c20dffb88bf44c6c8",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Glass/glass_impact_bullet1.wav",
+      "seconds": 0.962404
+    },
+    {
+      "kind": "Glass",
+      "event": "Glass.BulletImpact",
+      "sourceResource": "sounds/physics/glass/glass_impact_bullet2.vsnd_c",
+      "sourceCrc32": "8db156ad",
+      "sha256": "b8fb0f04f9a3accad0af6331f2d685c17d6526df447ae7eca4a5ed04adbda959",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Glass/glass_impact_bullet2.wav",
+      "seconds": 1.094263
+    },
+    {
+      "kind": "Glass",
+      "event": "Glass.BulletImpact",
+      "sourceResource": "sounds/physics/glass/glass_impact_bullet3.vsnd_c",
+      "sourceCrc32": "a48836df",
+      "sha256": "0060e8eb08530c52824c72aa5825391ca12f9b7c9cdb04afd1e661a361be9081",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Glass/glass_impact_bullet3.wav",
+      "seconds": 1.122268
+    },
+    {
+      "kind": "Glass",
+      "event": "Glass.BulletImpact",
+      "sourceResource": "sounds/physics/glass/glass_impact_bullet4.vsnd_c",
+      "sourceCrc32": "3d084ad2",
+      "sha256": "f9fb3d3527a531bcb5f550856a04438edf95de1cd70f661c213996aa52426cbd",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Glass/glass_impact_bullet4.wav",
+      "seconds": 1.386327
+    },
+    {
+      "kind": "Tile",
+      "event": "Tile.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/tile_impact_bullet2.vsnd_c",
+      "sourceCrc32": "af8b2e55",
+      "sha256": "210585c8805de007d0aabe2b22350305e7fa897f7a2d4185060d1546ba82eaf6",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Tile/tile_impact_bullet2.wav",
+      "seconds": 0.663061
+    },
+    {
+      "kind": "Tile",
+      "event": "Tile.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/tile_impact_bullet3.vsnd_c",
+      "sourceCrc32": "c9e09100",
+      "sha256": "9b8c23e95e95e80668c30382cf3c3b229644950d76d40306bd49a74851745b56",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Tile/tile_impact_bullet3.wav",
+      "seconds": 0.925193
+    },
+    {
+      "kind": "Tile",
+      "event": "Tile.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/tile_impact_bullet4.vsnd_c",
+      "sourceCrc32": "003e16fd",
+      "sha256": "2df503683fb592363ca0830357486dff0fdba2ee148d67eb2e922eac5fd9c906",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Tile/tile_impact_bullet4.wav",
+      "seconds": 1.04059
+    },
+    {
+      "kind": "Dirt",
+      "event": "Dirt.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/dirt_impact_bullet_01.vsnd_c",
+      "sourceCrc32": "11eccd39",
+      "sha256": "fdacb12417af5da85715424afca506dac0d214e5403fadd9ae66287af02f5841",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Dirt/dirt_impact_bullet_01.wav",
+      "seconds": 1.161497
+    },
+    {
+      "kind": "Dirt",
+      "event": "Dirt.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/dirt_impact_bullet_02.vsnd_c",
+      "sourceCrc32": "548d0ff9",
+      "sha256": "f8ac711cdd1d1d4f5aa207f115191a3a989d5f39f8bd377af784c482c6744d5d",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Dirt/dirt_impact_bullet_02.wav",
+      "seconds": 1.117098
+    },
+    {
+      "kind": "Dirt",
+      "event": "Dirt.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/dirt_impact_bullet_03.vsnd_c",
+      "sourceCrc32": "04925831",
+      "sha256": "69d61545b21b8a58c8ee32616b2ef569d34098eb488ab1d3ae8045306fc6ec5b",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Dirt/dirt_impact_bullet_03.wav",
+      "seconds": 1.201497
+    },
+    {
+      "kind": "Dirt",
+      "event": "Dirt.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/dirt_impact_bullet_04.vsnd_c",
+      "sourceCrc32": "56a4e83b",
+      "sha256": "a4e05bc664c0730726aa257064b5018dbc4007de97f184e9762ec0a906475eb0",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Dirt/dirt_impact_bullet_04.wav",
+      "seconds": 1.179456
+    },
+    {
+      "kind": "Sand",
+      "event": "Sand.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/sand_impact_bullet_01.vsnd_c",
+      "sourceCrc32": "684f2593",
+      "sha256": "017194b9c86077048d1818252a1c4c6612ac993289f367527fb9e87df25ff52a",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Sand/sand_impact_bullet_01.wav",
+      "seconds": 1.044762
+    },
+    {
+      "kind": "Sand",
+      "event": "Sand.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/sand_impact_bullet_02.vsnd_c",
+      "sourceCrc32": "0c5fac7f",
+      "sha256": "035b70796fae2667baa4f9e4f38a680ac7ef99aa6339cc09b6c6b64180dde78a",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Sand/sand_impact_bullet_02.wav",
+      "seconds": 1.32551
+    },
+    {
+      "kind": "Sand",
+      "event": "Sand.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/sand_impact_bullet_03.vsnd_c",
+      "sourceCrc32": "c1476e33",
+      "sha256": "48f7eb59c61844457c4272a87a35c3b669c0133cd5ea58068ddef1ec1e4a83a8",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Sand/sand_impact_bullet_03.wav",
+      "seconds": 1.451406
+    },
+    {
+      "kind": "Sand",
+      "event": "Sand.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/sand_impact_bullet_04.vsnd_c",
+      "sourceCrc32": "0cbe4fbc",
+      "sha256": "ca70845d0437e7edcb0307567380f83eddbaa8cb9ae8556a8627f9b772ba881e",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Sand/sand_impact_bullet_04.wav",
+      "seconds": 1.154875
+    },
+    {
+      "kind": "Grass",
+      "event": "Grass.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/grass_impact_bullet_01.vsnd_c",
+      "sourceCrc32": "b986d1a8",
+      "sha256": "e4e37243030701d0ba2a5427aa973bcbc67ab5c509a2ac6bf8a2a460115ac6f1",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Grass/grass_impact_bullet_01.wav",
+      "seconds": 0.74
+    },
+    {
+      "kind": "Grass",
+      "event": "Grass.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/grass_impact_bullet_02.vsnd_c",
+      "sourceCrc32": "de87c70d",
+      "sha256": "ddd0d2c16609435e78f950d346676e400580aa10772cc0bbcc901138e0aa52bd",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Grass/grass_impact_bullet_02.wav",
+      "seconds": 0.739683
+    },
+    {
+      "kind": "Grass",
+      "event": "Grass.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/grass_impact_bullet_03.vsnd_c",
+      "sourceCrc32": "9264e3cc",
+      "sha256": "8c677260aa3a17739cb01b496379ce16d9df1abef1baf2071bb23b42aa9b80c8",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Grass/grass_impact_bullet_03.wav",
+      "seconds": 0.86644
+    },
+    {
+      "kind": "Grass",
+      "event": "Grass.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/grass_impact_bullet_04.vsnd_c",
+      "sourceCrc32": "c9da4eef",
+      "sha256": "0ab7eff59d5ebdb1ae53c3b59f65735c08622b50f35e2d5c1d0d5a100edd1a06",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Grass/grass_impact_bullet_04.wav",
+      "seconds": 0.915306
+    },
+    {
+      "kind": "Plastic",
+      "event": "Plastic_Box.BulletImpact",
+      "sourceResource": "sounds/physics/plastic/plastic_box_impact_bullet1.vsnd_c",
+      "sourceCrc32": "328dcbbb",
+      "sha256": "003b000290954d611f3a4126970d8762e0151b50857dad038d170fbab4a8b053",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Plastic/plastic_box_impact_bullet1.wav",
+      "seconds": 0.494875
+    },
+    {
+      "kind": "Plastic",
+      "event": "Plastic_Box.BulletImpact",
+      "sourceResource": "sounds/physics/plastic/plastic_box_impact_bullet2.vsnd_c",
+      "sourceCrc32": "d4054ab3",
+      "sha256": "f6e012f96d01c96d42efa004e88f4bfe6df38c7594999c21b26e99a7f3f78ccd",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Plastic/plastic_box_impact_bullet2.wav",
+      "seconds": 0.448435
+    },
+    {
+      "kind": "Plastic",
+      "event": "Plastic_Box.BulletImpact",
+      "sourceResource": "sounds/physics/plastic/plastic_box_impact_bullet3.vsnd_c",
+      "sourceCrc32": "54f4ffa8",
+      "sha256": "dc159171f906f20da1ccb8e6797ef325a6afb5432a4094250a343077d30fde42",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Plastic/plastic_box_impact_bullet3.wav",
+      "seconds": 0.589206
+    },
+    {
+      "kind": "Plastic",
+      "event": "Plastic_Box.BulletImpact",
+      "sourceResource": "sounds/physics/plastic/plastic_box_impact_bullet4.vsnd_c",
+      "sourceCrc32": "4a917887",
+      "sha256": "8e144590cf77b4ed1f8bb096df5c363e0b3c4515447bb191ea100d104758bdc6",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Plastic/plastic_box_impact_bullet4.wav",
+      "seconds": 0.260499
+    },
+    {
+      "kind": "Plastic",
+      "event": "Plastic_Box.BulletImpact",
+      "sourceResource": "sounds/physics/plastic/plastic_box_impact_bullet5.vsnd_c",
+      "sourceCrc32": "74d8161c",
+      "sha256": "c363d4c77bb448b59f8b8f4d2683a87a6740d5d7ed21e610b0d3377a58801bd5",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Plastic/plastic_box_impact_bullet5.wav",
+      "seconds": 0.346848
+    },
+    {
+      "kind": "Cardboard",
+      "event": "Cardboard.BulletImpact",
+      "sourceResource": "sounds/physics/cardboard/cardboard_box_impact_bullet1.vsnd_c",
+      "sourceCrc32": "9f2c3a9a",
+      "sha256": "52de1a92e3b48afbe1c71020025918a0d9f75082e6cf3bce3ec1ad2b6a9c062d",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Cardboard/cardboard_box_impact_bullet1.wav",
+      "seconds": 0.316508
+    },
+    {
+      "kind": "Cardboard",
+      "event": "Cardboard.BulletImpact",
+      "sourceResource": "sounds/physics/cardboard/cardboard_box_impact_bullet2.vsnd_c",
+      "sourceCrc32": "bb3063bf",
+      "sha256": "97c44212f828126f2e6191c7dfea8a737d623b6bc632f4cb943b9367a31438e1",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Cardboard/cardboard_box_impact_bullet2.wav",
+      "seconds": 0.268254
+    },
+    {
+      "kind": "Cardboard",
+      "event": "Cardboard.BulletImpact",
+      "sourceResource": "sounds/physics/cardboard/cardboard_box_impact_bullet3.vsnd_c",
+      "sourceCrc32": "eb31f1d5",
+      "sha256": "a35a478d23763c6c39dac56b2dbdd61990aa85fc26032af0a83ee738fd937688",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Cardboard/cardboard_box_impact_bullet3.wav",
+      "seconds": 0.268844
+    },
+    {
+      "kind": "Cardboard",
+      "event": "Cardboard.BulletImpact",
+      "sourceResource": "sounds/physics/cardboard/cardboard_box_impact_bullet4.vsnd_c",
+      "sourceCrc32": "28774899",
+      "sha256": "a95839415122daffaf3b37d9701dafdf3867cff7ab252058eac76f73479adb65",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Cardboard/cardboard_box_impact_bullet4.wav",
+      "seconds": 0.268254
+    },
+    {
+      "kind": "Cardboard",
+      "event": "Cardboard.BulletImpact",
+      "sourceResource": "sounds/physics/cardboard/cardboard_box_impact_bullet5.vsnd_c",
+      "sourceCrc32": "015e4dd8",
+      "sha256": "68b94b7348c477785d2cc7ba3ab3df579006eb003573616b81de6a44bc89654c",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Cardboard/cardboard_box_impact_bullet5.wav",
+      "seconds": 0.268254
+    },
+    {
+      "kind": "Rubber",
+      "event": "Rubber_Tire.BulletImpact",
+      "sourceResource": "sounds/physics/rubber/rubber_tire_impact_bullet1.vsnd_c",
+      "sourceCrc32": "3e147abd",
+      "sha256": "87a10c6923512aefe7b02d1de021f25c86a405b4fd53c7b39edc8b9515ba2701",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Rubber/rubber_tire_impact_bullet1.wav",
+      "seconds": 0.226168
+    },
+    {
+      "kind": "Rubber",
+      "event": "Rubber_Tire.BulletImpact",
+      "sourceResource": "sounds/physics/rubber/rubber_tire_impact_bullet2.vsnd_c",
+      "sourceCrc32": "1b4b6ad3",
+      "sha256": "1bcdfa9f48e7622537f90d57ac55781341a0115b4084f8c0bcd9611f34a8eddb",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Rubber/rubber_tire_impact_bullet2.wav",
+      "seconds": 0.359342
+    },
+    {
+      "kind": "Rubber",
+      "event": "Rubber_Tire.BulletImpact",
+      "sourceResource": "sounds/physics/rubber/rubber_tire_impact_bullet3.vsnd_c",
+      "sourceCrc32": "7329d969",
+      "sha256": "7245332e54b4bc3557e18020dd3688370aaf85b273aebee1669a8a0b588ff941",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Rubber/rubber_tire_impact_bullet3.wav",
+      "seconds": 0.336735
+    },
+    {
+      "kind": "Cloth",
+      "event": "Carpet.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/carpet_impact_bullet_01.vsnd_c",
+      "sourceCrc32": "cb06a2fe",
+      "sha256": "51580131c981ee693f5dbcaab1a60790693800a94f9121e2dbdaf05c29e594cf",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Cloth/carpet_impact_bullet_01.wav",
+      "seconds": 0.655601
+    },
+    {
+      "kind": "Cloth",
+      "event": "Carpet.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/carpet_impact_bullet_02.vsnd_c",
+      "sourceCrc32": "3969b8de",
+      "sha256": "1f2d20203cc5875ab4f855fb082d403779b16d80fec50d2a3b78934e6ddf435b",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Cloth/carpet_impact_bullet_02.wav",
+      "seconds": 0.570816
+    },
+    {
+      "kind": "Cloth",
+      "event": "Carpet.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/carpet_impact_bullet_03.vsnd_c",
+      "sourceCrc32": "b7af82f9",
+      "sha256": "ca0a5ea4b956c255950c30783e28f9544a05ec5d12971f7144cb3d02999266b3",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Cloth/carpet_impact_bullet_03.wav",
+      "seconds": 0.59356
+    },
+    {
+      "kind": "Cloth",
+      "event": "Carpet.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/carpet_impact_bullet_04.vsnd_c",
+      "sourceCrc32": "c7d3d6ce",
+      "sha256": "8c7694d56c996ef47789bde4e06f1bae66e1969d351e93b8c220a159244276d8",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Cloth/carpet_impact_bullet_04.wav",
+      "seconds": 0.719615
+    },
+    {
+      "kind": "Cloth",
+      "event": "Carpet.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/carpet_impact_bullet_05.vsnd_c",
+      "sourceCrc32": "40911215",
+      "sha256": "aaa62bda669259ba9f43844d53bda4d5493da4a5458f6023ef58d18fddd081f0",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Cloth/carpet_impact_bullet_05.wav",
+      "seconds": 0.509342
+    },
+    {
+      "kind": "Water",
+      "event": "Water.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/underwater_impact_bullet1.vsnd_c",
+      "sourceCrc32": "a6c042a6",
+      "sha256": "de3402ae6ac6e755abb94eeed497cc81025749d5ac330a78ab00e2e95467487d",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Water/underwater_impact_bullet1.wav",
+      "seconds": 0.929365
+    },
+    {
+      "kind": "Water",
+      "event": "Water.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/underwater_impact_bullet2.vsnd_c",
+      "sourceCrc32": "d4e8cdb7",
+      "sha256": "1c7f10c8c2dfd4f103e6d456d9d4b9373e7ee81263e56dbffd0958215f8e1534",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Water/underwater_impact_bullet2.wav",
+      "seconds": 0.894082
+    },
+    {
+      "kind": "Water",
+      "event": "Water.BulletImpact",
+      "sourceResource": "sounds/physics/surfaces/underwater_impact_bullet3.vsnd_c",
+      "sourceCrc32": "2fa028a9",
+      "sha256": "511c342bac80297e468f82ad5072a31c15b5f058e1380d656f972b58f4bfa939",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Water/underwater_impact_bullet3.wav",
+      "seconds": 0.843968
+    },
+    {
+      "kind": "Body",
+      "event": "Player.DamageBody.AttackerFeedback",
+      "sourceResource": "sounds/physics/surfaces/mud_impact_bullet1.vsnd_c",
+      "sourceCrc32": "e784eb2c",
+      "sha256": "adc16982773436d8e56df68b204d7243cff12b30cb479a98772fc8614293faef",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Body/mud_impact_bullet1.wav",
+      "seconds": 0.546621
+    },
+    {
+      "kind": "Body",
+      "event": "Player.DamageBody.AttackerFeedback",
+      "sourceResource": "sounds/physics/surfaces/mud_impact_bullet2.vsnd_c",
+      "sourceCrc32": "f9ae8d01",
+      "sha256": "704d93ac0b2bc6dc2259935b95c637ca48f9186340cb95a8877d705e53d282b6",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Body/mud_impact_bullet2.wav",
+      "seconds": 0.760408
+    },
+    {
+      "kind": "Body",
+      "event": "Player.DamageBody.AttackerFeedback",
+      "sourceResource": "sounds/physics/surfaces/mud_impact_bullet3.vsnd_c",
+      "sourceCrc32": "c4ce8fce",
+      "sha256": "50c5179c2f9bd016fc75edae8a3ec2fa114c908ec8e60dd4aa51bb286d37f484",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Body/mud_impact_bullet3.wav",
+      "seconds": 0.505714
+    },
+    {
+      "kind": "Body",
+      "event": "Player.DamageBody.AttackerFeedback",
+      "sourceResource": "sounds/physics/surfaces/mud_impact_bullet4.vsnd_c",
+      "sourceCrc32": "f84ae9b6",
+      "sha256": "0f0a03d91c86c9f7c94d6049cb103218adc6706f9b2a4e8183b5565482e094d4",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Body/mud_impact_bullet4.wav",
+      "seconds": 0.526395
+    },
+    {
+      "kind": "Head",
+      "event": "Player.DamageHeadShot.AttackerFeedback",
+      "sourceResource": "sounds/player/headshot_noarmor_01.vsnd_c",
+      "sourceCrc32": "a8829efd",
+      "sha256": "4603f30e76d17e17e7300a19ec4adf9b33dcf09ccc9969a631dde4e25b5c10ab",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Head/headshot_noarmor_01.wav",
+      "seconds": 1.05
+    },
+    {
+      "kind": "Head",
+      "event": "Player.DamageHeadShot.AttackerFeedback",
+      "sourceResource": "sounds/player/headshot_noarmor_02.vsnd_c",
+      "sourceCrc32": "52ca0d10",
+      "sha256": "f786441add7fb4da292270086042ca69356de9937843a21179276e701c2b1e7c",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Head/headshot_noarmor_02.wav",
+      "seconds": 1.23
+    },
+    {
+      "kind": "Head",
+      "event": "Player.DamageHeadShot.AttackerFeedback",
+      "sourceResource": "sounds/player/headshot_noarmor_03.vsnd_c",
+      "sourceCrc32": "70c0add4",
+      "sha256": "39aa45af10030ebc591b389b63a1d5f423050c90ed0b0a359cb856c5f8462c43",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Head/headshot_noarmor_03.wav",
+      "seconds": 1.085193
+    },
+    {
+      "kind": "Head",
+      "event": "Player.DamageHeadShot.AttackerFeedback",
+      "sourceResource": "sounds/player/headshot_noarmor_04.vsnd_c",
+      "sourceCrc32": "45ae29d5",
+      "sha256": "a862a8f012e09dbb65abfb41f71d740cbb3bc4501b5a01f0df36a5e9ae270db3",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Head/headshot_noarmor_04.wav",
+      "seconds": 1.153311
+    },
+    {
+      "kind": "Head",
+      "event": "Player.DamageHeadShot.AttackerFeedback",
+      "sourceResource": "sounds/player/headshot_noarmor_05.vsnd_c",
+      "sourceCrc32": "1e4852e6",
+      "sha256": "b7bf13183d6500a5be6d739e581f08fc1cf18253ea3f176fc338c75efae1536d",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Head/headshot_noarmor_05.wav",
+      "seconds": 1.162449
+    },
+    {
+      "kind": "Armor",
+      "event": "Player.DamageBodyArmor.AttackerFeedback",
+      "sourceResource": "sounds/player/kevlar_01.vsnd_c",
+      "sourceCrc32": "6881fda0",
+      "sha256": "8bd4f6d66bda71f34a6fd5ff84f64673b31b84f6f851b4ccdc463eb27a2111f0",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Armor/kevlar_01.wav",
+      "seconds": 0.306667
+    },
+    {
+      "kind": "Armor",
+      "event": "Player.DamageBodyArmor.AttackerFeedback",
+      "sourceResource": "sounds/player/kevlar_02.vsnd_c",
+      "sourceCrc32": "f133bda3",
+      "sha256": "b5e15d0fc01cad5a40217286dcd6690a235fe104a7562d24c9dbd3fa73cddc5e",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Armor/kevlar_02.wav",
+      "seconds": 0.275782
+    },
+    {
+      "kind": "Armor",
+      "event": "Player.DamageBodyArmor.AttackerFeedback",
+      "sourceResource": "sounds/player/kevlar_03.vsnd_c",
+      "sourceCrc32": "ef8b733b",
+      "sha256": "f567bdce7faed1f1a67d5a96f2bd433c59135c14fdbf4889ad987dbe5112d202",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Armor/kevlar_03.wav",
+      "seconds": 0.295374
+    },
+    {
+      "kind": "Armor",
+      "event": "Player.DamageBodyArmor.AttackerFeedback",
+      "sourceResource": "sounds/player/kevlar_04.vsnd_c",
+      "sourceCrc32": "57cca809",
+      "sha256": "5eb44ae39ad677f13b5c35135c3d02ad0952b68fc9d22d1bfe30ed89894b7719",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Armor/kevlar_04.wav",
+      "seconds": 0.213991
+    },
+    {
+      "kind": "Armor",
+      "event": "Player.DamageBodyArmor.AttackerFeedback",
+      "sourceResource": "sounds/player/kevlar_05.vsnd_c",
+      "sourceCrc32": "9862bfed",
+      "sha256": "e79b30aab656361f3aa239dc4c45a664b5746913dbce18f5e5d0051d4fd39d8a",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Armor/kevlar_05.wav",
+      "seconds": 0.309977
+    },
+    {
+      "kind": "Armor",
+      "event": "Player.DamageBodyArmor.AttackerFeedback",
+      "sourceResource": "sounds/player/kevlar_06.vsnd_c",
+      "sourceCrc32": "9b80d2a5",
+      "sha256": "93a6080520498cd07b10cb327b30a50826bebb250c8b20c137c1dc28553b94a7",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Armor/kevlar_06.wav",
+      "seconds": 0.27839
+    },
+    {
+      "kind": "Armor",
+      "event": "Player.DamageBodyArmor.AttackerFeedback",
+      "sourceResource": "sounds/player/kevlar_07.vsnd_c",
+      "sourceCrc32": "1b1b01ff",
+      "sha256": "d094b0188daaca6fc75f94a5268de8a93b84263daa25b21ce86abbc96ab81810",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Armor/kevlar_07.wav",
+      "seconds": 0.277778
+    },
+    {
+      "kind": "Armor",
+      "event": "Player.DamageBodyArmor.AttackerFeedback",
+      "sourceResource": "sounds/player/kevlar_08.vsnd_c",
+      "sourceCrc32": "faad72d7",
+      "sha256": "429993b32cab53ad788b647987a318a4662c5e22921fd776beba282f45d32f9b",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Armor/kevlar_08.wav",
+      "seconds": 0.216599
+    },
+    {
+      "kind": "Helmet",
+      "event": "Player.DamageHeadShotArmor.AttackerFeedback",
+      "sourceResource": "sounds/player/headshot_armor_e1.vsnd_c",
+      "sourceCrc32": "bc5cb776",
+      "sha256": "fe5305c7e1496b4f9d1bfd52dbb43696bbdd20fad2a895a4b84c482938675610",
+      "asset": "Assets/Resources/Combat/ImpactAudio/Helmet/headshot_armor_e1.wav",
+      "seconds": 0.404444
+    }
+  ]
+}

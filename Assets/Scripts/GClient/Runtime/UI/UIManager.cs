@@ -175,6 +175,8 @@ namespace OperationBlacktide.Client.UI
         {
             if (GetStackCount(UILayer.Popup) > 0)
             {
+                string top = GetStack(UILayer.Popup).Peek();
+                if (_instances.TryGetValue(top, out UIPanel panel) && panel.HandleBackInput()) return true;
                 Pop(UILayer.Popup);
                 return true;
             }
@@ -500,8 +502,12 @@ namespace OperationBlacktide.Client.UI
                 return _toastPanel;
             }
 
-            Debug.LogWarning($"[UIManager] Overlay 面板 {panelId} 请使用专用 API 打开。");
-            return null;
+            string key = PanelIds.Key(panelId);
+            if (!TryGetPanelPrefab(key, out UIPanel prefab)) return null;
+            UIPanel overlay = GetOrCreatePanel(key, prefab);
+            overlay.OpenInternal(args);
+            BringToFront(overlay);
+            return overlay;
         }
 
         private void ShowToastFromArgs(object args)

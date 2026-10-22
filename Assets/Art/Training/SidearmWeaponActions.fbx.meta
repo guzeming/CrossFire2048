@@ -645,8 +645,8 @@ ModelImporter:
       name: idle_pistol
       takeName: Scene
       internalID: -5234307307113089089
-      firstFrame: 492
-      lastFrame: 493
+      firstFrame: 493
+      lastFrame: 494
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -669,13 +669,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 492
+      additiveReferencePoseFrame: 493
     - serializedVersion: 16
       name: walk_n_knife
       takeName: Scene
       internalID: -6182960411355245400
-      firstFrame: 494
-      lastFrame: 524
+      firstFrame: 496
+      lastFrame: 526
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -698,13 +698,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 494
+      additiveReferencePoseFrame: 496
     - serializedVersion: 16
       name: walk_ne_knife
       takeName: Scene
       internalID: -518708189376398851
-      firstFrame: 525
-      lastFrame: 555
+      firstFrame: 527
+      lastFrame: 557
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -727,13 +727,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 525
+      additiveReferencePoseFrame: 527
     - serializedVersion: 16
       name: walk_e_knife
       takeName: Scene
       internalID: 7228313120226186126
-      firstFrame: 556
-      lastFrame: 586
+      firstFrame: 558
+      lastFrame: 588
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -756,13 +756,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 556
+      additiveReferencePoseFrame: 558
     - serializedVersion: 16
       name: walk_se_knife
       takeName: Scene
       internalID: -8488861784631128433
-      firstFrame: 587
-      lastFrame: 617
+      firstFrame: 589
+      lastFrame: 619
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -785,13 +785,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 587
+      additiveReferencePoseFrame: 589
     - serializedVersion: 16
       name: walk_s_knife
       takeName: Scene
       internalID: 3294556441134526072
-      firstFrame: 618
-      lastFrame: 648
+      firstFrame: 620
+      lastFrame: 650
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -814,13 +814,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 618
+      additiveReferencePoseFrame: 620
     - serializedVersion: 16
       name: walk_sw_knife
       takeName: Scene
       internalID: -2515481226449316245
-      firstFrame: 649
-      lastFrame: 679
+      firstFrame: 651
+      lastFrame: 681
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -843,13 +843,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 649
+      additiveReferencePoseFrame: 651
     - serializedVersion: 16
       name: walk_w_knife
       takeName: Scene
       internalID: 5507408453333266076
-      firstFrame: 680
-      lastFrame: 710
+      firstFrame: 682
+      lastFrame: 712
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -872,13 +872,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 680
+      additiveReferencePoseFrame: 682
     - serializedVersion: 16
       name: walk_nw_knife
       takeName: Scene
       internalID: 5452677369489585974
-      firstFrame: 711
-      lastFrame: 741
+      firstFrame: 713
+      lastFrame: 743
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -901,13 +901,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 711
+      additiveReferencePoseFrame: 713
     - serializedVersion: 16
       name: run_n_knife
       takeName: Scene
       internalID: 1944837913990504498
-      firstFrame: 742
-      lastFrame: 764
+      firstFrame: 744
+      lastFrame: 766
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -930,13 +930,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 742
+      additiveReferencePoseFrame: 744
     - serializedVersion: 16
       name: run_ne_knife
       takeName: Scene
       internalID: 2950329327451626427
-      firstFrame: 765
-      lastFrame: 787
+      firstFrame: 767
+      lastFrame: 789
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -959,13 +959,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 765
+      additiveReferencePoseFrame: 767
     - serializedVersion: 16
       name: run_e_knife
       takeName: Scene
       internalID: 3300292723611932140
-      firstFrame: 788
-      lastFrame: 810
+      firstFrame: 790
+      lastFrame: 812
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -988,13 +988,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 788
+      additiveReferencePoseFrame: 790
     - serializedVersion: 16
       name: run_se_knife
       takeName: Scene
       internalID: -5736357176981970204
-      firstFrame: 811
-      lastFrame: 833
+      firstFrame: 813
+      lastFrame: 835
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1017,13 +1017,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 811
+      additiveReferencePoseFrame: 813
     - serializedVersion: 16
       name: run_s_knife
       takeName: Scene
       internalID: 2163540416701921958
-      firstFrame: 834
-      lastFrame: 856
+      firstFrame: 836
+      lastFrame: 858
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1046,13 +1046,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 834
+      additiveReferencePoseFrame: 836
     - serializedVersion: 16
       name: run_sw_knife
       takeName: Scene
       internalID: 6849783523160818372
-      firstFrame: 857
-      lastFrame: 879
+      firstFrame: 859
+      lastFrame: 881
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1075,13 +1075,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 857
+      additiveReferencePoseFrame: 859
     - serializedVersion: 16
       name: run_w_knife
       takeName: Scene
       internalID: -7109419159511638165
-      firstFrame: 880
-      lastFrame: 902
+      firstFrame: 882
+      lastFrame: 904
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1104,13 +1104,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 880
+      additiveReferencePoseFrame: 882
     - serializedVersion: 16
       name: run_nw_knife
       takeName: Scene
       internalID: -6515407394366894714
-      firstFrame: 903
-      lastFrame: 925
+      firstFrame: 905
+      lastFrame: 927
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1133,13 +1133,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 903
+      additiveReferencePoseFrame: 905
     - serializedVersion: 16
       name: jump_stand_knife
       takeName: Scene
       internalID: 5290449184600555157
-      firstFrame: 926
-      lastFrame: 938
+      firstFrame: 928
+      lastFrame: 940
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1162,13 +1162,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 926
+      additiveReferencePoseFrame: 928
     - serializedVersion: 16
       name: jump_n_knife
       takeName: Scene
       internalID: 3413175472987495063
-      firstFrame: 939
-      lastFrame: 951
+      firstFrame: 941
+      lastFrame: 953
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1191,13 +1191,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 939
+      additiveReferencePoseFrame: 941
     - serializedVersion: 16
       name: jump_e_knife
       takeName: Scene
       internalID: 1456757300878979654
-      firstFrame: 952
-      lastFrame: 964
+      firstFrame: 954
+      lastFrame: 966
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1220,13 +1220,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 952
+      additiveReferencePoseFrame: 954
     - serializedVersion: 16
       name: jump_s_knife
       takeName: Scene
       internalID: -5098101154765767119
-      firstFrame: 965
-      lastFrame: 977
+      firstFrame: 967
+      lastFrame: 979
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1249,47 +1249,47 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 965
+      additiveReferencePoseFrame: 967
     - serializedVersion: 16
       name: jump_w_knife
       takeName: Scene
       internalID: -8801369510219679941
-      firstFrame: 978
-      lastFrame: 990
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 978
-    - serializedVersion: 16
-      name: idle_knife
-      takeName: Scene
-      internalID: -7038888379920077483
-      firstFrame: 991
+      firstFrame: 980
       lastFrame: 992
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 980
+    - serializedVersion: 16
+      name: idle_knife
+      takeName: Scene
+      internalID: -7038888379920077483
+      firstFrame: 994
+      lastFrame: 995
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
       hasAdditiveReferencePose: 1
       loopTime: 1
       loopBlend: 0
@@ -1307,13 +1307,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 991
+      additiveReferencePoseFrame: 994
     - serializedVersion: 16
       name: idle_cz75a
       takeName: Scene
       internalID: -3816730650343091539
-      firstFrame: 993
-      lastFrame: 994
+      firstFrame: 998
+      lastFrame: 999
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1336,13 +1336,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 492
+      additiveReferencePoseFrame: 493
     - serializedVersion: 16
       name: fire_cz75a
       takeName: Scene
       internalID: -6228555659292464477
-      firstFrame: 995
-      lastFrame: 1007
+      firstFrame: 1001
+      lastFrame: 1013
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1365,13 +1365,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 995
+      additiveReferencePoseFrame: 1001
     - serializedVersion: 16
       name: reload_cz75a
       takeName: Scene
       internalID: -8140584458767911426
-      firstFrame: 1008
-      lastFrame: 1090
+      firstFrame: 1014
+      lastFrame: 1096
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1394,13 +1394,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1008
+      additiveReferencePoseFrame: 1014
     - serializedVersion: 16
       name: idle_deagle
       takeName: Scene
       internalID: -3937419853531356026
-      firstFrame: 1091
-      lastFrame: 1092
+      firstFrame: 1098
+      lastFrame: 1099
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1423,13 +1423,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 492
+      additiveReferencePoseFrame: 493
     - serializedVersion: 16
       name: fire_deagle
       takeName: Scene
       internalID: -6079944436734998471
-      firstFrame: 1093
-      lastFrame: 1114
+      firstFrame: 1101
+      lastFrame: 1122
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1452,13 +1452,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1093
+      additiveReferencePoseFrame: 1101
     - serializedVersion: 16
       name: reload_deagle
       takeName: Scene
       internalID: 4646947500928470578
-      firstFrame: 1115
-      lastFrame: 1181
+      firstFrame: 1123
+      lastFrame: 1189
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1481,13 +1481,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1115
+      additiveReferencePoseFrame: 1123
     - serializedVersion: 16
       name: idle_elite
       takeName: Scene
       internalID: -3696524947739535183
-      firstFrame: 1182
-      lastFrame: 1183
+      firstFrame: 1191
+      lastFrame: 1192
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1510,13 +1510,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 492
+      additiveReferencePoseFrame: 493
     - serializedVersion: 16
       name: fire_elite
       takeName: Scene
       internalID: -3253151209497142642
-      firstFrame: 1184
-      lastFrame: 1198
+      firstFrame: 1194
+      lastFrame: 1208
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1539,13 +1539,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1184
+      additiveReferencePoseFrame: 1194
     - serializedVersion: 16
       name: reload_elite
       takeName: Scene
       internalID: -4253652356236818686
-      firstFrame: 1199
-      lastFrame: 1312
+      firstFrame: 1209
+      lastFrame: 1322
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1568,13 +1568,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1199
+      additiveReferencePoseFrame: 1209
     - serializedVersion: 16
       name: idle_fiveseven
       takeName: Scene
       internalID: 5067185792832705877
-      firstFrame: 1313
-      lastFrame: 1314
+      firstFrame: 1324
+      lastFrame: 1325
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1597,13 +1597,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 492
+      additiveReferencePoseFrame: 493
     - serializedVersion: 16
       name: fire_fiveseven
       takeName: Scene
       internalID: 1677690849294707080
-      firstFrame: 1315
-      lastFrame: 1327
+      firstFrame: 1327
+      lastFrame: 1339
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1626,13 +1626,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1315
+      additiveReferencePoseFrame: 1327
     - serializedVersion: 16
       name: reload_fiveseven
       takeName: Scene
       internalID: -4954464337394407288
-      firstFrame: 1328
-      lastFrame: 1396
+      firstFrame: 1340
+      lastFrame: 1408
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1655,41 +1655,12 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1328
+      additiveReferencePoseFrame: 1340
     - serializedVersion: 16
       name: idle_glock
       takeName: Scene
       internalID: 3530867512280156451
-      firstFrame: 1397
-      lastFrame: 1398
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 1
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 492
-    - serializedVersion: 16
-      name: fire_glock
-      takeName: Scene
-      internalID: 5562499568867797170
-      firstFrame: 1399
+      firstFrame: 1410
       lastFrame: 1411
       wrapMode: 0
       orientationOffsetY: 0
@@ -1697,6 +1668,35 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 1
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 493
+    - serializedVersion: 16
+      name: fire_glock
+      takeName: Scene
+      internalID: 5562499568867797170
+      firstFrame: 1413
+      lastFrame: 1425
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1713,13 +1713,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1399
+      additiveReferencePoseFrame: 1413
     - serializedVersion: 16
       name: reload_glock
       takeName: Scene
       internalID: -6298512897385048254
-      firstFrame: 1412
-      lastFrame: 1480
+      firstFrame: 1426
+      lastFrame: 1494
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1742,13 +1742,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1412
+      additiveReferencePoseFrame: 1426
     - serializedVersion: 16
       name: idle_hkp
       takeName: Scene
       internalID: -8374069721875309285
-      firstFrame: 1481
-      lastFrame: 1482
+      firstFrame: 1496
+      lastFrame: 1497
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1771,13 +1771,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 492
+      additiveReferencePoseFrame: 493
     - serializedVersion: 16
       name: fire_hkp
       takeName: Scene
       internalID: 6949060916897594169
-      firstFrame: 1483
-      lastFrame: 1495
+      firstFrame: 1499
+      lastFrame: 1511
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1800,13 +1800,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1483
+      additiveReferencePoseFrame: 1499
     - serializedVersion: 16
       name: reload_hkp
       takeName: Scene
       internalID: -6081819307139988954
-      firstFrame: 1496
-      lastFrame: 1564
+      firstFrame: 1512
+      lastFrame: 1580
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1829,13 +1829,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1496
+      additiveReferencePoseFrame: 1512
     - serializedVersion: 16
       name: idle_p250
       takeName: Scene
       internalID: 8731750232237294629
-      firstFrame: 1565
-      lastFrame: 1566
+      firstFrame: 1582
+      lastFrame: 1583
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1858,13 +1858,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 492
+      additiveReferencePoseFrame: 493
     - serializedVersion: 16
       name: fire_p250
       takeName: Scene
       internalID: 1582585961055698184
-      firstFrame: 1567
-      lastFrame: 1579
+      firstFrame: 1585
+      lastFrame: 1597
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1887,13 +1887,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1567
+      additiveReferencePoseFrame: 1585
     - serializedVersion: 16
       name: reload_p250
       takeName: Scene
       internalID: 6945345527666937535
-      firstFrame: 1580
-      lastFrame: 1648
+      firstFrame: 1598
+      lastFrame: 1666
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1916,13 +1916,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1580
+      additiveReferencePoseFrame: 1598
     - serializedVersion: 16
       name: idle_revolver
       takeName: Scene
       internalID: 4721161841684587985
-      firstFrame: 1649
-      lastFrame: 1650
+      firstFrame: 1668
+      lastFrame: 1669
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1945,13 +1945,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 492
+      additiveReferencePoseFrame: 493
     - serializedVersion: 16
       name: fire_revolver
       takeName: Scene
       internalID: 7100233919907249541
-      firstFrame: 1651
-      lastFrame: 1672
+      firstFrame: 1671
+      lastFrame: 1692
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1974,13 +1974,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1651
+      additiveReferencePoseFrame: 1671
     - serializedVersion: 16
       name: reload_revolver
       takeName: Scene
       internalID: -8085146836491381056
-      firstFrame: 1673
-      lastFrame: 1741
+      firstFrame: 1693
+      lastFrame: 1761
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2003,13 +2003,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1673
+      additiveReferencePoseFrame: 1693
     - serializedVersion: 16
       name: idle_taser
       takeName: Scene
       internalID: 929819020310597592
-      firstFrame: 1742
-      lastFrame: 1743
+      firstFrame: 1763
+      lastFrame: 1764
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2032,13 +2032,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 492
+      additiveReferencePoseFrame: 493
     - serializedVersion: 16
       name: fire_taser
       takeName: Scene
       internalID: -2736335668365795472
-      firstFrame: 1744
-      lastFrame: 1756
+      firstFrame: 1766
+      lastFrame: 1778
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2061,13 +2061,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1744
+      additiveReferencePoseFrame: 1766
     - serializedVersion: 16
       name: idle_tec9
       takeName: Scene
       internalID: 5741710654320757841
-      firstFrame: 1757
-      lastFrame: 1758
+      firstFrame: 1780
+      lastFrame: 1781
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2090,13 +2090,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 492
+      additiveReferencePoseFrame: 493
     - serializedVersion: 16
       name: fire_tec9
       takeName: Scene
       internalID: -4712649480516344980
-      firstFrame: 1759
-      lastFrame: 1771
+      firstFrame: 1783
+      lastFrame: 1795
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2119,13 +2119,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1759
+      additiveReferencePoseFrame: 1783
     - serializedVersion: 16
       name: reload_tec9
       takeName: Scene
       internalID: -9097410476857868395
-      firstFrame: 1772
-      lastFrame: 1849
+      firstFrame: 1796
+      lastFrame: 1873
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2148,13 +2148,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1772
+      additiveReferencePoseFrame: 1796
     - serializedVersion: 16
       name: idle_usp
       takeName: Scene
       internalID: 3758328013430084372
-      firstFrame: 1850
-      lastFrame: 1851
+      firstFrame: 1875
+      lastFrame: 1876
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2177,13 +2177,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 492
+      additiveReferencePoseFrame: 493
     - serializedVersion: 16
       name: fire_usp
       takeName: Scene
       internalID: 7389754504641484237
-      firstFrame: 1852
-      lastFrame: 1864
+      firstFrame: 1878
+      lastFrame: 1890
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2206,13 +2206,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1852
+      additiveReferencePoseFrame: 1878
     - serializedVersion: 16
       name: reload_usp
       takeName: Scene
       internalID: -7845022923403507575
-      firstFrame: 1865
-      lastFrame: 1942
+      firstFrame: 1891
+      lastFrame: 1968
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2235,13 +2235,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1865
+      additiveReferencePoseFrame: 1891
     - serializedVersion: 16
       name: fire_elite_left
       takeName: Scene
       internalID: -7476459896111400321
-      firstFrame: 1943
-      lastFrame: 1957
+      firstFrame: 1969
+      lastFrame: 1983
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2264,13 +2264,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1943
+      additiveReferencePoseFrame: 1969
     - serializedVersion: 16
       name: fire_knife
       takeName: Scene
       internalID: 8987897184767073815
-      firstFrame: 1958
-      lastFrame: 1988
+      firstFrame: 1984
+      lastFrame: 2014
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2293,13 +2293,13 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1958
+      additiveReferencePoseFrame: 1984
     - serializedVersion: 16
       name: stab_knife
       takeName: Scene
       internalID: 3308042081927924050
-      firstFrame: 1989
-      lastFrame: 2024
+      firstFrame: 2015
+      lastFrame: 2050
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2322,7 +2322,7 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1989
+      additiveReferencePoseFrame: 2015
     isReadable: 0
   meshes:
     lODScreenPercentages: []

@@ -1,0 +1,51 @@
+{
+  "id": "weapon_smg_p90",
+  "clips": [
+    {
+      "name": "idle",
+      "first": 1,
+      "last": 2,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_p90/idle_p90.gltf"
+    },
+    {
+      "name": "draw",
+      "first": 3,
+      "last": 33,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_p90/draw_p90.gltf"
+    },
+    {
+      "name": "fire",
+      "first": 34,
+      "last": 59,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_p90/shoot1_p90.gltf"
+    },
+    {
+      "name": "reload",
+      "first": 60,
+      "last": 161,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_p90/reload_p90.gltf"
+    }
+  ],
+  "materials": [
+    {
+      "name": "weapon_smg_p90",
+      "color": "Assets/Art/Loadout/Textures/a374ec7601fa3773e3f5.png",
+      "normal": "Assets/Art/Loadout/Textures/c67564690578f68e4770.png"
+    },
+    {
+      "name": "sleeve_ctm_sas",
+      "color": "11fb55833453a22a324d.png",
+      "normal": "fd7d88acbc9ee89e125e.png"
+    },
+    {
+      "name": "bare_arm_133",
+      "color": "Assets/Art/Loadout/Textures/223f08d305e59e4ad46c.png",
+      "normal": "Assets/Art/Loadout/Textures/10dd463dff0288eac575.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "Assets/Art/Loadout/Textures/67a4229a913ad1b16146.png",
+      "normal": "Assets/Art/Loadout/Textures/2454904008e64d88948a.png"
+    }
+  ]
+}

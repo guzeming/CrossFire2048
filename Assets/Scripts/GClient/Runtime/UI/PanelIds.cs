@@ -17,12 +17,17 @@ namespace OperationBlacktide.Client.UI
             UIPanelId.Training,
             UIPanelId.ReturnToLobby,
             UIPanelId.TrainingMenu,
+            UIPanelId.Demolition,
+            UIPanelId.LobbyMenu,
+            UIPanelId.Settings,
+            UIPanelId.Loading,
         };
 
         /// <summary>不参与栈管理的 Overlay 面板。</summary>
         public static readonly UIPanelId[] OverlayOnly =
         {
             UIPanelId.Toast,
+            UIPanelId.Loading,
         };
 
         public static string Key(UIPanelId panelId)

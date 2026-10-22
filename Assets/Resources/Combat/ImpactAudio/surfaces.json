@@ -1,0 +1,4282 @@
+{
+  "materials": [
+    {
+      "material": "D2_0002_dust_mudbrick_transition_overlay",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_transition_overlay.vmat",
+      "sourceSurface": "dirt",
+      "kind": "Dirt"
+    },
+    {
+      "material": "D2_0003_hr_dust_overlay_sign_03b",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_overlay_sign_03b.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0004_hr_dust_overlay_sign_03",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_overlay_sign_03.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0005_hr_dust_overlay_sign_03b",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_overlay_sign_03b.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0006_hr_dust_overlay_sign_01",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_overlay_sign_01.vmat",
+      "sourceSurface": "gravel",
+      "kind": "Dirt"
+    },
+    {
+      "material": "D2_0007_wall_stain001",
+      "sourceMaterial": "materials/overlays/wall_stain001.vmat",
+      "sourceSurface": "dirt",
+      "kind": "Dirt"
+    },
+    {
+      "material": "D2_0008_hr_dust_overlay_sign_02",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_overlay_sign_02.vmat",
+      "sourceSurface": "plaster",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0009_hr_dust_decal_road_striping",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_decal_road_striping.vmat",
+      "sourceSurface": "gravel",
+      "kind": "Dirt"
+    },
+    {
+      "material": "D2_0010_dust_manhole_concrete_color",
+      "sourceMaterial": "materials/decals/hr_decals/dust_manhole_concrete_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0011_hr_dust_overlay_sign_05",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_overlay_sign_05.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0012_hr_dust_overlay_sign_01",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_overlay_sign_01.vmat",
+      "sourceSurface": "gravel",
+      "kind": "Dirt"
+    },
+    {
+      "material": "D2_0013_hr_dust_overlay_sign_02",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_overlay_sign_02.vmat",
+      "sourceSurface": "plaster",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0014_dust_panel_paint_patch",
+      "sourceMaterial": "materials/decals/hr_decals/dust_panel_paint_patch.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0015_dust_manhole_concrete_color",
+      "sourceMaterial": "materials/decals/hr_decals/dust_manhole_concrete_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0016_wall_stain001",
+      "sourceMaterial": "materials/overlays/wall_stain001.vmat",
+      "sourceSurface": "dirt",
+      "kind": "Dirt"
+    },
+    {
+      "material": "D2_0017_hr_dust_decal_mudbrick_wear_01",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_decal_mudbrick_wear_01.vmat",
+      "sourceSurface": "plaster",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0018_hr_dust_overlay_sign_03",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_overlay_sign_03.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0019_hr_dust_overlay_sign_02",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_overlay_sign_02.vmat",
+      "sourceSurface": "plaster",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0020_bombsite_x_spray",
+      "sourceMaterial": "materials/decals/bombsite_x_spray.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0021_hr_dust_overlay_sign_02",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_overlay_sign_02.vmat",
+      "sourceSurface": "plaster",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0022_hr_dust_overlay_sign_04",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_overlay_sign_04.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0023_bombsite_x_spray",
+      "sourceMaterial": "materials/decals/bombsite_x_spray.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0024_dust_001b",
+      "sourceMaterial": "materials/effects/smoke/dust_001b.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0025_dust_001b",
+      "sourceMaterial": "materials/effects/smoke/dust_001b.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0026_dust_garbage_dumpster_signage",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_garbage_container/dust_garbage_dumpster_signage.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0027_dust_electric_panel_cover_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_electric_panel/dust_electric_panel_cover_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0028_dust_001b",
+      "sourceMaterial": "materials/effects/smoke/dust_001b.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0029_steam_001",
+      "sourceMaterial": "materials/effects/smoke/steam_001.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0030_dust_001b",
+      "sourceMaterial": "materials/effects/smoke/dust_001b.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0031_dust_001",
+      "sourceMaterial": "materials/effects/smoke/dust_001.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0032_dust_001b",
+      "sourceMaterial": "materials/effects/smoke/dust_001b.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0033_lightshaft_001",
+      "sourceMaterial": "materials/effects/smoke/lightshaft_001.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0034_lightshaft_001",
+      "sourceMaterial": "materials/effects/smoke/lightshaft_001.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0035_dust_001",
+      "sourceMaterial": "materials/effects/smoke/dust_001.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0036_dust_001",
+      "sourceMaterial": "materials/effects/smoke/dust_001.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0037_dust_001",
+      "sourceMaterial": "materials/effects/smoke/dust_001.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0038_dust_001",
+      "sourceMaterial": "materials/effects/smoke/dust_001.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0039_dust_001",
+      "sourceMaterial": "materials/effects/smoke/dust_001.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0040_dust_001b",
+      "sourceMaterial": "materials/effects/smoke/dust_001b.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0041_dust_001b",
+      "sourceMaterial": "materials/effects/smoke/dust_001b.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0042_dust_001",
+      "sourceMaterial": "materials/effects/smoke/dust_001.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0043_dust_001b",
+      "sourceMaterial": "materials/effects/smoke/dust_001b.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0044_dust_001b",
+      "sourceMaterial": "materials/effects/smoke/dust_001b.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0045_dust_001b",
+      "sourceMaterial": "materials/effects/smoke/dust_001b.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0046_dust_001",
+      "sourceMaterial": "materials/effects/smoke/dust_001.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0047_hr_dust_metal_trim_01",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_metal_trim_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0048_hr_dust_blend_asphalt_06",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_asphalt_06.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0049_hr_dust_plaster_09",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_09.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0050_hr_dust_plaster_09b",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_09b.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0051_hr_dust_plaster_09c",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_09c.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0052_hr_dust_plaster_17",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_17.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0053_dust_mudbrick_edges",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_edges.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0054_hr_dust_plaster_18",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_18.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0055_hr_dust_plaster_18c",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_18c.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0056_hr_dust_breeze_block_01",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_breeze_block_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0057_dust_access_panel_03_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_access_panels/dust_access_panel_03_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0058_hr_dust_sidewalk01b_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_sidewalk01b_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0059_palm_bark_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/foliage/palm_bark_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0060_hr_dust_plaster_18b",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_18b.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0061_dust_door_80x128_01_bars",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_01_bars.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0062_agave_plant_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/foliage/agave_plant_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0063_antenna_card",
+      "sourceMaterial": "materials/de_dust/hr_dust/antenna_card.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0064_black_simple",
+      "sourceMaterial": "materials/dev/black_simple.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0065_crates_dishes_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_overlay_cards/crates_dishes_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0066_dust_300d_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_vehicles/dust_300d_color.vmat",
+      "sourceSurface": "metalvehicle",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0067_dust_300d_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_vehicles/dust_300d_color.vmat",
+      "sourceSurface": "metalvehicle",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0068_dust_300d_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_vehicles/dust_300d_color.vmat",
+      "sourceSurface": "metalvehicle",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0069_dust_300d_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_vehicles/dust_300d_color.vmat",
+      "sourceSurface": "metalvehicle",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0070_dust_300d_wheel_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_vehicles/dust_300d_wheel_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0071_dust_300d_wheel_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_vehicles/dust_300d_wheel_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0072_dust_ac_unit_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_ac_unit/dust_ac_unit_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0073_dust_access_panel_01_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_access_panels/dust_access_panel_01_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0074_dust_access_panel_02_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_access_panels/dust_access_panel_02_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0075_dust_access_panel_02_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_access_panels/dust_access_panel_02_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0076_dust_arch_01_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_arches/dust_arch_01_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0077_dust_arch_01_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_arches/dust_arch_01_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0078_dust_arch_01_pattern_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_arches/dust_arch_01_pattern_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0079_dust_arch_01_pattern_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_arches/dust_arch_01_pattern_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0080_dust_arch_02_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_arches/dust_arch_02_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0081_dust_arch_03",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_arches/dust_arch_03.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0082_dust_awning_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0083_dust_awning_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0084_dust_awning_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0085_dust_awning_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0086_dust_awning_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0087_dust_awning_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0088_dust_awning_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0089_dust_awning_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0090_dust_awning_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0091_dust_awning_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0092_dust_awning_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0093_dust_awning_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0094_dust_awning_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0095_dust_awning_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0096_dust_awning_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0097_dust_awning_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0098_dust_awning_fabric_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_01.vmat",
+      "sourceSurface": "carpet",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0099_dust_awning_fabric_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_01.vmat",
+      "sourceSurface": "carpet",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0100_dust_awning_fabric_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_01.vmat",
+      "sourceSurface": "carpet",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0101_dust_awning_fabric_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_01.vmat",
+      "sourceSurface": "carpet",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0102_dust_awning_fabric_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_01.vmat",
+      "sourceSurface": "carpet",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0103_dust_awning_fabric_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_01.vmat",
+      "sourceSurface": "carpet",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0104_dust_awning_fabric_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_01.vmat",
+      "sourceSurface": "carpet",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0105_dust_awning_fabric_frame_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_frame_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0106_dust_awning_fabric_frame_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_frame_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0107_dust_awning_fabric_frame_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_frame_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0108_dust_awning_fabric_frame_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_frame_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0109_dust_awning_fabric_frame_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_frame_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0110_dust_awning_fabric_frame_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_frame_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0111_dust_awning_fabric_frame_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_frame_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0112_dust_awning_fabric_frame_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_frame_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0113_dust_awning_fabric_frame_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_frame_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0114_dust_awning_fabric_frame_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_frame_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0115_dust_awning_fabric_ripped_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_ripped_01.vmat",
+      "sourceSurface": "carpet",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0116_dust_awning_fabric_ripped_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_ripped_01.vmat",
+      "sourceSurface": "carpet",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0117_dust_awning_fabric_ripped_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_ripped_01.vmat",
+      "sourceSurface": "carpet",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0118_dust_bicycle_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_bicycle/dust_bicycle_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0119_dust_bicycle_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_bicycle/dust_bicycle_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0120_dust_bicycle_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_bicycle/dust_bicycle_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0121_dust_breeze_blocks_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_breeze_blocks/dust_breeze_blocks_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0122_dust_breeze_blocks_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_breeze_blocks/dust_breeze_blocks_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0123_dust_breeze_blocks_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_breeze_blocks/dust_breeze_blocks_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0124_dust_breeze_blocks_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_breeze_blocks/dust_breeze_blocks_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0125_dust_breeze_blocks_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_breeze_blocks/dust_breeze_blocks_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0126_dust_breeze_blocks_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_breeze_blocks/dust_breeze_blocks_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0127_dust_breeze_blocks_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_breeze_blocks/dust_breeze_blocks_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0128_dust_breeze_blocks_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_breeze_blocks/dust_breeze_blocks_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0129_dust_breeze_blocks_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_breeze_blocks/dust_breeze_blocks_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0130_dust_breeze_blocks_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_breeze_blocks/dust_breeze_blocks_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0131_dust_breeze_blocks_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_breeze_blocks/dust_breeze_blocks_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0132_dust_breeze_blocks_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_breeze_blocks/dust_breeze_blocks_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0133_dust_breeze_blocks_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_breeze_blocks/dust_breeze_blocks_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0134_dust_breeze_blocks_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_breeze_blocks/dust_breeze_blocks_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0135_dust_breeze_blocks_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_breeze_blocks/dust_breeze_blocks_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0136_dust_breeze_blocks_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_breeze_blocks/dust_breeze_blocks_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0137_dust_breeze_blocks_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_breeze_blocks/dust_breeze_blocks_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0138_dust_breeze_blocks_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_breeze_blocks/dust_breeze_blocks_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0139_dust_car_wreck_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_vehicles/dust_car_wreck_color.vmat",
+      "sourceSurface": "metalvehicle",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0140_dust_car_wreck_interior_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_vehicles/dust_car_wreck_interior_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0141_dust_cart_cloth_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_cart/dust_cart_cloth_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0142_dust_cart_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_cart/dust_cart_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0143_dust_ceiling_light_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_lights/dust_ceiling_light_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0144_dust_ceiling_light_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_lights/dust_ceiling_light_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0145_dust_cell_tower_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_cell_tower/dust_cell_tower_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0146_dust_chainlink_fence_001",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_fences/dust_chainlink_fence_001.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0147_dust_chainlink_fence_001",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_fences/dust_chainlink_fence_001.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0148_dust_chainlink_fence_001",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_fences/dust_chainlink_fence_001.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0149_dust_chainlink_fence_001",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_fences/dust_chainlink_fence_001.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0150_dust_chainlink_fence_cover_001",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_fences/dust_chainlink_fence_cover_001.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0151_dust_chainlink_fence_cover_001",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_fences/dust_chainlink_fence_cover_001.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0152_dust_chainlink_fence_wire_001",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_fences/dust_chainlink_fence_wire_001.vmat",
+      "sourceSurface": "chainlink",
+      "kind": "MetalGrate"
+    },
+    {
+      "material": "D2_0153_dust_construction_site_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_construction/dust_construction_site_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0154_dust_curbs_001",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_curbs_001/dust_curbs_001.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0155_dust_curbs_001",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_curbs_001/dust_curbs_001.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0156_dust_curbs_001_painted",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_curbs_001/dust_curbs_001_painted.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0157_dust_curbs_001_painted",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_curbs_001/dust_curbs_001_painted.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0158_dust_curbs_001_painted",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_curbs_001/dust_curbs_001_painted.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0159_dust_curbs_001_painted",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_curbs_001/dust_curbs_001_painted.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0160_dust_curbs_001_painted",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_curbs_001/dust_curbs_001_painted.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0161_dust_curbs_001_painted_notint",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_curbs_001/dust_curbs_001_painted_notint.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0162_dust_curbs_001_painted_notint",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_curbs_001/dust_curbs_001_painted_notint.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0163_dust_curbs_001_painted_notint",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_curbs_001/dust_curbs_001_painted_notint.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0164_dust_curbs_001_painted_notint",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_curbs_001/dust_curbs_001_painted_notint.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0165_dust_curbs_001_painted_notint",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_curbs_001/dust_curbs_001_painted_notint.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0166_dust_detruis_sacks_02_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_detruis_sacks/dust_detruis_sacks_02_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0167_dust_detruis_sacks_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_detruis_sacks/dust_detruis_sacks_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0168_dust_door_46x106_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_01.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0169_dust_door_46x106_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_01.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0170_dust_door_46x106_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_01.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0171_dust_door_46x106_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_01.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0172_dust_door_46x106_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0173_dust_door_46x106_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0174_dust_door_46x106_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0175_dust_door_46x106_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0176_dust_door_46x106_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0177_dust_door_46x106_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0178_dust_door_46x106_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0179_dust_door_46x106_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0180_dust_door_46x106_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0181_dust_door_46x106_03_",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_03_.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0182_dust_door_46x106_03_",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_03_.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0183_dust_door_46x106_03_",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_03_.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0184_dust_door_46x106_04",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_04.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0185_dust_door_46x106_04",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_04.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0186_dust_door_46x106_04",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_04.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0187_dust_door_46x106_04",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_04.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0188_dust_door_46x106_04",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_04.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0189_dust_door_46x106_04",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_04.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0190_dust_door_46x106_04",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_04.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0191_dust_door_46x106_04",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_04.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0192_dust_door_46x106_05",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_05.vmat",
+      "sourceSurface": "metalpanel",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0193_dust_door_46x106_05",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_05.vmat",
+      "sourceSurface": "metalpanel",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0194_dust_door_46x106_05",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_05.vmat",
+      "sourceSurface": "metalpanel",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0195_dust_door_46x106_05",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_05.vmat",
+      "sourceSurface": "metalpanel",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0196_dust_door_46x106_05",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_05.vmat",
+      "sourceSurface": "metalpanel",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0197_dust_door_46x106_05",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_05.vmat",
+      "sourceSurface": "metalpanel",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0198_dust_door_46x106_06",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_06.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0199_dust_door_46x106_06b",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_06b.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0200_dust_door_46x106_06b",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_06b.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0201_dust_door_46x106_06b",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_06b.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0202_dust_door_46x106_06b",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_06b.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0203_dust_door_46x106_06b",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_06b.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0204_dust_door_46x106_06b",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_06b.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0205_dust_door_46x106_06b",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_06b.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0206_dust_door_46x106_06b",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_06b.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0207_dust_door_46x106_06b",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_06b.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0208_dust_door_46x106_06b",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_06b.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0209_dust_door_46x106_06b",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_06b.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0210_dust_door_46x106_06b",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_06b.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0211_dust_door_46x106_06b",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_06b.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0212_dust_door_46x106_06b",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_06b.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0213_dust_door_46x106_07",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_07.vmat",
+      "sourceSurface": "metalpanel",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0214_dust_door_46x106_07",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_07.vmat",
+      "sourceSurface": "metalpanel",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0215_dust_door_46x106_07",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_46x106_07.vmat",
+      "sourceSurface": "metalpanel",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0216_dust_door_80x128_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_01.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0217_dust_door_80x128_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_01.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0218_dust_door_80x128_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_01.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0219_dust_door_80x128_01_bars",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_01_bars.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0220_dust_door_80x128_01_bars",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_01_bars.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0221_dust_door_80x128_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0222_dust_door_80x128_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0223_dust_door_80x128_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0224_dust_door_80x128_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0225_dust_door_80x128_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_02.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0226_dust_door_80x128_03",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_03.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0227_dust_door_80x128_03",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_03.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0228_dust_door_80x128_03",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_03.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0229_dust_door_80x128_04",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_04.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0230_dust_door_80x128_04",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_04.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0231_dust_door_80x128_04",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_04.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0232_dust_door_80x128_04",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_04.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0233_dust_door_80x128_04_frame",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_04_frame.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0234_dust_door_80x128_04_frame",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_04_frame.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0235_dust_door_80x128_04_frame",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_80x128_04_frame.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0236_dust_door_arch_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_door_arch_01.vmat",
+      "sourceSurface": "Wood_Dense",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0237_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0238_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0239_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0240_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0241_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0242_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0243_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0244_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0245_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0246_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0247_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0248_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0249_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0250_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0251_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0252_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0253_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0254_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0255_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0256_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0257_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0258_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0259_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0260_dust_doorframes_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0261_dust_doorframes_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_02.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0262_dust_doorframes_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_02.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0263_dust_doorframes_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_02.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0264_dust_doorframes_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_02.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0265_dust_doorframes_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_02.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0266_dust_doorframes_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_02.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0267_dust_doorframes_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_02.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0268_dust_doorframes_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_02.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0269_dust_doorframes_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_02.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0270_dust_doorframes_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_02.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0271_dust_doorframes_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_02.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0272_dust_doorframes_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_02.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0273_dust_doorframes_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_02.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0274_dust_doorframes_03",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_03.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0275_dust_doorframes_03",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_03.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0276_dust_doorframes_03",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_03.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0277_dust_doorframes_03",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_03.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0278_dust_doorframes_03",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_03.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0279_dust_doorframes_03",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_03.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0280_dust_doorframes_03",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_03.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0281_dust_doorframes_03",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doorframes/dust_doorframes_03.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0282_dust_electric_panel_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_electric_panel/dust_electric_panel_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0283_dust_electrical_powerbox_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_electrical_powerbox/dust_electrical_powerbox_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0284_dust_electrical_powerbox_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_electrical_powerbox/dust_electrical_powerbox_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0285_dust_flatbed_truck_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_vehicles/dust_flatbed_truck_color.vmat",
+      "sourceSurface": "metalvehicle",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0286_dust_flatbed_truck_wheels_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_vehicles/dust_flatbed_truck_wheels_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0287_dust_garbage_container_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_garbage_container/dust_garbage_container_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0288_dust_garbage_container_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_garbage_container/dust_garbage_container_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0289_dust_garbage_dumpster_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_garbage_container/dust_garbage_dumpster_color.vmat",
+      "sourceSurface": "metal_dumpster",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0290_dust_grain_basket_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_grain_basket/dust_grain_basket_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0291_dust_hanging_light_02_off",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_off.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0292_dust_hanging_light_02_off",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_off.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0293_dust_hanging_light_02_off",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_off.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0294_dust_hanging_light_02_off",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_off.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0295_dust_hanging_light_02_off",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_off.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0296_dust_hanging_light_02_off",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_off.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0297_dust_hanging_light_02_on",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_lights/dust_hanging_light_02_on.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0298_dust_hotel_arch001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_arches/dust_hotel_arch001_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0299_dust_hr_oil_drum_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_hr_oil_drum/dust_hr_oil_drum_color.vmat",
+      "sourceSurface": "metal_barrel",
+      "kind": "MetalBarrel"
+    },
+    {
+      "material": "D2_0300_dust_hr_oil_drum_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_hr_oil_drum/dust_hr_oil_drum_color.vmat",
+      "sourceSurface": "metal_barrel",
+      "kind": "MetalBarrel"
+    },
+    {
+      "material": "D2_0301_dust_hr_oil_drum_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_hr_oil_drum/dust_hr_oil_drum_color.vmat",
+      "sourceSurface": "metal_barrel",
+      "kind": "MetalBarrel"
+    },
+    {
+      "material": "D2_0302_dust_hr_oil_drum_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_hr_oil_drum/dust_hr_oil_drum_color.vmat",
+      "sourceSurface": "metal_barrel",
+      "kind": "MetalBarrel"
+    },
+    {
+      "material": "D2_0303_dust_hr_oil_drum_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_hr_oil_drum/dust_hr_oil_drum_color.vmat",
+      "sourceSurface": "metal_barrel",
+      "kind": "MetalBarrel"
+    },
+    {
+      "material": "D2_0304_dust_hr_oil_drum_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_hr_oil_drum/dust_hr_oil_drum_color.vmat",
+      "sourceSurface": "metal_barrel",
+      "kind": "MetalBarrel"
+    },
+    {
+      "material": "D2_0305_dust_hr_oil_drum_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_hr_oil_drum/dust_hr_oil_drum_color.vmat",
+      "sourceSurface": "metal_barrel",
+      "kind": "MetalBarrel"
+    },
+    {
+      "material": "D2_0306_dust_hr_oil_drum_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_hr_oil_drum/dust_hr_oil_drum_color.vmat",
+      "sourceSurface": "metal_barrel",
+      "kind": "MetalBarrel"
+    },
+    {
+      "material": "D2_0307_dust_kasbah_block_lifter",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_block_lifter.vmat",
+      "sourceSurface": "metalpanel",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0308_dust_kasbah_ceiling",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ceiling.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0309_dust_kasbah_ladder",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_ladder.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0310_dust_kasbah_mudbrick_piles",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_mudbrick_piles.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0311_dust_kasbah_mudbrick_piles",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_mudbrick_piles.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0312_dust_kasbah_rock_wall",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rock_wall.vmat",
+      "sourceSurface": "rock",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0313_dust_kasbah_rock_wall",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rock_wall.vmat",
+      "sourceSurface": "rock",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0314_dust_kasbah_rooftrim_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01.vmat",
+      "sourceSurface": "grass",
+      "kind": "Grass"
+    },
+    {
+      "material": "D2_0315_dust_kasbah_rooftrim_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_rooftrim_01.vmat",
+      "sourceSurface": "grass",
+      "kind": "Grass"
+    },
+    {
+      "material": "D2_0316_dust_kasbah_small_rocks",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_small_rocks.vmat",
+      "sourceSurface": "rock",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0317_dust_kasbah_tarp_04",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_tarp_04.vmat",
+      "sourceSurface": "carpet",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0318_dust_kasbah_tarp_04",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_tarp_04.vmat",
+      "sourceSurface": "carpet",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0319_dust_kasbah_tarp_04",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_tarp_04.vmat",
+      "sourceSurface": "carpet",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0320_dust_kasbah_window_insets_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_window_insets_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0321_dust_kasbah_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_windows_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0322_dust_kasbah_wood_forms",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_wood_forms.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0323_dust_kasbah_wood_forms",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_wood_forms.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0324_dust_kasbah_wood_planks",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_wood_planks.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0325_dust_kasbah_wood_planks",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_wood_planks.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0326_dust_kasbah_wood_planks",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_wood_planks.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0327_dust_kasbah_wood_planks",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_wood_planks.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0328_dust_kasbah_wood_planks",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_wood_planks.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0329_dust_kasbah_wood_planks",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_wood_planks.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0330_dust_kasbah_wood_planks",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_wood_planks.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0331_dust_kasbah_wood_planks",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_wood_planks.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0332_dust_kasbah_wood_platform",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_wood_platform.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0333_dust_kasbah_wood_platform",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_wood_platform.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0334_dust_kasbah_wood_platform",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_kasbah_wood_platform.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0335_dust_laundry_pole_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_laundry_pole/dust_laundry_pole_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0336_dust_light_pole_02_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_light_pole/dust_light_pole_02_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0337_dust_light_pole_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_light_pole/dust_light_pole_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0338_dust_metal_panels_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_metal_panels/dust_metal_panels_01.vmat",
+      "sourceSurface": "metalpanel",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0339_dust_metal_panels_rusty_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_metal_panels/dust_metal_panels_rusty_01.vmat",
+      "sourceSurface": "metalpanel",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0340_dust_metal_panels_rusty_alpha_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_metal_panels/dust_metal_panels_rusty_alpha_01.vmat",
+      "sourceSurface": "metalpanel",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0341_dust_mudbrick_bombsite_gap",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_bombsite_gap.vmat",
+      "sourceSurface": "dirt",
+      "kind": "Dirt"
+    },
+    {
+      "material": "D2_0342_dust_mudbrick_crumbling_wall",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_crumbling_wall.vmat",
+      "sourceSurface": "dirt",
+      "kind": "Dirt"
+    },
+    {
+      "material": "D2_0343_dust_mudbrick_tower_01_edges",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_tower_01_edges.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0344_dust_mudbrick_tower_01_plaster",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_tower_01_plaster.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0345_dust_mudbrick_tower_02_edges",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_tower_02_edges.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0346_dust_mudbrick_tower_02_edges",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_tower_02_edges.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0347_dust_mudbrick_tower_02_edges",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_tower_02_edges.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0348_dust_mudbrick_tower_02_plaster",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_tower_02_plaster.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0349_dust_mudbrick_tower_02_plaster",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_tower_02_plaster.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0350_dust_mudbrick_tower_02_plaster",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_tower_02_plaster.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0351_dust_mudbrick_tower_03_edges",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_tower_03_edges.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0352_dust_mudbrick_tower_03_plaster",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_tower_03_plaster.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0353_dust_mudbrick_transition",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_kasbah/dust_mudbrick_transition.vmat",
+      "sourceSurface": "dirt",
+      "kind": "Dirt"
+    },
+    {
+      "material": "D2_0354_dust_ornate_lanterns_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_lights/dust_ornate_lanterns_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0355_dust_patio_chair_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_patio_set/dust_patio_chair_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0356_dust_patio_chair_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_patio_set/dust_patio_chair_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0357_dust_patio_umbrella_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_patio_set/dust_patio_umbrella_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0358_dust_patio_umbrella_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_patio_set/dust_patio_umbrella_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0359_dust_pottery_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_pottery/dust_pottery_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0360_dust_pottery_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_pottery/dust_pottery_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0361_dust_pottery_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_pottery/dust_pottery_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0362_dust_pottery_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_pottery/dust_pottery_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0363_dust_pottery_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_pottery/dust_pottery_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0364_dust_pottery_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_pottery/dust_pottery_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0365_dust_pottery_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_pottery/dust_pottery_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0366_dust_pottery_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_pottery/dust_pottery_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0367_dust_pottery_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_pottery/dust_pottery_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0368_dust_propane_cylinder_01_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_propane_cylinder/dust_propane_cylinder_01_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0369_dust_propane_cylinder_02_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_propane_cylinder/dust_propane_cylinder_02_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0370_dust_propane_cylinder_02_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_propane_cylinder/dust_propane_cylinder_02_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0371_dust_r5_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_vehicles/dust_r5_color.vmat",
+      "sourceSurface": "metalvehicle",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0372_dust_restaurant_sign_02_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_shop_signs/dust_restaurant_sign_02_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0373_dust_rollupdoor_frame_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_rollupdoor_frame_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0374_dust_rollupdoor_frame_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_rollupdoor_frame_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0375_dust_rollupdoor_frame_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_rollupdoor_frame_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0376_dust_rollupdoor_frame_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_rollupdoor_frame_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0377_dust_rollupdoor_frame_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_rollupdoor_frame_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0378_dust_rollupdoor_frame_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_rollupdoor_frame_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0379_dust_rollupdoor_frame_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_rollupdoor_frame_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0380_dust_rollupdoor_frame_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_doors/dust_rollupdoor_frame_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0381_dust_rooftop_01_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_rooftops/dust_rooftop_01_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0382_dust_rooftop_shingles_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_rooftops/dust_rooftop_shingles_color.vmat",
+      "sourceSurface": "ceiling_tile",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0383_dust_satellite_dish_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_satellite_dish/dust_satellite_dish_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0384_dust_shelf_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_shelf/dust_shelf_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0385_dust_shelf_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_shelf/dust_shelf_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0386_dust_shipping_crate_01_painted_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_01_painted_color.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0387_dust_shipping_crate_01_painted_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_01_painted_color.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0388_dust_shipping_crate_01_painted_decals",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_01_painted_decals.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0389_dust_shipping_crate_01_painted_decals",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_01_painted_decals.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0390_dust_shipping_crate_01_wood_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_01_wood_color.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0391_dust_shipping_crate_01_wood_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_01_wood_color.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0392_dust_shipping_crate_01_wood_decals",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_01_wood_decals.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0393_dust_shipping_crate_02_painted_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_02_painted_color.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0394_dust_shipping_crate_02_painted_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_02_painted_color.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0395_dust_shipping_crate_02_painted_decals",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_02_painted_decals.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0396_dust_shipping_crate_02_painted_decals",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_02_painted_decals.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0397_dust_shipping_crate_02_wood_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_02_wood_color.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0398_dust_shipping_crate_02_wood_decals",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_02_wood_decals.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0399_dust_shipping_crate_tarp_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_tarp_01.vmat",
+      "sourceSurface": "Cloth",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0400_dust_shipping_crate_tarp_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_tarp_01.vmat",
+      "sourceSurface": "Cloth",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0401_dust_shipping_crate_tarp_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_tarp_02.vmat",
+      "sourceSurface": "carpet",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0402_dust_shipping_crate_tarp_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_tarp_02.vmat",
+      "sourceSurface": "carpet",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0403_dust_shipping_crate_tarp_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_tarp_02.vmat",
+      "sourceSurface": "carpet",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0404_dust_shipping_crate_tarp_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_tarp_02.vmat",
+      "sourceSurface": "carpet",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0405_dust_shipping_crate_tarp_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_tarp_02.vmat",
+      "sourceSurface": "carpet",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0406_dust_shipping_crate_tarp_02",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/dust_shipping_crate_tarp_02.vmat",
+      "sourceSurface": "carpet",
+      "kind": "Cloth"
+    },
+    {
+      "material": "D2_0407_dust_shop_sign_02_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_shop_signs/dust_shop_sign_02_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0408_dust_terracotta_02_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_pottery/dust_terracotta_02_color.vmat",
+      "sourceSurface": "tile",
+      "kind": "Tile"
+    },
+    {
+      "material": "D2_0409_dust_terracotta_03_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_pottery/dust_terracotta_03_color.vmat",
+      "sourceSurface": "tile",
+      "kind": "Tile"
+    },
+    {
+      "material": "D2_0410_dust_terracotta_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_pottery/dust_terracotta_color.vmat",
+      "sourceSurface": "tile",
+      "kind": "Tile"
+    },
+    {
+      "material": "D2_0411_dust_trap_door_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trap_door/dust_trap_door_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0412_dust_trap_door_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trap_door/dust_trap_door_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0413_dust_trap_door_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trap_door/dust_trap_door_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0414_dust_trap_door_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trap_door/dust_trap_door_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0415_dust_trash_bag_02_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_garbage_container/dust_trash_bag_02_color.vmat",
+      "sourceSurface": "sand",
+      "kind": "Sand"
+    },
+    {
+      "material": "D2_0416_dust_trash_bag_02_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_garbage_container/dust_trash_bag_02_color.vmat",
+      "sourceSurface": "sand",
+      "kind": "Sand"
+    },
+    {
+      "material": "D2_0417_dust_trash_bag_02_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_garbage_container/dust_trash_bag_02_color.vmat",
+      "sourceSurface": "sand",
+      "kind": "Sand"
+    },
+    {
+      "material": "D2_0418_dust_trash_bag_02_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_garbage_container/dust_trash_bag_02_color.vmat",
+      "sourceSurface": "sand",
+      "kind": "Sand"
+    },
+    {
+      "material": "D2_0419_dust_trash_bag_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_garbage_container/dust_trash_bag_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0420_dust_trash_bag_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_garbage_container/dust_trash_bag_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0421_dust_trim_decoractive_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/dust_trim_decoractive_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0422_dust_trim_decoractive_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/dust_trim_decoractive_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0423_dust_trim_decoractive_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/dust_trim_decoractive_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0424_dust_trim_decoractive_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/dust_trim_decoractive_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0425_dust_vehicle_glass_opaque_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_vehicles/dust_vehicle_glass_opaque_color.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0426_dust_vehicle_glass_opaque_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_vehicles/dust_vehicle_glass_opaque_color.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0427_dust_wall_braces_arch_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_wall_braces/dust_wall_braces_arch_color.vmat",
+      "sourceSurface": "Wood_Plank",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0428_dust_wall_braces_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_wall_braces/dust_wall_braces_color.vmat",
+      "sourceSurface": "Wood_Plank",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0429_dust_wall_braces_rope_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_wall_braces/dust_wall_braces_rope_color.vmat",
+      "sourceSurface": "Wood_Plank",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0430_dust_wall_vents_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_vents/dust_wall_vents_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0431_dust_weeds_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/foliage/dust_weeds_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0432_dust_window_bars_metal_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_bars_metal_01.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0433_dust_window_bars_metal_01_alpha",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_bars_metal_01_alpha.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0434_dust_window_bars_metal_01b",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_bars_metal_01b.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0435_dust_window_bars_metal_01b",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_bars_metal_01b.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0436_dust_window_bars_metal_01b",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_bars_metal_01b.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0437_dust_window_bars_metal_01b_alpha",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_bars_metal_01b_alpha.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0438_dust_window_bars_metal_01b_alpha",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_bars_metal_01b_alpha.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0439_dust_window_bars_metal_01b_alpha",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_bars_metal_01b_alpha.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0440_dust_window_bars_metal_01b_alpha",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_bars_metal_01b_alpha.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0441_dust_window_bars_metal_01b_alpha",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_bars_metal_01b_alpha.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0442_dust_window_bars_metal_01b_alpha",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_bars_metal_01b_alpha.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0443_dust_window_bars_metal_01b_alpha",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_bars_metal_01b_alpha.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0444_dust_window_bars_metal_01b_alpha",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_bars_metal_01b_alpha.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0445_dust_window_frame_plaster_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_plaster_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0446_dust_window_frame_plaster_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_plaster_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0447_dust_window_frame_plaster_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_plaster_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0448_dust_window_frame_stone_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_stone_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0449_dust_window_frame_stone_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_stone_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0450_dust_window_frame_stone_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_stone_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0451_dust_window_frame_stone_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_stone_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0452_dust_window_frame_stone_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_stone_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0453_dust_window_frame_stone_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_stone_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0454_dust_window_frame_stone_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_stone_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0455_dust_window_frame_stone_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_stone_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0456_dust_window_frame_stone_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_stone_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0457_dust_window_frame_stone_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_stone_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0458_dust_window_frame_stone_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_stone_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0459_dust_window_frame_stone_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_stone_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0460_dust_window_frame_stone_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_stone_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0461_dust_window_frame_stone_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_stone_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0462_dust_window_frame_stone_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_stone_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0463_dust_window_frame_stone_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_stone_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0464_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0465_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0466_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0467_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0468_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0469_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0470_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0471_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0472_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0473_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0474_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0475_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0476_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0477_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0478_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0479_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0480_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0481_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0482_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0483_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0484_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0485_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0486_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0487_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0488_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0489_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0490_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0491_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0492_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0493_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0494_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0495_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0496_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0497_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0498_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0499_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0500_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0501_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0502_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0503_dust_window_frame_wood_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_window_frame_wood_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0504_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0505_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0506_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0507_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0508_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0509_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0510_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0511_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0512_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0513_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0514_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0515_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0516_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0517_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0518_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0519_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0520_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0521_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0522_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0523_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0524_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0525_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0526_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0527_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0528_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0529_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0530_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0531_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0532_dust_windows_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_01.vmat",
+      "sourceSurface": "glass",
+      "kind": "Glass"
+    },
+    {
+      "material": "D2_0533_dust_windows_low",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_low.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0534_dust_windows_low",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_low.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0535_dust_windows_low",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_low.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0536_dust_windows_low",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_low.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0537_dust_windows_low",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_low.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0538_dust_windows_low",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_low.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0539_dust_windows_low",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_low.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0540_dust_windows_low",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_low.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0541_dust_windows_low",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_low.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0542_dust_windows_low",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_low.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0543_dust_windows_low",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_windows/dust_windows_low.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0544_dust_wire_attachments_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_wires/dust_wire_attachments_01.vmat",
+      "sourceSurface": "Metal_Box",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0545_dust_wires_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_wires/dust_wires_01.vmat",
+      "sourceSurface": "plastic",
+      "kind": "Plastic"
+    },
+    {
+      "material": "D2_0546_dust_wood_pallet",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_wood_pallet/dust_wood_pallet.vmat",
+      "sourceSurface": "Wood_Panel",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0547_grape_leaves_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/foliage/grape_leaves_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0548_hr_dust_blend_asphalt_07",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_asphalt_07.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0549_hr_dust_blend_floortile_01",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_floortile_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0550_hr_dust_blend_floortile_03",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_floortile_03.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0551_hr_dust_blend_groundrough01-groundrough02",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_groundrough01-groundrough02.vmat",
+      "sourceSurface": "gravel",
+      "kind": "Dirt"
+    },
+    {
+      "material": "D2_0552_hr_dust_blend_groundrough01-groundsmooth01",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_groundrough01-groundsmooth01.vmat",
+      "sourceSurface": "gravel",
+      "kind": "Dirt"
+    },
+    {
+      "material": "D2_0553_hr_dust_blend_groundrough01-groundsweeds01",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_groundrough01-groundsweeds01.vmat",
+      "sourceSurface": "gravel",
+      "kind": "Dirt"
+    },
+    {
+      "material": "D2_0554_hr_dust_blend_groundrough02-groundsmooth01",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_groundrough02-groundsmooth01.vmat",
+      "sourceSurface": "gravel",
+      "kind": "Dirt"
+    },
+    {
+      "material": "D2_0555_hr_dust_blend_groundstone01-groundrough01",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_groundstone01-groundrough01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0556_hr_dust_blend_groundstone01-groundsmooth01",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_groundstone01-groundsmooth01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0557_hr_dust_blend_plaster01_rough01",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_plaster01_rough01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0558_hr_dust_blend_plaster01_rough01",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_plaster01_rough01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0559_hr_dust_blend_plaster01_rough01_bounce",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_plaster01_rough01_bounce.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0560_hr_dust_blend_plaster01b_rough01",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_plaster01b_rough01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0561_hr_dust_blend_plaster01b_rough01_bounce",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_plaster01b_rough01_bounce.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0562_hr_dust_blend_plaster_white_01b2",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_plaster_white_01b2.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0563_hr_dust_blend_plaster_white_01b2",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_plaster_white_01b2.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0564_hr_dust_blend_plaster_white_01c",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_plaster_white_01c.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0565_hr_dust_blend_plaster_white_01c",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_plaster_white_01c.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0566_hr_dust_blend_plaster_white_02",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_plaster_white_02.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0567_hr_dust_blend_plaster_white_02",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_plaster_white_02.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0568_hr_dust_blend_plaster_white_02",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_plaster_white_02.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0569_hr_dust_blend_rollupdoor_metal_01",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_01.vmat",
+      "sourceSurface": "metalpanel",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0570_hr_dust_blend_rollupdoor_metal_02",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_02.vmat",
+      "sourceSurface": "metalpanel",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0571_hr_dust_blend_rollupdoor_metal_03",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_rollupdoor_metal_03.vmat",
+      "sourceSurface": "metalpanel",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0572_hr_dust_blend_sand02_sand03",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_blend_sand02_sand03.vmat",
+      "sourceSurface": "sand",
+      "kind": "Sand"
+    },
+    {
+      "material": "D2_0573_hr_dust_bracket001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_bracket001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0574_hr_dust_bracket001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_bracket001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0575_hr_dust_bracket001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_bracket001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0576_hr_dust_bracket001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_bracket001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0577_hr_dust_bracket001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_bracket001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0578_hr_dust_bracket001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_bracket001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0579_hr_dust_bracket001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_bracket001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0580_hr_dust_bracket001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_bracket001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0581_hr_dust_brick_ground_02",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_brick_ground_02.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0582_hr_dust_brick_ground_04",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_brick_ground_04.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0583_hr_dust_building_ornament_color",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_building_ornament_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0584_hr_dust_concrete_02",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_concrete_02.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0585_hr_dust_concrete_04",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_concrete_04.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0586_hr_dust_kasbah_arch002_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_kasbah_arch002_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0587_hr_dust_kasbah_arch003_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_kasbah_arch003_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0588_hr_dust_kasbah_column001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_kasbah_column001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0589_hr_dust_kasbah_merlon001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_kasbah_merlon001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0590_hr_dust_kasbah_merlon002_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_kasbah_merlon002_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0591_hr_dust_kasbah_merlon002_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_kasbah_merlon002_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0592_hr_dust_kasbah_merlon002_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_kasbah_merlon002_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0593_hr_dust_kasbah_merlon003_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_kasbah_merlon003_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0594_hr_dust_kasbah_merlon003_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_kasbah_merlon003_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0595_hr_dust_kasbah_merlon003_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_kasbah_merlon003_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0596_hr_dust_kasbah_niche001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_kasbah_niche001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0597_hr_dust_kasbah_stairs001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_kasbah_stairs001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0598_hr_dust_kasbah_stairs001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_kasbah_stairs001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0599_hr_dust_kasbah_stairs002_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_kasbah_stairs002_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0600_hr_dust_mudbrick_wall_plaster_smooth_01",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_mudbrick_wall_plaster_smooth_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0601_hr_dust_plaster_06",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_06.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0602_hr_dust_plaster_06",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_06.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0603_hr_dust_plaster_06b",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_06b.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0604_hr_dust_plaster_06b",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_06b.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0605_hr_dust_plaster_06c",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_06c.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0606_hr_dust_plaster_06c",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_06c.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0607_hr_dust_plaster_09",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_09.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0608_hr_dust_plaster_09b",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_09b.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0609_hr_dust_plaster_11b",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_11b.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0610_hr_dust_plaster_11b",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_11b.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0611_hr_dust_plaster_12",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_12.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0612_hr_dust_plaster_12b",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_12b.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0613_hr_dust_plaster_12c",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_12c.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0614_hr_dust_plaster_13b",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_13b.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0615_hr_dust_plaster_15",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_15.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0616_hr_dust_plaster_15b2",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_15b2.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0617_hr_dust_plaster_15b",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_15b.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0618_hr_dust_plaster_15c",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_15c.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0619_hr_dust_plaster_17b",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_17b.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0620_hr_dust_plaster_17c",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_17c.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0621_hr_dust_plaster_18_bounce",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_18_bounce.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0622_hr_dust_plaster_18b_bounce",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_18b_bounce.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0623_hr_dust_plaster_18c_bounce",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_18c_bounce.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0624_hr_dust_plaster_19",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_19.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0625_hr_dust_plaster_19_bounce",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_19_bounce.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0626_hr_dust_plaster_19b",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_19b.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0627_hr_dust_plaster_19b_bounce",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_19b_bounce.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0628_hr_dust_plaster_20b",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_20b.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0629_hr_dust_plaster_20c",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_plaster_20c.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0630_hr_dust_roof_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_roof_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0631_hr_dust_roof_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_roof_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0632_hr_dust_roof_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_roof_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0633_hr_dust_roof_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_roof_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0634_hr_dust_roof_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_roof_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0635_hr_dust_roof_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_roof_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0636_hr_dust_roof_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_roof_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0637_hr_dust_roof_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_roof_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0638_hr_dust_roof_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_roof_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0639_hr_dust_roof_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_roof_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0640_hr_dust_roof_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_roof_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0641_hr_dust_roof_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_roof_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0642_hr_dust_rooftop_ornament_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_rooftop_ornament_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0643_hr_dust_sand_02",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_sand_02.vmat",
+      "sourceSurface": "sand",
+      "kind": "Sand"
+    },
+    {
+      "material": "D2_0644_hr_dust_stairs001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_stairs001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0645_hr_dust_stairs001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_stairs001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0646_hr_dust_stairs001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_stairs001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0647_hr_dust_stairs001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_stairs001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0648_hr_dust_stairs001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_stairs001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0649_hr_dust_stairs001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_stairs001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0650_hr_dust_stairs002_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_stairs002_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0651_hr_dust_stairs002_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_stairs002_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0652_hr_dust_stairs002_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_stairs002_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0653_hr_dust_stairs002_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_stairs002_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0654_hr_dust_stairs003_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_stairs003_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0655_hr_dust_stairs003_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_stairs003_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0656_hr_dust_stairs003_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_stairs003_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0657_hr_dust_stairs003_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_stairs003_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0658_hr_dust_stone_ground_01",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_stone_ground_01.vmat",
+      "sourceSurface": "tile",
+      "kind": "Tile"
+    },
+    {
+      "material": "D2_0659_hr_dust_tile_01",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_tile_01.vmat",
+      "sourceSurface": "tile",
+      "kind": "Tile"
+    },
+    {
+      "material": "D2_0660_hr_dust_tile_02",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_tile_02.vmat",
+      "sourceSurface": "tile",
+      "kind": "Tile"
+    },
+    {
+      "material": "D2_0661_hr_dust_tile_03",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_tile_03.vmat",
+      "sourceSurface": "tile",
+      "kind": "Tile"
+    },
+    {
+      "material": "D2_0662_hr_dust_tire001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_tire/hr_dust_tire001_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0663_hr_dust_wall_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_wall_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0664_hr_dust_wall_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_wall_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0665_hr_dust_wall_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_wall_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0666_hr_dust_wall_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_wall_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0667_hr_dust_wall_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_wall_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0668_hr_dust_wall_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_wall_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0669_hr_dust_wall_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_wall_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0670_hr_dust_wall_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_wall_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0671_hr_dust_wall_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_wall_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0672_hr_dust_wall_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_wall_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0673_hr_dust_wall_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_wall_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0674_hr_dust_wall_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_wall_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0675_hr_dust_wall_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_wall_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0676_hr_dust_wall_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_wall_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0677_hr_dust_wall_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_wall_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0678_hr_dust_wall_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_wall_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0679_metal_corrugated03b",
+      "sourceMaterial": "materials/models/props_highway/metal_corrugated03b.vmat",
+      "sourceSurface": "metalvent",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0680_nuke_concrete_barrier_color",
+      "sourceMaterial": "materials/models/props/de_nuke/hr_nuke/nuke_concrete_barrier/nuke_concrete_barrier_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0681_nuke_concrete_barrier_color",
+      "sourceMaterial": "materials/models/props/de_nuke/hr_nuke/nuke_concrete_barrier/nuke_concrete_barrier_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0682_nuke_concrete_barrier_color",
+      "sourceMaterial": "materials/models/props/de_nuke/hr_nuke/nuke_concrete_barrier/nuke_concrete_barrier_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0683_olive_bark_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/foliage/olive_bark_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0684_olive_branch_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/foliage/olive_branch_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0685_palm_frond_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/foliage/palm_frond_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0686_power_pole_02_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/power_pole_insulators/power_pole_02_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0687_power_pole_03_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/power_pole_insulators/power_pole_03_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0688_power_pole_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/power_pole_insulators/power_pole_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0689_power_pole_insulators_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/power_pole_insulators/power_pole_insulators_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0690_sagebrush_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/foliage/sagebrush_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0691_sagebrush_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/foliage/sagebrush_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0692_sagebrush_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/foliage/sagebrush_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0693_satellite_dish_card",
+      "sourceMaterial": "materials/de_dust/hr_dust/satellite_dish_card.vmat",
+      "sourceSurface": "pottery",
+      "kind": "Tile"
+    },
+    {
+      "material": "D2_0694_sign004_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_signs/sign004_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0695_sign006_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_signs/sign006_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0696_sign_bracket001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_signs/sign_bracket001_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0697_sign_directional001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_signs/sign_directional001_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0698_sign_streets001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_signs/sign_streets001_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    },
+    {
+      "material": "D2_0699_street_lamp_01_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_lights/street_lamp_01/street_lamp_01_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0700_street_lamp_02_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_lights/street_lamp_02/street_lamp_02_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0701_street_lamp_03_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_lights/street_lamp_03/street_lamp_03_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0702_street_lantern_01_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_lights/street_lantern_01/street_lantern_01_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0703_street_lantern_02_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_lights/street_lantern_02/street_lantern_02_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0704_street_lantern_03_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_lights/street_lantern_03/street_lantern_03_color.vmat",
+      "sourceSurface": "metal",
+      "kind": "Metal"
+    },
+    {
+      "material": "D2_0705_sumac_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/foliage/sumac_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0706_tarp_kit_01_base",
+      "sourceMaterial": "models/generic/tarp_kit_01/tarp_kit_01_base.vmat",
+      "sourceSurface": "plastic",
+      "kind": "Plastic"
+    },
+    {
+      "material": "D2_0707_weeds_cressa_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/foliage/weeds_cressa_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0708_wooden_fruit_crate_01_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_crates/wooden_fruit_crate_01_color.vmat",
+      "sourceSurface": "Wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0709_zebra_grass_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/foliage/zebra_grass_01.vmat",
+      "sourceSurface": "wood",
+      "kind": "Wood"
+    },
+    {
+      "material": "D2_0710_dust_breeze_blocks_01",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_breeze_blocks/dust_breeze_blocks_01.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0711_dust_broken_building_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_broken_building/dust_broken_building_color.vmat",
+      "sourceSurface": "plaster",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0712_hr_dust_wall_trim001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_trims/hr_dust_wall_trim001_color.vmat",
+      "sourceSurface": "concrete",
+      "kind": "Concrete"
+    },
+    {
+      "material": "D2_0713_hr_dust_wood_ceiling01_color",
+      "sourceMaterial": "materials/de_dust/hr_dust/hr_dust_wood_ceiling01_color.vmat",
+      "sourceSurface": "Wood_Plank",
+      "kind": "WoodPanel"
+    },
+    {
+      "material": "D2_0714_soccerball001_color",
+      "sourceMaterial": "materials/models/props/de_dust/hr_dust/dust_soccerball/soccerball001_color.vmat",
+      "sourceSurface": "default",
+      "kind": "Default"
+    }
+  ]
+}

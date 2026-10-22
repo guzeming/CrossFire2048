@@ -1,16 +1,15 @@
-param([string]$UnityPath = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1c1/Editor/Unity.exe')
+﻿param([string]$UnityPath = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1c1/Editor/Unity.exe')
 $ErrorActionPreference = 'Stop'
+Write-Output '[阶段] 准备验证工程；首次导入该工程可能需要数分钟。'
 $projectRoot = Split-Path -Parent $PSScriptRoot
 $validationRoot = Join-Path $projectRoot '.build-check/branding/project'
 if (!(Test-Path -LiteralPath $UnityPath)) { throw "Unity editor not found: $UnityPath" }
 New-Item -ItemType Directory -Path $validationRoot -Force | Out-Null
-foreach ($folder in @('Assets', 'Packages', 'ProjectSettings')) {
-    & robocopy (Join-Path $projectRoot $folder) (Join-Path $validationRoot $folder) /E /NFL /NDL /NJH /NJS /NP
-    if ($LASTEXITCODE -ge 8) { throw "Copy failed: $folder" }
-}
+. (Join-Path $PSScriptRoot 'Common/UnityProject.ps1')
+Sync-UnityProject -ProjectRoot $projectRoot -Destination $validationRoot
 $editorFolder = Join-Path $validationRoot 'Assets/Editor/BrandingValidation'
 New-Item -ItemType Directory -Path $editorFolder -Force | Out-Null
-Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'BrandingValidation/VerifyBranding.cs') -Destination $editorFolder
+Copy-Item -LiteralPath (Join-Path $PSScriptRoot '../Tests/Unity/Branding/VerifyBranding.cs') -Destination $editorFolder
 $logPath = Join-Path $validationRoot 'verification.log'
 $arguments = @('-batchmode', '-projectPath', ('"' + $validationRoot + '"'), '-executeMethod', 'VerifyBranding.Run', '-logFile', ('"' + $logPath + '"'))
 # Resolve the same locked package versions locally in the copy, including transitive
@@ -35,10 +34,7 @@ if (!(Test-Path -LiteralPath $legacyRegistryPath)) { New-Item -Path $legacyRegis
 New-ItemProperty -LiteralPath $legacyRegistryPath -Name $fixtureName -Value $fixtureBytes -PropertyType Binary | Out-Null
 try {
     $verificationProcess = Start-Process -FilePath $UnityPath -ArgumentList $arguments -PassThru -WindowStyle Hidden
-    if (!$verificationProcess.WaitForExit(900000)) {
-        $verificationProcess.Kill()
-        throw "Branding verification timed out. See $logPath"
-    }
+    & (Join-Path $PSScriptRoot 'wait-unity-task.ps1') -Process $verificationProcess -LogPath $logPath -TimeoutSeconds 900
 }
 finally {
     Remove-ItemProperty -LiteralPath $legacyRegistryPath -Name $fixtureName -ErrorAction SilentlyContinue

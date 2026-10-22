@@ -1,31 +1,73 @@
+using OperationBlacktide.Client.Content;
+using OperationBlacktide.Client.Gameplay.Cameras;
+using OperationBlacktide.Client.Gameplay.Characters;
+using OperationBlacktide.Client.Gameplay.Combat;
 using System;
+using System.Collections.Generic;
+using OperationBlacktide.Shared.Characters;
+using OperationBlacktide.Shared.GameLogic;
+using OperationBlacktide.Simulation;
+using OperationBlacktide.Client.Gameplay.UI;
 using OperationBlacktide.Client.App;
 using OperationBlacktide.Client.Features.Lobby;
 using OperationBlacktide.Client.UI;
+using OperationBlacktide.Client.Gameplay.Avatars;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 
 namespace OperationBlacktide.Client.Features.Training
 {
     [DefaultExecutionOrder(-50)]
-    public sealed class TrainingSceneController : MonoBehaviour
+    public sealed class TrainingSceneController : MonoBehaviour, ICombatHudContext
     {
-        [SerializeField] private TrainingCharacterController playerPrefab;
+        [SerializeField] private CharacterMotor playerPrefab;
         [SerializeField] private Transform spawnPoint;
-        [SerializeField] private TrainingCameraController followCamera;
+        [SerializeField] private TopDownCameraController followCamera;
         private UIRoot uiRoot;
         private CursorLockMode previousCursorLock;
         private bool previousCursorVisible;
         private bool returning;
-        private LobbyLoadoutCatalog loadoutCatalog;
-        private LobbyLoadoutPreview appearance;
+        private EquipmentCatalog loadoutCatalog;
+        private BattleAvatar appearance;
         private string agentId;
-        public TrainingWeaponSelection Weapons { get; private set; }
-        public TrainingCharacterController Player { get; private set; }
-        public TrainingVitals Vitals { get; private set; }
-        public LobbyTeam PlayerTeam { get; private set; } = LobbyTeam.CT;
-        public float TrainingSeconds { get; private set; }
+        private TrainingTarget[] hudTargets = Array.Empty<TrainingTarget>();
+        private readonly List<CombatHudParticipant> hudParticipants = new List<CombatHudParticipant>(4);
+        public int LocalHudId => 0;
+        public IReadOnlyList<CombatHudParticipant> HudParticipants
+        {
+            get
+            {
+                hudParticipants.Clear();
+                if (Player == null) return hudParticipants;
+                var gun = Player.GetComponent<WeaponController>();
+                hudParticipants.Add(new CombatHudParticipant {
+                    Id = LocalHudId, Name = "自己", Team = (int)PlayerTeam, Health = Vitals.Health, MaxHealth = Vitals.MaxHealth,
+                    HasSnapshot = true, Connected = true, Portrait = loadoutCatalog?.Agent(agentId)?.portrait,
+                    Position = Player.transform.position, Yaw = Player.transform.eulerAngles.y, WorldTransform = Player.transform,
+                    Status = gun?.Ammo?.IsReloading == true ? "换弹中" : "存活"
+                });
+                for (int i = 0; i < hudTargets.Length; i++)
+                {
+                    var target = hudTargets[i]; if (target == null) continue;
+                    hudParticipants.Add(new CombatHudParticipant {
+                        Id = i + 1, Name = "靶兵 " + (i + 1), Team = (int)target.Team, Health = Mathf.CeilToInt(target.Health), MaxHealth = 100,
+                        HasSnapshot = true, Connected = true, Portrait = loadoutCatalog?.Agent(target.Team == EquipmentTeam.CT ? "ctm_sas" : "tm_phoenix")?.portrait,
+                        Position = target.transform.position, Yaw = target.transform.eulerAngles.y, WorldTransform = target.transform, Status = "训练靶兵"
+                    });
+                }
+                return hudParticipants;
+            }
+        }
+        public WeaponSelection Weapons { get; private set; }
+        public CharacterMotor Player { get; private set; }
+        public CharacterVitals Vitals { get; private set; }
+        public EquipmentTeam PlayerTeam { get; private set; } = EquipmentTeam.CT;
+        public GameLogic Logic { get; private set; }
+        public Character Character { get; private set; }
+        public float TrainingSeconds => (float)(Logic?.Clock.ElapsedSeconds ?? 0);
+        float ICombatHudContext.ElapsedSeconds => TrainingSeconds;
+        string ICombatHudContext.StatusText => IsInputBlocked ? "训练菜单" : "自由训练";
+        void ICombatHudContext.OpenMenu() => OpenTrainingMenu();
         public bool IsInputBlocked => returning || (GameSceneFlow.Instance != null && GameSceneFlow.Instance.IsLoading)
             || (UIManager.Instance != null && UIManager.Instance.GetStackCount(UILayer.Popup) > 0);
 
@@ -39,14 +81,23 @@ namespace OperationBlacktide.Client.Features.Training
 
         private void Start()
         {
+            Logic = new GameLogic(GameConfig.LoadMode("training"), true);
+            if (Logic.Respawn != null) Logic.Respawn.Requested += OnRespawnRequested;
             Player = Instantiate(playerPrefab, spawnPoint.position, spawnPoint.rotation);
             Player.name = "Training Player";
-            Vitals = Player.GetComponent<TrainingVitals>();
-            if (Vitals == null) Vitals = Player.gameObject.AddComponent<TrainingVitals>();
+            Vitals = Player.GetComponent<CharacterVitals>();
+            if (Vitals == null) Vitals = Player.gameObject.AddComponent<CharacterVitals>();
+            Character = Logic.World.Add(new Character(1, maxHealth: Vitals.MaxHealth, maxArmor: Vitals.MaxArmor));
+            Player.Movement = Character.Movement;
+            Vitals.Bind(Character.Vitals);
             Vitals.Died += OnPlayerDied;
+            Player.Respawned += OnPlayerRespawned;
+            Player.FellOutOfWorld += Player.Respawn;
             Player.Initialize(followCamera.GetComponent<Camera>(), spawnPoint.position, spawnPoint.rotation);
             CreateCharacterVisual();
             TrainingTarget.CreateRange(Player.transform.position, loadoutCatalog, PlayerTeam);
+            hudTargets = FindObjectsOfType<TrainingTarget>();
+            Array.Sort(hudTargets, (a, b) => a.transform.position.x.CompareTo(b.transform.position.x));
             followCamera.Follow(Player.transform);
             UIManager.Instance.CloseAll(UILayer.Popup);
             UIManager.Instance.CloseAll(UILayer.Normal);
@@ -57,7 +108,7 @@ namespace OperationBlacktide.Client.Features.Training
 
         private void CreateCharacterVisual()
         {
-            var catalog = Resources.Load<LobbyLoadoutCatalog>("Loadout/LobbyCatalog");
+            var catalog = Resources.Load<EquipmentCatalog>("Loadout/EquipmentCatalog");
             loadoutCatalog = catalog;
             var auth = GameSceneFlow.Instance != null ? GameSceneFlow.Instance.Auth : null;
             string agent = "ctm_sas";
@@ -71,16 +122,22 @@ namespace OperationBlacktide.Client.Features.Training
             }
             var visual = new GameObject("Character Visual");
             visual.transform.SetParent(Player.transform, false);
-            // Reuse equipment attachments, then replace the menu animator with gameplay locomotion.
+            // Battle appearance owns its model components independently of lobby presentation.
             agentId = agent;
-            Weapons = new TrainingWeaponSelection(catalog.weapons, weapon);
-            appearance = visual.AddComponent<LobbyLoadoutPreview>();
+            Weapons = new WeaponSelection(catalog.weapons, weapon);
+            appearance = visual.AddComponent<BattleAvatar>();
             appearance.Show(catalog, agent, weapon);
-            Player.gameObject.AddComponent<TrainingCharacterAnimator>().Initialize(Player, appearance.Animator);
-            Player.gameObject.AddComponent<TrainingFootstepAudio>().Initialize(Player);
+            Player.gameObject.AddComponent<CharacterAnimator>().Initialize(Player, appearance.Animator);
+            Player.gameObject.AddComponent<FootstepAudio>().Initialize(Player);
             foreach (var child in Player.GetComponentsInChildren<Transform>(true))
                 child.gameObject.layer = 2; // Ignore Raycast: camera obstruction probes must ignore the player.
-            Player.gameObject.AddComponent<TrainingWeaponController>().Initialize(Player, appearance.EquippedWeapon, weapon);
+            var controller = Player.gameObject.AddComponent<WeaponController>();
+            controller.BindEquipment(Character.Equipment);
+            controller.InfiniteAmmoReserve = Logic.Supply?.InfiniteAmmoReserve ?? false;
+            controller.InfiniteThrowables = Logic.Supply?.InfiniteThrowables ?? false;
+            controller.AutoRechargeTaser = Logic.Supply?.AutoRechargeTaser ?? false;
+            controller.Initialize(Player, appearance.EquippedWeapon, weapon);
+            Vitals.RefreshRenderers();
         }
 
         private void Update()
@@ -89,17 +146,26 @@ namespace OperationBlacktide.Client.Features.Training
             if (Player != null && Player.InputEnabled && Application.isFocused && Time.timeScale > 0 &&
                 (EventSystem.current == null || !EventSystem.current.IsPointerOverGameObject()))
             {
+                bool selected = false;
                 for (int slot = 1; slot <= 4; slot++)
-                    if (Input.GetKeyDown(KeyCode.Alpha0 + slot) || Input.GetKeyDown(KeyCode.Keypad0 + slot)) { EquipSlot(slot); break; }
+                    if (Input.GetKeyDown(KeyCode.Alpha0 + slot) || Input.GetKeyDown(KeyCode.Keypad0 + slot))
+                    { EquipSlot(slot); selected = true; break; }
+                if (!selected) CycleWeapon(Input.mouseScrollDelta.y);
             }
-            if (!IsInputBlocked && Application.isFocused) TrainingSeconds += Time.deltaTime;
-            if (Vitals != null && !Vitals.IsAlive && !IsInputBlocked) Player.Respawn();
+            if (!IsInputBlocked && Application.isFocused) Logic.Tick(Time.deltaTime);
         }
 
         public bool EquipSlot(int slot)
         {
             if (IsInputBlocked || Player == null || !Player.InputEnabled || Weapons == null) return false;
             return EquipWeapon(Weapons.Next(slot));
+        }
+
+        public bool CycleWeapon(float scroll)
+        {
+            if (scroll == 0 || IsInputBlocked || Player == null || !Player.InputEnabled || Weapons == null ||
+                !followCamera.IsFirstPerson || !followCamera.InputEnabled) return false;
+            return EquipWeapon(Weapons.Cycle(scroll > 0 ? -1 : 1));
         }
 
         public bool EquipFromMenu(string id)
@@ -114,20 +180,29 @@ namespace OperationBlacktide.Client.Features.Training
         private bool EquipWeapon(string id)
         {
             var item = loadoutCatalog.Weapon(id);
-            if (item == null || item.prefab == null || TrainingWeaponSelection.SlotOf(item) == 0) return false;
-            var gun = Player.GetComponent<TrainingWeaponController>();
+            if (item == null || item.prefab == null || WeaponSelection.SlotOf(item) == 0) return false;
+            var gun = Player.GetComponent<WeaponController>();
             if (gun.WeaponId == id) return true;
             gun.PrepareEquipmentChange();
             appearance.Show(loadoutCatalog, agentId, id);
-            bool hasFiring = Resources.Load<TrainingWeaponCatalog>("Training/TrainingWeapons").Find(id) != null;
-            Player.GetComponent<TrainingCharacterAnimator>().Initialize(Player, appearance.Animator, !hasFiring);
+            bool hasFiring = Resources.Load<WeaponCatalog>("Gameplay/Weapons").Find(id) != null;
+            Player.GetComponent<CharacterAnimator>().Initialize(Player, appearance.Animator, !hasFiring);
             foreach (var child in Player.GetComponentsInChildren<Transform>(true)) child.gameObject.layer = 2;
             Weapons.Select(id);
             gun.Initialize(Player, appearance.EquippedWeapon, id);
+            Vitals.RefreshRenderers();
             return true;
         }
 
         private void OnPlayerDied() { RefreshInput(); }
+        private void OnRespawnRequested(Character character) { if (character == Character) Player.Respawn(); }
+
+        private void OnPlayerRespawned()
+        {
+            Vitals.Restore();
+            Player.GetComponent<WeaponController>()?.ResetEquipment();
+            Player.GetComponent<FootstepAudio>()?.ResetMotion();
+        }
 
         private void RefreshInput()
         {
@@ -135,7 +210,7 @@ namespace OperationBlacktide.Client.Features.Training
             if (Player != null) Player.InputEnabled = !blocked && (Vitals == null || Vitals.IsAlive);
             followCamera.InputEnabled = !blocked;
             Cursor.visible = blocked || !Application.isFocused || (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject());
-            Cursor.lockState = blocked || !Application.isFocused ? CursorLockMode.None : CursorLockMode.Confined;
+            Cursor.lockState = blocked || !Application.isFocused ? CursorLockMode.None : followCamera.GameplayCursorLock;
         }
 
         public void OpenTrainingMenu()
@@ -165,8 +240,9 @@ namespace OperationBlacktide.Client.Features.Training
             else
             {
                 // Direct editor play has no account session; use the normal login entry.
-                SceneManager.LoadSceneAsync(GameSceneFlow.LoginScenePath);
-                returning = true;
+                var flow = new GameObject("Game").AddComponent<GameSceneFlow>();
+                flow.ReturnToLobby();
+                returning = flow.IsLoading;
             }
             RefreshInput();
         }
@@ -175,6 +251,16 @@ namespace OperationBlacktide.Client.Features.Training
         {
             if (uiRoot != null) uiRoot.UnhandledBackRequested -= OpenTrainingMenu;
             if (Vitals != null) Vitals.Died -= OnPlayerDied;
+            if (Player != null)
+            {
+                Player.Respawned -= OnPlayerRespawned;
+                Player.FellOutOfWorld -= Player.Respawn;
+            }
+            if (Logic != null)
+            {
+                if (Logic.Respawn != null) Logic.Respawn.Requested -= OnRespawnRequested;
+                Logic.Dispose();
+            }
             Cursor.lockState = previousCursorLock;
             Cursor.visible = previousCursorVisible;
         }

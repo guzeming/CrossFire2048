@@ -13,5 +13,9 @@ namespace OperationBlacktide.Client.UI
         Training = 4,
         ReturnToLobby = 5,
         TrainingMenu = 6,
+        Demolition = 7,
+        LobbyMenu = 8,
+        Settings = 9,
+        Loading = 10,
     }
 }

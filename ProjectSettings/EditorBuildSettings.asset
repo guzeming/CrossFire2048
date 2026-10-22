@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DustII.unity
     guid: 247ddbba07891484687f3468d35f36bb
+  - enabled: 1
+    path: Assets/Scenes/BattleArena.unity
+    guid: 509bd515825fa18448a60605ecbdf7b7
   m_configObjects: {}

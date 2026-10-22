@@ -1,0 +1,51 @@
+{
+  "id": "weapon_mach_negev",
+  "clips": [
+    {
+      "name": "idle",
+      "first": 1,
+      "last": 31,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_negev/idle_from_activity_negev.gltf"
+    },
+    {
+      "name": "draw",
+      "first": 32,
+      "last": 65,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_negev/draw_negev.gltf"
+    },
+    {
+      "name": "fire",
+      "first": 66,
+      "last": 92,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_negev/shoot1_negev.gltf"
+    },
+    {
+      "name": "reload",
+      "first": 93,
+      "last": 264,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_negev/reload_negev.gltf"
+    }
+  ],
+  "materials": [
+    {
+      "name": "bare_arm_133",
+      "color": "Assets/Art/Loadout/Textures/223f08d305e59e4ad46c.png",
+      "normal": "Assets/Art/Loadout/Textures/10dd463dff0288eac575.png"
+    },
+    {
+      "name": "sleeve_ctm_sas",
+      "color": "11fb55833453a22a324d.png",
+      "normal": "fd7d88acbc9ee89e125e.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "Assets/Art/Loadout/Textures/67a4229a913ad1b16146.png",
+      "normal": "Assets/Art/Loadout/Textures/2454904008e64d88948a.png"
+    },
+    {
+      "name": "weapon_mach_negev",
+      "color": "Assets/Art/Loadout/Textures/1b98f85e9cf40eff7147.png",
+      "normal": "Assets/Art/Loadout/Textures/596edfd21fc5b853df9e.png"
+    }
+  ]
+}

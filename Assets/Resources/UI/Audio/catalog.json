@@ -1,0 +1,84 @@
+{
+  "cues": [
+    {
+      "id": "Click",
+      "volume": 0.65
+    },
+    {
+      "id": "Tab",
+      "volume": 0.6
+    },
+    {
+      "id": "Home",
+      "volume": 0.65
+    },
+    {
+      "id": "Agents",
+      "volume": 0.65
+    },
+    {
+      "id": "Loadout",
+      "volume": 0.65
+    },
+    {
+      "id": "Career",
+      "volume": 0.6
+    },
+    {
+      "id": "Settings",
+      "volume": 0.6
+    },
+    {
+      "id": "Start",
+      "volume": 0.8
+    },
+    {
+      "id": "Confirm",
+      "volume": 0.75
+    },
+    {
+      "id": "Back",
+      "volume": 0.65
+    },
+    {
+      "id": "Open",
+      "volume": 0.6
+    },
+    {
+      "id": "Option",
+      "volume": 0.65
+    },
+    {
+      "id": "ToggleOn",
+      "volume": 0.65
+    },
+    {
+      "id": "ToggleOff",
+      "volume": 0.6
+    },
+    {
+      "id": "Select",
+      "volume": 0.6
+    },
+    {
+      "id": "Equip",
+      "volume": 0.75
+    },
+    {
+      "id": "AgentSelect",
+      "volume": 0.65
+    },
+    {
+      "id": "Input",
+      "volume": 0.45
+    },
+    {
+      "id": "Slider",
+      "volume": 0.4
+    },
+    {
+      "id": "Purchase",
+      "volume": 0.7
+    }
+  ]
+}

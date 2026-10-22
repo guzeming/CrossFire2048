@@ -1,0 +1,299 @@
+{
+  "source": "D:\\SteamLibrary\\steamapps\\common\\Counter-Strike Global Offensive\\game\\csgo\\pak01_dir.vpk",
+  "conversion": "Decode to PCM16; trim silence; RMS -24 dBFS with peak ceiling -7 dBFS; maximum cue length; 15 ms tail fade; original sample rate/channels preserved.",
+  "sounds": [
+    {
+      "cue": "Click",
+      "sourceResource": "sounds/ui/panorama/generic_press_01.vsnd_c",
+      "sourceEvents": [
+        "UIPanorama.generic_button_press"
+      ],
+      "sourceSha256": "9f052b5df9eba2cc3deb72ff3859e1d7576ea6b12302dbcc130913f775efca46",
+      "asset": "Assets/Resources/UI/Audio/Click.wav",
+      "sha256": "77c7a57a99ce8467cf60685dff548a085406a6a81d39f672960e9868eceae150",
+      "seconds": 0.180136,
+      "trimStartSeconds": 0.0,
+      "gain": 0.44712,
+      "playbackVolume": 0.65
+    },
+    {
+      "cue": "Tab",
+      "sourceResource": "sounds/ui/panorama/submenu_select_01.vsnd_c",
+      "sourceEvents": [
+        "UIPanorama.submenu_select",
+        "UIPanorama.popup_accept_match_person",
+        "UIPanorama.weapon_showSolo",
+        "UIPanorama.weapon_showOnChar",
+        "UIPanorama.weapon_selectDashboard",
+        "UIPanorama.weapon_selectReplace",
+        "UIPanorama.container_graffiti_reveal",
+        "UIPanorama.rename_select",
+        "UIPanorama.findingGame_settings_select",
+        "UIPanorama.findingGame_cancel_select",
+        "UIPanorama.exitPopup_confirm",
+        "UIPanorama.resetSettings",
+        "UIPanorama.resetSettings_confirm",
+        "UIPanorama.mainmenu_mission_cancel"
+      ],
+      "sourceSha256": "09c15a518b1c26d040265d5d5bf84f61c72d0a381b5cca079b5fb616cbf230dd",
+      "asset": "Assets/Resources/UI/Audio/Tab.wav",
+      "sha256": "1972520596d0539f4b4b02e6b17ef9561215f0361002f48a7ca875a4b26dfd16",
+      "seconds": 0.152653,
+      "trimStartSeconds": 0.0,
+      "gain": 0.621375,
+      "playbackVolume": 0.6
+    },
+    {
+      "cue": "Home",
+      "sourceResource": "sounds/ui/panorama/mainmenu_press_home_01.vsnd_c",
+      "sourceEvents": [
+        "UIPanorama.mainmenu_press_home"
+      ],
+      "sourceSha256": "7f478f48b971e601cd7d4e504d19c901d03b67e74a10fc22a90f16ab9bf602c4",
+      "asset": "Assets/Resources/UI/Audio/Home.wav",
+      "sha256": "b89583097f43001e1f2f69a83c4073afc4d2d84f93331140fb105c61d92b3ae2",
+      "seconds": 0.193265,
+      "trimStartSeconds": 0.0,
+      "gain": 0.532004,
+      "playbackVolume": 0.65
+    },
+    {
+      "cue": "Agents",
+      "sourceResource": "sounds/ui/panorama/mainmenu_press_inventory_01.vsnd_c",
+      "sourceEvents": [],
+      "sourceSha256": "b20d7b359e725a9f46dc2bda5180189561ebd791da3245becb58a2a26b9b0b86",
+      "asset": "Assets/Resources/UI/Audio/Agents.wav",
+      "sha256": "223a33df29d08bd445b0a2114ef0aab613aa072162765a804e3f5cb693633d23",
+      "seconds": 0.27356,
+      "trimStartSeconds": 0.00263,
+      "gain": 0.486941,
+      "playbackVolume": 0.65
+    },
+    {
+      "cue": "Loadout",
+      "sourceResource": "sounds/ui/panorama/mainmenu_press_loadout_01.vsnd_c",
+      "sourceEvents": [
+        "UIPanorama.tab_mainmenu_loadout"
+      ],
+      "sourceSha256": "729f8ff70d4fed2c7f13fa9157d0babb4a5b9cccc3a19d5d49cd7c9b171b950e",
+      "asset": "Assets/Resources/UI/Audio/Loadout.wav",
+      "sha256": "2b87e12f688854f60dfccc6e3b6915e7beacfcb865977fd09daed3e8a9301a9f",
+      "seconds": 0.9,
+      "trimStartSeconds": 0.003741,
+      "gain": 0.373764,
+      "playbackVolume": 0.65
+    },
+    {
+      "cue": "Career",
+      "sourceResource": "sounds/ui/panorama/mainmenu_press_watch_01.vsnd_c",
+      "sourceEvents": [
+        "UIPanorama.tab_mainmenu_overwatch"
+      ],
+      "sourceSha256": "ad329b17faa3892217d9fa23ac9b84febbf96e6983ac0e4ae62a6adbbdb3cf59",
+      "asset": "Assets/Resources/UI/Audio/Career.wav",
+      "sha256": "84a1fb908f017ee6a40f43f4015da98ec05e66ea7936a3fefefe4ce2faab12bb",
+      "seconds": 0.543129,
+      "trimStartSeconds": 0.0,
+      "gain": 0.621058,
+      "playbackVolume": 0.6
+    },
+    {
+      "cue": "Settings",
+      "sourceResource": "sounds/ui/panorama/mainmenu_press_settings_02.vsnd_c",
+      "sourceEvents": [
+        "UIPanorama.tab_settings_settings"
+      ],
+      "sourceSha256": "f7b1a583c28839b3b7d926559445e3b4d253718391e852885be95363d43243d7",
+      "asset": "Assets/Resources/UI/Audio/Settings.wav",
+      "sha256": "299146a0734ba6a8edc687cba0ef6c92e36968d5f46b2cc1b405cb5b806d2c99",
+      "seconds": 0.509864,
+      "trimStartSeconds": 0.0,
+      "gain": 0.446684,
+      "playbackVolume": 0.6
+    },
+    {
+      "cue": "Start",
+      "sourceResource": "sounds/ui/panorama/mainmenu_press_play_02.vsnd_c",
+      "sourceEvents": [
+        "UIPanorama.stats_reveal",
+        "UIPanorama.inventory_item_equip"
+      ],
+      "sourceSha256": "e5e85caf948f04c3e871ad17ebe63bb05b276d033b9e1023bc29a9d63dbdb79e",
+      "asset": "Assets/Resources/UI/Audio/Start.wav",
+      "sha256": "64f74c16594b6d4bb49a9f1032fe1a85458917da84461d9bb53decf98ad4522c",
+      "seconds": 0.261905,
+      "trimStartSeconds": 0.0,
+      "gain": 0.446684,
+      "playbackVolume": 0.8
+    },
+    {
+      "cue": "Confirm",
+      "sourceResource": "sounds/ui/menu_accept.vsnd_c",
+      "sourceEvents": [
+        "Vote.Cast.Yes"
+      ],
+      "sourceSha256": "3fa60bde8e31f7c4869880afb6069071cd44e571a4d030b9950a8694cf6463a1",
+      "asset": "Assets/Resources/UI/Audio/Confirm.wav",
+      "sha256": "6d52f212d10befa9399cb9b138eb71180669c052f22d12cc8a6c41a709ddda5f",
+      "seconds": 0.184308,
+      "trimStartSeconds": 0.0,
+      "gain": 0.896813,
+      "playbackVolume": 0.75
+    },
+    {
+      "cue": "Back",
+      "sourceResource": "sounds/ui/menu_back.vsnd_c",
+      "sourceEvents": [],
+      "sourceSha256": "5663eee4ccac952cc4637206885494fbb3a9a5e0fe09112862d1828138390089",
+      "asset": "Assets/Resources/UI/Audio/Back.wav",
+      "sha256": "af9a67f31f95c9c158c9215a9cd9cb8cf0cae72e45575631d881026f17d65221",
+      "seconds": 0.235057,
+      "trimStartSeconds": 0.0,
+      "gain": 0.780871,
+      "playbackVolume": 0.65
+    },
+    {
+      "cue": "Open",
+      "sourceResource": "sounds/ui/panorama/submenu_dropdown_select_01.vsnd_c",
+      "sourceEvents": [
+        "UIPanorama.submenu_dropdown_select"
+      ],
+      "sourceSha256": "b364b400d77afc45a423390b7fe88260e1cfe74698c23470c22f22d33a69bfba",
+      "asset": "Assets/Resources/UI/Audio/Open.wav",
+      "sha256": "735b13e09864778bf686823df504593900982837cf102527523831b3017f386c",
+      "seconds": 0.183152,
+      "trimStartSeconds": 0.0,
+      "gain": 0.44712,
+      "playbackVolume": 0.6
+    },
+    {
+      "cue": "Option",
+      "sourceResource": "sounds/ui/panorama/submenu_dropdown_option_select_01.vsnd_c",
+      "sourceEvents": [
+        "UIPanorama.submenu_dropdown_option_select"
+      ],
+      "sourceSha256": "88c25e6b70de8e48f9ddf30d6bf8714d6211e040c0f7d802bb204ee119d62adf",
+      "asset": "Assets/Resources/UI/Audio/Option.wav",
+      "sha256": "7cd57b2ece76630f7264a3c5b4d36e165754320c2dd739b32b8422a1bb9eb11c",
+      "seconds": 0.282086,
+      "trimStartSeconds": 0.0,
+      "gain": 0.450797,
+      "playbackVolume": 0.65
+    },
+    {
+      "cue": "ToggleOn",
+      "sourceResource": "sounds/ui/panorama/itemtile_click_02.vsnd_c",
+      "sourceEvents": [
+        "UIPanorama.inventory_item_popupSelect",
+        "UIPanorama.loadout_sector_select",
+        "UIPanorama.checkbox_toggle"
+      ],
+      "sourceSha256": "be5f8e7f736cbfd165a1dc0ed68b7abf21ce9e610e0b3cee4463e3c90ae2f3a8",
+      "asset": "Assets/Resources/UI/Audio/ToggleOn.wav",
+      "sha256": "df153b39a5dfd6b70ccc01d91682136d1e6c0f2278d1c05d9f76e61dfe0f23da",
+      "seconds": 0.230136,
+      "trimStartSeconds": 0.0,
+      "gain": 0.500273,
+      "playbackVolume": 0.65
+    },
+    {
+      "cue": "ToggleOff",
+      "sourceResource": "sounds/ui/panorama/inventory_item_pickup_01.vsnd_c",
+      "sourceEvents": [
+        "UIPanorama.inventory_item_pickup"
+      ],
+      "sourceSha256": "923318b04ee7b5af05ddf903e94e61862e54278d492c2ed1fd384fb46c3596fa",
+      "asset": "Assets/Resources/UI/Audio/ToggleOff.wav",
+      "sha256": "308600bbe2e0b671f6edeff0ef094c521c6c984dad64ce64debf67aad92d5d18",
+      "seconds": 0.156032,
+      "trimStartSeconds": 0.0,
+      "gain": 0.44667,
+      "playbackVolume": 0.6
+    },
+    {
+      "cue": "Select",
+      "sourceResource": "sounds/ui/panorama/inventory_item_select_01.vsnd_c",
+      "sourceEvents": [
+        "UIPanorama.inventory_item_select",
+        "UIPanorama.buymenu_select",
+        "UIPanorama.generic_select"
+      ],
+      "sourceSha256": "542ab008b87f7108d267cae2cc50cc37d24c670040661bf565dd2d9a57dc125d",
+      "asset": "Assets/Resources/UI/Audio/Select.wav",
+      "sha256": "bf3e94aae5975aff66979a463c73723fa4252f7e89d43b4fb017149cb645d238",
+      "seconds": 0.243311,
+      "trimStartSeconds": 0.0,
+      "gain": 0.624237,
+      "playbackVolume": 0.6
+    },
+    {
+      "cue": "Equip",
+      "sourceResource": "sounds/ui/panorama/inventory_item_putdown_01.vsnd_c",
+      "sourceEvents": [
+        "UIPanorama.inventory_item_putdown",
+        "UIPanorama.inventory_item_notequipped",
+        "Chicken.Photo.Rejected"
+      ],
+      "sourceSha256": "976db0e8829428202f139aa7a7eefec2a0e8f67f6b5fe105473310fa872413e2",
+      "asset": "Assets/Resources/UI/Audio/Equip.wav",
+      "sha256": "26d1404807bc3f82f78da1c21d4c31ccf6fcc5188b39c535037c87613ef5af2b",
+      "seconds": 0.092086,
+      "trimStartSeconds": 0.0,
+      "gain": 0.450797,
+      "playbackVolume": 0.75
+    },
+    {
+      "cue": "AgentSelect",
+      "sourceResource": "sounds/ui/panorama/cards_draw_one_04.vsnd_c",
+      "sourceEvents": [],
+      "sourceSha256": "526c41cff22cdbcbe1a1593e5497f96e79497198e354199ce389b019ab95d6c2",
+      "asset": "Assets/Resources/UI/Audio/AgentSelect.wav",
+      "sha256": "b06a11e5144b30c26422c7a6912d5743a915b945ec4f1f1ee30347e579a73588",
+      "seconds": 0.186871,
+      "trimStartSeconds": 0.0,
+      "gain": 1.415931,
+      "playbackVolume": 0.65
+    },
+    {
+      "cue": "Input",
+      "sourceResource": "sounds/ui/buttonclick.vsnd_c",
+      "sourceEvents": [],
+      "sourceSha256": "3a228f3a44d4112ccb95a982b73815f84fa7d79f6500516f8b6391f5131d197e",
+      "asset": "Assets/Resources/UI/Audio/Input.wav",
+      "sha256": "33727027c23cbe7987d75cb668bab2404f447aaff6e722b04cd1264c93bd0ac6",
+      "seconds": 0.132562,
+      "trimStartSeconds": 0.0,
+      "gain": 1.117554,
+      "playbackVolume": 0.45
+    },
+    {
+      "cue": "Slider",
+      "sourceResource": "sounds/ui/panorama/generic_scroll_01.vsnd_c",
+      "sourceEvents": [
+        "UIPanorama.generic_button_rollover",
+        "UIPanorama.findingGame_scroll",
+        "UIPanorama.friendElement_press",
+        "UIPanorama.settings.sliderchange_sfx"
+      ],
+      "sourceSha256": "93acd486a127c955b03bafa41d58e64202ed01281c23d0eda2a25f217b9004df",
+      "asset": "Assets/Resources/UI/Audio/Slider.wav",
+      "sha256": "d09e3e8a412b9bb6f02e555c3b978a96e262d588344ef6364f2d54da7d9fa7b6",
+      "seconds": 0.05127,
+      "trimStartSeconds": 0.0,
+      "gain": 1.179695,
+      "playbackVolume": 0.4
+    },
+    {
+      "cue": "Purchase",
+      "sourceResource": "sounds/ui/panorama/radial_menu_buy_01.vsnd_c",
+      "sourceEvents": [],
+      "sourceSha256": "107d08b3ec73b95d7333e7c39315a4a545fd95553a6c127f6f8a7a1b9f21dc09",
+      "asset": "Assets/Resources/UI/Audio/Purchase.wav",
+      "sha256": "9611cbdb7242d4c4284ce693c0312d6dfdf29fce6f911e3dcebe8cb6262cd8c5",
+      "seconds": 0.159683,
+      "trimStartSeconds": 0.0,
+      "gain": 0.44712,
+      "playbackVolume": 0.7
+    }
+  ]
+}

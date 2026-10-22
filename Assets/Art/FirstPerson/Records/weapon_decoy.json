@@ -1,0 +1,51 @@
+{
+  "id": "weapon_decoy",
+  "clips": [
+    {
+      "name": "idle",
+      "first": 1,
+      "last": 2,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/grenade/_default_grenade/idle_grenade.gltf"
+    },
+    {
+      "name": "draw",
+      "first": 3,
+      "last": 33,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/grenade/_default_grenade/draw_grenade.gltf"
+    },
+    {
+      "name": "fire",
+      "first": 34,
+      "last": 56,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/grenade/_default_grenade/throw_overhand_grenade.gltf"
+    },
+    {
+      "name": "prepare",
+      "first": 57,
+      "last": 86,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/grenade/_default_grenade/pullpin_grenade.gltf"
+    }
+  ],
+  "materials": [
+    {
+      "name": "bare_arm_133",
+      "color": "Assets/Art/Loadout/Textures/223f08d305e59e4ad46c.png",
+      "normal": "Assets/Art/Loadout/Textures/10dd463dff0288eac575.png"
+    },
+    {
+      "name": "sleeve_ctm_sas",
+      "color": "11fb55833453a22a324d.png",
+      "normal": "fd7d88acbc9ee89e125e.png"
+    },
+    {
+      "name": "weapon_decoy",
+      "color": "Assets/Art/Loadout/Textures/87250f90e8ed3dda1ceb.png",
+      "normal": "Assets/Art/Loadout/Textures/dfe22208f42c26a4134f.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "Assets/Art/Loadout/Textures/67a4229a913ad1b16146.png",
+      "normal": "Assets/Art/Loadout/Textures/2454904008e64d88948a.png"
+    }
+  ]
+}

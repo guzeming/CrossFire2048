@@ -1,0 +1,61 @@
+{
+  "id": "weapon_molotov",
+  "clips": [
+    {
+      "name": "idle",
+      "first": 1,
+      "last": 2,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/grenade/grenade_molotov/idle_molotov.gltf"
+    },
+    {
+      "name": "draw",
+      "first": 3,
+      "last": 33,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/grenade/grenade_molotov/draw_molotov.gltf"
+    },
+    {
+      "name": "fire",
+      "first": 34,
+      "last": 56,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/grenade/grenade_molotov/throw_overhand_molotov.gltf"
+    },
+    {
+      "name": "prepare",
+      "first": 57,
+      "last": 90,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/grenade/grenade_molotov/pullpin_molotov.gltf"
+    }
+  ],
+  "materials": [
+    {
+      "name": "weapon_molotov_flame",
+      "color": "Assets/Art/Loadout/Textures/1c0d26a969e9fc9d86b0.png",
+      "normal": "Assets/Art/Loadout/Textures/c9c25b8c7b6088cbe510.png"
+    },
+    {
+      "name": "weapon_molotov",
+      "color": "Assets/Art/Loadout/Textures/7dd9c6ff8e44d8f25e51.png",
+      "normal": "Assets/Art/Loadout/Textures/a3b8097aafecd7238d2e.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "Assets/Art/Loadout/Textures/67a4229a913ad1b16146.png",
+      "normal": "Assets/Art/Loadout/Textures/2454904008e64d88948a.png"
+    },
+    {
+      "name": "sleeve_ctm_sas",
+      "color": "11fb55833453a22a324d.png",
+      "normal": "fd7d88acbc9ee89e125e.png"
+    },
+    {
+      "name": "weapon_molotov_liquid",
+      "color": "Assets/Art/Loadout/Textures/cfa9176202b151bbb20b.png",
+      "normal": "Assets/Art/Loadout/Textures/a329b360bc81003502ef.png"
+    },
+    {
+      "name": "bare_arm_133",
+      "color": "Assets/Art/Loadout/Textures/223f08d305e59e4ad46c.png",
+      "normal": "Assets/Art/Loadout/Textures/10dd463dff0288eac575.png"
+    }
+  ]
+}

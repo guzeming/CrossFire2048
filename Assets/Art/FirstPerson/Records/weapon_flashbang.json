@@ -1,0 +1,51 @@
+{
+  "id": "weapon_flashbang",
+  "clips": [
+    {
+      "name": "idle",
+      "first": 1,
+      "last": 2,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/grenade/grenade_flashbang/idle_flashbang.gltf"
+    },
+    {
+      "name": "draw",
+      "first": 3,
+      "last": 33,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/grenade/grenade_flashbang/draw_flashbang.gltf"
+    },
+    {
+      "name": "fire",
+      "first": 34,
+      "last": 56,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/grenade/grenade_flashbang/throw_overhand_flashbang.gltf"
+    },
+    {
+      "name": "prepare",
+      "first": 57,
+      "last": 86,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/grenade/grenade_flashbang/pullpin_flashbang.gltf"
+    }
+  ],
+  "materials": [
+    {
+      "name": "bare_arm_133",
+      "color": "Assets/Art/Loadout/Textures/223f08d305e59e4ad46c.png",
+      "normal": "Assets/Art/Loadout/Textures/10dd463dff0288eac575.png"
+    },
+    {
+      "name": "sleeve_ctm_sas",
+      "color": "11fb55833453a22a324d.png",
+      "normal": "fd7d88acbc9ee89e125e.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "Assets/Art/Loadout/Textures/67a4229a913ad1b16146.png",
+      "normal": "Assets/Art/Loadout/Textures/2454904008e64d88948a.png"
+    },
+    {
+      "name": "weapon_flashbang",
+      "color": "Assets/Art/Loadout/Textures/021681b3705ebff40359.png",
+      "normal": "Assets/Art/Loadout/Textures/8b67fe01753488d43794.png"
+    }
+  ]
+}

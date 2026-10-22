@@ -5,6 +5,10 @@ using OperationBlacktide.Server.Accounts;
 using OperationBlacktide.Server.Network;
 using OperationBlacktide.Server.Storage;
 using OperationBlacktide.Shared.Protocol;
+using OperationBlacktide.Shared.Battle;
+using OperationBlacktide.Shared.Modes.Demolition;
+using OperationBlacktide.Server.Demolition;
+using System.Diagnostics;
 
 namespace OperationBlacktide.Server
 {
@@ -17,6 +21,11 @@ namespace OperationBlacktide.Server
         private readonly int _port;
         private readonly AccountStore _accountStore;
         private readonly AccountService _accountService;
+        private readonly byte[] _battleKey;
+        private readonly int _battlePort;
+        private readonly DemolitionLobbyService _demolition;
+        private readonly Stopwatch _clock = Stopwatch.StartNew();
+        private Timer? _demolitionTimer;
 
         private readonly ConcurrentDictionary<int, ClientConnection> _connections =
             new ConcurrentDictionary<int, ClientConnection>();
@@ -29,11 +38,16 @@ namespace OperationBlacktide.Server
         private CancellationTokenSource? _cts;
         private int _nextConnectionId;
 
-        public GameServer(int port, string accountFilePath)
+        public GameServer(int port, string accountFilePath, byte[] battleKey, int battlePort = 7778, string? battleKeyFile = null, string? battleExecutable = null)
         {
+            _battleKey = battleKey;
+            _battlePort = battlePort;
             _port = port;
             _accountStore = new AccountStore(accountFilePath);
             _accountService = new AccountService(_accountStore);
+            _demolition = new DemolitionLobbyService(new DemolitionProcessAllocator(
+                battleExecutable ?? "Builds/DemolitionServer/Blacktide.DemolitionServer.exe", battleKeyFile ?? "data/battle.key", "data/demolition"), battleKey,
+                new DemolitionRatings(Path.Combine(Path.GetDirectoryName(Path.GetFullPath(accountFilePath))!, "demolition-ratings.json")));
         }
 
         public int AccountCount => _accountService.AccountCount;
@@ -50,15 +64,21 @@ namespace OperationBlacktide.Server
             _accountStore.Load();
             ServerLog.Info($"已加载账户数据，当前账户数：{_accountService.AccountCount}");
 
-            _listener = new TcpListener(IPAddress.Any, _port);
+            // First authority milestone is local-only; public login still requires TLS.
+            _listener = new TcpListener(IPAddress.Loopback, _port);
             _listener.Start();
             ServerLog.Info($"服务器已启动，监听端口 {_port}");
 
             _ = AcceptLoopAsync(cts.Token);
+            _demolitionTimer = new Timer(_ => { try { _demolition.Tick(_clock.Elapsed.TotalSeconds); }
+                catch (Exception e) { ServerLog.Error("爆破大厅推进失败：" + e.Message); } }, null, 0, 250);
         }
 
         public void Stop()
         {
+            _demolitionTimer?.Dispose();
+            _demolition.Dispose();
+            _cts?.Cancel();
             try
             {
                 _accountStore.Save();
@@ -199,6 +219,33 @@ namespace OperationBlacktide.Server
 
             switch (envelope.Type)
             {
+                case MessageType.DemolitionRequest:
+                    if (!connection.IsAuthenticated || !_sessions.TryGetValue(connection.UserId, out var active) || !ReferenceEquals(active, connection))
+                    { await connection.SendAsync(MessageType.DemolitionResponse, new DemolitionResponse { Success = false, Message = "请先登录" }); break; }
+                    DemolitionResponse demolitionResponse;
+                    try
+                    {
+                        var request = MessageCodec.DecodePayload<DemolitionRequest>(envelope);
+                        demolitionResponse = request == null ? new DemolitionResponse { Success = false, Message = "请求为空" }
+                            : _demolition.Handle(connection.UserId, connection.Username, request, _clock.Elapsed.TotalSeconds);
+                    }
+                    catch (Exception e) when (e is System.Text.Json.JsonException || e is ArgumentException)
+                    { demolitionResponse = new DemolitionResponse { Success = false, Message = "请求格式错误" }; }
+                    await connection.SendAsync(MessageType.DemolitionResponse, demolitionResponse).ConfigureAwait(false);
+                    break;
+                case MessageType.BattleJoinRequest:
+                    bool allowed = connection.IsAuthenticated &&
+                        _sessions.TryGetValue(connection.UserId, out var current) && ReferenceEquals(current, connection) &&
+                        DateTime.UtcNow >= connection.NextBattleTicketAt;
+                    connection.NextBattleTicketAt = DateTime.UtcNow.AddSeconds(2);
+                    await connection.SendAsync(MessageType.BattleJoinResponse, new BattleJoinResponse
+                    {
+                        Success = allowed, Message = allowed ? "" : "请先登录，或稍后重试", Port = _battlePort,
+                        Ticket = allowed ? BattleTicket.Issue(_battleKey, connection.UserId, connection.Username) : ""
+                    }).ConfigureAwait(false);
+                    ServerLog.Events?.Write(allowed ? "ticket_issued" : "ticket_denied", "arena-1",
+                        connection.Username, connection.UserId);
+                    break;
                 case MessageType.RegisterRequest:
                     await HandleRegisterAsync(connection, envelope).ConfigureAwait(false);
                     break;
@@ -278,6 +325,7 @@ namespace OperationBlacktide.Server
 
             string sessionToken = Guid.NewGuid().ToString("N");
             connection.MarkAuthenticated(result.Account.UserId, result.Account.Username, sessionToken);
+            ServerLog.Events?.Write("login", "Authenticated", connection.Username, connection.UserId);
             _sessions[result.Account.UserId] = connection;
 
             await connection.SendAsync(MessageType.LoginResponse, new LoginResponse
@@ -300,6 +348,7 @@ namespace OperationBlacktide.Server
                     current.ConnectionId == connection.ConnectionId)
                 {
                     _sessions.TryRemove(connection.UserId, out _);
+                    _demolition.Disconnect(connection.UserId, _clock.Elapsed.TotalSeconds);
                 }
             }
 

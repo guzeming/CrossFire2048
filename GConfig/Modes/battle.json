@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "id": "battle",
+  "components": [
+    "world",
+    "clock",
+    "respawn",
+    "supply"
+  ],
+  "respawnDelay": 3,
+  "infiniteAmmoReserve": false,
+  "infiniteThrowables": false,
+  "autoRechargeTaser": false
+}

@@ -16,6 +16,7 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+/游戏启动面板.lnk
 *.log
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
@@ -49,6 +50,8 @@ ExportedObj/
 .consulo/
 *.csproj
 !/GServer/**/*.csproj
+!/GTools/**/*.csproj
+!/Tests/**/*.csproj
 *.unityproj
 *.sln
 *.slnx
@@ -117,6 +120,9 @@ InitTestScene*.unity*
 **/[Oo]bj/
 .build-check/
 
+# Downloaded offline assistant models and self-contained Windows runtime.
+/LocalAssistant/
+
 # Local diagnostics and Python caches
 /exceptions.txt
 __pycache__/
@@ -132,16 +138,7 @@ Thumbs.db
 .env.*
 !.env.example
 
-# ArtSource 是可选的原始美术工作区；打开 Unity 项目不依赖这里的大文件。
-# 仅保留制作脚本、说明、许可证和提示词，完整原始素材另行共享。
+# ArtSource 整目录仅保留在本地，包括制作脚本、说明、提示词和原始素材。
+# 协作者打开、构建和运行现有工程不依赖此目录；需要重做美术时另行共享。
 # Assets 下已导入的成品及其 .meta 必须一起提交，不能照此规则排除。
-/ArtSource/**
-!/ArtSource/**/
-!/ArtSource/**/*.py
-!/ArtSource/**/*.ps1
-!/ArtSource/**/*.md
-!/ArtSource/**/README*
-!/ArtSource/**/LICENSE*
-!/ArtSource/**/COPYING*
-!/ArtSource/**/*.prompt.txt
-!/ArtSource/**/*Prompts.txt
+/ArtSource/

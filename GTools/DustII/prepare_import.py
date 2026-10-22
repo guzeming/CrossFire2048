@@ -1,4 +1,4 @@
-"""Stage Dust II and preserve source texture resolution for Unity import."""
+﻿"""Stage Dust II and preserve source texture resolution for Unity import."""
 import hashlib
 import json
 import shutil
@@ -10,7 +10,7 @@ project = Path(__file__).resolve().parents[2]
 source = project / 'ArtSource/CS2Imports/DustII'
 stage = project / '.build-check/dustii-import'
 art = stage / 'Assets/Art/Maps/DustII'
-for folder in ['Models','Textures','Materials','Prefabs','Runtime']:
+for folder in ['Models','Textures','Materials','Prefabs']:
     (art / folder).mkdir(parents=True, exist_ok=True)
 (stage/'Assets/Editor').mkdir(parents=True, exist_ok=True)
 (stage/'Assets/Scenes').mkdir(parents=True, exist_ok=True)
@@ -66,7 +66,15 @@ for name, role in texture_roles.items():
 for chunk in manifest['chunks']: shutil.copy2(source/'UnityExport'/chunk['file'],art/'Models'/chunk['file'])
 (art/'import_manifest.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
 for src,dst in [('BuildDustII.cs',stage/'Assets/Editor/BuildDustII.cs'),
-                ('DustIIEffectCleanup.cs',stage/'Assets/Editor/DustIIEffectCleanup.cs'),
-                ('DustIIViewer.cs',art/'Runtime/DustIIViewer.cs')]:
+                ('DustIIEffectCleanup.cs',stage/'Assets/Editor/DustIIEffectCleanup.cs')]:
     shutil.copy2(project/'GTools/DustII'/src,dst)
+viewer = stage/'Assets/Scripts/Development/DustIIViewer.cs'
+viewer.parent.mkdir(parents=True, exist_ok=True)
+shutil.copy2(project/'Assets/Scripts/GClient/Runtime/Development/DustIIViewer.cs', viewer)
+shutil.copy2(project/'Assets/Scripts/GClient/Runtime/Development/DustIIViewer.cs.meta', Path(str(viewer)+'.meta'))
+# Remove the previous staging location so reusing the import project does not duplicate the class/GUID.
+for obsolete in [art/'Runtime/DustIIViewer.cs', art/'Runtime/DustIIViewer.cs.meta']:
+    if not obsolete.resolve().is_relative_to(stage.resolve()):
+        raise ValueError('Viewer cleanup escaped the staging project')
+    obsolete.unlink(missing_ok=True)
 print(json.dumps({'stage':str(stage),'models':len(result['chunks']),'materials':len(result['materials']),'textures':len(result['textures'])}))

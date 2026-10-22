@@ -20,7 +20,7 @@ namespace OperationBlacktide.Client.Network
 
     /// <summary>
     /// Unity 客户端 TCP 网络组件。
-    /// 第一阶段用于登录注册这类低频可靠消息；后续战斗同步可单独增加 UDP 通道。
+    /// 用于账号和入房等低频可靠消息；战斗输入与快照由 BattleConnection 的 UDP 通道处理。
     /// </summary>
     public sealed class TcpGameClient : MonoBehaviour
     {

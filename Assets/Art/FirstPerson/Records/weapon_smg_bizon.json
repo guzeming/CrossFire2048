@@ -1,0 +1,51 @@
+{
+  "id": "weapon_smg_bizon",
+  "clips": [
+    {
+      "name": "idle",
+      "first": 1,
+      "last": 2,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_bizon/idle_bizon.gltf"
+    },
+    {
+      "name": "draw",
+      "first": 3,
+      "last": 36,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_bizon/draw_bizon.gltf"
+    },
+    {
+      "name": "fire",
+      "first": 37,
+      "last": 63,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_bizon/shoot1_bizon.gltf"
+    },
+    {
+      "name": "reload",
+      "first": 64,
+      "last": 137,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_bizon/reload_bizon.gltf"
+    }
+  ],
+  "materials": [
+    {
+      "name": "weapon_smg_bizon",
+      "color": "Assets/Art/Loadout/Textures/17f4157d3baf50c2e9a1.png",
+      "normal": "Assets/Art/Loadout/Textures/b6083959bae0e13a9bf7.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "Assets/Art/Loadout/Textures/67a4229a913ad1b16146.png",
+      "normal": "Assets/Art/Loadout/Textures/2454904008e64d88948a.png"
+    },
+    {
+      "name": "sleeve_ctm_sas",
+      "color": "11fb55833453a22a324d.png",
+      "normal": "fd7d88acbc9ee89e125e.png"
+    },
+    {
+      "name": "bare_arm_133",
+      "color": "Assets/Art/Loadout/Textures/223f08d305e59e4ad46c.png",
+      "normal": "Assets/Art/Loadout/Textures/10dd463dff0288eac575.png"
+    }
+  ]
+}

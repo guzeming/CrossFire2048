@@ -1,0 +1,343 @@
+{
+  "banks": [
+    {
+      "kind": "Concrete",
+      "steps": [
+        "Training/Audio/Footsteps/concrete_ct_01",
+        "Training/Audio/Footsteps/concrete_ct_02",
+        "Training/Audio/Footsteps/concrete_ct_03",
+        "Training/Audio/Footsteps/concrete_ct_04",
+        "Training/Audio/Footsteps/concrete_ct_05",
+        "Training/Audio/Footsteps/concrete_ct_06",
+        "Training/Audio/Footsteps/concrete_ct_07",
+        "Training/Audio/Footsteps/concrete_ct_08",
+        "Training/Audio/Footsteps/concrete_ct_09",
+        "Training/Audio/Footsteps/concrete_ct_10",
+        "Training/Audio/Footsteps/concrete_ct_11",
+        "Training/Audio/Footsteps/concrete_ct_12",
+        "Training/Audio/Footsteps/concrete_ct_13",
+        "Training/Audio/Footsteps/concrete_ct_14",
+        "Training/Audio/Footsteps/concrete_ct_15",
+        "Training/Audio/Footsteps/concrete_ct_16",
+        "Training/Audio/Footsteps/concrete_ct_17"
+      ],
+      "landings": [
+        "Training/Audio/Landings/land",
+        "Training/Audio/Landings/land2",
+        "Training/Audio/Landings/land3",
+        "Training/Audio/Landings/land4"
+      ]
+    },
+    {
+      "kind": "Wood",
+      "steps": [
+        "Combat/FootstepAudio/Clips/wood_01",
+        "Combat/FootstepAudio/Clips/wood_02",
+        "Combat/FootstepAudio/Clips/wood_03",
+        "Combat/FootstepAudio/Clips/wood_04",
+        "Combat/FootstepAudio/Clips/wood_05",
+        "Combat/FootstepAudio/Clips/wood_06",
+        "Combat/FootstepAudio/Clips/wood_07",
+        "Combat/FootstepAudio/Clips/wood_08",
+        "Combat/FootstepAudio/Clips/wood_09",
+        "Combat/FootstepAudio/Clips/wood_10",
+        "Combat/FootstepAudio/Clips/wood_11",
+        "Combat/FootstepAudio/Clips/wood_12",
+        "Combat/FootstepAudio/Clips/wood_13",
+        "Combat/FootstepAudio/Clips/wood_14",
+        "Combat/FootstepAudio/Clips/wood_15"
+      ],
+      "landings": [
+        "Combat/FootstepAudio/Clips/wood_01",
+        "Combat/FootstepAudio/Clips/wood_02",
+        "Combat/FootstepAudio/Clips/wood_03",
+        "Combat/FootstepAudio/Clips/wood_04",
+        "Combat/FootstepAudio/Clips/wood_05",
+        "Combat/FootstepAudio/Clips/wood_06",
+        "Combat/FootstepAudio/Clips/wood_07",
+        "Combat/FootstepAudio/Clips/wood_08",
+        "Combat/FootstepAudio/Clips/wood_09",
+        "Combat/FootstepAudio/Clips/wood_10",
+        "Combat/FootstepAudio/Clips/wood_11",
+        "Combat/FootstepAudio/Clips/wood_12"
+      ]
+    },
+    {
+      "kind": "Metal",
+      "steps": [
+        "Combat/FootstepAudio/Clips/metal_solid_35",
+        "Combat/FootstepAudio/Clips/metal_solid_36",
+        "Combat/FootstepAudio/Clips/metal_solid_37",
+        "Combat/FootstepAudio/Clips/metal_solid_38",
+        "Combat/FootstepAudio/Clips/metal_solid_39",
+        "Combat/FootstepAudio/Clips/metal_solid_40",
+        "Combat/FootstepAudio/Clips/metal_solid_41",
+        "Combat/FootstepAudio/Clips/metal_solid_42",
+        "Combat/FootstepAudio/Clips/metal_solid_43",
+        "Combat/FootstepAudio/Clips/metal_solid_44",
+        "Combat/FootstepAudio/Clips/metal_solid_45",
+        "Combat/FootstepAudio/Clips/metal_solid_46",
+        "Combat/FootstepAudio/Clips/metal_solid_47",
+        "Combat/FootstepAudio/Clips/metal_solid_48",
+        "Combat/FootstepAudio/Clips/metal_solid_49",
+        "Combat/FootstepAudio/Clips/metal_solid_50"
+      ],
+      "landings": [
+        "Combat/FootstepAudio/Clips/land_metal_solid_01",
+        "Combat/FootstepAudio/Clips/land_metal_solid_02",
+        "Combat/FootstepAudio/Clips/land_metal_solid_03",
+        "Combat/FootstepAudio/Clips/land_metal_solid_04",
+        "Combat/FootstepAudio/Clips/land_metal_solid_05",
+        "Combat/FootstepAudio/Clips/land_metal_solid_06"
+      ]
+    },
+    {
+      "kind": "MetalGrate",
+      "steps": [
+        "Combat/FootstepAudio/Clips/metal_grate_01",
+        "Combat/FootstepAudio/Clips/metal_grate_02",
+        "Combat/FootstepAudio/Clips/metal_grate_03",
+        "Combat/FootstepAudio/Clips/metal_grate_04",
+        "Combat/FootstepAudio/Clips/metal_grate_05",
+        "Combat/FootstepAudio/Clips/metal_grate_06",
+        "Combat/FootstepAudio/Clips/metal_grate_07",
+        "Combat/FootstepAudio/Clips/metal_grate_08"
+      ],
+      "landings": [
+        "Combat/FootstepAudio/Clips/land_metal_grate_01",
+        "Combat/FootstepAudio/Clips/land_metal_grate_02",
+        "Combat/FootstepAudio/Clips/land_metal_grate_03",
+        "Combat/FootstepAudio/Clips/land_metal_grate_04",
+        "Combat/FootstepAudio/Clips/land_metal_grate_05",
+        "Combat/FootstepAudio/Clips/land_metal_grate_06"
+      ]
+    },
+    {
+      "kind": "MetalBarrel",
+      "steps": [
+        "Combat/FootstepAudio/Clips/metal_vent_01",
+        "Combat/FootstepAudio/Clips/metal_vent_02",
+        "Combat/FootstepAudio/Clips/metal_vent_03",
+        "Combat/FootstepAudio/Clips/metal_vent_04",
+        "Combat/FootstepAudio/Clips/metal_vent_05",
+        "Combat/FootstepAudio/Clips/metal_vent_06"
+      ],
+      "landings": [
+        "Combat/FootstepAudio/Clips/land_metal_barrel_01",
+        "Combat/FootstepAudio/Clips/land_metal_barrel_02",
+        "Combat/FootstepAudio/Clips/land_metal_barrel_03",
+        "Combat/FootstepAudio/Clips/land_metal_barrel_04"
+      ]
+    },
+    {
+      "kind": "Glass",
+      "steps": [
+        "Combat/FootstepAudio/Clips/glass_01",
+        "Combat/FootstepAudio/Clips/glass_07",
+        "Combat/FootstepAudio/Clips/glass_08",
+        "Combat/FootstepAudio/Clips/glass_09",
+        "Combat/FootstepAudio/Clips/glass_10",
+        "Combat/FootstepAudio/Clips/glass_11",
+        "Combat/FootstepAudio/Clips/glass_12",
+        "Combat/FootstepAudio/Clips/glass_13"
+      ],
+      "landings": [
+        "Combat/FootstepAudio/Clips/land_glass_01",
+        "Combat/FootstepAudio/Clips/land_glass_02",
+        "Combat/FootstepAudio/Clips/land_glass_03",
+        "Combat/FootstepAudio/Clips/land_glass_04",
+        "Combat/FootstepAudio/Clips/land_glass_05"
+      ]
+    },
+    {
+      "kind": "Tile",
+      "steps": [
+        "Combat/FootstepAudio/Clips/tile_01",
+        "Combat/FootstepAudio/Clips/tile_02",
+        "Combat/FootstepAudio/Clips/tile_03",
+        "Combat/FootstepAudio/Clips/tile_04",
+        "Combat/FootstepAudio/Clips/tile_05",
+        "Combat/FootstepAudio/Clips/tile_06",
+        "Combat/FootstepAudio/Clips/tile_07",
+        "Combat/FootstepAudio/Clips/tile_08",
+        "Combat/FootstepAudio/Clips/tile_09",
+        "Combat/FootstepAudio/Clips/tile_10",
+        "Combat/FootstepAudio/Clips/tile_11",
+        "Combat/FootstepAudio/Clips/tile_12",
+        "Combat/FootstepAudio/Clips/tile_13",
+        "Combat/FootstepAudio/Clips/tile_14"
+      ],
+      "landings": [
+        "Combat/FootstepAudio/Clips/land_tile_01",
+        "Combat/FootstepAudio/Clips/land_tile_02",
+        "Combat/FootstepAudio/Clips/land_tile_03",
+        "Combat/FootstepAudio/Clips/land_tile_04",
+        "Combat/FootstepAudio/Clips/land_tile_05"
+      ]
+    },
+    {
+      "kind": "Dirt",
+      "steps": [
+        "Combat/FootstepAudio/Clips/dirt_01",
+        "Combat/FootstepAudio/Clips/dirt_02",
+        "Combat/FootstepAudio/Clips/dirt_03",
+        "Combat/FootstepAudio/Clips/dirt_04",
+        "Combat/FootstepAudio/Clips/dirt_05",
+        "Combat/FootstepAudio/Clips/dirt_06",
+        "Combat/FootstepAudio/Clips/dirt_07",
+        "Combat/FootstepAudio/Clips/dirt_08",
+        "Combat/FootstepAudio/Clips/dirt_09",
+        "Combat/FootstepAudio/Clips/dirt_10",
+        "Combat/FootstepAudio/Clips/dirt_11",
+        "Combat/FootstepAudio/Clips/dirt_12",
+        "Combat/FootstepAudio/Clips/dirt_13",
+        "Combat/FootstepAudio/Clips/dirt_14"
+      ],
+      "landings": [
+        "Combat/FootstepAudio/Clips/land_dirt_01",
+        "Combat/FootstepAudio/Clips/land_dirt_02",
+        "Combat/FootstepAudio/Clips/land_dirt_03",
+        "Combat/FootstepAudio/Clips/land_dirt_04",
+        "Combat/FootstepAudio/Clips/land_dirt_05"
+      ]
+    },
+    {
+      "kind": "Sand",
+      "steps": [
+        "Combat/FootstepAudio/Clips/sand_01",
+        "Combat/FootstepAudio/Clips/sand_02",
+        "Combat/FootstepAudio/Clips/sand_03",
+        "Combat/FootstepAudio/Clips/sand_04",
+        "Combat/FootstepAudio/Clips/sand_05",
+        "Combat/FootstepAudio/Clips/sand_06",
+        "Combat/FootstepAudio/Clips/sand_07",
+        "Combat/FootstepAudio/Clips/sand_08",
+        "Combat/FootstepAudio/Clips/sand_09",
+        "Combat/FootstepAudio/Clips/sand_10",
+        "Combat/FootstepAudio/Clips/sand_11",
+        "Combat/FootstepAudio/Clips/sand_12"
+      ],
+      "landings": [
+        "Combat/FootstepAudio/Clips/land_sand_01",
+        "Combat/FootstepAudio/Clips/land_sand_02",
+        "Combat/FootstepAudio/Clips/land_sand_03",
+        "Combat/FootstepAudio/Clips/land_sand_04",
+        "Combat/FootstepAudio/Clips/land_sand_05",
+        "Combat/FootstepAudio/Clips/land_sand_06"
+      ]
+    },
+    {
+      "kind": "Grass",
+      "steps": [
+        "Combat/FootstepAudio/Clips/grass_01",
+        "Combat/FootstepAudio/Clips/grass_02",
+        "Combat/FootstepAudio/Clips/grass_03",
+        "Combat/FootstepAudio/Clips/grass_04",
+        "Combat/FootstepAudio/Clips/grass_05",
+        "Combat/FootstepAudio/Clips/grass_06",
+        "Combat/FootstepAudio/Clips/grass_07"
+      ],
+      "landings": [
+        "Combat/FootstepAudio/Clips/land_grass_01",
+        "Combat/FootstepAudio/Clips/land_grass_02",
+        "Combat/FootstepAudio/Clips/land_grass_03",
+        "Combat/FootstepAudio/Clips/land_grass_04",
+        "Combat/FootstepAudio/Clips/land_grass_05"
+      ]
+    },
+    {
+      "kind": "Plastic",
+      "steps": [
+        "Combat/FootstepAudio/Clips/plastic_barrel_01",
+        "Combat/FootstepAudio/Clips/plastic_barrel_02",
+        "Combat/FootstepAudio/Clips/plastic_barrel_03",
+        "Combat/FootstepAudio/Clips/plastic_barrel_04",
+        "Combat/FootstepAudio/Clips/plastic_barrel_05"
+      ],
+      "landings": [
+        "Combat/FootstepAudio/Clips/land_auto_01",
+        "Combat/FootstepAudio/Clips/land_auto_02",
+        "Combat/FootstepAudio/Clips/land_auto_03",
+        "Combat/FootstepAudio/Clips/land_auto_04",
+        "Combat/FootstepAudio/Clips/land_auto_05"
+      ]
+    },
+    {
+      "kind": "Cardboard",
+      "steps": [
+        "Combat/FootstepAudio/Clips/cardboard_box_impact_soft1",
+        "Combat/FootstepAudio/Clips/cardboard_box_impact_soft2",
+        "Combat/FootstepAudio/Clips/cardboard_box_impact_soft3",
+        "Combat/FootstepAudio/Clips/cardboard_box_impact_soft4",
+        "Combat/FootstepAudio/Clips/cardboard_box_impact_soft5",
+        "Combat/FootstepAudio/Clips/cardboard_box_impact_soft6",
+        "Combat/FootstepAudio/Clips/cardboard_box_impact_soft7"
+      ],
+      "landings": [
+        "Combat/FootstepAudio/Clips/land_cardboard_01",
+        "Combat/FootstepAudio/Clips/land_cardboard_02",
+        "Combat/FootstepAudio/Clips/land_cardboard_03"
+      ]
+    },
+    {
+      "kind": "Rubber",
+      "steps": [
+        "Combat/FootstepAudio/Clips/rubber_03",
+        "Combat/FootstepAudio/Clips/rubber_04",
+        "Combat/FootstepAudio/Clips/rubber_05",
+        "Combat/FootstepAudio/Clips/rubber_06"
+      ],
+      "landings": [
+        "Combat/FootstepAudio/Clips/land_rubber_01",
+        "Combat/FootstepAudio/Clips/land_rubber_02",
+        "Combat/FootstepAudio/Clips/land_rubber_03",
+        "Combat/FootstepAudio/Clips/land_rubber_04",
+        "Combat/FootstepAudio/Clips/land_rubber_05",
+        "Combat/FootstepAudio/Clips/land_rubber_06"
+      ]
+    },
+    {
+      "kind": "Cloth",
+      "steps": [
+        "Combat/FootstepAudio/Clips/carpet_01",
+        "Combat/FootstepAudio/Clips/carpet_03",
+        "Combat/FootstepAudio/Clips/carpet_04",
+        "Combat/FootstepAudio/Clips/carpet_08",
+        "Combat/FootstepAudio/Clips/carpet_09",
+        "Combat/FootstepAudio/Clips/carpet_11",
+        "Combat/FootstepAudio/Clips/carpet_14",
+        "Combat/FootstepAudio/Clips/carpet_15",
+        "Combat/FootstepAudio/Clips/carpet_17",
+        "Combat/FootstepAudio/Clips/carpet_18",
+        "Combat/FootstepAudio/Clips/carpet_19",
+        "Combat/FootstepAudio/Clips/carpet_20"
+      ],
+      "landings": [
+        "Combat/FootstepAudio/Clips/land_carpet_01",
+        "Combat/FootstepAudio/Clips/land_carpet_02",
+        "Combat/FootstepAudio/Clips/land_carpet_03",
+        "Combat/FootstepAudio/Clips/land_carpet_04",
+        "Combat/FootstepAudio/Clips/land_carpet_05"
+      ]
+    },
+    {
+      "kind": "Water",
+      "steps": [
+        "Combat/FootstepAudio/Clips/puddle_01",
+        "Combat/FootstepAudio/Clips/puddle_02",
+        "Combat/FootstepAudio/Clips/puddle_03",
+        "Combat/FootstepAudio/Clips/puddle_04",
+        "Combat/FootstepAudio/Clips/puddle_05",
+        "Combat/FootstepAudio/Clips/puddle_06",
+        "Combat/FootstepAudio/Clips/puddle_07",
+        "Combat/FootstepAudio/Clips/puddle_08",
+        "Combat/FootstepAudio/Clips/puddle_09"
+      ],
+      "landings": [
+        "Combat/FootstepAudio/Clips/water_splash_01",
+        "Combat/FootstepAudio/Clips/water_splash_02",
+        "Combat/FootstepAudio/Clips/water_splash_03"
+      ]
+    }
+  ]
+}

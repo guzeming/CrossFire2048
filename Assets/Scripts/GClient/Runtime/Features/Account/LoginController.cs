@@ -76,7 +76,7 @@ namespace OperationBlacktide.Client.Features.Account
 
             if (response.Code == AuthResultCode.Ok)
             {
-                Debug.Log($"[Login] UserId={response.UserId}, Token={response.SessionToken}");
+                Debug.Log($"[Login] UserId={response.UserId}, authenticated");
             }
         }
     }

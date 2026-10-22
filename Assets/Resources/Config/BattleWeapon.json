@@ -1,0 +1,12 @@
+{
+  "id": "battle_m4",
+  "modelId": "weapon_rif_m4a1_silencer",
+  "cycleTime": 0.1,
+  "range": 80,
+  "damage": 25,
+  "rangeModifier": 1,
+  "automatic": true,
+  "magazineSize": 30,
+  "reserveAmmo": 90,
+  "reloadDuration": 2.4
+}

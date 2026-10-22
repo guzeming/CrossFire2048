@@ -1,0 +1,442 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d761787250c0ef4aa15b3a9e3e269e5, type: 3}
+  m_Name: FirstPerson
+  m_EditorClassIdentifier: 
+  weapons:
+  - id: weapon_decoy
+    prefab: {fileID: 4312064503262322661, guid: e8de7e271ae27aa4daf80fed26f5f284,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: b341bf90a94e3a448813f7f222b6a615, type: 3}
+    draw: {fileID: -1609281748187839663, guid: b341bf90a94e3a448813f7f222b6a615, type: 3}
+    fire: {fileID: 723096430288179899, guid: b341bf90a94e3a448813f7f222b6a615, type: 3}
+    reload: {fileID: 0}
+    alternate: {fileID: 0}
+    prepare: {fileID: 1963079803359675471, guid: b341bf90a94e3a448813f7f222b6a615,
+      type: 3}
+  - id: weapon_flashbang
+    prefab: {fileID: 4532317489828192719, guid: b6f0b39f1b2585541807e4c2ce7a096f,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: a0cfbef729b768c4e99c7d9b1f8c5fb8, type: 3}
+    draw: {fileID: -1609281748187839663, guid: a0cfbef729b768c4e99c7d9b1f8c5fb8, type: 3}
+    fire: {fileID: 723096430288179899, guid: a0cfbef729b768c4e99c7d9b1f8c5fb8, type: 3}
+    reload: {fileID: 0}
+    alternate: {fileID: 0}
+    prepare: {fileID: 1963079803359675471, guid: a0cfbef729b768c4e99c7d9b1f8c5fb8,
+      type: 3}
+  - id: weapon_hegrenade
+    prefab: {fileID: 7906332088567617433, guid: f300d36b7e6f735428a20a3d4a0285c0,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: a28463e6e2be2c0419e8ae1358b7ee89, type: 3}
+    draw: {fileID: -1609281748187839663, guid: a28463e6e2be2c0419e8ae1358b7ee89, type: 3}
+    fire: {fileID: 723096430288179899, guid: a28463e6e2be2c0419e8ae1358b7ee89, type: 3}
+    reload: {fileID: 0}
+    alternate: {fileID: 0}
+    prepare: {fileID: 1963079803359675471, guid: a28463e6e2be2c0419e8ae1358b7ee89,
+      type: 3}
+  - id: weapon_incendiarygrenade
+    prefab: {fileID: 396779182591157301, guid: 11153fd67d108c049b3dd0789d1c7a88, type: 3}
+    idle: {fileID: -623603649343465320, guid: 00d4170a2736db04ead736e819ef7dd1, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 00d4170a2736db04ead736e819ef7dd1, type: 3}
+    fire: {fileID: 723096430288179899, guid: 00d4170a2736db04ead736e819ef7dd1, type: 3}
+    reload: {fileID: 0}
+    alternate: {fileID: 0}
+    prepare: {fileID: 1963079803359675471, guid: 00d4170a2736db04ead736e819ef7dd1,
+      type: 3}
+  - id: weapon_knife_default_ct
+    prefab: {fileID: 6059281265195888161, guid: 9c31bf68ff349aa47b2ee24e76fc675f,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: b86cff45b926f664bad7e8d9a6d8ed62, type: 3}
+    draw: {fileID: -1609281748187839663, guid: b86cff45b926f664bad7e8d9a6d8ed62, type: 3}
+    fire: {fileID: 723096430288179899, guid: b86cff45b926f664bad7e8d9a6d8ed62, type: 3}
+    reload: {fileID: 0}
+    alternate: {fileID: 1963079803359675471, guid: b86cff45b926f664bad7e8d9a6d8ed62,
+      type: 3}
+    prepare: {fileID: 0}
+  - id: weapon_knife_default_t
+    prefab: {fileID: 6474836587994395505, guid: 2ce9ef097b9483c44bf6f1f0dc8790d0,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 3550426668fd3d44da9395f01a47110b, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 3550426668fd3d44da9395f01a47110b, type: 3}
+    fire: {fileID: 723096430288179899, guid: 3550426668fd3d44da9395f01a47110b, type: 3}
+    reload: {fileID: 0}
+    alternate: {fileID: 1963079803359675471, guid: 3550426668fd3d44da9395f01a47110b,
+      type: 3}
+    prepare: {fileID: 0}
+  - id: weapon_mach_m249
+    prefab: {fileID: 6985826951412848488, guid: f3c1c463eb4b9f04fb9b112bbcdaa8b5,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 4f1025fc2f49e3141b700a23f43a481f, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 4f1025fc2f49e3141b700a23f43a481f, type: 3}
+    fire: {fileID: 723096430288179899, guid: 4f1025fc2f49e3141b700a23f43a481f, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 4f1025fc2f49e3141b700a23f43a481f,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_mach_negev
+    prefab: {fileID: 268348741352650224, guid: 972dedcc4c66bd944afe282f0b2db334, type: 3}
+    idle: {fileID: -623603649343465320, guid: 842d971984cb2204db279afb2303c1f5, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 842d971984cb2204db279afb2303c1f5, type: 3}
+    fire: {fileID: 723096430288179899, guid: 842d971984cb2204db279afb2303c1f5, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 842d971984cb2204db279afb2303c1f5,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_molotov
+    prefab: {fileID: 2785907082430019911, guid: 627e00b891b6ae248b7c3424a953804b,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 29ed9cddf927ca545be26bdaae39fc48, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 29ed9cddf927ca545be26bdaae39fc48, type: 3}
+    fire: {fileID: 723096430288179899, guid: 29ed9cddf927ca545be26bdaae39fc48, type: 3}
+    reload: {fileID: 0}
+    alternate: {fileID: 0}
+    prepare: {fileID: 1963079803359675471, guid: 29ed9cddf927ca545be26bdaae39fc48,
+      type: 3}
+  - id: weapon_pist_cz75a
+    prefab: {fileID: 1095745965416772203, guid: f07bd50ec98ce7b418d605162d8b0173,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: a436d1790158e94429d7ef29787da2c3, type: 3}
+    draw: {fileID: -1609281748187839663, guid: a436d1790158e94429d7ef29787da2c3, type: 3}
+    fire: {fileID: 723096430288179899, guid: a436d1790158e94429d7ef29787da2c3, type: 3}
+    reload: {fileID: 1963079803359675471, guid: a436d1790158e94429d7ef29787da2c3,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_pist_deagle
+    prefab: {fileID: 3014453975338521210, guid: 00758c05c7f477345910af8a96a6afc1,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: b68baaeb345bafb4ba35cf69aa710c58, type: 3}
+    draw: {fileID: -1609281748187839663, guid: b68baaeb345bafb4ba35cf69aa710c58, type: 3}
+    fire: {fileID: 723096430288179899, guid: b68baaeb345bafb4ba35cf69aa710c58, type: 3}
+    reload: {fileID: 1963079803359675471, guid: b68baaeb345bafb4ba35cf69aa710c58,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_pist_elite
+    prefab: {fileID: 500107584415241260, guid: a49b8a0580da03a43a31e48ac6453ddb, type: 3}
+    idle: {fileID: -623603649343465320, guid: e2081b6a735e92040a510dd252f5fe12, type: 3}
+    draw: {fileID: -1609281748187839663, guid: e2081b6a735e92040a510dd252f5fe12, type: 3}
+    fire: {fileID: 723096430288179899, guid: e2081b6a735e92040a510dd252f5fe12, type: 3}
+    reload: {fileID: 1963079803359675471, guid: e2081b6a735e92040a510dd252f5fe12,
+      type: 3}
+    alternate: {fileID: -626948583029366203, guid: e2081b6a735e92040a510dd252f5fe12,
+      type: 3}
+    prepare: {fileID: 0}
+  - id: weapon_pist_fiveseven
+    prefab: {fileID: 4603178378444824124, guid: 3f953203b2c7e8149a9102510c485da8,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 41a7819d9519d6f47aa388ddb44f6db7, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 41a7819d9519d6f47aa388ddb44f6db7, type: 3}
+    fire: {fileID: 723096430288179899, guid: 41a7819d9519d6f47aa388ddb44f6db7, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 41a7819d9519d6f47aa388ddb44f6db7,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_pist_glock18
+    prefab: {fileID: 8006858304846619562, guid: 63497825b308c11448d05a9490de2ba2,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 0c6dcb98f42632d47b6e3c767254e010, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 0c6dcb98f42632d47b6e3c767254e010, type: 3}
+    fire: {fileID: 723096430288179899, guid: 0c6dcb98f42632d47b6e3c767254e010, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 0c6dcb98f42632d47b6e3c767254e010,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_pist_hkp2000
+    prefab: {fileID: 5609152619631495545, guid: e0e85db78cb83bc44a5f180208d8412f,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: a170f8ef19e6eda4a87ff5f978177d20, type: 3}
+    draw: {fileID: -1609281748187839663, guid: a170f8ef19e6eda4a87ff5f978177d20, type: 3}
+    fire: {fileID: 723096430288179899, guid: a170f8ef19e6eda4a87ff5f978177d20, type: 3}
+    reload: {fileID: 1963079803359675471, guid: a170f8ef19e6eda4a87ff5f978177d20,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_pist_p250
+    prefab: {fileID: 3167957944272934020, guid: a0db38486268e99449991236cc85e357,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 5e3e01d7972754a448ddc9941a35a92c, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 5e3e01d7972754a448ddc9941a35a92c, type: 3}
+    fire: {fileID: 723096430288179899, guid: 5e3e01d7972754a448ddc9941a35a92c, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 5e3e01d7972754a448ddc9941a35a92c,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_pist_revolver
+    prefab: {fileID: 8933617983359587973, guid: b4a21154dffa70a43a26ca86e5205b1e,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 8972f1fa2a505d745a56ca050da1a532, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 8972f1fa2a505d745a56ca050da1a532, type: 3}
+    fire: {fileID: 723096430288179899, guid: 8972f1fa2a505d745a56ca050da1a532, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 8972f1fa2a505d745a56ca050da1a532,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_pist_taser
+    prefab: {fileID: 6315176500091352081, guid: ebcef2891e2fee44aa2db0105bffb28d,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 9840fdf80dced844e893a1f89890d3df, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 9840fdf80dced844e893a1f89890d3df, type: 3}
+    fire: {fileID: 723096430288179899, guid: 9840fdf80dced844e893a1f89890d3df, type: 3}
+    reload: {fileID: 0}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_pist_tec9
+    prefab: {fileID: 3539305203549226527, guid: 518743d69e95b6140b0fc48cdcb329cf,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 660099cec4af0d947b67b4174ac78adb, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 660099cec4af0d947b67b4174ac78adb, type: 3}
+    fire: {fileID: 723096430288179899, guid: 660099cec4af0d947b67b4174ac78adb, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 660099cec4af0d947b67b4174ac78adb,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_pist_usp_silencer
+    prefab: {fileID: 7952158614227212651, guid: e45d7312f3b6e424c90b8e46cece5897,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: d6ddc5f7999258843b2f4f77635a2676, type: 3}
+    draw: {fileID: -1609281748187839663, guid: d6ddc5f7999258843b2f4f77635a2676, type: 3}
+    fire: {fileID: 723096430288179899, guid: d6ddc5f7999258843b2f4f77635a2676, type: 3}
+    reload: {fileID: 1963079803359675471, guid: d6ddc5f7999258843b2f4f77635a2676,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_rif_ak47
+    prefab: {fileID: 8001837286622412441, guid: 536c3ba834d90434ea2374f02c339ab8,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 6585035463b77a94b85668edcff8bf99, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 6585035463b77a94b85668edcff8bf99, type: 3}
+    fire: {fileID: 723096430288179899, guid: 6585035463b77a94b85668edcff8bf99, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 6585035463b77a94b85668edcff8bf99,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_rif_aug
+    prefab: {fileID: 8112508163301532788, guid: 46158780d5a53714588bf38ff2c36f8d,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 1e40f143ed5c2414590123a628910f86, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 1e40f143ed5c2414590123a628910f86, type: 3}
+    fire: {fileID: 723096430288179899, guid: 1e40f143ed5c2414590123a628910f86, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 1e40f143ed5c2414590123a628910f86,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_rif_famas
+    prefab: {fileID: 4830193633513637163, guid: 9ddd4d0fd6680594fab58ad08bad691b,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 8e51488e8721e4343b929e36104e9ec0, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 8e51488e8721e4343b929e36104e9ec0, type: 3}
+    fire: {fileID: 723096430288179899, guid: 8e51488e8721e4343b929e36104e9ec0, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 8e51488e8721e4343b929e36104e9ec0,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_rif_galilar
+    prefab: {fileID: 2469159641704619758, guid: a121e43e8981bb045a49e9a9c628f96f,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 8026610ca7f84ab49b0f0a1d7f8c2845, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 8026610ca7f84ab49b0f0a1d7f8c2845, type: 3}
+    fire: {fileID: 723096430288179899, guid: 8026610ca7f84ab49b0f0a1d7f8c2845, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 8026610ca7f84ab49b0f0a1d7f8c2845,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_rif_m4a1_silencer
+    prefab: {fileID: 9029767057346199880, guid: 708f33cc27ba934458844b6305fde522,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 9119119e29b3c3f459768e06796b8ec6, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 9119119e29b3c3f459768e06796b8ec6, type: 3}
+    fire: {fileID: 723096430288179899, guid: 9119119e29b3c3f459768e06796b8ec6, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 9119119e29b3c3f459768e06796b8ec6,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_rif_m4a4
+    prefab: {fileID: 1911474003574451603, guid: 0bd6dc16275546b40afb350258e25fed,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 99459e9ccba90ad46bd541d60c48c1e5, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 99459e9ccba90ad46bd541d60c48c1e5, type: 3}
+    fire: {fileID: 723096430288179899, guid: 99459e9ccba90ad46bd541d60c48c1e5, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 99459e9ccba90ad46bd541d60c48c1e5,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_rif_sg556
+    prefab: {fileID: 8012289472781765191, guid: e980c5ee0e0627a44975a87ec0a9a2c8,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 4aa4a535cab99bd4a8d6c5ad69cb099b, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 4aa4a535cab99bd4a8d6c5ad69cb099b, type: 3}
+    fire: {fileID: 723096430288179899, guid: 4aa4a535cab99bd4a8d6c5ad69cb099b, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 4aa4a535cab99bd4a8d6c5ad69cb099b,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_shot_mag7
+    prefab: {fileID: 2636922267702462590, guid: ba075f5657ecad4489ad6cb9ad988904,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: ef95e6dc29ce35b4c9ef6f338b6f7c6c, type: 3}
+    draw: {fileID: -1609281748187839663, guid: ef95e6dc29ce35b4c9ef6f338b6f7c6c, type: 3}
+    fire: {fileID: 723096430288179899, guid: ef95e6dc29ce35b4c9ef6f338b6f7c6c, type: 3}
+    reload: {fileID: 1963079803359675471, guid: ef95e6dc29ce35b4c9ef6f338b6f7c6c,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_shot_nova
+    prefab: {fileID: 3374949305770593507, guid: 83cdc17a0c6002a418935f189f31a6a0,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 647e6656c0b540246a8d861d4a8b93bc, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 647e6656c0b540246a8d861d4a8b93bc, type: 3}
+    fire: {fileID: 723096430288179899, guid: 647e6656c0b540246a8d861d4a8b93bc, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 647e6656c0b540246a8d861d4a8b93bc,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_shot_sawedoff
+    prefab: {fileID: 8426977220512365942, guid: 5292438f89758ff4ba023fec6b0f68d4,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 10c91ef80227ef64b81bd63a74abdb73, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 10c91ef80227ef64b81bd63a74abdb73, type: 3}
+    fire: {fileID: 723096430288179899, guid: 10c91ef80227ef64b81bd63a74abdb73, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 10c91ef80227ef64b81bd63a74abdb73,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_shot_xm1014
+    prefab: {fileID: 6308493811886964834, guid: 58306160acbcd6043a5a8deeb6b9d884,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 8e1ad750229a69442953afc1da80814a, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 8e1ad750229a69442953afc1da80814a, type: 3}
+    fire: {fileID: 723096430288179899, guid: 8e1ad750229a69442953afc1da80814a, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 8e1ad750229a69442953afc1da80814a,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_smg_bizon
+    prefab: {fileID: 8376622311990356303, guid: 24bb49f38e7eede4e8e6928499c20fbe,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 45f9ee1aff1641244810458c38c2010e, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 45f9ee1aff1641244810458c38c2010e, type: 3}
+    fire: {fileID: 723096430288179899, guid: 45f9ee1aff1641244810458c38c2010e, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 45f9ee1aff1641244810458c38c2010e,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_smg_mac10
+    prefab: {fileID: 1326256404011091800, guid: 3b6f906b3ea3dd64fa79b232374e1a82,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 64da5cceb8e08c7498e662493db8d6f7, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 64da5cceb8e08c7498e662493db8d6f7, type: 3}
+    fire: {fileID: 723096430288179899, guid: 64da5cceb8e08c7498e662493db8d6f7, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 64da5cceb8e08c7498e662493db8d6f7,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_smg_mp5sd
+    prefab: {fileID: 6359254400441913476, guid: c6d024800c6ba754396fdeb5104cf0cb,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: f0bee02701a5c0f49baf12017ae5d402, type: 3}
+    draw: {fileID: -1609281748187839663, guid: f0bee02701a5c0f49baf12017ae5d402, type: 3}
+    fire: {fileID: 723096430288179899, guid: f0bee02701a5c0f49baf12017ae5d402, type: 3}
+    reload: {fileID: 1963079803359675471, guid: f0bee02701a5c0f49baf12017ae5d402,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_smg_mp7
+    prefab: {fileID: 6850375908420848605, guid: cba5a22934b6f3b4c9576b11c4d73b3c,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 61fa3029c51197941989462cc8afbccd, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 61fa3029c51197941989462cc8afbccd, type: 3}
+    fire: {fileID: 723096430288179899, guid: 61fa3029c51197941989462cc8afbccd, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 61fa3029c51197941989462cc8afbccd,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_smg_mp9
+    prefab: {fileID: 1387332896904716064, guid: 40a1adcf3ff3724469d82bac2d9d1181,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 6652bf4a897501a42b7a66f0b703cf03, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 6652bf4a897501a42b7a66f0b703cf03, type: 3}
+    fire: {fileID: 723096430288179899, guid: 6652bf4a897501a42b7a66f0b703cf03, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 6652bf4a897501a42b7a66f0b703cf03,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_smg_p90
+    prefab: {fileID: 1462388697220272651, guid: ff23e70a737a41249aa04dd31360a187,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: b829d559e11f9be4bb6c1e8a4519489a, type: 3}
+    draw: {fileID: -1609281748187839663, guid: b829d559e11f9be4bb6c1e8a4519489a, type: 3}
+    fire: {fileID: 723096430288179899, guid: b829d559e11f9be4bb6c1e8a4519489a, type: 3}
+    reload: {fileID: 1963079803359675471, guid: b829d559e11f9be4bb6c1e8a4519489a,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_smg_ump45
+    prefab: {fileID: 6214957770213564909, guid: 409ddc0c7855fea419e13d426248f56a,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 0f919b2cc978b1347a1100e115c5dfe1, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 0f919b2cc978b1347a1100e115c5dfe1, type: 3}
+    fire: {fileID: 723096430288179899, guid: 0f919b2cc978b1347a1100e115c5dfe1, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 0f919b2cc978b1347a1100e115c5dfe1,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_smokegrenade
+    prefab: {fileID: 5303168003087356645, guid: 6f0f40191c096884bbf2af3601aa6ccf,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: c7041ec4859180f4ead9955cb6169884, type: 3}
+    draw: {fileID: -1609281748187839663, guid: c7041ec4859180f4ead9955cb6169884, type: 3}
+    fire: {fileID: 723096430288179899, guid: c7041ec4859180f4ead9955cb6169884, type: 3}
+    reload: {fileID: 0}
+    alternate: {fileID: 0}
+    prepare: {fileID: 1963079803359675471, guid: c7041ec4859180f4ead9955cb6169884,
+      type: 3}
+  - id: weapon_snip_awp
+    prefab: {fileID: 5314731836401112402, guid: 8791c98a2474d8c4e8757c2a376cee09,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: b0165ff550e1b364694a18321c5e8b36, type: 3}
+    draw: {fileID: -1609281748187839663, guid: b0165ff550e1b364694a18321c5e8b36, type: 3}
+    fire: {fileID: 723096430288179899, guid: b0165ff550e1b364694a18321c5e8b36, type: 3}
+    reload: {fileID: 1963079803359675471, guid: b0165ff550e1b364694a18321c5e8b36,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_snip_g3sg1
+    prefab: {fileID: 5213643146463838452, guid: a9665b26ec4c24b4f80d421559ade4c0,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 4c6025ff1824460429c2ee8b55689b26, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 4c6025ff1824460429c2ee8b55689b26, type: 3}
+    fire: {fileID: 723096430288179899, guid: 4c6025ff1824460429c2ee8b55689b26, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 4c6025ff1824460429c2ee8b55689b26,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_snip_scar20
+    prefab: {fileID: 1918821030445498383, guid: 56f413a82fa51d744899559e07b18fc6,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 1b64aa66657e8ba47a00ece0b1832f2c, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 1b64aa66657e8ba47a00ece0b1832f2c, type: 3}
+    fire: {fileID: 723096430288179899, guid: 1b64aa66657e8ba47a00ece0b1832f2c, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 1b64aa66657e8ba47a00ece0b1832f2c,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}
+  - id: weapon_snip_ssg08
+    prefab: {fileID: 3350858439606909040, guid: a11d248d794dbbd4dba1b3c98c2a0068,
+      type: 3}
+    idle: {fileID: -623603649343465320, guid: 0fea7f73d9bf7044fb79f08fa5ef7ef0, type: 3}
+    draw: {fileID: -1609281748187839663, guid: 0fea7f73d9bf7044fb79f08fa5ef7ef0, type: 3}
+    fire: {fileID: 723096430288179899, guid: 0fea7f73d9bf7044fb79f08fa5ef7ef0, type: 3}
+    reload: {fileID: 1963079803359675471, guid: 0fea7f73d9bf7044fb79f08fa5ef7ef0,
+      type: 3}
+    alternate: {fileID: 0}
+    prepare: {fileID: 0}

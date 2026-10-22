@@ -1,3 +1,4 @@
+using OperationBlacktide.Client.Content;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,22 +15,22 @@ namespace OperationBlacktide.Client.Features.Lobby
     [Serializable] public sealed class LobbyLoadoutData
     {
         public int version = 1;
-        public LobbyTeam activeTeam = LobbyTeam.CT;
+        public EquipmentTeam activeTeam = EquipmentTeam.CT;
         public TeamLoadout ct = new TeamLoadout(), t = new TeamLoadout();
     }
 
     /// <summary>Classic buy-menu replacements, independent for CT/T and each local account.</summary>
     public sealed class LobbyLoadoutStore
     {
-        private readonly LobbyLoadoutCatalog catalog;
+        private readonly EquipmentCatalog catalog;
         private readonly string key;
         public LobbyLoadoutData Data { get; private set; }
         public event Action Changed;
-        public LobbyTeam Team => Data.activeTeam;
+        public EquipmentTeam Team => Data.activeTeam;
         public TeamLoadout Current => ForTeam(Team);
         public string StorageKey => key;
 
-        public LobbyLoadoutStore(LobbyLoadoutCatalog catalog, string userId)
+        public LobbyLoadoutStore(EquipmentCatalog catalog, string userId)
         {
             this.catalog = catalog ?? throw new ArgumentNullException(nameof(catalog));
             if (string.IsNullOrEmpty(userId)) throw new ArgumentException("A loadout requires an account ID.", nameof(userId));
@@ -39,9 +40,9 @@ namespace OperationBlacktide.Client.Features.Lobby
             catch (ArgumentException) { Data = null; }
             bool migrate = !PlayerPrefs.HasKey(key) && Data != null && Data.version == 1;
             if (Data == null || Data.version != 1) Data = new LobbyLoadoutData();
-            if (Data.activeTeam != LobbyTeam.CT && Data.activeTeam != LobbyTeam.T) Data.activeTeam = LobbyTeam.CT;
-            Data.ct = Normalize(Data.ct, LobbyTeam.CT);
-            Data.t = Normalize(Data.t, LobbyTeam.T);
+            if (Data.activeTeam != EquipmentTeam.CT && Data.activeTeam != EquipmentTeam.T) Data.activeTeam = EquipmentTeam.CT;
+            Data.ct = Normalize(Data.ct, EquipmentTeam.CT);
+            Data.t = Normalize(Data.t, EquipmentTeam.T);
             if (migrate) Save();
         }
 
@@ -102,13 +103,13 @@ namespace OperationBlacktide.Client.Features.Lobby
         private static extern int RegCloseKey(IntPtr key);
 #endif
 
-        public TeamLoadout ForTeam(LobbyTeam team) => team == LobbyTeam.T ? Data.t : Data.ct;
-        public LobbyWeapon Equipped(LobbyTeam team, string slot) => catalog.Weapon(ForTeam(team).slots.FirstOrDefault(s => s.slot == slot)?.weaponId);
-        public bool IsEquipped(LobbyWeapon weapon) => weapon != null && weapon.Supports(Team) && Equipped(Team, weapon.slot)?.id == weapon.id;
+        public TeamLoadout ForTeam(EquipmentTeam team) => team == EquipmentTeam.T ? Data.t : Data.ct;
+        public WeaponModelDefinition Equipped(EquipmentTeam team, string slot) => catalog.Weapon(ForTeam(team).slots.FirstOrDefault(s => s.slot == slot)?.weaponId);
+        public bool IsEquipped(WeaponModelDefinition weapon) => weapon != null && weapon.Supports(Team) && Equipped(Team, weapon.slot)?.id == weapon.id;
 
-        public void SelectTeam(LobbyTeam team)
+        public void SelectTeam(EquipmentTeam team)
         {
-            if (team != LobbyTeam.CT && team != LobbyTeam.T) return;
+            if (team != EquipmentTeam.CT && team != EquipmentTeam.T) return;
             Data.activeTeam = team;
             Save();
         }
@@ -148,7 +149,7 @@ namespace OperationBlacktide.Client.Features.Lobby
         {
             var weapon = catalog.Weapon(id);
             if (weapon == null || weapon.teams != 3) return false;
-            foreach (var team in new[] { LobbyTeam.CT, LobbyTeam.T })
+            foreach (var team in new[] { EquipmentTeam.CT, EquipmentTeam.T })
             {
                 var data = ForTeam(team);
                 var entry = data.slots.FirstOrDefault(s => s.slot == weapon.slot);
@@ -161,21 +162,21 @@ namespace OperationBlacktide.Client.Features.Lobby
         }
 
         // A copy can be passed to a future room/buy service without exposing mutable UI state.
-        public TeamLoadout Snapshot(LobbyTeam team) => JsonUtility.FromJson<TeamLoadout>(JsonUtility.ToJson(ForTeam(team)));
+        public TeamLoadout Snapshot(EquipmentTeam team) => JsonUtility.FromJson<TeamLoadout>(JsonUtility.ToJson(ForTeam(team)));
 
-        private TeamLoadout Normalize(TeamLoadout data, LobbyTeam team)
+        private TeamLoadout Normalize(TeamLoadout data, EquipmentTeam team)
         {
             data = data ?? new TeamLoadout();
             var agent = catalog.Agent(data.agentId);
-            if (agent == null || agent.team != team) data.agentId = team == LobbyTeam.CT ? "ctm_sas" : "tm_phoenix";
+            if (agent == null || agent.team != team) data.agentId = team == EquipmentTeam.CT ? "ctm_sas" : "tm_phoenix";
             var saved = data.slots ?? new List<EquippedSlot>();
             data.slots = new List<EquippedSlot>();
             foreach (var options in catalog.weapons.Where(w => w.Supports(team)).GroupBy(w => w.slot))
             {
                 var old = saved.FirstOrDefault(s => s != null && s.slot == options.Key);
-                string preferred = options.Key == "rifle.main" ? (team == LobbyTeam.CT ? "weapon_rif_m4a1_silencer" : "weapon_rif_ak47") :
-                    options.Key == "pistol.start" ? (team == LobbyTeam.CT ? "weapon_pist_usp_silencer" : "weapon_pist_glock18") :
-                    options.Key == "pistol.fast" ? (team == LobbyTeam.CT ? "weapon_pist_fiveseven" : "weapon_pist_tec9") :
+                string preferred = options.Key == "rifle.main" ? (team == EquipmentTeam.CT ? "weapon_rif_m4a1_silencer" : "weapon_rif_ak47") :
+                    options.Key == "pistol.start" ? (team == EquipmentTeam.CT ? "weapon_pist_usp_silencer" : "weapon_pist_glock18") :
+                    options.Key == "pistol.fast" ? (team == EquipmentTeam.CT ? "weapon_pist_fiveseven" : "weapon_pist_tec9") :
                     options.Key == "pistol.heavy" ? "weapon_pist_deagle" : options.Key == "smg.silenced" ? "weapon_smg_mp7" : "";
                 var chosen = options.FirstOrDefault(w => w.id == old?.weaponId) ?? options.FirstOrDefault(w => w.id == preferred) ?? options.First();
                 data.slots.Add(new EquippedSlot { slot = options.Key, weaponId = chosen.id });

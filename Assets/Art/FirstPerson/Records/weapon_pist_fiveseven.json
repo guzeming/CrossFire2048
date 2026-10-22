@@ -1,0 +1,51 @@
+{
+  "id": "weapon_pist_fiveseven",
+  "clips": [
+    {
+      "name": "idle",
+      "first": 1,
+      "last": 2,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/pistol/pistol_fiveseven/idle_fiveseven.gltf"
+    },
+    {
+      "name": "draw",
+      "first": 3,
+      "last": 33,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/pistol/pistol_fiveseven/draw_fiveseven.gltf"
+    },
+    {
+      "name": "fire",
+      "first": 34,
+      "last": 46,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/pistol/pistol_fiveseven/shoot1_fiveseven.gltf"
+    },
+    {
+      "name": "reload",
+      "first": 47,
+      "last": 115,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/pistol/pistol_fiveseven/reload_empty_fiveseven.gltf"
+    }
+  ],
+  "materials": [
+    {
+      "name": "weapon_pist_fiveseven",
+      "color": "Assets/Art/Loadout/Textures/8a472d09326c2b6d037e.png",
+      "normal": "Assets/Art/Loadout/Textures/33e0a0cf7a2fd4d8ceb4.png"
+    },
+    {
+      "name": "sleeve_ctm_sas",
+      "color": "11fb55833453a22a324d.png",
+      "normal": "fd7d88acbc9ee89e125e.png"
+    },
+    {
+      "name": "bare_arm_133",
+      "color": "Assets/Art/Loadout/Textures/223f08d305e59e4ad46c.png",
+      "normal": "Assets/Art/Loadout/Textures/10dd463dff0288eac575.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "Assets/Art/Loadout/Textures/67a4229a913ad1b16146.png",
+      "normal": "Assets/Art/Loadout/Textures/2454904008e64d88948a.png"
+    }
+  ]
+}

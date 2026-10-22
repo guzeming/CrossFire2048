@@ -1,0 +1,56 @@
+{
+  "id": "weapon_shot_nova",
+  "clips": [
+    {
+      "name": "idle",
+      "first": 1,
+      "last": 2,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_nova/idle_nova.gltf"
+    },
+    {
+      "name": "draw",
+      "first": 3,
+      "last": 33,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_nova/draw_nova.gltf"
+    },
+    {
+      "name": "fire",
+      "first": 34,
+      "last": 58,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_nova/shoot1_nova.gltf"
+    },
+    {
+      "name": "reload",
+      "first": 59,
+      "last": 108,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/rifle/rifle_nova/reload_nova.gltf"
+    }
+  ],
+  "materials": [
+    {
+      "name": "nova_bullet",
+      "color": "Assets/Art/Loadout/Textures/805f3298cade146a3022.png",
+      "normal": "Assets/Art/Loadout/Textures/6d75eb53ca32ed4ec7e8.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "Assets/Art/Loadout/Textures/67a4229a913ad1b16146.png",
+      "normal": "Assets/Art/Loadout/Textures/2454904008e64d88948a.png"
+    },
+    {
+      "name": "bare_arm_133",
+      "color": "Assets/Art/Loadout/Textures/223f08d305e59e4ad46c.png",
+      "normal": "Assets/Art/Loadout/Textures/10dd463dff0288eac575.png"
+    },
+    {
+      "name": "sleeve_ctm_sas",
+      "color": "11fb55833453a22a324d.png",
+      "normal": "fd7d88acbc9ee89e125e.png"
+    },
+    {
+      "name": "weapon_shot_nova",
+      "color": "Assets/Art/Loadout/Textures/748538424b701a7341ea.png",
+      "normal": "Assets/Art/Loadout/Textures/ee2ef68032ac1a976fd3.png"
+    }
+  ]
+}

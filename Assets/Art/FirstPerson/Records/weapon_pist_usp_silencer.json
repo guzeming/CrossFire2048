@@ -1,0 +1,51 @@
+{
+  "id": "weapon_pist_usp_silencer",
+  "clips": [
+    {
+      "name": "idle",
+      "first": 1,
+      "last": 2,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/pistol/_default_pistol/idle_pistol.gltf"
+    },
+    {
+      "name": "draw",
+      "first": 3,
+      "last": 33,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/pistol/_default_pistol/draw_pistol.gltf"
+    },
+    {
+      "name": "fire",
+      "first": 34,
+      "last": 46,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/pistol/_default_pistol/shoot1_pistol.gltf"
+    },
+    {
+      "name": "reload",
+      "first": 47,
+      "last": 112,
+      "source": "Batch/RawAnimations/animation/anims/viewmodel/pistol/_default_pistol/reload_pistol.gltf"
+    }
+  ],
+  "materials": [
+    {
+      "name": "weapon_pist_usp_silencer",
+      "color": "Assets/Art/Loadout/Textures/e030e9e58e5205d0c7f3.png",
+      "normal": "Assets/Art/Loadout/Textures/9abfa55269a6b3b079c4.png"
+    },
+    {
+      "name": "sleeve_ctm_sas",
+      "color": "11fb55833453a22a324d.png",
+      "normal": "fd7d88acbc9ee89e125e.png"
+    },
+    {
+      "name": "glove_hardknuckle_black",
+      "color": "Assets/Art/Loadout/Textures/67a4229a913ad1b16146.png",
+      "normal": "Assets/Art/Loadout/Textures/2454904008e64d88948a.png"
+    },
+    {
+      "name": "bare_arm_133",
+      "color": "Assets/Art/Loadout/Textures/223f08d305e59e4ad46c.png",
+      "normal": "Assets/Art/Loadout/Textures/10dd463dff0288eac575.png"
+    }
+  ]
+}
