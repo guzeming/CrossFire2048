@@ -1,5 +1,7 @@
 # 黑潮行动 / OPERATION BLACKTIDE
 
+![黑潮行动登录界面](ReadMeRes/screenshots/login.png)
+
 Unity 战术射击项目。仓库名为 `CrossFire2048`，游戏产品名为 `Operation Blacktide`。
 
 [快速开始](#快速开始) · [启动面板](#游戏启动面板) · [架构设计](#架构设计) · [提交范围](#git-协作与提交范围)
