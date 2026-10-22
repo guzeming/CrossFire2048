@@ -12,6 +12,7 @@ Unity 战术射击项目。仓库名为 `CrossFire2048`，游戏产品名为 `Op
 | --- | --- |
 | [玩法介绍](spec/gameplay-guide.md) | [训练场与战斗表现](spec/gameplay-guide.md#训练场与战斗表现)、[爆破与联机](spec/gameplay-guide.md#爆破与联机玩法)、[当前实现与边界](spec/gameplay-guide.md#当前实现与边界) |
 | [游戏内界面](spec/game-ui-guide.md) | [登录](spec/game-ui-guide.md#账户登录与场景流程)、[大厅与装备](spec/game-ui-guide.md#大厅角色与装备)、[设置与离线助手](spec/game-ui-guide.md#显示设置与离线助手) |
+| [AI 助手模块：小潮](spec/ai-assistant.md) | [语音对话操作](spec/ai-assistant.md#对话操作)、[安装与启用](spec/ai-assistant.md#安装与启用)、[处理架构](spec/ai-assistant.md#处理架构)、[可选组件发布](spec/ai-assistant.md#可选组件发布集成中) |
 | [开发实现与验证细节](spec/development-guide.md) | 组件、场景、资源构建与训练表现的实现细节 |
 | [爆破模式设计](spec/demolition-mode.md) | 规则、协议、组队、进程分配、AI、经济与 C4 |
 | [UI 规范](Assets/Scripts/GClient/Runtime/UI/ui-spec.md) / [网络模块](Assets/Scripts/GClient/Runtime/Network/network-spec.md) | 基础设施职责与约定 |

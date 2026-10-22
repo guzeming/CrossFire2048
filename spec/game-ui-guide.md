@@ -1,6 +1,6 @@
 # 游戏内界面介绍
 
-[返回项目首页](../README.md) · [玩法介绍](gameplay-guide.md) · [UI 开发规范](../Assets/Scripts/GClient/Runtime/UI/ui-spec.md)
+[返回项目首页](../README.md) · [玩法介绍](gameplay-guide.md) · [AI 助手模块](ai-assistant.md) · [UI 开发规范](../Assets/Scripts/GClient/Runtime/UI/ui-spec.md)
 
 本文集中展示登录、大厅、选角、装备、显示设置与离线助手。训练 HUD、武器菜单和爆破部署界面随对应玩法说明，见 [训练场](gameplay-guide.md#训练场与战斗表现) 和 [爆破模式](gameplay-guide.md#爆破与联机玩法)。文中的文件路径和命令均以仓库根目录为基准。
 
@@ -58,13 +58,7 @@ CT / T 各有 5 名角色，支持实时模型、旋转和检视。装备页提�
 
 大厅右上角设置可切换全屏、分辨率和性能统计，保存后下次启动恢复；未保存退出时有处理提示。大厅 Esc 打开设置、返回登录或退出游戏的菜单。
 
-离线助手为可选功能。Windows x64 开发环境在根目录运行：
+大厅语音助手“小潮”支持按 **T** 录音、实时字幕、音频声纹和打断回复，在本机完成识别、对话和语音合成。它是可选模块，普通工程导入、训练和联机不要求安装模型。
 
-```powershell
-powershell -ExecutionPolicy Bypass -File GTools/LocalAssistant/setup.ps1
-```
-
-首次联网下载并校验模型与运行时，之后通过 sherpa-onnx 识别、llama.cpp / Qwen 本地对话及 Windows 中文语音完成交互。大厅按 **T** 或点击入口录音，也可打断回复。助手当前只聊天，不执行游戏操作。完整要求和当前安装方式见 [助手说明](../GTools/LocalAssistant/README.md)。
-
-模型和运行时在本机 `LocalAssistant/`，不提交 Git；`GTools/LocalAssistant/` 中的实现代码需要提交。普通工程导入、训练和联机不要求安装助手模型。
+操作方式、默认开关、开发安装、组件发布状态、处理架构与限制集中在 [AI 助手模块说明](ai-assistant.md)。当前工作区的下载源尚未配置，设置安装流程仍在集成；正式发布前不能把“尚未发布”当作可用下载入口。
 
