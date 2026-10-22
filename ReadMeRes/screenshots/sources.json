@@ -1,0 +1,167 @@
+[
+  {
+    "file": "lobby.png",
+    "source": ".build-check/black-gold-ui/03-lobby.png",
+    "capturedLocal": "2026-10-14T15:06:47",
+    "type": "大厅实际场景，测试会话",
+    "entry": "GTools/verify-black-gold-ui.ps1",
+    "sha256": "48b543e715b4b05c7ca02edd3cadd5c5b97d69b94b30099795bfc3a61b6d9844",
+    "bytes": 3261447,
+    "entryStatus": "历史来源；不作为当前执行入口",
+    "referenceCommit": "802ff75d3d6ca5da04dc149ee0bceeef1f359e21"
+  },
+  {
+    "file": "login.png",
+    "source": ".build-check/black-gold-ui/01-login.png",
+    "capturedLocal": "2026-10-14T15:06:41",
+    "type": "登录实际界面，表单已清空",
+    "entry": "GTools/verify-black-gold-ui.ps1",
+    "sha256": "4dae96a37fcde58542653f9b3496bdede54011258121cf5979254754c8b847bf",
+    "bytes": 3017171,
+    "entryStatus": "历史来源；不作为当前执行入口",
+    "referenceCommit": "802ff75d3d6ca5da04dc149ee0bceeef1f359e21"
+  },
+  {
+    "file": "agents.png",
+    "source": ".build-check/black-gold-ui/03-agent-selection.png",
+    "capturedLocal": "2026-10-14T15:06:49",
+    "type": "大厅选角实际界面，测试会话",
+    "entry": "GTools/verify-black-gold-ui.ps1",
+    "sha256": "ec17ac5ae454fc76f7597ccd49e523b02f05fce6218febdd28125e7ede7ac5f3",
+    "bytes": 3042793,
+    "entryStatus": "历史来源；不作为当前执行入口",
+    "referenceCommit": "802ff75d3d6ca5da04dc149ee0bceeef1f359e21"
+  },
+  {
+    "file": "loadout.png",
+    "source": ".build-check/black-gold-ui/04-loadout.png",
+    "capturedLocal": "2026-10-14T15:06:50",
+    "type": "大厅装备实际界面，测试会话",
+    "entry": "GTools/verify-black-gold-ui.ps1",
+    "sha256": "ac623a344ce0a3dfbca2a8f0ecdfddc17d166af0d6472a330d895353b29e7bdf",
+    "bytes": 3004259,
+    "entryStatus": "历史来源；不作为当前执行入口",
+    "referenceCommit": "802ff75d3d6ca5da04dc149ee0bceeef1f359e21"
+  },
+  {
+    "file": "training.png",
+    "source": ".build-check/black-gold-ui/08-training-hud.png",
+    "capturedLocal": "2026-10-14T15:06:58",
+    "type": "Dust II 训练场与 HUD",
+    "entry": "GTools/verify-black-gold-ui.ps1",
+    "sha256": "9d25d3bdedffc27cf5c7ef22f6a9ea6235e667b398d322b4adac72f0a6ead897",
+    "bytes": 2301490,
+    "entryStatus": "历史来源；不作为当前执行入口",
+    "referenceCommit": "802ff75d3d6ca5da04dc149ee0bceeef1f359e21"
+  },
+  {
+    "file": "first-person.png",
+    "source": ".build-check/dustii-import/first-person-weapon_rif_ak47.png",
+    "capturedLocal": "2026-10-22T16:22:24",
+    "type": "训练场第一人称相机输出，不含 HUD",
+    "entry": "GTools/verify-first-person.ps1",
+    "sha256": "b106459600593b742051f4478a2ebec4d1fe02f211043da4bddbc06aad9d0a35",
+    "bytes": 1079391,
+    "entryStatus": "历史来源；不作为当前执行入口",
+    "referenceCommit": "802ff75d3d6ca5da04dc149ee0bceeef1f359e21"
+  },
+  {
+    "file": "weapons.png",
+    "source": ".build-check/black-gold-ui/10-weapon-picker.png",
+    "capturedLocal": "2026-10-14T15:07:01",
+    "type": "训练场切枪菜单",
+    "entry": "GTools/verify-black-gold-ui.ps1",
+    "sha256": "a54fa3db6ddeed88a23182ba6ed28dd272d5817049f95317a062247c625548dd",
+    "bytes": 1887136,
+    "entryStatus": "历史来源；不作为当前执行入口",
+    "referenceCommit": "802ff75d3d6ca5da04dc149ee0bceeef1f359e21"
+  },
+  {
+    "file": "smoke.png",
+    "source": ".build-check/throwables-validation/throwables-smoke.png",
+    "capturedLocal": "2026-10-14T15:41:00",
+    "type": "Dust II 投掷物测试相机输出",
+    "entry": "GTools/verify-throwables.ps1",
+    "sha256": "287b55e7f7a49235dfa869031fe90eb2297423066370273fe56d950f414d5d97",
+    "bytes": 2365206,
+    "entryStatus": "历史来源；不作为当前执行入口",
+    "referenceCommit": "802ff75d3d6ca5da04dc149ee0bceeef1f359e21"
+  },
+  {
+    "file": "deployment.png",
+    "source": ".build-check/black-gold-ui/05-deployment.png",
+    "capturedLocal": "2026-10-14T15:06:52",
+    "type": "实际部署面板，测试数据；未连接匹配服务",
+    "entry": "GTools/verify-black-gold-ui.ps1",
+    "sha256": "489cb3c191a228e24aceead68a528faf20c5ec32efae0e296fff8d9eac08b6aa",
+    "bytes": 2695661,
+    "entryStatus": "历史来源；不作为当前执行入口",
+    "referenceCommit": "802ff75d3d6ca5da04dc149ee0bceeef1f359e21"
+  },
+  {
+    "file": "demolition.png",
+    "source": ".build-check/performance-20261015-005619-106ef5/baseline-1/idle.png",
+    "capturedLocal": "2026-10-15T00:57:39",
+    "type": "开发版客户端跑测：一名脚本玩家与九名 AI，保留性能叠层",
+    "entry": "GTools/measure-demolition-performance.ps1",
+    "sha256": "33e2e08469694d304829c95f51581a2d8e71548242a418e268bbe74b3c2d41c2",
+    "bytes": 2255051,
+    "entryStatus": "历史来源；不作为当前执行入口",
+    "referenceCommit": "802ff75d3d6ca5da04dc149ee0bceeef1f359e21"
+  },
+  {
+    "file": "settings.png",
+    "source": ".build-check/display-settings/03-settings.png",
+    "capturedLocal": "2026-10-15T00:03:10",
+    "type": "显示设置面板验证，保留性能叠层",
+    "entry": "GTools/verify-display-settings.ps1",
+    "sha256": "b614bbde47c1d2720d85b0c4ba5d935126c6ec5c9ab474eaf17a8f13e8a07d4f",
+    "bytes": 115602,
+    "entryStatus": "历史来源；不作为当前执行入口",
+    "referenceCommit": "802ff75d3d6ca5da04dc149ee0bceeef1f359e21"
+  },
+  {
+    "file": "assistant.png",
+    "source": ".build-check/lobby-assistant/speaking.png",
+    "capturedLocal": "2026-10-22T18:22:20",
+    "type": "助手 UI 布局验证：复用大厅截图背景，不是完整大厅端到端截图",
+    "entry": "GTools/verify-lobby-assistant.ps1",
+    "sha256": "aed7a0d3ad562069e06782ce49c2b6f01eb8458cf7c1bb7f75f833c7ceed73c3",
+    "bytes": 3010322,
+    "entryStatus": "历史来源；不作为当前执行入口",
+    "referenceCommit": "802ff75d3d6ca5da04dc149ee0bceeef1f359e21"
+  },
+  {
+    "file": "launcher.png",
+    "source": ".build-check/readme-visuals/launcher.png",
+    "capturedLocal": "2026-10-22T18:30:53",
+    "type": "启动面板自身渲染输出，2026-10-22 刷新",
+    "entry": "GTools/Launcher 的 --render-preview",
+    "sha256": "d5db47e25eb12d05e399474fe280f6499aaa2b3eb190c0f990f8c47390c4b79d",
+    "bytes": 82024,
+    "referenceCommit": "802ff75d3d6ca5da04dc149ee0bceeef1f359e21",
+    "entryStatus": "历史来源；不作为当前执行入口"
+  },
+  {
+    "file": "config-editor.jpg",
+    "source": ".build-check/config-editor.jpg",
+    "capturedLocal": "2026-10-08T00:43:01",
+    "type": "本地配置工作台页面截图",
+    "entry": "GTools/GameConfigEditor",
+    "sha256": "2a9aacd39c7029b53acd8982743941306dbedf431793863c2c6540dcae14843a",
+    "bytes": 41676,
+    "referenceCommit": "802ff75d3d6ca5da04dc149ee0bceeef1f359e21",
+    "entryStatus": "历史来源；不作为当前执行入口"
+  },
+  {
+    "file": "server-log.png",
+    "source": ".build-check/log-viewer-preview.png",
+    "capturedLocal": "2026-10-07T21:03:56",
+    "type": "实时日志工具截图；内容来自本地集成测试账号",
+    "entry": "GTools/LogViewer",
+    "sha256": "4080665eeaca75a92c752c4a847e9a5feff2d746dfecd490c4869c3a3e566dde",
+    "bytes": 98008,
+    "referenceCommit": "802ff75d3d6ca5da04dc149ee0bceeef1f359e21",
+    "entryStatus": "历史来源；不作为当前执行入口"
+  }
+]
