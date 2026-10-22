@@ -1,6 +1,6 @@
-# README 截图来源
+# 文档截图来源
 
-[返回项目首页](../../README.md)
+[返回项目首页](../../README.md) · [玩法介绍](../../spec/gameplay-guide.md) · [游戏内界面](../../spec/game-ui-guide.md)
 
 这些图片从本地输出原样复制，未重绘或补画游戏内容。文件由 Git LFS 管理；完整来源、文件时间与 SHA-256 见 [sources.json](sources.json)。文件时间为本机时区（Asia/Shanghai）的已有输出时间，不表示本次重新执行了游戏验证。不同日期的画面可能存在界面差异。
 
@@ -24,4 +24,4 @@
 | [config-editor.jpg](config-editor.jpg) | 本地配置工作台页面截图 | [GTools/GameConfigEditor](https://github.com/guzeming/CrossFire2048/tree/802ff75d3d6ca5da04dc149ee0bceeef1f359e21/GTools/GameConfigEditor) |
 | [server-log.png](server-log.png) | 实时日志工具截图；内容来自本地集成测试账号 | [GTools/LogViewer](https://github.com/guzeming/CrossFire2048/tree/802ff75d3d6ca5da04dc149ee0bceeef1f359e21/GTools/LogViewer) |
 
-`.build-check/` 为忽略的本地目录，克隆不会恢复原始验证输出；README 使用此处已提交的图片副本。以后更新截图时，应使用当时的项目版本和明确开展的截图流程，记录来源并只提交选中的文档图片。不要上传整个验证目录或恢复已移除的旧脚本。
+`.build-check/` 为忽略的本地目录，克隆不会恢复原始验证输出；项目文档使用此处已提交的图片副本。以后更新截图时，应使用当时的项目版本和明确开展的截图流程，记录来源并只提交选中的文档图片。不要上传整个验证目录或恢复已移除的旧脚本。

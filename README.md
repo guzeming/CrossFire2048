@@ -1,25 +1,23 @@
 # 黑潮行动 / OPERATION BLACKTIDE
 
-基于 Unity 的战术射击项目：俯视角与第一人称、本地训练、服务端权威联机测试场，以及首版 5v5 爆破模式。
+Unity 战术射击项目。仓库名为 `CrossFire2048`，游戏产品名为 `Operation Blacktide`。
 
-![黑潮行动大厅：实时角色、模式入口与黑金界面](ReadMeRes/screenshots/lobby.png)
+[快速开始](#快速开始) · [启动面板](#游戏启动面板) · [架构设计](#架构设计) · [提交范围](#git-协作与提交范围)
 
-*大厅实际场景，使用验证账号。仓库名为 `CrossFire2048`，游戏产品名为 `Operation Blacktide`。*
+## 文档导航
 
-[快速开始](#快速开始) · [启动面板](#游戏启动面板) · [训练玩法](#训练场与战斗表现) · [爆破模式](#爆破与联机玩法) · [架构设计](#架构设计) · [提交范围](#git-协作与提交范围) · [开发细节](spec/development-guide.md)
+| 文档 | 跳转内容 |
+| --- | --- |
+| [玩法介绍](spec/gameplay-guide.md) | [训练场与战斗表现](spec/gameplay-guide.md#训练场与战斗表现)、[爆破与联机](spec/gameplay-guide.md#爆破与联机玩法)、[当前实现与边界](spec/gameplay-guide.md#当前实现与边界) |
+| [游戏内界面](spec/game-ui-guide.md) | [登录](spec/game-ui-guide.md#账户登录与场景流程)、[大厅与装备](spec/game-ui-guide.md#大厅角色与装备)、[设置与离线助手](spec/game-ui-guide.md#显示设置与离线助手) |
+| [开发实现与验证细节](spec/development-guide.md) | 组件、场景、资源构建与训练表现的实现细节 |
+| [爆破模式设计](spec/demolition-mode.md) | 规则、协议、组队、进程分配、AI、经济与 C4 |
+| [UI 规范](Assets/Scripts/GClient/Runtime/UI/ui-spec.md) / [网络模块](Assets/Scripts/GClient/Runtime/Network/network-spec.md) | 基础设施职责与约定 |
+| [服务端权威迁移规划](spec/server-authority-plan.md) | 后续迁移路线，与当前实现说明对照阅读 |
+| [离线助手开发说明](GTools/LocalAssistant/README.md) | 可选语音组件的安装与打包 |
+| [文档截图来源](ReadMeRes/screenshots/README.md) | 图片用途、采集记录和测试限制 |
 
 ## 项目概况
-
-```mermaid
-flowchart LR
-    Login["账号注册 / 登录"] --> Lobby["大厅：选角、装备、模式"]
-    Lobby --> Training["Dust II 本地训练"]
-    Lobby --> Arena["联机测试场：最多 8 人"]
-    Lobby --> Demolition["5v5 爆破：组队 / 房间 / AI"]
-    Training --> Practice["武器、投掷物、双视角"]
-    Arena --> Authority["服务器裁决与快照同步"]
-    Demolition --> Authority
-```
 
 | 部分 | 当前内容 |
 | --- | --- |
@@ -28,8 +26,6 @@ flowchart LR
 | 战斗服务 | Unity 无窗口进程，公共运动模拟、权威命中与玩法规则 |
 | 网络 | 账号/大厅走 TCP；实时战斗使用内嵌 LiteNetLib 包 |
 | 开发配套 | Windows 启动面板、配置工作台、实时日志、构建与程序集检查 |
-
-本文图片来自实际项目的场景、界面与验证输出；测试数据、相机输出和布局预览在图下标注。采集日期、历史来源及原图哈希见 [截图来源](ReadMeRes/screenshots/README.md)。截图展示对应版本的画面，不表示所有玩法已有同等功能覆盖。
 
 ## 快速开始
 
@@ -98,136 +94,6 @@ Windows 下双击根目录 **`游戏启动面板.bat`**。首次自动构建，�
 - **路径与目录**：检测 Unity 版本，也可手动指定编辑器；打开项目、构建产物、日志和构建工作目录。
 
 右上角“使用说明”提供操作帮助。日志在 `Logs/Launcher/`，本机 Unity 路径在 `UserSettings/launcher.json`。关闭启动面板后，已启动的游戏和服务继续运行。默认本地账号服 **TCP 7777**、联机测试场 **UDP 7778**；爆破对局另由账号服分配独立进程与端口。端口占用时先确认旧服务状态，启动面板只停止自己登记并核对身份的托管进程。
-
-## 账户、登录与场景流程
-
-![登录页：账号、密码、登录和注册入口](ReadMeRes/screenshots/login.png)
-
-*实际登录面板，截图前已清空账号与密码输入框。*
-
-`SampleScene` 已配置登录 UI。注册、登录及错误提示通过 `AuthClient` 和 TCP 服务完成；成功后由 `GameSceneFlow` 保留会话并切换到大厅。Windows 使用凭据管理器记住最后一次成功登录信息，按服务器区分，仍需点击登录；密码不写入项目文件或 PlayerPrefs。
-
-```mermaid
-flowchart LR
-    Login["SampleScene / LoginPanel"] -->|登录成功| Lobby["LobbyScene / LobbyPanel"]
-    Lobby -->|训练场| Dust["DustII / Training"]
-    Lobby -->|票据与战斗端点| Battle["BattleArena / 联机或爆破"]
-    Dust -->|返回| Lobby
-    Battle -->|退出或对局结束| Lobby
-    Lobby -->|退出登录或账号连接断开| Login
-```
-
-应用服务 `GameSceneFlow`、账号连接和 `UIRoot` 跨场景保留；每个场景的 `GameUIEntry` 负责清理旧面板并打开当前入口。未登录直接进入大厅会返回登录页。`BattleServer.unity` 是服务端启动场景，不作为普通客户端入口。
-
-客户端默认服务器由 `Assets/Scripts/GClient/Runtime/App/AppConfig.cs` 及对应资源配置，开发默认 `127.0.0.1:7777`。账号服控制台支持 `help`、`status`、`accounts`、`clients`、`sessions` 等命令。场景对象组成、预制体登记和凭据验证见 [开发实现细节](spec/development-guide.md)。
-
-## 大厅、角色与装备
-
-| 角色选择 | 双阵营装备配置 |
-| --- | --- |
-| <img src="ReadMeRes/screenshots/agents.png" alt="大厅选角页面" width="440"> | <img src="ReadMeRes/screenshots/loadout.png" alt="大厅装备页面" width="440"> |
-
-*两张图均为大厅实际界面，使用测试会话；点击图片可查看原图。*
-
-CT / T 各有 5 名角色，支持实时模型、旋转和检视。装备页提供手枪、步枪、狙击、微冲、重型与装备分类，包含经典替换槽位及大厅展示武器选择。
-
-角色与装备按账号保存到本机，两个阵营独立配置。大厅、训练与战斗共用 `EquipmentCatalog`；大厅选择不会绕过联机服务端的装备与购买校验。源目录为 `Assets/Art/Loadout/`，运行时目录为 `Assets/Resources/Loadout/`。
-
-## 训练场与战斗表现
-
-### 俯视与第一人称
-
-| 俯视训练与 HUD | 第一人称持枪 |
-| --- | --- |
-| <img src="ReadMeRes/screenshots/training.png" alt="Dust II 俯视训练场和生命弹药 HUD" width="440"> | <img src="ReadMeRes/screenshots/first-person.png" alt="Dust II 第一人称 AK-47 手模" width="440"> |
-
-*左图为训练场实际 UI；右图为第一人称验证器输出的游戏相机画面，不含 HUD。*
-
-| 操作 | 作用 |
-| --- | --- |
-| WASD / Shift / Space | 移动、疾跑、跳跃 |
-| 鼠标 / 左键 / R | 瞄准、攻击、换弹 |
-| 右键 | 俯视观察瞄准；支持的狙击武器开镜 |
-| 中键拖动 / 滚轮 | 俯视镜头旋转与缩放 |
-| P | 切换俯视 / 第一人称 |
-| 1 / 2 / 3 / 4 | 训练场主武器、副武器、近战、投掷物；重复按键循环 |
-| Esc | 训练菜单、切换武器、返回大厅 |
-
-俯视镜头跟随角色，遮挡建筑可淡化；角色视野与相机遮挡分别处理，建筑透明不等于角色能看穿墙。第一人称锁定鼠标、居中瞄准，使用独立手模相机和持枪、开火、换弹动作。
-
-### 武器、动作与声音
-
-![训练菜单中的武器选择与当前弹药](ReadMeRes/screenshots/weapons.png)
-
-*训练场实际切枪菜单。训练拥有的完整目录不等同于爆破商店的首版装备范围。*
-
-训练目录覆盖 35 把枪械（含电击枪），以及近战与五种投掷物。切枪保留各枪弹匣；训练由玩法显式开启无限补给。射速、弹药、换弹时钟与上半身动作关联，移动和跳跃保留下半身姿态；枪声、分段换弹声、材质命中声和脚步根据实际动作及接触表面触发。
-
-菜单、失焦和暂停会阻断相应输入并暂停训练模拟；退出与重生时清理表现状态。声音采样来源与哈希保存在 `Assets/Art/Combat/` 的来源清单。详细参数、动画构建入口和各类音效规则见 [本地训练实现](spec/development-guide.md#本地训练实现)。
-
-### 投掷物与视野
-
-![Dust II 中烟雾弹的实际效果](ReadMeRes/screenshots/smoke.png)
-
-*投掷物验证在 Dust II 中生成的测试相机画面，隐藏 HUD 以检查效果。*
-
-手雷、闪光弹、烟雾弹、燃烧弹和燃烧瓶支持准备、抛出、碰撞及对应效果。按住左键预览弹道，松开投掷，右键取消；烟雾阻挡目标可见性和激光并可灭火，闪光综合朝向、距离和遮挡。
-
-训练视野结合朝向、墙体与烟雾判断目标显示。当前投掷物和视野主要是本地训练能力，尚未完成投掷物网络权威同步或服务器视野信息裁剪；烟雾使用粒子与遮挡区域。
-
-## 爆破与联机玩法
-
-### 匹配与房间
-
-![爆破作战部署面板：队伍与 AI 补齐选项](ReadMeRes/screenshots/deployment.png)
-
-*实际部署面板的 UI 验证图，队伍使用测试数据；该图未连接匹配服务。*
-
-大厅选择爆破模式后进入部署面板。支持 1–5 人完整组队、队伍号邀请、公开/私密房间、密码、选边准备和房主管理。匹配中显式开启 AI 补齐后等待 30 秒补足十人；自定义房间由房主在满足准备条件后开局。每局使用独立战斗进程，开局固定名单，支持原角色断线重连和对局结束返回队伍或房间。
-
-### 回合、经济与 C4
-
-![爆破客户端中的队伍 HUD、小地图、C4 和购买阶段](ReadMeRes/screenshots/demolition.png)
-
-*2026-10-15 的真实开发版客户端跑测截图：一名脚本控制玩家与九名 AI，保留性能统计叠层；图中帧率仅是当时瞬时值。*
-
-```mermaid
-flowchart LR
-    Buy["购买准备 / 15 秒"] --> Live["回合进行 / 115 秒"]
-    Live -->|进攻方安装 3 秒| Bomb["C4 已安装 / 40 秒"]
-    Live -->|全灭或未安装超时| Result["回合结算与经济"]
-    Bomb -->|拆除 10 秒或拆弹器 5 秒| Result
-    Bomb -->|爆炸或防守方全灭| Result
-    Result --> Check{"对局结束？"}
-    Check -->|未结束；第 12 回合后换边| Buy
-    Check -->|先胜 13 或 12 比 12| Lobby["返回队伍 / 房间"]
-```
-
-每回合一条命，死亡等待下回合；支持 C4 携带、掉落、拾取、安装与拆除，模型、动作和声音跟随服务端状态。购买由服务器检查资金、阶段和阵营。首版商店覆盖 AK-47、M4A1-S、沙漠之鹰、防弹衣、拆弹器，默认手枪为 Glock / USP。
-
-AI 由服务器控制，能够购买、按路线进攻/守点、取包、安装和拆除。按 **B** 购买、**E** 交互、**Tab** 看战绩，死亡后 **V** 切换己方观战。完整规则、构建方式、AI 战术和现阶段边界见 [爆破模式说明](spec/demolition-mode.md)。
-
-“联机测试场”是另一套练习模式：单房间最多 8 人、单步枪、有限弹药和自动重生，默认可补入七个人机。两种模式的客户端与服务端必须用同一版本源码构建。
-
-## 显示设置与离线助手
-
-| 显示设置 | 大厅助手布局 |
-| --- | --- |
-| <img src="ReadMeRes/screenshots/settings.png" alt="全屏、分辨率与性能统计设置" width="440"> | <img src="ReadMeRes/screenshots/assistant.png" alt="大厅语音助手字幕与声纹布局预览" width="440"> |
-
-*左图为显示设置验证输出；右图为真实助手 UI 叠加已有大厅截图的布局验证，不是完整大厅端到端截图。*
-
-大厅右上角设置可切换全屏、分辨率和性能统计，保存后下次启动恢复；未保存退出时有处理提示。大厅 Esc 打开设置、返回登录或退出游戏的菜单。
-
-离线助手为可选功能。Windows x64 开发环境在根目录运行：
-
-```powershell
-powershell -ExecutionPolicy Bypass -File GTools/LocalAssistant/setup.ps1
-```
-
-首次联网下载并校验模型与运行时，之后通过 sherpa-onnx 识别、llama.cpp / Qwen 本地对话及 Windows 中文语音完成交互。大厅按 **T** 或点击入口录音，也可打断回复。助手当前只聊天，不执行游戏操作。完整要求和当前安装方式见 [助手说明](GTools/LocalAssistant/README.md)。
-
-模型和运行时在本机 `LocalAssistant/`，不提交 Git；`GTools/LocalAssistant/` 中的实现代码需要提交。普通工程导入、训练和联机不要求安装助手模型。
 
 ## 架构设计
 
@@ -462,27 +328,5 @@ flowchart LR
 
 Unity 构建和程序集检查同步到 `.build-check/` 内独立工程，首次导入可能花费数分钟。`-UnityPath` 可指定本机编辑器，日志由 `GTools/wait-unity-task.ps1` 汇总。表中的独立逻辑与工具测试保留，日常开发不自动运行。
 
-## 当前边界与文档索引
 
-```mermaid
-flowchart LR
-    Current["已有可运行链路"] --> Local["本地训练 / 武器与表现"]
-    Current --> Network["联机测试场 / 权威同步"]
-    Current --> Demo["首版爆破 / 匹配与 AI"]
-    Local -. 后续接入 .-> Throwable["投掷物网络权威化"]
-    Network -. 后续完善 .-> Visibility["服务器视野裁剪与联网安全"]
-    Demo -. 后续扩展 .-> Operations["完整装备、容量与公网部署"]
-```
-
-实线为当前实现范围，虚线为后续工作。已有登录、房间、输入上传、快照、预测校正和测试场回滚命中，不再放入“未实现”清单。仍需继续完成投掷物同步、服务器视野裁剪、完整商店与武器拾取、公网部署及容量验证；当前没有排位赛季、加时、选图禁图或反作弊系统。
-
-| 文档 | 内容 |
-| --- | --- |
-| [开发实现与验证细节](spec/development-guide.md) | 原 README 的组件、场景、资源构建、训练表现与验证细节 |
-| [爆破模式](spec/demolition-mode.md) | 规则、协议、组队、进程分配、AI、经济和 C4 |
-| [服务端权威迁移规划](spec/server-authority-plan.md) | 后续迁移路线；阅读时与当前实现说明对照 |
-| [UI 规范](Assets/Scripts/GClient/Runtime/UI/ui-spec.md) / [网络模块](Assets/Scripts/GClient/Runtime/Network/network-spec.md) | 基础设施职责与约定 |
-| [离线助手](GTools/LocalAssistant/README.md) | 可选语音组件的使用与打包 |
-| [截图来源](ReadMeRes/screenshots/README.md) | 图片用途、测试限制、采集记录与历史来源 |
-
-维护图文时只提交选中的成品截图到 `ReadMeRes/screenshots/`，同步更新来源清单。架构图使用 Mermaid 源码，功能变化时与说明一起修改；原始美术、下载模型和完整验证输出继续留在本机。
+玩法与游戏内界面的文字、截图在导航所列的独立文档中维护；架构图与开发入口在本页维护。图片继续统一存放在 `ReadMeRes/screenshots/`，更新时同步记录来源。原始美术、下载模型和完整构建输出留在本机。
